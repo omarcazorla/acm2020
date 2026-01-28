@@ -39,7 +39,7 @@ export default function Footer() {
                 alt="ACM-2020"
                 width={140}
                 height={50}
-                className="h-10 w-auto"
+                className="h-10 w-auto invert"
               />
             </div>
             <p className="text-white/70 mb-6 text-sm leading-relaxed">
