@@ -39,9 +39,9 @@ export default function Navbar() {
             <Image
               src="/logomono.webp"
               alt="ACM-2020"
-              width={140}
-              height={50}
-              className={`h-10 w-auto transition-all duration-300 ${
+              width={180}
+              height={60}
+              className={`h-14 w-auto transition-all duration-300 ${
                 isScrolled ? '' : 'invert'
               }`}
               priority

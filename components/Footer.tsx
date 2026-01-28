@@ -37,9 +37,9 @@ export default function Footer() {
               <Image
                 src="/logomono.webp"
                 alt="ACM-2020"
-                width={140}
-                height={50}
-                className="h-10 w-auto invert"
+                width={180}
+                height={60}
+                className="h-14 w-auto invert"
               />
             </div>
             <p className="text-white/70 mb-6 text-sm leading-relaxed">
