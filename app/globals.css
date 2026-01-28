@@ -88,3 +88,8 @@ body {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
 }
+
+/* Filter to tint black image to secondary blue #1E3A5F */
+.filter-secondary {
+  filter: brightness(0) saturate(100%) invert(18%) sepia(30%) saturate(1200%) hue-rotate(180deg) brightness(95%) contrast(95%);
+}
