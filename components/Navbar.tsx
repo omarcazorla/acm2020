@@ -37,12 +37,12 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#inicio" className="flex items-center">
             <Image
-              src="/logo.webp"
+              src="/logomono.webp"
               alt="ACM-2020"
               width={140}
               height={50}
               className={`h-10 w-auto transition-all duration-300 ${
-                isScrolled ? '' : 'brightness-0 invert'
+                isScrolled ? 'invert' : ''
               }`}
               priority
             />
