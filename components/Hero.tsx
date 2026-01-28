@@ -10,7 +10,7 @@ export default function Hero() {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`,
+            backgroundImage: `url('https://le-cdn.website-editor.net/s/cf8ba1f884c04fa89f99073ff6967c66/dms3rep/multi/opt/IMG_0309-1280w.jpg?&auto=format&fit=crop&w=2070&q=80')`,
           }}
         />
         <div className="absolute inset-0 gradient-overlay" />
