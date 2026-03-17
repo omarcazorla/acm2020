@@ -3,7 +3,6 @@
 import { Shield, Award, ArrowRight } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
-import Image from 'next/image'
 import { ContainerScroll } from '@/components/ui/ContainerScroll'
 
 export default function Hero() {
@@ -55,61 +54,45 @@ export default function Hero() {
             <div className="max-w-2xl mx-auto">
               <div className="grid grid-cols-2 gap-x-16 gap-y-10">
                 <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Shield className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-white">{t('statsYears')}</div>
-                    <div className="text-sm text-white/70">{t('statsYearsLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsYears')}</div>
+                    <div className="text-sm text-[#000000]/50">{t('statsYearsLabel')}</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Award className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-white">{t('statsRera')}</div>
-                    <div className="text-sm text-white/70">{t('statsReraLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsRera')}</div>
+                    <div className="text-sm text-[#000000]/50">{t('statsReraLabel')}</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Shield className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-white">{t('statsProjects')}</div>
-                    <div className="text-sm text-white/70">{t('statsProjectsLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsProjects')}</div>
+                    <div className="text-sm text-[#000000]/50">{t('statsProjectsLabel')}</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center flex-shrink-0">
+                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Award className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-white">{t('statsCommitment')}</div>
-                    <div className="text-sm text-white/70">{t('statsCommitmentLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsCommitment')}</div>
+                    <div className="text-sm text-[#000000]/50">{t('statsCommitmentLabel')}</div>
                   </div>
                 </div>
               </div>
             </div>
           }
-        >
-          <Image
-            src="/roofing.webp"
-            alt="Placas onduladas de fibrocemento"
-            fill
-            className="object-cover object-center"
-            priority
-            sizes="(max-width: 768px) 100vw, 1280px"
-          />
-          {/* Bottom gradient fade */}
-          <div
-            className="absolute bottom-0 left-0 right-0 h-[200px] z-10"
-            style={{
-              background: 'linear-gradient(to top, #DCD5C1 0%, rgba(217, 217, 217, 0) 100%)',
-            }}
-          />
-        </ContainerScroll>
+        />
       </div>
     </section>
   )
