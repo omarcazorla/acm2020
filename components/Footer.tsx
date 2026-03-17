@@ -2,21 +2,8 @@
 
 import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram } from 'lucide-react'
 import Image from 'next/image'
-
-const quickLinks = [
-  { name: 'Inicio', href: '#inicio' },
-  { name: 'Servicios', href: '#servicios' },
-  { name: 'Quiénes somos', href: '#nosotros' },
-  { name: 'Clientes', href: '#clientes' },
-  { name: 'Contacto', href: '#contacto' },
-]
-
-const services = [
-  { name: 'Gestión de Amianto', href: '#servicios' },
-  { name: 'Control de Radón', href: '#servicios' },
-  { name: 'Inspecciones', href: '#servicios' },
-  { name: 'Proyectos técnicos', href: '#servicios' },
-]
+import { useTranslations } from 'next-intl'
+import LanguageSwitcher from '@/components/layout/LanguageSwitcher'
 
 const socialLinks = [
   { icon: Linkedin, href: '#', label: 'LinkedIn' },
@@ -25,7 +12,24 @@ const socialLinks = [
 ]
 
 export default function Footer() {
+  const t = useTranslations('footer')
+  const tNav = useTranslations('navbar')
   const currentYear = new Date().getFullYear()
+
+  const quickLinks = [
+    { name: tNav('home'), href: '#inicio' },
+    { name: tNav('services'), href: '#servicios' },
+    { name: tNav('aboutUs'), href: '#nosotros' },
+    { name: tNav('clients'), href: '#clientes' },
+    { name: tNav('contact'), href: '#contacto' },
+  ]
+
+  const services = [
+    { name: t('asbestosManagement'), href: '#servicios' },
+    { name: t('radonControl'), href: '#servicios' },
+    { name: t('inspections'), href: '#servicios' },
+    { name: t('technicalProjects'), href: '#servicios' },
+  ]
 
   return (
     <footer className="bg-secondary text-white">
@@ -43,8 +47,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-white/70 mb-6 text-sm leading-relaxed">
-              Consultoría especializada en gestión de amianto y control de gas radón.
-              Más de 25 años protegiendo la salud pública y el medio ambiente.
+              {t('description')}
             </p>
             <div className="flex items-center space-x-2 mb-4">
               <div className="bg-primary/20 px-3 py-1 rounded-full">
@@ -68,7 +71,7 @@ export default function Footer() {
 
           {/* Quick links */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Enlaces rápidos</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('quickLinks')}</h4>
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
@@ -85,7 +88,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Servicios</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('servicesTitle')}</h4>
             <ul className="space-y-3">
               {services.map((service, index) => (
                 <li key={index}>
@@ -102,7 +105,7 @@ export default function Footer() {
 
           {/* Contact info */}
           <div>
-            <h4 className="text-lg font-semibold mb-6">Contacto</h4>
+            <h4 className="text-lg font-semibold mb-6">{t('contactTitle')}</h4>
             <ul className="space-y-4">
               <li>
                 <a
@@ -140,17 +143,18 @@ export default function Footer() {
         <div className="mt-16 pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/60 text-sm">
-              © {currentYear} ACM-2020. Todos los derechos reservados.
+              &copy; {currentYear} {t('copyright')}
             </p>
+            <LanguageSwitcher variant="inline" theme="dark" />
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-white/60 hover:text-primary transition-colors">
-                Política de privacidad
+                {t('privacy')}
               </a>
               <a href="#" className="text-white/60 hover:text-primary transition-colors">
-                Aviso legal
+                {t('legal')}
               </a>
               <a href="#" className="text-white/60 hover:text-primary transition-colors">
-                Cookies
+                {t('cookies')}
               </a>
             </div>
           </div>

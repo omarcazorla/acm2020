@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "title": "ACM-2020 | Consultoria Especialitzada en Amiant i Gas Radó",
+    "description": "ACM-2020: Més de 25 anys d'experiència en gestió d'amiant i mesurament de gas radó. Certificació RERA 86/AB/09. Protegim la salut pública i el medi ambient.",
+    "keywords": "amiant, asbestós, gas radó, consultoria mediambiental, desamiantatge, Barcelona, RERA, salut pública",
+    "ogTitle": "ACM-2020 | Consultoria Especialitzada en Amiant i Gas Radó",
+    "ogDescription": "Més de 25 anys protegint la salut pública i el medi ambient. Experts en amiant i gas radó."
+  },
+  "navbar": {
+    "home": "Inici",
+    "asbestos": "Amiant",
+    "radon": "Radó",
+    "aboutUs": "Qui som",
+    "clients": "Clients",
+    "services": "Serveis",
+    "contact": "Contactar",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "municipalities": "Municipis"
+  },
+  "hero": {
+    "badge": "+25 anys d'experiència · Certificació RERA 86/AB/09",
+    "titleStart": "Protegim la",
+    "titleHighlight1": "salut pública",
+    "titleMid": "i el",
+    "titleHighlight2": "medi ambient",
+    "subtitle": "Consultoria especialitzada en gestió integral d'amiant i mesurament de gas radó. Solucions professionals per a empreses, administracions públiques i particulars.",
+    "ctaPrimary": "Sol·licitar pressupost",
+    "ctaSecondary": "Conèixer serveis",
+    "statsYears": "+25",
+    "statsYearsLabel": "Anys experiència",
+    "statsRera": "RERA",
+    "statsReraLabel": "Certificació",
+    "statsProjects": "+500",
+    "statsProjectsLabel": "Projectes",
+    "statsCommitment": "100%",
+    "statsCommitmentLabel": "Compromís"
+  },
+  "services": {
+    "sectionLabel": "Els Nostres Serveis",
+    "title": "Solucions especialitzades per a la seva",
+    "titleHighlight": "seguretat",
+    "subtitle": "Oferim serveis integrals en gestió d'amiant i control de gas radó, adaptats a les necessitats de cada client.",
+    "asbestosTitle": "Gestió d'Amiant",
+    "asbestosSubtitle": "Serveis integrals per a la gestió segura de MCA",
+    "radonTitle": "Control de Gas Radó",
+    "radonSubtitle": "Mesurament i control del gas radó en interiors",
+    "asbestos": {
+      "inspection": {
+        "title": "Inspecció i Identificació",
+        "description": "Localització i avaluació de materials amb contingut d'amiant en edificis i instal·lacions."
+      },
+      "management": {
+        "title": "Plans de Gestió",
+        "description": "Elaboració de plans de gestió de MCA conforme a la normativa vigent."
+      },
+      "projects": {
+        "title": "Projectes de Desamiantatge",
+        "description": "Redacció de projectes tècnics per a la retirada segura de materials amb amiant."
+      },
+      "waste": {
+        "title": "Gestió de Residus",
+        "description": "Assessorament en la correcta eliminació i transport de residus d'amiant."
+      },
+      "supervision": {
+        "title": "Direcció d'Obra",
+        "description": "Supervisió tècnica dels treballs de desamiantatge garantint la seguretat."
+      },
+      "risk": {
+        "title": "Avaluació de Riscos",
+        "description": "Anàlisi de riscos laborals relacionats amb l'exposició a l'amiant."
+      },
+      "audits": {
+        "title": "Auditories",
+        "description": "Auditories d'amiant."
+      },
+      "training": {
+        "title": "Formació",
+        "description": "Formació en amiant."
+      },
+      "consulting": {
+        "title": "Assessoria i Consultoria",
+        "description": "Serveis d'assessoria i consultoria en amiant."
+      },
+      "censuses": {
+        "title": "Censos Municipals",
+        "description": "Censos d'amiant en edificis, instal·lacions i infraestructures."
+      },
+      "water": {
+        "title": "Amiant en Aigües",
+        "description": "Anàlisi de fibres d'amiant en sistemes de subministrament d'aigua."
+      },
+      "soil": {
+        "title": "Amiant en Sòls",
+        "description": "Quantificació d'amiant en sòls i determinació de fibres respirables."
+      },
+      "communities": {
+        "title": "Comunitats de Veïns",
+        "description": "Detecció i gestió d'amiant en comunitats de propietaris."
+      },
+      "realestate": {
+        "title": "Compravenda d'Immobles",
+        "description": "Detecció d'amiant prèvia a la compravenda d'immobles."
+      },
+      "breeam": {
+        "title": "Certificació BREEAM",
+        "description": "Diagnòstic d'amiant per a la certificació BREEAM."
+      }
+    },
+    "radon": {
+      "measurement": {
+        "title": "Mesurament de Gas Radó",
+        "description": "Mesuraments precisos de concentració de radó en edificis i habitatges."
+      },
+      "residential": {
+        "title": "Solucions Residencials",
+        "description": "Diagnòstic i solucions per a habitatges amb nivells elevats de radó."
+      },
+      "workspace": {
+        "title": "Espais de Treball",
+        "description": "Avaluació de radó en centres de treball segons el Reial Decret 1029/2022."
+      },
+      "reports": {
+        "title": "Informes Tècnics",
+        "description": "Elaboració d'informes detallats amb recomanacions d'actuació."
+      },
+      "training": {
+        "title": "Formació Radó",
+        "description": "Programes formatius sobre gas radó."
+      },
+      "howto": {
+        "title": "Com Mesurar Radó",
+        "description": "Guia sobre com detectar i mesurar el gas radó."
+      }
+    },
+    "whyTitle": "Per què escollir els nostres serveis?",
+    "whySubtitle": "Comptem amb l'experiència, certificacions i el compromís necessaris per garantir la seva seguretat i tranquil·litat.",
+    "whyItems": [
+      "Més de 25 anys d'experiència en el sector",
+      "Certificació RERA 86/AB/09",
+      "Equip tècnic altament qualificat",
+      "Compliment estricte de normativa"
+    ],
+    "whyCta": "Sol·licitar informació"
+  },
+  "about": {
+    "sectionLabel": "Qui Som",
+    "title": "Per la salut pública i el",
+    "titleHighlight": "medi ambient",
+    "description1": "ACM-2020 és una consultora especialitzada en la gestió integral de l'amiant i el control de gas radó. Vam néixer amb el compromís de protegir la salut de les persones i contribuir a la preservació del medi ambient.",
+    "description2": "El nostre equip de professionals compta amb àmplia experiència i formació específica per oferir solucions adaptades a cada situació, garantint el compliment de la normativa vigent i els més alts estàndards de qualitat.",
+    "features": {
+      "rera": {
+        "highlight": "86/AB/09",
+        "title": "Certificació RERA",
+        "description": "Empresa registrada amb número 86/AB/09 al Registre d'Empreses amb Risc d'Amiant."
+      },
+      "experience": {
+        "highlight": "+25 anys",
+        "title": "+25 Anys d'Experiència",
+        "description": "Més de dues dècades de trajectòria professional en el sector de la consultoria mediambiental."
+      },
+      "team": {
+        "highlight": "Experts",
+        "title": "Equip Especialitzat",
+        "description": "Professionals qualificats i en formació contínua sobre les últimes normatives i tècniques."
+      },
+      "health": {
+        "highlight": "Prioritat",
+        "title": "Compromís amb la Salut",
+        "description": "La nostra prioritat és protegir la salut de les persones i preservar el medi ambient."
+      }
+    },
+    "values": {
+      "professionalism": {
+        "title": "Professionalitat",
+        "description": "Rigor tècnic en cada projecte"
+      },
+      "safety": {
+        "title": "Seguretat",
+        "description": "Protecció de persones i entorn"
+      },
+      "trust": {
+        "title": "Confiança",
+        "description": "Transparència en la nostra gestió"
+      },
+      "sustainability": {
+        "title": "Sostenibilitat",
+        "description": "Respecte al medi ambient"
+      }
+    },
+    "missionTitle": "La Nostra Missió",
+    "missionText": "Contribuir a la protecció de la salut pública i la preservació del medi ambient mitjançant serveis de consultoria especialitzats en la gestió de l'amiant i el control del gas radó, amb els més alts estàndards de qualitat i professionalitat."
+  },
+  "clients": {
+    "sectionLabel": "Els Nostres Clients",
+    "title": "Confien en",
+    "titleHighlight": "nosaltres",
+    "subtitle": "Treballem amb empreses, administracions públiques i particulars que valoren la professionalitat i el compromís amb la seguretat.",
+    "stats": {
+      "projects": {
+        "value": "+500",
+        "label": "Projectes realitzats"
+      },
+      "clients": {
+        "value": "+200",
+        "label": "Clients satisfets"
+      },
+      "municipalities": {
+        "value": "+50",
+        "label": "Ajuntaments"
+      },
+      "companies": {
+        "value": "+100",
+        "label": "Empreses"
+      }
+    },
+    "someClients": "Alguns dels nostres clients",
+    "sectorsTitle": "Sectors en els que treballem",
+    "sectorsSubtitle": "La nostra experiència abasta múltiples sectors, adaptant els nostres serveis a les necessitats específiques de cada client.",
+    "sectors": [
+      "Ajuntaments i administracions públiques",
+      "Empreses industrials",
+      "Comunitats de propietaris",
+      "Constructores i promotores",
+      "Col·legis i centres educatius",
+      "Hospitals i centres sanitaris"
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contacte",
+    "title": "Parlem del seu",
+    "titleHighlight": "projecte",
+    "subtitle": "Expliqui'ns les seves necessitats i li oferirem una solució personalitzada. Respondrem a la seva consulta en menys de 24 hores.",
+    "infoTitle": "Informació de contacte",
+    "infoSubtitle": "Estem aquí per ajudar-lo. Contacti amb nosaltres per qualsevol d'aquests mitjans.",
+    "phone": "Telèfon",
+    "email": "Email",
+    "address": "Adreça",
+    "addressValue": "C. Ibiza, 1, Baixos\n08214 Badia del Vallès, Barcelona",
+    "hours": "Horari",
+    "hoursValue": "Dilluns a Divendres\n9:00 - 18:00",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "El seu nom",
+      "email": "Email",
+      "emailPlaceholder": "seu@email.com",
+      "phone": "Telèfon",
+      "phonePlaceholder": "667 123 456",
+      "subject": "Assumpte",
+      "subjectPlaceholder": "Seleccioni un assumpte",
+      "subjectAsbestos": "Consulta sobre amiant",
+      "subjectRadon": "Consulta sobre gas radó",
+      "subjectBudgetAsbestos": "Sol·licitar pressupost amiant",
+      "subjectBudgetRadon": "Sol·licitar pressupost gas radó",
+      "subjectOther": "Altre",
+      "message": "Missatge",
+      "messagePlaceholder": "Expliqui'ns en què podem ajudar-lo...",
+      "required": "Camps obligatoris",
+      "submit": "Enviar missatge",
+      "sending": "Enviant...",
+      "success": "Missatge enviat correctament. Li respondrem aviat.",
+      "error": "Error en enviar el missatge. Si us plau, torni-ho a intentar."
+    }
+  },
+  "footer": {
+    "description": "Consultoria especialitzada en gestió d'amiant i control de gas radó. Més de 25 anys protegint la salut pública i el medi ambient.",
+    "quickLinks": "Enllaços ràpids",
+    "servicesTitle": "Serveis",
+    "contactTitle": "Contacte",
+    "asbestosManagement": "Gestió d'Amiant",
+    "radonControl": "Control de Radó",
+    "inspections": "Inspeccions",
+    "technicalProjects": "Projectes tècnics",
+    "copyright": "ACM-2020. Tots els drets reservats.",
+    "privacy": "Política de privadesa",
+    "legal": "Avís legal",
+    "cookies": "Cookies"
+  },
+  "whatsapp": {
+    "tooltip": "Parlem per WhatsApp?",
+    "message": "Hola, m'agradaria obtenir informació sobre els seus serveis."
+  },
+  "common": {
+    "home": "Inici",
+    "services": "Serveis",
+    "aboutUs": "Qui som",
+    "clients": "Clients",
+    "contact": "Contacte",
+    "blog": "Blog",
+    "faq": "Preguntes freqüents",
+    "glossary": "Glossari",
+    "news": "Notícies",
+    "municipalities": "Municipis",
+    "learnMore": "Saber-ne més",
+    "readMore": "Llegir més",
+    "backToHome": "Tornar a l'inici",
+    "required": "*"
+  },
+  "breadcrumbs": {
+    "home": "Inici"
+  },
+  "pages": {
+    "servicesIndex": {
+      "title": "Els Nostres Serveis",
+      "subtitle": "Solucions professionals en gestió d'amiant i control de gas radó"
+    },
+    "asbestosIndex": {
+      "title": "Gestió d'Amiant",
+      "subtitle": "Serveis integrals per a la gestió segura de materials amb amiant"
+    },
+    "radonIndex": {
+      "title": "Control de Gas Radó",
+      "subtitle": "Mesurament i solucions per al control del gas radó en interiors",
+      "metaDescription": "Mesurament i solucions per al control del gas radó en interiors",
+      "ctaTitle": "Contact us",
+      "ctaDescription": "Get in touch for professional radon measurement services."
+    },
+    "aboutPage": {
+      "title": "Qui Som",
+      "subtitle": "Més de 25 anys protegint la salut pública i el medi ambient"
+    },
+    "clientsPage": {
+      "title": "Els Nostres Clients",
+      "subtitle": "Empreses i administracions que confien en nosaltres"
+    },
+    "contactPage": {
+      "title": "Contacte",
+      "subtitle": "Expliqui'ns el seu projecte i li oferirem la millor solució"
+    },
+    "blogIndex": {
+      "title": "Blog",
+      "subtitle": "Articles i novetats sobre amiant i gas radó"
+    },
+    "faqPage": {
+      "title": "Preguntes Freqüents",
+      "subtitle": "Respostes als dubtes més comuns sobre amiant i gas radó"
+    },
+    "glossaryPage": {
+      "title": "Glossari",
+      "subtitle": "Termes tècnics del sector de l'amiant i gas radó"
+    },
+    "newsPage": {
+      "title": "Notícies",
+      "subtitle": "Últimes novetats i projectes d'ACM-2020"
+    },
+    "municipiosIndex": {
+      "title": "Municipis d'actuació",
+      "subtitle": "Zones prioritàries d'actuació contra el gas radó a Catalunya"
+    },
+    "provinciaPage": {
+      "title": "Municipis d'Actuació Prioritària a {provincia}",
+      "zonaII": "Zona II - Exposició Alta",
+      "zonaI": "Zona I - Exposició Mitjana",
+      "zonaIIDesc": "Obligatori mesurar radó en centres de treball (RD 1029/2022)",
+      "zonaIDesc": "Es recomana realitzar mesuraments preventius"
+    },
+    "privacy": {
+      "title": "Política de Privadesa"
+    },
+    "legalNotice": {
+      "title": "Avís Legal"
+    },
+    "cookiesPolicy": {
+      "title": "Política de Cookies"
+    }
+  }
+}

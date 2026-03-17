@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "title": "ACM-2020 | Specialized Asbestos and Radon Gas Consultancy",
+    "description": "ACM-2020: Over 25 years of experience in asbestos management and radon gas measurement. RERA 86/AB/09 certification. Protecting public health and the environment.",
+    "keywords": "asbestos, radon gas, environmental consultancy, asbestos removal, Barcelona, RERA, public health",
+    "ogTitle": "ACM-2020 | Specialized Asbestos and Radon Gas Consultancy",
+    "ogDescription": "Over 25 years protecting public health and the environment. Experts in asbestos and radon gas."
+  },
+  "navbar": {
+    "home": "Home",
+    "asbestos": "Asbestos",
+    "radon": "Radon",
+    "aboutUs": "About us",
+    "clients": "Clients",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "municipalities": "Municipalities"
+  },
+  "hero": {
+    "badge": "+25 years of experience · RERA 86/AB/09 Certification",
+    "titleStart": "We protect",
+    "titleHighlight1": "public health",
+    "titleMid": "and the",
+    "titleHighlight2": "environment",
+    "subtitle": "Specialized consultancy in comprehensive asbestos management and radon gas measurement. Professional solutions for businesses, public administrations, and individuals.",
+    "ctaPrimary": "Request a quote",
+    "ctaSecondary": "Our services",
+    "statsYears": "+25",
+    "statsYearsLabel": "Years experience",
+    "statsRera": "RERA",
+    "statsReraLabel": "Certification",
+    "statsProjects": "+500",
+    "statsProjectsLabel": "Projects",
+    "statsCommitment": "100%",
+    "statsCommitmentLabel": "Commitment"
+  },
+  "services": {
+    "sectionLabel": "Our Services",
+    "title": "Specialized solutions for your",
+    "titleHighlight": "safety",
+    "subtitle": "We offer comprehensive services in asbestos management and radon gas control, tailored to the needs of each client.",
+    "asbestosTitle": "Asbestos Management",
+    "asbestosSubtitle": "Comprehensive services for safe ACM management",
+    "radonTitle": "Radon Gas Control",
+    "radonSubtitle": "Indoor radon gas measurement and control",
+    "asbestos": {
+      "inspection": {
+        "title": "Inspection & Identification",
+        "description": "Location and assessment of asbestos-containing materials in buildings and facilities."
+      },
+      "management": {
+        "title": "Management Plans",
+        "description": "Development of ACM management plans in compliance with current regulations."
+      },
+      "projects": {
+        "title": "Asbestos Removal Projects",
+        "description": "Drafting of technical projects for the safe removal of asbestos-containing materials."
+      },
+      "waste": {
+        "title": "Waste Management",
+        "description": "Guidance on the proper disposal and transportation of asbestos waste."
+      },
+      "supervision": {
+        "title": "Site Supervision",
+        "description": "Technical supervision of asbestos removal works ensuring safety."
+      },
+      "risk": {
+        "title": "Risk Assessment",
+        "description": "Analysis of occupational risks related to asbestos exposure."
+      },
+      "audits": {
+        "title": "Audits",
+        "description": "Asbestos audits."
+      },
+      "training": {
+        "title": "Training",
+        "description": "Asbestos training programs."
+      },
+      "consulting": {
+        "title": "Consulting",
+        "description": "Asbestos consulting and advisory services."
+      },
+      "censuses": {
+        "title": "Municipal Censuses",
+        "description": "Asbestos censuses in buildings and infrastructure."
+      },
+      "water": {
+        "title": "Asbestos in Water",
+        "description": "Analysis of asbestos fibers in water supply systems."
+      },
+      "soil": {
+        "title": "Asbestos in Soil",
+        "description": "Quantification of asbestos in soil."
+      },
+      "communities": {
+        "title": "Residential Communities",
+        "description": "Asbestos detection and management in residential communities."
+      },
+      "realestate": {
+        "title": "Real Estate",
+        "description": "Asbestos detection for property transactions."
+      },
+      "breeam": {
+        "title": "BREEAM Certification",
+        "description": "Asbestos assessment for BREEAM certification."
+      }
+    },
+    "radon": {
+      "measurement": {
+        "title": "Radon Gas Measurement",
+        "description": "Precise measurements of radon concentration in buildings and homes."
+      },
+      "residential": {
+        "title": "Residential Solutions",
+        "description": "Diagnosis and solutions for homes with elevated radon levels."
+      },
+      "workspace": {
+        "title": "Workspaces",
+        "description": "Radon assessment in workplaces according to Royal Decree 1029/2022."
+      },
+      "reports": {
+        "title": "Technical Reports",
+        "description": "Preparation of detailed reports with action recommendations."
+      },
+      "training": {
+        "title": "Radon Training",
+        "description": "Radon gas training programs."
+      },
+      "howto": {
+        "title": "How to Measure Radon",
+        "description": "Guide on detecting and measuring radon gas."
+      }
+    },
+    "whyTitle": "Why choose our services?",
+    "whySubtitle": "We have the experience, certifications, and commitment needed to guarantee your safety and peace of mind.",
+    "whyItems": [
+      "Over 25 years of experience in the sector",
+      "RERA 86/AB/09 certification",
+      "Highly qualified technical team",
+      "Strict regulatory compliance"
+    ],
+    "whyCta": "Request information"
+  },
+  "about": {
+    "sectionLabel": "About Us",
+    "title": "For public health and the",
+    "titleHighlight": "environment",
+    "description1": "ACM-2020 is a consultancy specialized in comprehensive asbestos management and radon gas control. We were founded with a commitment to protecting people's health and contributing to environmental preservation.",
+    "description2": "Our team of professionals has extensive experience and specific training to offer solutions tailored to each situation, ensuring compliance with current regulations and the highest quality standards.",
+    "features": {
+      "rera": {
+        "highlight": "86/AB/09",
+        "title": "RERA Certification",
+        "description": "Company registered under number 86/AB/09 in the Registry of Companies with Asbestos Risk."
+      },
+      "experience": {
+        "highlight": "+25 years",
+        "title": "+25 Years of Experience",
+        "description": "Over two decades of professional experience in the environmental consultancy sector."
+      },
+      "team": {
+        "highlight": "Experts",
+        "title": "Specialized Team",
+        "description": "Qualified professionals with continuous training on the latest regulations and techniques."
+      },
+      "health": {
+        "highlight": "Priority",
+        "title": "Health Commitment",
+        "description": "Our priority is to protect people's health and preserve the environment."
+      }
+    },
+    "values": {
+      "professionalism": {
+        "title": "Professionalism",
+        "description": "Technical rigor in every project"
+      },
+      "safety": {
+        "title": "Safety",
+        "description": "Protection of people and surroundings"
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Transparency in our management"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Respect for the environment"
+      }
+    },
+    "missionTitle": "Our Mission",
+    "missionText": "To contribute to the protection of public health and the preservation of the environment through specialized consultancy services in asbestos management and radon gas control, with the highest standards of quality and professionalism."
+  },
+  "clients": {
+    "sectionLabel": "Our Clients",
+    "title": "They trust",
+    "titleHighlight": "us",
+    "subtitle": "We work with companies, public administrations, and individuals who value professionalism and commitment to safety.",
+    "stats": {
+      "projects": {
+        "value": "+500",
+        "label": "Completed projects"
+      },
+      "clients": {
+        "value": "+200",
+        "label": "Satisfied clients"
+      },
+      "municipalities": {
+        "value": "+50",
+        "label": "Municipalities"
+      },
+      "companies": {
+        "value": "+100",
+        "label": "Companies"
+      }
+    },
+    "someClients": "Some of our clients",
+    "sectorsTitle": "Sectors we work in",
+    "sectorsSubtitle": "Our experience spans multiple sectors, adapting our services to the specific needs of each client.",
+    "sectors": [
+      "City councils and public administrations",
+      "Industrial companies",
+      "Homeowner associations",
+      "Construction and development companies",
+      "Schools and educational centers",
+      "Hospitals and healthcare centers"
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Let's talk about your",
+    "titleHighlight": "project",
+    "subtitle": "Tell us about your needs and we'll offer you a personalized solution. We'll respond to your inquiry within 24 hours.",
+    "infoTitle": "Contact information",
+    "infoSubtitle": "We're here to help. Contact us through any of these channels.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressValue": "C. Ibiza, 1, Ground Floor\n08214 Badia del Vallés, Barcelona",
+    "hours": "Hours",
+    "hoursValue": "Monday to Friday\n9:00 AM - 6:00 PM",
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "667 123 456",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject",
+      "subjectAsbestos": "Asbestos inquiry",
+      "subjectRadon": "Radon gas inquiry",
+      "subjectBudgetAsbestos": "Request asbestos quote",
+      "subjectBudgetRadon": "Request radon gas quote",
+      "subjectOther": "Other",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "required": "Required fields",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent successfully. We'll respond soon.",
+      "error": "Error sending the message. Please try again."
+    }
+  },
+  "footer": {
+    "description": "Specialized consultancy in asbestos management and radon gas control. Over 25 years protecting public health and the environment.",
+    "quickLinks": "Quick links",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "asbestosManagement": "Asbestos Management",
+    "radonControl": "Radon Control",
+    "inspections": "Inspections",
+    "technicalProjects": "Technical projects",
+    "copyright": "ACM-2020. All rights reserved.",
+    "privacy": "Privacy policy",
+    "legal": "Legal notice",
+    "cookies": "Cookies"
+  },
+  "whatsapp": {
+    "tooltip": "Chat on WhatsApp?",
+    "message": "Hello, I would like to get information about your services."
+  },
+  "common": {
+    "home": "Home",
+    "services": "Services",
+    "aboutUs": "About us",
+    "clients": "Clients",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "glossary": "Glossary",
+    "news": "News",
+    "municipalities": "Municipalities",
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "backToHome": "Back to home",
+    "required": "*"
+  },
+  "breadcrumbs": {
+    "home": "Home"
+  },
+  "pages": {
+    "servicesIndex": {
+      "title": "Our Services",
+      "subtitle": "Professional solutions in asbestos management and radon gas control"
+    },
+    "asbestosIndex": {
+      "title": "Asbestos Management",
+      "subtitle": "Comprehensive services for safe asbestos-containing material management"
+    },
+    "radonIndex": {
+      "title": "Radon Gas Control",
+      "subtitle": "Measurement and solutions for indoor radon gas control",
+      "metaDescription": "Measurement and solutions for indoor radon gas control",
+      "ctaTitle": "Contact us",
+      "ctaDescription": "Get in touch for professional radon measurement services."
+    },
+    "aboutPage": {
+      "title": "About Us",
+      "subtitle": "Over 25 years protecting public health and the environment"
+    },
+    "clientsPage": {
+      "title": "Our Clients",
+      "subtitle": "Companies and administrations that trust us"
+    },
+    "contactPage": {
+      "title": "Contact",
+      "subtitle": "Tell us about your project and we'll offer the best solution"
+    },
+    "blogIndex": {
+      "title": "Blog",
+      "subtitle": "Articles and news about asbestos and radon gas"
+    },
+    "faqPage": {
+      "title": "FAQ",
+      "subtitle": "Answers to the most common questions about asbestos and radon gas"
+    },
+    "glossaryPage": {
+      "title": "Glossary",
+      "subtitle": "Technical terms in the asbestos and radon gas sector"
+    },
+    "newsPage": {
+      "title": "News",
+      "subtitle": "Latest news and projects from ACM-2020"
+    },
+    "municipiosIndex": {
+      "title": "Action municipalities",
+      "subtitle": "Priority action zones against radon gas in Catalonia"
+    },
+    "provinciaPage": {
+      "title": "Priority Action Municipalities in {provincia}",
+      "zonaII": "Zone II - High Exposure",
+      "zonaI": "Zone I - Medium Exposure",
+      "zonaIIDesc": "Mandatory radon measurement in workplaces (RD 1029/2022)",
+      "zonaIDesc": "Preventive measurements are recommended"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "legalNotice": {
+      "title": "Legal Notice"
+    },
+    "cookiesPolicy": {
+      "title": "Cookie Policy"
+    }
+  }
+}

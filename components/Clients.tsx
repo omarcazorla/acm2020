@@ -2,13 +2,14 @@
 
 import { Building2, Home, Landmark, Factory } from 'lucide-react'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
-const stats = [
-  { value: '+500', label: 'Proyectos realizados', icon: Building2 },
-  { value: '+200', label: 'Clientes satisfechos', icon: Home },
-  { value: '+50', label: 'Ayuntamientos', icon: Landmark },
-  { value: '+100', label: 'Empresas', icon: Factory },
-]
+const statKeys = [
+  { key: 'projects', icon: Building2 },
+  { key: 'clients', icon: Home },
+  { key: 'municipalities', icon: Landmark },
+  { key: 'companies', icon: Factory },
+] as const
 
 // Logos de clientes en /public/logos/
 const clientLogos: string[] = [
@@ -31,57 +32,49 @@ const clientLogos: string[] = [
   'atl_aigua_ter-llobregat.gif',
 ]
 
-const clientTypes = [
-  'Ayuntamientos y administraciones públicas',
-  'Empresas industriales',
-  'Comunidades de propietarios',
-  'Constructoras y promotoras',
-  'Colegios y centros educativos',
-  'Hospitales y centros sanitarios',
-]
-
 export default function Clients() {
+  const t = useTranslations('clients')
+
   return (
     <section id="clientes" className="section-padding bg-gray-50">
       <div className="container-custom">
         {/* Section header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-            Nuestros Clientes
+            {t('sectionLabel')}
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
-            Confían en{' '}
-            <span className="text-gradient">nosotros</span>
+            {t('title')}{' '}
+            <span className="text-gradient">{t('titleHighlight')}</span>
           </h2>
           <p className="text-lg text-gray-600">
-            Trabajamos con empresas, administraciones públicas y particulares
-            que valoran la profesionalidad y el compromiso con la seguridad.
+            {t('subtitle')}
           </p>
         </div>
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          {stats.map((stat, index) => (
+          {statKeys.map((stat) => (
             <div
-              key={index}
+              key={stat.key}
               className="bg-white rounded-2xl p-6 text-center shadow-sm border border-gray-100 card-hover"
             >
               <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <stat.icon className="w-7 h-7 text-primary" />
               </div>
               <div className="text-3xl md:text-4xl font-bold text-secondary mb-1">
-                {stat.value}
+                {t(`stats.${stat.key}.value`)}
               </div>
-              <div className="text-sm text-gray-600">{stat.label}</div>
+              <div className="text-sm text-gray-600">{t(`stats.${stat.key}.label`)}</div>
             </div>
           ))}
         </div>
 
-        {/* Client logos marquee - Solo se muestra si hay logos */}
+        {/* Client logos marquee */}
         {clientLogos.length > 0 && (
           <div className="mb-16">
             <p className="text-center text-sm text-gray-500 uppercase tracking-wider mb-8">
-              Algunos de nuestros clientes
+              {t('someClients')}
             </p>
 
             {/* Marquee container */}
@@ -133,21 +126,20 @@ export default function Clients() {
         <div className="bg-secondary rounded-3xl p-8 md:p-12">
           <div className="text-center mb-10">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Sectores en los que trabajamos
+              {t('sectorsTitle')}
             </h3>
             <p className="text-white/70 max-w-2xl mx-auto">
-              Nuestra experiencia abarca múltiples sectores, adaptando nuestros
-              servicios a las necesidades específicas de cada cliente.
+              {t('sectorsSubtitle')}
             </p>
           </div>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {clientTypes.map((type, index) => (
+            {[0, 1, 2, 3, 4, 5].map((index) => (
               <div
                 key={index}
                 className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-colors"
               >
                 <div className="w-2 h-2 bg-primary rounded-full" />
-                <span className="text-white font-medium">{type}</span>
+                <span className="text-white font-medium">{t(`sectors.${index}`)}</span>
               </div>
             ))}
           </div>

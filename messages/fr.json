@@ -1,0 +1,368 @@
+{
+  "metadata": {
+    "title": "ACM-2020 | Cabinet de conseil spécialisé en amiante et gaz radon",
+    "description": "ACM-2020 : Plus de 25 ans d'expérience en gestion de l'amiante et mesure du gaz radon. Certification RERA 86/AB/09. Nous protégeons la santé publique et l'environnement.",
+    "keywords": "amiante, gaz radon, conseil environnemental, désamiantage, Barcelone, RERA, santé publique",
+    "ogTitle": "ACM-2020 | Cabinet de conseil spécialisé en amiante et gaz radon",
+    "ogDescription": "Plus de 25 ans de protection de la santé publique et de l'environnement. Experts en amiante et gaz radon."
+  },
+  "navbar": {
+    "home": "Accueil",
+    "asbestos": "Amiante",
+    "radon": "Radon",
+    "aboutUs": "À propos",
+    "clients": "Clients",
+    "services": "Services",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "municipalities": "Municipalités"
+  },
+  "hero": {
+    "badge": "+25 ans d'expérience · Certification RERA 86/AB/09",
+    "titleStart": "Nous protégeons la",
+    "titleHighlight1": "santé publique",
+    "titleMid": "et l'",
+    "titleHighlight2": "environnement",
+    "subtitle": "Cabinet de conseil spécialisé dans la gestion intégrale de l'amiante et la mesure du gaz radon. Solutions professionnelles pour les entreprises, les administrations publiques et les particuliers.",
+    "ctaPrimary": "Demander un devis",
+    "ctaSecondary": "Nos services",
+    "statsYears": "+25",
+    "statsYearsLabel": "Ans d'expérience",
+    "statsRera": "RERA",
+    "statsReraLabel": "Certification",
+    "statsProjects": "+500",
+    "statsProjectsLabel": "Projets",
+    "statsCommitment": "100%",
+    "statsCommitmentLabel": "Engagement"
+  },
+  "services": {
+    "sectionLabel": "Nos Services",
+    "title": "Solutions spécialisées pour votre",
+    "titleHighlight": "sécurité",
+    "subtitle": "Nous offrons des services complets en gestion de l'amiante et contrôle du gaz radon, adaptés aux besoins de chaque client.",
+    "asbestosTitle": "Gestion de l'Amiante",
+    "asbestosSubtitle": "Services intégraux pour la gestion sécurisée des MCA",
+    "radonTitle": "Contrôle du Gaz Radon",
+    "radonSubtitle": "Mesure et contrôle du gaz radon en intérieur",
+    "asbestos": {
+      "inspection": {
+        "title": "Inspection et Identification",
+        "description": "Localisation et évaluation des matériaux contenant de l'amiante dans les bâtiments et installations."
+      },
+      "management": {
+        "title": "Plans de Gestion",
+        "description": "Élaboration de plans de gestion des MCA conformément à la réglementation en vigueur."
+      },
+      "projects": {
+        "title": "Projets de Désamiantage",
+        "description": "Rédaction de projets techniques pour le retrait sécurisé des matériaux contenant de l'amiante."
+      },
+      "waste": {
+        "title": "Gestion des Déchets",
+        "description": "Conseil sur l'élimination et le transport corrects des déchets d'amiante."
+      },
+      "supervision": {
+        "title": "Direction de Chantier",
+        "description": "Supervision technique des travaux de désamiantage garantissant la sécurité."
+      },
+      "risk": {
+        "title": "Évaluation des Risques",
+        "description": "Analyse des risques professionnels liés à l'exposition à l'amiante."
+      },
+      "audits": {
+        "title": "Audits",
+        "description": "Audits d'amiante."
+      },
+      "training": {
+        "title": "Formation",
+        "description": "Formation en amiante."
+      },
+      "consulting": {
+        "title": "Conseil",
+        "description": "Services de conseil en amiante."
+      },
+      "censuses": {
+        "title": "Recensements Municipaux",
+        "description": "Recensements d'amiante dans les bâtiments et infrastructures."
+      },
+      "water": {
+        "title": "Amiante dans l'Eau",
+        "description": "Analyse des fibres d'amiante dans les systèmes d'approvisionnement en eau."
+      },
+      "soil": {
+        "title": "Amiante dans les Sols",
+        "description": "Quantification de l'amiante dans les sols."
+      },
+      "communities": {
+        "title": "Copropriétés",
+        "description": "Détection et gestion de l'amiante dans les copropriétés."
+      },
+      "realestate": {
+        "title": "Transactions Immobilières",
+        "description": "Détection d'amiante pour les transactions immobilières."
+      },
+      "breeam": {
+        "title": "Certification BREEAM",
+        "description": "Diagnostic d'amiante pour la certification BREEAM."
+      }
+    },
+    "radon": {
+      "measurement": {
+        "title": "Mesure du Gaz Radon",
+        "description": "Mesures précises de la concentration de radon dans les bâtiments et les habitations."
+      },
+      "residential": {
+        "title": "Solutions Résidentielles",
+        "description": "Diagnostic et solutions pour les habitations présentant des niveaux élevés de radon."
+      },
+      "workspace": {
+        "title": "Espaces de Travail",
+        "description": "Évaluation du radon dans les lieux de travail selon le Décret Royal 1029/2022."
+      },
+      "reports": {
+        "title": "Rapports Techniques",
+        "description": "Élaboration de rapports détaillés avec recommandations d'action."
+      },
+      "training": {
+        "title": "Formation Radon",
+        "description": "Programmes de formation sur le gaz radon."
+      },
+      "howto": {
+        "title": "Comment Mesurer le Radon",
+        "description": "Guide de détection et mesure du gaz radon."
+      }
+    },
+    "whyTitle": "Pourquoi choisir nos services ?",
+    "whySubtitle": "Nous disposons de l'expérience, des certifications et de l'engagement nécessaires pour garantir votre sécurité et votre tranquillité.",
+    "whyItems": [
+      "Plus de 25 ans d'expérience dans le secteur",
+      "Certification RERA 86/AB/09",
+      "Équipe technique hautement qualifiée",
+      "Respect strict de la réglementation"
+    ],
+    "whyCta": "Demander des informations"
+  },
+  "about": {
+    "sectionLabel": "À Propos",
+    "title": "Pour la santé publique et l'",
+    "titleHighlight": "environnement",
+    "description1": "ACM-2020 est un cabinet de conseil spécialisé dans la gestion intégrale de l'amiante et le contrôle du gaz radon. Nous sommes nés avec l'engagement de protéger la santé des personnes et de contribuer à la préservation de l'environnement.",
+    "description2": "Notre équipe de professionnels possède une vaste expérience et une formation spécifique pour offrir des solutions adaptées à chaque situation, garantissant le respect de la réglementation en vigueur et les plus hauts standards de qualité.",
+    "features": {
+      "rera": {
+        "highlight": "86/AB/09",
+        "title": "Certification RERA",
+        "description": "Entreprise enregistrée sous le numéro 86/AB/09 au Registre des Entreprises à Risque d'Amiante."
+      },
+      "experience": {
+        "highlight": "+25 ans",
+        "title": "+25 Ans d'Expérience",
+        "description": "Plus de deux décennies d'expérience professionnelle dans le secteur du conseil environnemental."
+      },
+      "team": {
+        "highlight": "Experts",
+        "title": "Équipe Spécialisée",
+        "description": "Professionnels qualifiés en formation continue sur les dernières réglementations et techniques."
+      },
+      "health": {
+        "highlight": "Priorité",
+        "title": "Engagement pour la Santé",
+        "description": "Notre priorité est de protéger la santé des personnes et de préserver l'environnement."
+      }
+    },
+    "values": {
+      "professionalism": {
+        "title": "Professionnalisme",
+        "description": "Rigueur technique dans chaque projet"
+      },
+      "safety": {
+        "title": "Sécurité",
+        "description": "Protection des personnes et de l'environnement"
+      },
+      "trust": {
+        "title": "Confiance",
+        "description": "Transparence dans notre gestion"
+      },
+      "sustainability": {
+        "title": "Durabilité",
+        "description": "Respect de l'environnement"
+      }
+    },
+    "missionTitle": "Notre Mission",
+    "missionText": "Contribuer à la protection de la santé publique et à la préservation de l'environnement par des services de conseil spécialisés dans la gestion de l'amiante et le contrôle du gaz radon, avec les plus hauts standards de qualité et de professionnalisme."
+  },
+  "clients": {
+    "sectionLabel": "Nos Clients",
+    "title": "Ils nous font",
+    "titleHighlight": "confiance",
+    "subtitle": "Nous travaillons avec des entreprises, des administrations publiques et des particuliers qui apprécient le professionnalisme et l'engagement envers la sécurité.",
+    "stats": {
+      "projects": {
+        "value": "+500",
+        "label": "Projets réalisés"
+      },
+      "clients": {
+        "value": "+200",
+        "label": "Clients satisfaits"
+      },
+      "municipalities": {
+        "value": "+50",
+        "label": "Municipalités"
+      },
+      "companies": {
+        "value": "+100",
+        "label": "Entreprises"
+      }
+    },
+    "someClients": "Quelques-uns de nos clients",
+    "sectorsTitle": "Secteurs dans lesquels nous travaillons",
+    "sectorsSubtitle": "Notre expérience couvre de nombreux secteurs, en adaptant nos services aux besoins spécifiques de chaque client.",
+    "sectors": [
+      "Mairies et administrations publiques",
+      "Entreprises industrielles",
+      "Copropriétés",
+      "Entreprises de construction et promotion",
+      "Écoles et centres éducatifs",
+      "Hôpitaux et centres de santé"
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Parlons de votre",
+    "titleHighlight": "projet",
+    "subtitle": "Décrivez-nous vos besoins et nous vous proposerons une solution personnalisée. Nous répondrons à votre demande dans les 24 heures.",
+    "infoTitle": "Informations de contact",
+    "infoSubtitle": "Nous sommes là pour vous aider. Contactez-nous par l'un de ces moyens.",
+    "phone": "Téléphone",
+    "email": "Email",
+    "address": "Adresse",
+    "addressValue": "C. Ibiza, 1, Rez-de-chaussée\n08214 Badia del Vallés, Barcelone",
+    "hours": "Horaires",
+    "hoursValue": "Lundi au Vendredi\n9h00 - 18h00",
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "667 123 456",
+      "subject": "Sujet",
+      "subjectPlaceholder": "Sélectionnez un sujet",
+      "subjectAsbestos": "Demande sur l'amiante",
+      "subjectRadon": "Demande sur le gaz radon",
+      "subjectBudgetAsbestos": "Demander un devis amiante",
+      "subjectBudgetRadon": "Demander un devis gaz radon",
+      "subjectOther": "Autre",
+      "message": "Message",
+      "messagePlaceholder": "Dites-nous comment nous pouvons vous aider...",
+      "required": "Champs obligatoires",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès. Nous vous répondrons bientôt.",
+      "error": "Erreur lors de l'envoi du message. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "description": "Cabinet de conseil spécialisé en gestion de l'amiante et contrôle du gaz radon. Plus de 25 ans de protection de la santé publique et de l'environnement.",
+    "quickLinks": "Liens rapides",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact",
+    "asbestosManagement": "Gestion de l'Amiante",
+    "radonControl": "Contrôle du Radon",
+    "inspections": "Inspections",
+    "technicalProjects": "Projets techniques",
+    "copyright": "ACM-2020. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "legal": "Mentions légales",
+    "cookies": "Cookies"
+  },
+  "whatsapp": {
+    "tooltip": "Discutons sur WhatsApp ?",
+    "message": "Bonjour, j'aimerais obtenir des informations sur vos services."
+  },
+  "common": {
+    "home": "Accueil",
+    "services": "Services",
+    "aboutUs": "À propos",
+    "clients": "Clients",
+    "contact": "Contact",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "glossary": "Glossaire",
+    "news": "Actualités",
+    "municipalities": "Municipalités",
+    "learnMore": "En savoir plus",
+    "readMore": "Lire la suite",
+    "backToHome": "Retour à l'accueil",
+    "required": "*"
+  },
+  "breadcrumbs": {
+    "home": "Accueil"
+  },
+  "pages": {
+    "servicesIndex": {
+      "title": "Nos Services",
+      "subtitle": "Solutions professionnelles en gestion de l'amiante et contrôle du gaz radon"
+    },
+    "asbestosIndex": {
+      "title": "Gestion de l'Amiante",
+      "subtitle": "Services complets pour la gestion sécurisée des matériaux contenant de l'amiante"
+    },
+    "radonIndex": {
+      "title": "Contrôle du Gaz Radon",
+      "subtitle": "Mesure et solutions pour le contrôle du gaz radon en intérieur",
+      "metaDescription": "Mesure et solutions pour le contrôle du gaz radon en intérieur",
+      "ctaTitle": "Contact us",
+      "ctaDescription": "Get in touch for professional radon measurement services."
+    },
+    "aboutPage": {
+      "title": "À Propos",
+      "subtitle": "Plus de 25 ans de protection de la santé publique et de l'environnement"
+    },
+    "clientsPage": {
+      "title": "Nos Clients",
+      "subtitle": "Entreprises et administrations qui nous font confiance"
+    },
+    "contactPage": {
+      "title": "Contact",
+      "subtitle": "Décrivez-nous votre projet et nous vous proposerons la meilleure solution"
+    },
+    "blogIndex": {
+      "title": "Blog",
+      "subtitle": "Articles et actualités sur l'amiante et le gaz radon"
+    },
+    "faqPage": {
+      "title": "FAQ",
+      "subtitle": "Réponses aux questions les plus fréquentes sur l'amiante et le gaz radon"
+    },
+    "glossaryPage": {
+      "title": "Glossaire",
+      "subtitle": "Termes techniques du secteur de l'amiante et du gaz radon"
+    },
+    "newsPage": {
+      "title": "Actualités",
+      "subtitle": "Dernières nouvelles et projets d'ACM-2020"
+    },
+    "municipiosIndex": {
+      "title": "Municipalités d'action",
+      "subtitle": "Zones d'action prioritaires contre le gaz radon en Catalogne"
+    },
+    "provinciaPage": {
+      "title": "Municipalités d'Action Prioritaire à {provincia}",
+      "zonaII": "Zone II - Exposition Élevée",
+      "zonaI": "Zone I - Exposition Moyenne",
+      "zonaIIDesc": "Mesure obligatoire du radon sur les lieux de travail (RD 1029/2022)",
+      "zonaIDesc": "Des mesures préventives sont recommandées"
+    },
+    "privacy": {
+      "title": "Politique de Confidentialité"
+    },
+    "legalNotice": {
+      "title": "Mentions Légales"
+    },
+    "cookiesPolicy": {
+      "title": "Politique de Cookies"
+    }
+  }
+}
