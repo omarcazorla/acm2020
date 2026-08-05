@@ -2,6 +2,7 @@
 
 import { useLocale } from 'next-intl'
 import { useRouter, usePathname } from '@/i18n/navigation'
+import { useParams } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { useState, useRef, useEffect } from 'react'
 import { Globe } from 'lucide-react'
@@ -50,6 +51,7 @@ interface LanguageSwitcherProps {
 export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light' }: LanguageSwitcherProps) {
   const locale = useLocale()
   const pathname = usePathname()
+  const params = useParams()
   const router = useRouter()
   const [isOpen, setIsOpen] = useState(false)
   const ref = useRef<HTMLDivElement>(null)
@@ -65,7 +67,10 @@ export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light'
   }, [])
 
   const switchLocale = (newLocale: string) => {
-    router.replace(pathname as any, { locale: newLocale as any })
+    router.replace(
+      { pathname: pathname as any, params: params as any },
+      { locale: newLocale as any }
+    )
     setIsOpen(false)
   }
 
