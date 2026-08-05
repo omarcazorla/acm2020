@@ -36,7 +36,7 @@ export default async function ClientesPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs items={[{ label: t('title') }]} />
 

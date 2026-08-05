@@ -36,7 +36,7 @@ export default async function ServiciosPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs items={[{ label: tCommon('services') }]} />
       <main className="section-padding bg-white">

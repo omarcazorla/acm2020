@@ -7,9 +7,10 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
-import { amiantoServices } from '@/data/services'
+import { amiantoOperativos, amiantoConsultoria } from '@/data/services'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
+import type { ServicePage } from '@/data/services'
 
 type Props = {
   params: Promise<{ locale: string }>
@@ -24,6 +25,34 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
+function ServiceCard({
+  service,
+  tServices,
+  tCommon,
+}: {
+  service: ServicePage
+  tServices: (key: string) => string
+  tCommon: (key: string) => string
+}) {
+  return (
+    <Link
+      href={`/servicios/amianto/${service.slug}`}
+      className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 card-hover"
+    >
+      <h3 className="text-lg font-semibold text-secondary mb-2 group-hover:text-primary transition-colors">
+        {tServices(`asbestos.${service.translationKey}.title`)}
+      </h3>
+      <p className="text-gray-600 text-sm leading-relaxed mb-4">
+        {tServices(`asbestos.${service.translationKey}.description`)}
+      </p>
+      <span className="inline-flex items-center text-primary text-sm font-semibold group-hover:translate-x-1 transition-transform">
+        {tCommon('learnMore')}
+        <ArrowRight className="w-4 h-4 ml-1" />
+      </span>
+    </Link>
+  )
+}
+
 export default async function AmiantoPage({ params }: Props) {
   const { locale } = await params
   setRequestLocale(locale)
@@ -33,7 +62,7 @@ export default async function AmiantoPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs
         items={[
@@ -43,26 +72,39 @@ export default async function AmiantoPage({ params }: Props) {
       />
       <main className="section-padding bg-white">
         <div className="container-custom">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {amiantoServices.map((service) => (
-              <Link
-                key={service.slug}
-                href={`/servicios/amianto/${service.slug}`}
-                className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 card-hover"
-              >
-                <h3 className="text-lg font-semibold text-secondary mb-2 group-hover:text-primary transition-colors">
-                  {tServices(`asbestos.${service.translationKey}.title`)}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  {tServices(`asbestos.${service.translationKey}.description`)}
-                </p>
-                <span className="inline-flex items-center text-primary text-sm font-semibold group-hover:translate-x-1 transition-transform">
-                  {tCommon('learnMore')}
-                  <ArrowRight className="w-4 h-4 ml-1" />
-                </span>
-              </Link>
-            ))}
-          </div>
+          <section className="mb-16">
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-secondary mb-2">{t('operationalTitle')}</h2>
+              <p className="text-gray-600">{t('operationalSubtitle')}</p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {amiantoOperativos.map((service) => (
+                <ServiceCard
+                  key={service.slug}
+                  service={service}
+                  tServices={tServices}
+                  tCommon={tCommon}
+                />
+              ))}
+            </div>
+          </section>
+
+          <section>
+            <div className="mb-8">
+              <h2 className="text-2xl font-bold text-secondary mb-2">{t('consultingTitle')}</h2>
+              <p className="text-gray-600">{t('consultingSubtitle')}</p>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {amiantoConsultoria.map((service) => (
+                <ServiceCard
+                  key={service.slug}
+                  service={service}
+                  tServices={tServices}
+                  tCommon={tCommon}
+                />
+              ))}
+            </div>
+          </section>
         </div>
       </main>
       <Footer />

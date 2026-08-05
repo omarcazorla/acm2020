@@ -56,7 +56,7 @@ export default async function RadonServicePage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero
         title={t(`${key}.title`)}
         subtitle={t(`${key}.description`)}

@@ -47,7 +47,7 @@ export default async function RadonPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs
         items={[

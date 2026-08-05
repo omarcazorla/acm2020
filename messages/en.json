@@ -31,7 +31,7 @@
     "statsYearsLabel": "Years experience",
     "statsRera": "RERA",
     "statsReraLabel": "Certification",
-    "statsProjects": "+500",
+    "statsProjects": "+200",
     "statsProjectsLabel": "Projects",
     "statsCommitment": "100%",
     "statsCommitmentLabel": "Commitment"
@@ -105,6 +105,18 @@
       "breeam": {
         "title": "BREEAM Certification",
         "description": "Asbestos assessment for BREEAM certification."
+      },
+      "qualityControl": {
+        "title": "Final Surface Quality Control",
+        "description": "Independent verification of treated surfaces after removal, stabilisation, encapsulation or confinement of asbestos-containing materials."
+      },
+      "periodicControl": {
+        "title": "Periodic Surface Inspection",
+        "description": "Periodic inspections of stabilised, encapsulated or confined surfaces containing asbestos materials."
+      },
+      "airSampling": {
+        "title": "Environmental Air Sampling for Asbestos",
+        "description": "Fixed-point air sampling for asbestos fibre measurement using French methodology and accredited laboratory analysis."
       }
     },
     "radon": {
@@ -141,7 +153,10 @@
       "Highly qualified technical team",
       "Strict regulatory compliance"
     ],
-    "whyCta": "Request information"
+    "whyCta": "Request information",
+    "operationalLabel": "Operational Services",
+    "consultingLabel": "Consulting & Training",
+    "viewAllAsbestos": "View all asbestos services"
   },
   "about": {
     "sectionLabel": "About Us",
@@ -199,7 +214,7 @@
     "subtitle": "We work with companies, public administrations, and individuals who value professionalism and commitment to safety.",
     "stats": {
       "projects": {
-        "value": "+500",
+        "value": "+200",
         "label": "Completed projects"
       },
       "clients": {
@@ -307,7 +322,11 @@
     },
     "asbestosIndex": {
       "title": "Asbestos Management",
-      "subtitle": "Comprehensive services for safe asbestos-containing material management"
+      "subtitle": "Comprehensive services for safe asbestos-containing material management",
+      "operationalTitle": "Operational Services",
+      "operationalSubtitle": "Exposure-related services under Work Plan 86/AB/09-001-B",
+      "consultingTitle": "Consulting & Training",
+      "consultingSubtitle": "Technical advisory, training and document management"
     },
     "radonIndex": {
       "title": "Radon Gas Control",
@@ -364,5 +383,12 @@
     "cookiesPolicy": {
       "title": "Cookie Policy"
     }
+  },
+  "anchors": {
+    "home": "home",
+    "services": "services",
+    "about": "about-us",
+    "clients": "clients",
+    "contact": "contact"
   }
 }

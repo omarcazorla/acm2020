@@ -13,7 +13,7 @@ export default function PageHero({ title, subtitle }: PageHeroProps) {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary/5 rounded-full blur-2xl transform -translate-x-1/2 translate-y-1/2" />
       </div>
       <div className="relative container-custom text-center">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
+        <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
           {title}
         </h1>
         {subtitle && (

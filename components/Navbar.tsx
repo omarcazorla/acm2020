@@ -4,13 +4,22 @@ import { useState, useEffect } from 'react'
 import { Menu, X, Phone } from 'lucide-react'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
+import { usePathname } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import LanguageSwitcher from '@/components/layout/LanguageSwitcher'
 
-export default function Navbar() {
+export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
   const t = useTranslations('navbar')
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
+
+  const isActive = (href: string) => {
+    // Strip locale prefix (e.g. /es/servicios -> /servicios)
+    const pathWithoutLocale = pathname.replace(/^\/[a-z]{2}(?=\/|$)/, '') || '/'
+    if (href === '/') return pathWithoutLocale === '/'
+    return pathWithoutLocale.startsWith(href)
+  }
 
   const navigation = [
     { name: t('home'), href: '/' as const },
@@ -47,37 +56,46 @@ export default function Navbar() {
               alt="ACM-2020"
               width={180}
               height={60}
-              className="h-14 w-auto transition-all duration-300 filter-secondary"
+              className={`h-14 w-auto transition-all duration-300 ${isScrolled || !darkHero ? 'filter-secondary' : 'invert'}`}
               priority
             />
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-1">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 hover:bg-primary/10 text-secondary hover:text-primary"
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
+                    active
+                      ? 'text-primary font-semibold bg-primary/10'
+                      : isScrolled || !darkHero
+                        ? 'text-secondary hover:text-primary hover:bg-primary/10'
+                        : 'text-white/90 hover:text-white hover:bg-white/10'
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              )
+            })}
           </div>
 
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-3">
             <a
               href="tel:667623844"
-              className="flex items-center space-x-2 text-sm font-medium transition-colors duration-300 text-secondary"
+              className={`flex items-center space-x-2 text-sm font-medium transition-colors duration-300 ${isScrolled || !darkHero ? 'text-secondary' : 'text-white/90'}`}
             >
               <Phone className="w-4 h-4" />
               <span>667 623 844</span>
             </a>
-            <LanguageSwitcher variant="dropdown" theme="light" />
+            <LanguageSwitcher variant="dropdown" theme={isScrolled || !darkHero ? 'light' : 'dark'} />
             <Link
               href="/contacto"
-              className="btn-primary !py-2.5 !px-5 !text-sm"
+              className="btn-primary-sm"
             >
               {t('contact')}
             </Link>
@@ -86,7 +104,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 rounded-lg transition-colors duration-300 text-secondary"
+            className={`md:hidden p-2 rounded-lg transition-colors duration-300 ${isScrolled || !darkHero ? 'text-secondary' : 'text-white'}`}
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -100,16 +118,23 @@ export default function Navbar() {
           }`}
         >
           <div className="bg-white rounded-xl shadow-xl p-4 space-y-1">
-            {navigation.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                onClick={() => setIsOpen(false)}
-                className="block px-4 py-3 text-secondary font-medium rounded-lg hover:bg-primary/10 hover:text-primary transition-colors"
-              >
-                {item.name}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              const active = isActive(item.href)
+              return (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  onClick={() => setIsOpen(false)}
+                  className={`block px-4 py-3 font-medium rounded-lg transition-colors ${
+                    active
+                      ? 'text-primary font-semibold bg-primary/10'
+                      : 'text-secondary hover:bg-primary/10 hover:text-primary'
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              )
+            })}
             <div className="pt-2 border-t border-gray-100">
               <a
                 href="tel:667623844"

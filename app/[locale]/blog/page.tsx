@@ -23,7 +23,7 @@ export default async function BlogPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs items={[{ label: t('title') }]} />
       <main className="section-padding bg-white">

@@ -136,11 +136,11 @@ Barra de navegación fija con efecto blur al hacer scroll.
 Sección principal con imagen de fondo y overlay degradado.
 
 **Contenido:**
-- Badge: "+25 años de experiencia · Certificación RERA 86/AB/09"
+- Badge: "+25 años de experiencia · Inscripción RERA 86/AB/09"
 - Titular: "Protegemos la salud pública y el medio ambiente"
 - Subtítulo descriptivo
 - Doble CTA: "Solicitar presupuesto" → `#contacto` | "Conocer servicios" → `#servicios`
-- Indicadores de confianza: +25 años, RERA, +500 proyectos, 100% compromiso
+- Indicadores de confianza: +25 años, RERA, +200 proyectos, 100% compromiso
 - Flecha de scroll animada → `#servicios`
 
 ---
@@ -176,7 +176,7 @@ Información sobre la empresa y propuesta de valor.
 - Descripción de la empresa
 - Valores: Profesionalidad, Seguridad, Confianza, Sostenibilidad
 - 4 tarjetas de confianza:
-  - Certificación RERA 86/AB/09
+  - Inscripción RERA 86/AB/09
   - +25 Años de Experiencia
   - Equipo Especializado
   - Compromiso con la Salud
@@ -191,7 +191,7 @@ Estadísticas, logos de clientes en marquee y sectores de trabajo.
 **Estadísticas:**
 | Métrica | Valor |
 |---------|-------|
-| Proyectos realizados | +500 |
+| Proyectos realizados | +200 |
 | Clientes satisfechos | +200 |
 | Ayuntamientos | +50 |
 | Empresas | +100 |
@@ -352,7 +352,7 @@ Configurados en `app/layout.tsx`:
 ```typescript
 {
   title: 'ACM-2020 | Consultoría Especializada en Amianto y Gas Radón',
-  description: 'ACM-2020: Más de 25 años de experiencia en gestión de amianto y medición de gas radón. Certificación RERA 86/AB/09.',
+  description: 'ACM-2020: Más de 25 años de experiencia en gestión de amianto y medición de gas radón. Inscripción RERA 86/AB/09.',
   keywords: 'amianto, asbesto, gas radón, consultoría medioambiental, desamiantado, Barcelona, RERA, salud pública',
   openGraph: {
     url: 'https://acm2020.es',

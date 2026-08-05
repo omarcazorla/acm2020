@@ -11,9 +11,11 @@ import {
   AlertCircle,
 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import RevealOnScroll from '@/components/ui/RevealOnScroll'
 
 export default function Contact() {
   const t = useTranslations('contact')
+  const tAnchors = useTranslations('anchors')
   const [formState, setFormState] = useState({
     name: '',
     email: '',
@@ -88,26 +90,28 @@ export default function Contact() {
   }
 
   return (
-    <section id="contacto" className="section-padding bg-white">
+    <section id={tAnchors('contact')} className="section-padding bg-white">
       <div className="container-custom">
         {/* Section header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-            {t('sectionLabel')}
-          </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
-            {t('title')}{' '}
-            <span className="text-gradient">{t('titleHighlight')}</span>?
-          </h2>
-          <p className="text-lg text-gray-600">
-            {t('subtitle')}
-          </p>
-        </div>
+        <RevealOnScroll>
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+              {t('sectionLabel')}
+            </span>
+            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
+              {t('title')}{' '}
+              <span className="text-gradient">{t('titleHighlight')}</span>?
+            </h2>
+            <p className="text-lg text-gray-600">
+              {t('subtitle')}
+            </p>
+          </div>
+        </RevealOnScroll>
 
         <div className="grid lg:grid-cols-5 gap-12">
           {/* Contact info */}
-          <div className="lg:col-span-2">
-            <div className="bg-secondary rounded-3xl p-8 h-full">
+          <RevealOnScroll className="lg:col-span-2">
+            <div className="bg-secondary rounded-3xl p-8 h-full relative overflow-hidden noise-texture">
               <h3 className="text-2xl font-bold text-white mb-6">
                 {t('infoTitle')}
               </h3>
@@ -156,10 +160,10 @@ export default function Contact() {
                 />
               </div>
             </div>
-          </div>
+          </RevealOnScroll>
 
           {/* Contact form */}
-          <div className="lg:col-span-3">
+          <RevealOnScroll delay={0.15} className="lg:col-span-3">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
@@ -302,7 +306,7 @@ export default function Contact() {
                 </div>
               )}
             </form>
-          </div>
+          </RevealOnScroll>
         </div>
       </div>
     </section>

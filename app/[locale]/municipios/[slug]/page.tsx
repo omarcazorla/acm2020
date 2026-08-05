@@ -88,7 +88,7 @@ export default async function MunicipioPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <BreadcrumbJsonLd
         items={[
           { name: loc === 'es' ? 'Inicio' : loc === 'ca' ? 'Inici' : loc === 'en' ? 'Home' : 'Accueil', url: `${BASE_URL}/` },

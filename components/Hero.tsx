@@ -1,53 +1,75 @@
 'use client'
 
 import { Shield, Award, ArrowRight } from 'lucide-react'
+import { motion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { ContainerScroll } from '@/components/ui/ContainerScroll'
 
 export default function Hero() {
   const t = useTranslations('hero')
+  const tAnchors = useTranslations('anchors')
 
   return (
-    <section id="inicio" className="relative bg-[#f3f1ea]">
+    <section id={tAnchors('home')} className="relative bg-warm noise-texture">
       <div className="relative z-10">
         <ContainerScroll
           titleComponent={
             <div className="pt-20 md:pt-28 pb-4">
               {/* Eyebrow */}
-              <p className="uppercase tracking-[0.3em] text-sm text-[#000000]/60 mb-8">
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0, ease: 'easeOut' }}
+                className="uppercase tracking-[0.3em] text-sm text-secondary/60 mb-8"
+              >
                 {t('badge')}
-              </p>
+              </motion.p>
 
               {/* Headline */}
-              <h1 className="text-4xl sm:text-5xl lg:text-[64px] lg:leading-[83px] font-bold text-[#000000] leading-tight mb-6">
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.1, ease: 'easeOut' }}
+                className="text-4xl sm:text-5xl lg:text-[64px] lg:leading-[83px] font-bold text-secondary leading-tight mb-6"
+              >
                 {t('titleStart')}{' '}
                 <span className="text-primary">{t('titleHighlight1')}</span>{' '}
                 {t('titleMid')}{' '}
                 <span className="text-primary">{t('titleHighlight2')}</span>
-              </h1>
+              </motion.h1>
 
               {/* Subheadline */}
-              <p className="text-lg sm:text-xl lg:text-[22px] font-light text-[#000000]/70 max-w-2xl mx-auto mb-10 leading-relaxed">
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2, ease: 'easeOut' }}
+                className="text-lg sm:text-xl lg:text-[22px] font-light text-secondary/70 max-w-2xl mx-auto mb-10 leading-relaxed"
+              >
                 {t('subtitle')}
-              </p>
+              </motion.p>
 
               {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.3, ease: 'easeOut' }}
+                className="flex flex-col sm:flex-row gap-4 justify-center"
+              >
                 <Link
                   href="/contacto"
-                  className="inline-flex items-center justify-center gap-2 bg-[#000000] text-white rounded-[10px] px-7 py-3 text-lg font-medium hover:bg-[#000000]/90 transition-colors group"
+                  className="inline-flex items-center justify-center gap-2 bg-secondary text-white rounded-[10px] px-7 py-3 text-lg font-medium hover:bg-secondary/90 transition-colors group"
                 >
                   {t('ctaPrimary')}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
                   href="/servicios"
-                  className="inline-flex items-center justify-center px-7 py-3 text-lg font-medium text-[#000000] border-2 border-[#000000]/20 rounded-[10px] hover:border-[#000000]/50 transition-colors"
+                  className="inline-flex items-center justify-center px-7 py-3 text-lg font-medium text-secondary border-2 border-secondary/20 rounded-[10px] hover:border-secondary/50 transition-colors"
                 >
                   {t('ctaSecondary')}
                 </Link>
-              </div>
+              </motion.div>
             </div>
           }
           statsComponent={
@@ -58,8 +80,8 @@ export default function Hero() {
                     <Shield className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsYears')}</div>
-                    <div className="text-sm text-[#000000]/50">{t('statsYearsLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsYears')}</div>
+                    <div className="text-sm text-secondary/50">{t('statsYearsLabel')}</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -67,8 +89,8 @@ export default function Hero() {
                     <Award className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsRera')}</div>
-                    <div className="text-sm text-[#000000]/50">{t('statsReraLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsRera')}</div>
+                    <div className="text-sm text-secondary/50">{t('statsReraLabel')}</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -76,8 +98,8 @@ export default function Hero() {
                     <Shield className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsProjects')}</div>
-                    <div className="text-sm text-[#000000]/50">{t('statsProjectsLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsProjects')}</div>
+                    <div className="text-sm text-secondary/50">{t('statsProjectsLabel')}</div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -85,8 +107,8 @@ export default function Hero() {
                     <Award className="w-7 h-7 text-primary" />
                   </div>
                   <div>
-                    <div className="text-3xl md:text-4xl font-bold text-[#000000]">{t('statsCommitment')}</div>
-                    <div className="text-sm text-[#000000]/50">{t('statsCommitmentLabel')}</div>
+                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsCommitment')}</div>
+                    <div className="text-sm text-secondary/50">{t('statsCommitmentLabel')}</div>
                   </div>
                 </div>
               </div>

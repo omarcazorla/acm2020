@@ -29,7 +29,7 @@ export default async function ContactoPage({ params }: Props) {
 
   return (
     <>
-      <Navbar />
+      <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs items={[{ label: t('title') }]} />
       <Contact />

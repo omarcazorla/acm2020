@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "ACM-2020 | Consultoria Especialitzada en Amiant i Gas Radó",
-    "description": "ACM-2020: Més de 25 anys d'experiència en gestió d'amiant i mesurament de gas radó. Certificació RERA 86/AB/09. Protegim la salut pública i el medi ambient.",
+    "description": "ACM-2020: Més de 25 anys d'experiència en gestió d'amiant i mesurament de gas radó. Inscripció RERA 86/AB/09. Protegim la salut pública i el medi ambient.",
     "keywords": "amiant, asbestós, gas radó, consultoria mediambiental, desamiantatge, Barcelona, RERA, salut pública",
     "ogTitle": "ACM-2020 | Consultoria Especialitzada en Amiant i Gas Radó",
     "ogDescription": "Més de 25 anys protegint la salut pública i el medi ambient. Experts en amiant i gas radó."
@@ -19,7 +19,7 @@
     "municipalities": "Municipis"
   },
   "hero": {
-    "badge": "+25 anys d'experiència · Certificació RERA 86/AB/09",
+    "badge": "+25 anys d'experiència · Inscripció RERA 86/AB/09",
     "titleStart": "Protegim la",
     "titleHighlight1": "salut pública",
     "titleMid": "i el",
@@ -30,8 +30,8 @@
     "statsYears": "+25",
     "statsYearsLabel": "Anys experiència",
     "statsRera": "RERA",
-    "statsReraLabel": "Certificació",
-    "statsProjects": "+500",
+    "statsReraLabel": "Inscripció",
+    "statsProjects": "+200",
     "statsProjectsLabel": "Projectes",
     "statsCommitment": "100%",
     "statsCommitmentLabel": "Compromís"
@@ -103,8 +103,20 @@
         "description": "Detecció d'amiant prèvia a la compravenda d'immobles."
       },
       "breeam": {
-        "title": "Certificació BREEAM",
-        "description": "Diagnòstic d'amiant per a la certificació BREEAM."
+        "title": "Inscripció BREEAM",
+        "description": "Diagnòstic d'amiant per a la Inscripció BREEAM."
+      },
+      "qualityControl": {
+        "title": "Control de Qualitat Final de Superfícies",
+        "description": "Verificació independent de superfícies tractades després de treballs de retirada, estabilització, encapsulat o confinament de materials amb amiant."
+      },
+      "periodicControl": {
+        "title": "Control Periòdic de Superfícies Tractades",
+        "description": "Inspeccions periòdiques de superfícies estabilitzades, encapsulades o confinades amb materials amb amiant."
+      },
+      "airSampling": {
+        "title": "Mostreig Estàtic Ambiental d'Amiant",
+        "description": "Presa de mostres d'aire en punt fix per al mesurament de fibres d'amiant a l'ambient amb metodologia francesa."
       }
     },
     "radon": {
@@ -137,11 +149,14 @@
     "whySubtitle": "Comptem amb l'experiència, certificacions i el compromís necessaris per garantir la seva seguretat i tranquil·litat.",
     "whyItems": [
       "Més de 25 anys d'experiència en el sector",
-      "Certificació RERA 86/AB/09",
+      "Inscripció RERA 86/AB/09",
       "Equip tècnic altament qualificat",
       "Compliment estricte de normativa"
     ],
-    "whyCta": "Sol·licitar informació"
+    "whyCta": "Sol·licitar informació",
+    "operationalLabel": "Serveis Operatius",
+    "consultingLabel": "Consultoria i Formació",
+    "viewAllAsbestos": "Veure tots els serveis d'amiant"
   },
   "about": {
     "sectionLabel": "Qui Som",
@@ -152,7 +167,7 @@
     "features": {
       "rera": {
         "highlight": "86/AB/09",
-        "title": "Certificació RERA",
+        "title": "Inscripció RERA",
         "description": "Empresa registrada amb número 86/AB/09 al Registre d'Empreses amb Risc d'Amiant."
       },
       "experience": {
@@ -199,7 +214,7 @@
     "subtitle": "Treballem amb empreses, administracions públiques i particulars que valoren la professionalitat i el compromís amb la seguretat.",
     "stats": {
       "projects": {
-        "value": "+500",
+        "value": "+200",
         "label": "Projectes realitzats"
       },
       "clients": {
@@ -307,14 +322,18 @@
     },
     "asbestosIndex": {
       "title": "Gestió d'Amiant",
-      "subtitle": "Serveis integrals per a la gestió segura de materials amb amiant"
+      "subtitle": "Serveis integrals per a la gestió segura de materials amb amiant",
+      "operationalTitle": "Serveis Operatius",
+      "operationalSubtitle": "Serveis amb exposició subjectes al Pla de Treball 86/AB/09-001-B",
+      "consultingTitle": "Consultoria i Formació",
+      "consultingSubtitle": "Assessorament tècnic, formació i gestió documental"
     },
     "radonIndex": {
       "title": "Control de Gas Radó",
       "subtitle": "Mesurament i solucions per al control del gas radó en interiors",
       "metaDescription": "Mesurament i solucions per al control del gas radó en interiors",
-      "ctaTitle": "Contact us",
-      "ctaDescription": "Get in touch for professional radon measurement services."
+      "ctaTitle": "Vol mesurar el radó al seu edifici?",
+      "ctaDescription": "Contacti amb el nostre equip tècnic per a una consulta gratuïta i rebi assessorament professional sense compromís."
     },
     "aboutPage": {
       "title": "Qui Som",
@@ -364,5 +383,12 @@
     "cookiesPolicy": {
       "title": "Política de Cookies"
     }
+  },
+  "anchors": {
+    "home": "inici",
+    "services": "serveis",
+    "about": "qui-som",
+    "clients": "clients",
+    "contact": "contacte"
   }
 }

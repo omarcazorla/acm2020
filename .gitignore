@@ -29,6 +29,12 @@ yarn-error.log*
 # Vercel
 .vercel
 
+# Scraping data
+.firecrawl/
+
+# Specstory
+.specstory/
+
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts

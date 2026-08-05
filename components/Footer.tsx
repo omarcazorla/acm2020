@@ -3,6 +3,7 @@
 import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { Link } from '@/i18n/navigation'
 import LanguageSwitcher from '@/components/layout/LanguageSwitcher'
 
 const socialLinks = [
@@ -17,18 +18,18 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   const quickLinks = [
-    { name: tNav('home'), href: '#inicio' },
-    { name: tNav('services'), href: '#servicios' },
-    { name: tNav('aboutUs'), href: '#nosotros' },
-    { name: tNav('clients'), href: '#clientes' },
-    { name: tNav('contact'), href: '#contacto' },
+    { name: tNav('home'), href: '/' as const },
+    { name: tNav('services'), href: '/servicios' as const },
+    { name: tNav('aboutUs'), href: '/quienes-somos' as const },
+    { name: tNav('clients'), href: '/clientes' as const },
+    { name: tNav('contact'), href: '/contacto' as const },
   ]
 
   const services = [
-    { name: t('asbestosManagement'), href: '#servicios' },
-    { name: t('radonControl'), href: '#servicios' },
-    { name: t('inspections'), href: '#servicios' },
-    { name: t('technicalProjects'), href: '#servicios' },
+    { name: t('asbestosManagement'), href: '/servicios/amianto' as const },
+    { name: t('radonControl'), href: '/servicios/radon' as const },
+    { name: t('inspections'), href: '/servicios/amianto' as const },
+    { name: t('technicalProjects'), href: '/servicios/amianto' as const },
   ]
 
   return (
@@ -75,12 +76,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {quickLinks.map((link, index) => (
                 <li key={index}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-white/70 hover:text-primary transition-colors text-sm"
                   >
                     {link.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -92,12 +93,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {services.map((service, index) => (
                 <li key={index}>
-                  <a
+                  <Link
                     href={service.href}
                     className="text-white/70 hover:text-primary transition-colors text-sm"
                   >
                     {service.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -147,15 +148,15 @@ export default function Footer() {
             </p>
             <LanguageSwitcher variant="inline" theme="dark" />
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-white/60 hover:text-primary transition-colors">
+              <Link href="/legal/privacidad" className="text-white/60 hover:text-primary transition-colors">
                 {t('privacy')}
-              </a>
-              <a href="#" className="text-white/60 hover:text-primary transition-colors">
+              </Link>
+              <Link href="/legal/aviso-legal" className="text-white/60 hover:text-primary transition-colors">
                 {t('legal')}
-              </a>
-              <a href="#" className="text-white/60 hover:text-primary transition-colors">
+              </Link>
+              <Link href="/legal/cookies" className="text-white/60 hover:text-primary transition-colors">
                 {t('cookies')}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ export default function SectionHeader({ label, title, titleHighlight, subtitle }
           {label}
         </span>
       )}
-      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
+      <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
         {title}{' '}
         {titleHighlight && (
           <span className="text-gradient">{titleHighlight}</span>

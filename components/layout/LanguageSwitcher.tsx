@@ -1,14 +1,14 @@
 'use client'
 
 import { useLocale } from 'next-intl'
-import { usePathname, useRouter } from 'next/navigation'
+import { useRouter, usePathname } from '@/i18n/navigation'
 import { routing } from '@/i18n/routing'
 import { useState, useRef, useEffect } from 'react'
 import { Globe } from 'lucide-react'
+import Image from 'next/image'
 
 const localeFlags: Record<string, string> = {
   es: '\u{1F1EA}\u{1F1F8}',
-  ca: '\u{1F1EA}\u{1F1F8}',
   en: '\u{1F1EC}\u{1F1E7}',
   fr: '\u{1F1EB}\u{1F1F7}',
 }
@@ -25,6 +25,21 @@ const localeNames: Record<string, string> = {
   ca: 'Catal\u00E0',
   en: 'English',
   fr: 'Fran\u00E7ais',
+}
+
+function LocaleFlag({ locale, className }: { locale: string; className?: string }) {
+  if (locale === 'ca') {
+    return (
+      <Image
+        src="/catalonia_flag.webp"
+        alt="Català"
+        width={14}
+        height={14}
+        className={`inline-block ${className ?? ''}`}
+      />
+    )
+  }
+  return <span className={className}>{localeFlags[locale]}</span>
 }
 
 interface LanguageSwitcherProps {
@@ -50,19 +65,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light'
   }, [])
 
   const switchLocale = (newLocale: string) => {
-    const segments = pathname.split('/')
-    const currentLocaleInPath = routing.locales.find(
-      (l) => segments[1] === l
-    )
-    if (currentLocaleInPath) {
-      segments.splice(1, 1)
-    }
-    const newPath =
-      newLocale === routing.defaultLocale
-        ? segments.join('/') || '/'
-        : `/${newLocale}${segments.join('/') || '/'}`
-
-    router.push(newPath)
+    router.replace(pathname as any, { locale: newLocale as any })
     setIsOpen(false)
   }
 
@@ -102,7 +105,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light'
         className={`flex items-center space-x-1.5 px-2.5 py-2 text-sm font-medium rounded-lg transition-colors duration-300 ${dropdownBtnClass}`}
         aria-label="Change language"
       >
-        <span className="text-base leading-none">{localeFlags[locale]}</span>
+        <LocaleFlag locale={locale} className="text-base leading-none" />
         <span>{localeLabels[locale]}</span>
       </button>
 
@@ -116,7 +119,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light'
                 l === locale ? 'text-primary font-semibold' : 'text-secondary'
               }`}
             >
-              <span className="mr-2">{localeFlags[l]}</span>
+              <LocaleFlag locale={l} className="mr-2" />
               {localeNames[l]}
             </button>
           ))}

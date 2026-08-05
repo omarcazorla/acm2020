@@ -31,7 +31,7 @@
     "statsYearsLabel": "Ans d'expérience",
     "statsRera": "RERA",
     "statsReraLabel": "Certification",
-    "statsProjects": "+500",
+    "statsProjects": "+200",
     "statsProjectsLabel": "Projets",
     "statsCommitment": "100%",
     "statsCommitmentLabel": "Engagement"
@@ -105,6 +105,18 @@
       "breeam": {
         "title": "Certification BREEAM",
         "description": "Diagnostic d'amiante pour la certification BREEAM."
+      },
+      "qualityControl": {
+        "title": "Contrôle Qualité Final des Surfaces",
+        "description": "Vérification indépendante des surfaces traitées après travaux de retrait, stabilisation, encapsulage ou confinement de matériaux amiantés."
+      },
+      "periodicControl": {
+        "title": "Contrôle Périodique des Surfaces Traitées",
+        "description": "Inspections périodiques des surfaces stabilisées, encapsulées ou confinées contenant des matériaux amiantés."
+      },
+      "airSampling": {
+        "title": "Prélèvement Statique Environnemental d'Amiante",
+        "description": "Prélèvement d'air en point fixe pour la mesure des fibres d'amiante avec méthodologie française et analyse en laboratoire accrédité."
       }
     },
     "radon": {
@@ -141,7 +153,10 @@
       "Équipe technique hautement qualifiée",
       "Respect strict de la réglementation"
     ],
-    "whyCta": "Demander des informations"
+    "whyCta": "Demander des informations",
+    "operationalLabel": "Services Opérationnels",
+    "consultingLabel": "Conseil et Formation",
+    "viewAllAsbestos": "Voir tous les services amiante"
   },
   "about": {
     "sectionLabel": "À Propos",
@@ -199,7 +214,7 @@
     "subtitle": "Nous travaillons avec des entreprises, des administrations publiques et des particuliers qui apprécient le professionnalisme et l'engagement envers la sécurité.",
     "stats": {
       "projects": {
-        "value": "+500",
+        "value": "+200",
         "label": "Projets réalisés"
       },
       "clients": {
@@ -307,14 +322,18 @@
     },
     "asbestosIndex": {
       "title": "Gestion de l'Amiante",
-      "subtitle": "Services complets pour la gestion sécurisée des matériaux contenant de l'amiante"
+      "subtitle": "Services complets pour la gestion sécurisée des matériaux contenant de l'amiante",
+      "operationalTitle": "Services Opérationnels",
+      "operationalSubtitle": "Services avec exposition soumis au Plan de Travail 86/AB/09-001-B",
+      "consultingTitle": "Conseil et Formation",
+      "consultingSubtitle": "Conseil technique, formation et gestion documentaire"
     },
     "radonIndex": {
       "title": "Contrôle du Gaz Radon",
       "subtitle": "Mesure et solutions pour le contrôle du gaz radon en intérieur",
       "metaDescription": "Mesure et solutions pour le contrôle du gaz radon en intérieur",
-      "ctaTitle": "Contact us",
-      "ctaDescription": "Get in touch for professional radon measurement services."
+      "ctaTitle": "Contactez-nous",
+      "ctaDescription": "Contactez-nous pour des services professionnels de mesure du radon."
     },
     "aboutPage": {
       "title": "À Propos",
@@ -364,5 +383,12 @@
     "cookiesPolicy": {
       "title": "Politique de Cookies"
     }
+  },
+  "anchors": {
+    "home": "accueil",
+    "services": "services",
+    "about": "a-propos",
+    "clients": "clients",
+    "contact": "contact"
   }
 }

@@ -3,6 +3,7 @@
 import { Building2, Home, Landmark, Factory } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import RevealOnScroll from '@/components/ui/RevealOnScroll'
 
 const statKeys = [
   { key: 'projects', icon: Building2 },
@@ -34,45 +35,47 @@ const clientLogos: string[] = [
 
 export default function Clients() {
   const t = useTranslations('clients')
+  const tAnchors = useTranslations('anchors')
 
   return (
-    <section id="clientes" className="section-padding bg-gray-50">
+    <section id={tAnchors('clients')} className="section-padding bg-gray-50">
       <div className="container-custom">
         {/* Section header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-            {t('sectionLabel')}
-          </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
-            {t('title')}{' '}
-            <span className="text-gradient">{t('titleHighlight')}</span>
-          </h2>
-          <p className="text-lg text-gray-600">
-            {t('subtitle')}
-          </p>
-        </div>
+        <RevealOnScroll>
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+              {t('sectionLabel')}
+            </span>
+            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
+              {t('title')}{' '}
+              <span className="text-gradient">{t('titleHighlight')}</span>
+            </h2>
+            <p className="text-lg text-gray-600">
+              {t('subtitle')}
+            </p>
+          </div>
+        </RevealOnScroll>
 
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
-          {statKeys.map((stat) => (
-            <div
-              key={stat.key}
-              className="bg-white rounded-2xl p-6 text-center shadow-sm border border-gray-100 card-hover"
-            >
-              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <stat.icon className="w-7 h-7 text-primary" />
+          {statKeys.map((stat, index) => (
+            <RevealOnScroll key={stat.key} delay={index * 0.1}>
+              <div className="bg-white rounded-2xl p-6 text-center shadow-sm border border-gray-100 border-t-4 border-t-primary card-hover h-full">
+                <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <stat.icon className="w-7 h-7 text-primary" />
+                </div>
+                <div className="text-3xl md:text-4xl font-bold text-secondary mb-1">
+                  {t(`stats.${stat.key}.value`)}
+                </div>
+                <div className="text-sm text-gray-600">{t(`stats.${stat.key}.label`)}</div>
               </div>
-              <div className="text-3xl md:text-4xl font-bold text-secondary mb-1">
-                {t(`stats.${stat.key}.value`)}
-              </div>
-              <div className="text-sm text-gray-600">{t(`stats.${stat.key}.label`)}</div>
-            </div>
+            </RevealOnScroll>
           ))}
         </div>
 
         {/* Client logos marquee */}
         {clientLogos.length > 0 && (
-          <div className="mb-16">
+          <RevealOnScroll variant="fadeIn" className="mb-16">
             <p className="text-center text-sm text-gray-500 uppercase tracking-wider mb-8">
               {t('someClients')}
             </p>
@@ -96,6 +99,8 @@ export default function Clients() {
                         src={`/logos/${logo}`}
                         alt={`Cliente ${index + 1}`}
                         fill
+                        sizes="128px"
+                        quality={75}
                         className="object-contain"
                       />
                     </div>
@@ -112,6 +117,8 @@ export default function Clients() {
                         src={`/logos/${logo}`}
                         alt={`Cliente ${index + 1}`}
                         fill
+                        sizes="128px"
+                        quality={75}
                         className="object-contain"
                       />
                     </div>
@@ -119,13 +126,14 @@ export default function Clients() {
                 ))}
               </div>
             </div>
-          </div>
+          </RevealOnScroll>
         )}
 
         {/* Client types */}
-        <div className="bg-secondary rounded-3xl p-8 md:p-12">
+        <RevealOnScroll>
+        <div className="bg-secondary rounded-3xl p-8 md:p-12 relative overflow-hidden noise-texture">
           <div className="text-center mb-10">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
+            <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-4">
               {t('sectorsTitle')}
             </h3>
             <p className="text-white/70 max-w-2xl mx-auto">
@@ -144,6 +152,7 @@ export default function Clients() {
             ))}
           </div>
         </div>
+        </RevealOnScroll>
       </div>
     </section>
   )

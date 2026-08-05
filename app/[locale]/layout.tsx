@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { Inter } from 'next/font/google'
+import { DM_Sans, STIX_Two_Text } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
@@ -8,10 +8,16 @@ import { routing } from '@/i18n/routing'
 import { OrganizationJsonLd, LocalBusinessJsonLd } from '@/components/JsonLd'
 import '../globals.css'
 
-const inter = Inter({
+const dmSans = DM_Sans({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-dm-sans',
+})
+
+const stix = STIX_Two_Text({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-stix',
 })
 
 type Props = {
@@ -59,13 +65,13 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`../../messages/${locale}.json`)).default
 
   return (
-    <html lang={locale} className={inter.variable}>
+    <html lang={locale} className={`${dmSans.variable} ${stix.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <OrganizationJsonLd />
         <LocalBusinessJsonLd />
       </head>
-      <body className={`${inter.className} bg-white text-gray-900 antialiased`}>
+      <body className={`${dmSans.className} bg-white text-gray-900 antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
