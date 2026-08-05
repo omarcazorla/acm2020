@@ -17,6 +17,26 @@ import { getPathname } from '@/i18n/navigation'
 import Link from 'next/link'
 import { ArrowRight, MapPin, Shield, AlertTriangle } from 'lucide-react'
 
+// Parse markdown-style links [text](/path) in content and render as Next.js Link components
+function RichText({ text }: { text: string }) {
+  const parts = text.split(/(\[[^\]]+\]\([^)]+\))/)
+  return (
+    <>
+      {parts.map((part, i) => {
+        const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
+        if (match) {
+          return (
+            <Link key={i} href={match[2]} className="text-primary hover:underline font-medium">
+              {match[1]}
+            </Link>
+          )
+        }
+        return <span key={i}>{part}</span>
+      })}
+    </>
+  )
+}
+
 const BASE_URL = 'https://acm2020.es'
 
 type Props = {
@@ -147,7 +167,7 @@ export default async function MunicipioPage({ params }: Props) {
           <div className="prose prose-lg max-w-none mb-12">
             {description.split('\n\n').map((paragraph, i) => (
               <p key={i} className="text-lg text-gray-600 leading-relaxed">
-                {paragraph}
+                <RichText text={paragraph} />
               </p>
             ))}
           </div>
