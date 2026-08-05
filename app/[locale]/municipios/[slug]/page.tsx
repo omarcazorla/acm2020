@@ -92,8 +92,8 @@ export default async function MunicipioPage({ params }: Props) {
 
   const name = loc === 'ca' ? municipio.nameCa : municipio.name
 
-  // Get personalized content (ES only) or fallback to template
-  const personalizedContent = loc === 'es' ? getMunicipioContent(municipio.slug) : undefined
+  // Get personalized content or fallback to template
+  const personalizedContent = getMunicipioContent(municipio.slug)
   const description = personalizedContent || municipio.descripcion[loc]
 
   // Provincia slug for breadcrumbs
