@@ -91,7 +91,7 @@ export default async function ProvinciaPage({ params }: Props) {
       />
       <PageHero
         title={t('title', { provincia: provinciaName })}
-        subtitle={`${zonaII.length + zonaI.length} ${loc === 'es' ? 'municipios de actuacion prioritaria' : loc === 'ca' ? 'municipis d\'actuacio prioritaria' : loc === 'en' ? 'priority action municipalities' : 'municipalites d\'action prioritaire'}`}
+        subtitle={`${zonaII.length + zonaI.length} ${loc === 'es' ? 'municipios de actuación prioritaria' : loc === 'ca' ? 'municipis d\'actuació prioritària' : loc === 'en' ? 'priority action municipalities' : 'municipalités d\'action prioritaire'}`}
       />
       <Breadcrumbs
         items={[
@@ -193,16 +193,16 @@ export default async function ProvinciaPage({ params }: Props) {
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
                 <h3 className="text-xl font-bold text-white mb-2">
-                  {loc === 'es' ? `Medicion de radon en ${provinciaName}` :
-                   loc === 'ca' ? `Mesurament de rado a ${provinciaName}` :
+                  {loc === 'es' ? `Medición de radón en ${provinciaName}` :
+                   loc === 'ca' ? `Mesurament de radó a ${provinciaName}` :
                    loc === 'en' ? `Radon measurement in ${provinciaName}` :
-                   `Mesure du radon a ${provinciaName}`}
+                   `Mesure du radon à ${provinciaName}`}
                 </h3>
                 <p className="text-white/70">
-                  {loc === 'es' ? 'Solicite presupuesto sin compromiso para la medicion de gas radon en su municipio.' :
-                   loc === 'ca' ? 'Sol·liciti pressupost sense compromis per al mesurament de gas rado al seu municipi.' :
+                  {loc === 'es' ? 'Solicite presupuesto sin compromiso para la medición de gas radón en su municipio.' :
+                   loc === 'ca' ? 'Sol·liciti pressupost sense compromís per al mesurament de gas radó al seu municipi.' :
                    loc === 'en' ? 'Request a no-obligation quote for radon gas measurement in your municipality.' :
-                   'Demandez un devis sans engagement pour la mesure du gaz radon dans votre municipalite.'}
+                   'Demandez un devis sans engagement pour la mesure du gaz radon dans votre municipalité.'}
                 </p>
               </div>
               <Link href="/contacto" className="btn-primary group whitespace-nowrap">

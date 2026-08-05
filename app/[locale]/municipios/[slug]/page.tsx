@@ -85,16 +85,27 @@ export default async function MunicipioPage({ params }: Props) {
   const zonaLabel = loc === 'es' ? (municipio.zonaRadon === 'alta' ? 'Alta' : municipio.zonaRadon === 'media' ? 'Media' : 'Baja') :
     loc === 'ca' ? (municipio.zonaRadon === 'alta' ? 'Alta' : municipio.zonaRadon === 'media' ? 'Mitjana' : 'Baixa') :
     loc === 'en' ? (municipio.zonaRadon === 'alta' ? 'High' : municipio.zonaRadon === 'media' ? 'Medium' : 'Low') :
-    (municipio.zonaRadon === 'alta' ? 'Elevee' : municipio.zonaRadon === 'media' ? 'Moyenne' : 'Faible')
+    (municipio.zonaRadon === 'alta' ? 'Élevée' : municipio.zonaRadon === 'media' ? 'Moyenne' : 'Faible')
 
   const zonaColor = municipio.zonaRadon === 'alta' ? 'bg-red-100 text-red-700' :
     municipio.zonaRadon === 'media' ? 'bg-yellow-100 text-yellow-700' : 'bg-green-100 text-green-700'
 
   const name = loc === 'ca' ? municipio.nameCa : municipio.name
 
-  // Get personalized content or fallback to template
+  // Get personalized content (ES only) or fallback to template
   const personalizedContent = getMunicipioContent(municipio.slug)
-  const description = personalizedContent || municipio.descripcion[loc]
+  let description = loc === 'es' && personalizedContent
+    ? personalizedContent
+    : municipio.descripcion[loc]
+
+  // Append "limita con" paragraph to non-ES locales (proper nouns + zone info)
+  if (loc !== 'es' && personalizedContent) {
+    const paragraphs = personalizedContent.split('\n\n')
+    const limitaCon = paragraphs.find(p => p.includes('limita con'))
+    if (limitaCon) {
+      description = description + '\n\n' + limitaCon
+    }
+  }
 
   // Provincia slug for breadcrumbs
   const provinciaSlug = municipio.provincia.toLowerCase()
@@ -143,12 +154,12 @@ export default async function MunicipioPage({ params }: Props) {
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5 text-primary" />
               <span className={`text-sm px-3 py-1 rounded-full font-semibold ${zonaColor}`}>
-                {loc === 'es' ? 'Zona de exposicion' : loc === 'ca' ? 'Zona d\'exposicio' : loc === 'en' ? 'Exposure zone' : 'Zone d\'exposition'}: {zonaLabel}
+                {loc === 'es' ? 'Zona de exposición' : loc === 'ca' ? 'Zona d\'exposició' : loc === 'en' ? 'Exposure zone' : 'Zone d\'exposition'}: {zonaLabel}
               </span>
             </div>
             {municipio.zonaActuacion && (
               <span className={`text-sm px-3 py-1 rounded-full font-semibold ${municipio.zonaActuacion === 'II' ? 'bg-red-100 text-red-700' : 'bg-yellow-100 text-yellow-700'}`}>
-                {loc === 'es' ? 'Zona de actuacion prioritaria' : loc === 'ca' ? 'Zona d\'actuacio prioritaria' : loc === 'en' ? 'Priority action zone' : 'Zone d\'action prioritaire'}: {tProv(municipio.zonaActuacion === 'II' ? 'zonaII' : 'zonaI')}
+                {loc === 'es' ? 'Zona de actuación prioritaria' : loc === 'ca' ? 'Zona d\'actuació prioritària' : loc === 'en' ? 'Priority action zone' : 'Zone d\'action prioritaire'}: {tProv(municipio.zonaActuacion === 'II' ? 'zonaII' : 'zonaI')}
               </span>
             )}
           </div>
@@ -179,13 +190,13 @@ export default async function MunicipioPage({ params }: Props) {
                 <Shield className="w-10 h-10 text-primary" />
                 <div>
                   <h3 className="text-xl font-bold text-white">
-                    {loc === 'es' ? `Servicios de radon en ${name}` :
-                     loc === 'ca' ? `Serveis de rado a ${name}` :
+                    {loc === 'es' ? `Servicios de radón en ${name}` :
+                     loc === 'ca' ? `Serveis de radó a ${name}` :
                      loc === 'en' ? `Radon services in ${name}` :
                      `Services radon a ${name}`}
                   </h3>
                   <p className="text-white/70 text-sm">
-                    {loc === 'es' ? 'Medicion, diagnostico y soluciones profesionales' :
+                    {loc === 'es' ? 'Medición, diagnóstico y soluciones profesionales' :
                      loc === 'ca' ? 'Mesurament, diagnostic i solucions professionals' :
                      loc === 'en' ? 'Measurement, diagnosis, and professional solutions' :
                      'Mesure, diagnostic et solutions professionnelles'}
@@ -209,7 +220,7 @@ export default async function MunicipioPage({ params }: Props) {
                 {loc === 'es' ? 'Preguntas frecuentes' :
                  loc === 'ca' ? 'Preguntes frequents' :
                  loc === 'en' ? 'Frequently asked questions' :
-                 'Questions frequentes'}
+                 'Questions fréquentes'}
               </h2>
               <FAQAccordion
                 items={municipio.faqs[loc].map((faq) => ({
@@ -227,7 +238,7 @@ export default async function MunicipioPage({ params }: Props) {
                 {loc === 'es' ? `Otros municipios en ${municipio.comarca}` :
                  loc === 'ca' ? `Altres municipis a ${municipio.comarca}` :
                  loc === 'en' ? `Other municipalities in ${municipio.comarca}` :
-                 `Autres municipalites a ${municipio.comarca}`}
+                 `Autres municipalités à ${municipio.comarca}`}
               </h2>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {nearby.map((m) => {
@@ -236,7 +247,7 @@ export default async function MunicipioPage({ params }: Props) {
                   const nearbyZonaLabel = loc === 'es' ? (m.zonaRadon === 'alta' ? 'Alta' : m.zonaRadon === 'media' ? 'Media' : 'Baja') :
                     loc === 'ca' ? (m.zonaRadon === 'alta' ? 'Alta' : m.zonaRadon === 'media' ? 'Mitjana' : 'Baixa') :
                     loc === 'en' ? (m.zonaRadon === 'alta' ? 'High' : m.zonaRadon === 'media' ? 'Medium' : 'Low') :
-                    (m.zonaRadon === 'alta' ? 'Elevee' : m.zonaRadon === 'media' ? 'Moyenne' : 'Faible')
+                    (m.zonaRadon === 'alta' ? 'Élevée' : m.zonaRadon === 'media' ? 'Moyenne' : 'Faible')
 
                   return (
                     <Link

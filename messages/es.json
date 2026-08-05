@@ -443,7 +443,7 @@
         "sections": [
           {
             "title": "Importancia de la detección temprana",
-            "content": "La detección temprana del amianto en comunidades aporta multiples beneficios: previene el deterioro estructural de los materiales que estan llegando al final de su vida útil, reduce los costes a largo plazo al evitar reparaciones más costosas y problemas legales, y aumenta el valor patrimonial del edificio. Además, la retirada del amianto esta planificada dentro del marco legal europeo para 2032, lo que hace conveniente anticipar las actuaciones."
+            "content": "La detección temprana del amianto en comunidades aporta múltiples beneficios: previene el deterioro estructural de los materiales que estánllegando al final de su vida útil, reduce los costes a largo plazo al evitar reparaciones más costosas y problemas legales, y aumenta el valor patrimonial del edificio. Además, la retirada del amianto está planificada dentro del marco legal europeo para 2032, lo que hace conveniente anticipar las actuaciones."
           },
           {
             "title": "Elementos comunes con amianto",
@@ -517,7 +517,7 @@
           },
           {
             "title": "Beneficios del diagnóstico",
-            "content": "Contar con el diagnóstico de amianto de ACM-2020 para la certificación BREEAM aporta multiples beneficios: cumplimiento de los requisitos normativos del estándar, protección de la salud de los ocupantes mediante la identificación de amianto presente, contribución a la obtención de una puntuación superior en las categorias de salud y materiales, y demostración del compromiso con la sostenibilidad y la responsabilidad social del edificio."
+            "content": "Contar con el diagnóstico de amianto de ACM-2020 para la certificación BREEAM aporta múltiples beneficios: cumplimiento de los requisitos normativos del estándar, protección de la salud de los ocupantes mediante la identificación de amianto presente, contribución a la obtención de una puntuación superior en las categorías de salud y materiales, y demostración del compromiso con la sostenibilidad y la responsabilidad social del edificio."
           },
           {
             "title": "Experiencia y cumplimiento",
@@ -528,7 +528,7 @@
           "Informes de diagnóstico adaptados a los requisitos específicos de BREEAM",
           "Inspección visual, muestreo y análisis de laboratorio completos",
           "Plan de remediación con recomendaciones para eliminación segura",
-          "Contribución a la puntuación en las categorias de salud y materiales de BREEAM",
+          "Contribución a la puntuación en las categorías de salud y materiales de BREEAM",
           "Equipo especializado con experiencia en diagnóstico y certificación"
         ],
         "regulations": "Estandar BREEAM (Building Research Establishment Environmental Assessment Method), ISO/IEC 17020, UNE 171370-2:2021, RD 396/2006, Directiva 2009/148/CE."
@@ -565,7 +565,7 @@
         "title": "Control Periódico de Superficies Tratadas",
         "description": "Inspecciones periódicas de superficies estabilizadas, encapsuladas o confinadas con materiales con amianto para verificar el mantenimiento de las condiciones de seguridad.",
         "metaDescription": "Control periódico de superficies con amianto tratadas. Inspecciones para verificar estabilización, encapsulado o confinamiento. Cumplimiento del RD 396/2006.",
-        "intro": "La entidad propietaria o gestora de un edificio o instalación con materiales con amianto tiene, entre otras multiples obligaciones, la de disponer de una sistemática de control y gestión de todos los puntos críticos que contengan amianto.\n\nCuando un material con amianto no ha finalizado su vida útil, o cuando ha sido objeto de estabilización, encapsulado o confinamiento mediante un Plan de Trabajo ejecutado por una empresa RERA, es obligación de la Propiedad disponer de una metodología de inspección periódica sobre los elementos tratados y mantener las condiciones posteriores al tratamiento.\n\nACM-2020 realiza inspecciones periódicas con el objetivo de evidenciar el mantenimiento de las condiciones iniciales despues de un plan de trabajo, detectando cualquier incidencia que pueda generar riesgos de exposición al amianto.",
+        "intro": "La entidad propietaria o gestora de un edificio o instalación con materiales con amianto tiene, entre otras múltiples obligaciones, la de disponer de una sistemática de control y gestión de todos los puntos críticos que contengan amianto.\n\nCuando un material con amianto no ha finalizado su vida útil, o cuando ha sido objeto de estabilización, encapsulado o confinamiento mediante un Plan de Trabajo ejecutado por una empresa RERA, es obligación de la Propiedad disponer de una metodología de inspección periódica sobre los elementos tratados y mantener las condiciones posteriores al tratamiento.\n\nACM-2020 realiza inspecciones periódicas con el objetivo de evidenciar el mantenimiento de las condiciones iniciales despues de un plan de trabajo, detectando cualquier incidencia que pueda generar riesgos de exposición al amianto.",
         "sections": [
           {
             "title": "Objetivo del servicio",
@@ -621,25 +621,25 @@
     "radon": {
       "measurement": {
         "title": "Mediciones de Gas Radon",
-        "description": "Mediciones de la concentración promedio anual de gas radon en espacios interiores mediante detectores pasivos analizados en laboratorio acreditado conforme a UNE-EN ISO/IEC 17025.",
-        "metaDescription": "Mediciones de gas radon con detectores pasivos en laboratorio acreditado ENAC. Cumplimiento del RD 1029/2022 y CTE DB HS6. Ámbito laboral y residencial.",
-        "intro": "Las mediciones de la concentración promedio anual de gas radon son el único metodo fiable para determinar la presencia y cantidad de este gas radiactivo en espacios interiores. El radon es un gas natural, inodoro e invisible, que procede del terreno y puede acumularse en el interior de los edificios, representando un riesgo significativo para la salud cuando supera los niveles de referencia establecidos.\n\nACM-2020 realiza mediciones de larga duración (2-3 meses) con detectores pasivos analizados en laboratorio acreditado conforme a UNE-EN ISO/IEC 17025:2017 por la Entidad Nacional de Acreditación (ENAC), o por otro organismo nacional de acreditación designado de acuerdo con la normativa europea.\n\nLa Directiva EURATOM 59/2013 de la Union Europea ha establecido un marco de referencia para la protección frente al radon, fijando un nivel de referencia de 300 Bq/m3 en concentración anual, valor adoptado por la legislación española. Las mediciones profesionales son la única forma de saber con certeza si un espacio interior supera este umbral.",
+        "description": "Mediciones de la concentración promedio anual de gas radón en espacios interiores mediante detectores pasivos analizados en laboratorio acreditado conforme a UNE-EN ISO/IEC 17025.",
+        "metaDescription": "Mediciones de gas radón con detectores pasivos en laboratorio acreditado ENAC. Cumplimiento del RD 1029/2022 y CTE DB HS6. Ámbito laboral y residencial.",
+        "intro": "Las mediciones de la concentración promedio anual de gas radón son el único metodo fiable para determinar la presencia y cantidad de este gas radiactivo en espacios interiores. El radón es un gas natural, inodoro e invisible, que procede del terreno y puede acumularse en el interior de los edificios, representando un riesgo significativo para la salud cuando supera los niveles de referencia establecidos.\n\nACM-2020 realiza mediciones de larga duración (2-3 meses) con detectores pasivos analizados en laboratorio acreditado conforme a UNE-EN ISO/IEC 17025:2017 por la Entidad Nacional de Acreditación (ENAC), o por otro organismo nacional de acreditación designado de acuerdo con la normativa europea.\n\nLa Directiva EURATOM 59/2013 de la Union Europea ha establecido un marco de referencia para la protección frente al radón, fijando un nivel de referencia de 300 Bq/m3 en concentración anual, valor adoptado por la legislación española. Las mediciones profesionales son la única forma de saber con certeza si un espacio interior supera este umbral.",
         "sections": [
           {
             "title": "Metodología de medición",
-            "content": "Las mediciones se realizan mediante detectores de tipo pasivo que se instalan en los espacios interiores durante un periodo mínimo de 2 meses (para viviendas y locales habitables) o 3 meses (para lugares de trabajo). Este periodo prolongado es necesario porque la concentración de radon varia diariamente en función de factores como la ventilación, la temperatura, la presión atmosférica y las condiciones del terreno. Los detectores se envian posteriormente a un laboratorio acreditado para su lectura y análisis."
+            "content": "Las mediciones se realizan mediante detectores de tipo pasivo que se instalan en los espacios interiores durante un periodo mínimo de 2 meses (para viviendas y locales habitables) o 3 meses (para lugares de trabajo). Este periodo prolongado es necesario porque la concentración de radón varia diariamente en función de factores como la ventilación, la temperatura, la presión atmosférica y las condiciones del terreno. Los detectores se envian posteriormente a un laboratorio acreditado para su lectura y análisis."
           },
           {
             "title": "Ámbitos de aplicación",
-            "content": "Las mediciones se aplican en distintos ámbitos: lugares de trabajo (oficinas, fabricas, almacenes, cuevas, minas e instalaciones subterraneas), viviendas y locales habitables (dormitorios, comedores, salones, cocinas, despachos, aulas, bibliotecas, salas de espera), edificios existentes en caso de ampliaciones, cambios de uso o reformas que afecten a la protección frente al radon, y espacios públicos como parte de las politicas de calidad del aire interior y salud pública."
+            "content": "Las mediciones se aplican en distintos ámbitos: lugares de trabajo (oficinas, fabricas, almacenes, cuevas, minas e instalaciones subterraneas), viviendas y locales habitables (dormitorios, comedores, salones, cocinas, despachos, aulas, bibliotecas, salas de espera), edificios existentes en caso de ampliaciones, cambios de uso o reformas que afecten a la protección frente al radón, y espacios públicos como parte de las políticas de calidad del aire interior y salud pública."
           },
           {
             "title": "Nivel de referencia",
-            "content": "El estado español fija un valor de referencia de 300 Bq/m3 como concentración promedio anual de gas radon. Es importante distinguir que se trata de un valor de referencia, no de un valor limite. Algunos países europeos han adoptado valores inferiores de 200 o incluso 100 Bq/m3. Cuando los resultados de la medición superan este umbral, es necesario adoptar medidas correctoras para reducir la concentración de radon en el espacio afectado."
+            "content": "El estado español fija un valor de referencia de 300 Bq/m3 como concentración promedio anual de gas radón. Es importante distinguir que se trata de un valor de referencia, no de un valor limite. Algunos países europeos han adoptado valores inferiores de 200 o incluso 100 Bq/m3. Cuando los resultados de la medición superan este umbral, es necesario adoptar medidas correctoras para reducir la concentración de radón en el espacio afectado."
           },
           {
-            "title": "No fiarse de los mapas de radon",
-            "content": "No es recomendable estimar los niveles de radon en un edificio a partir de mapas de radon, ya que la concentración de este gas puede variar significativamente incluso entre edificios muy cercanos. Los mapas proporcionan una orientación general sobre las zonas de riesgo, pero la única forma de conocer la concentración real de radon en un espacio interior es realizar una medición directa con detectores calibrados y analizados en laboratorio acreditado."
+            "title": "No fiarse de los mapas de radón",
+            "content": "No es recomendable estimar los niveles de radón en un edificio a partir de mapas de radón, ya que la concentración de este gas puede variar significativamente incluso entre edificios muy cercanos. Los mapas proporcionan una orientación general sobre las zonas de riesgo, pero la única forma de conocer la concentración real de radón en un espacio interior es realizar una medición directa con detectores calibrados y analizados en laboratorio acreditado."
           }
         ],
         "keyPoints": [
@@ -647,31 +647,31 @@
           "Mediciones de larga duración (2-3 meses) para resultados fiables",
           "Valor de referencia en España: 300 Bq/m3 de concentración promedio anual",
           "Aplicable a ámbito laboral, residencial, reformas y salud pública",
-          "Los mapas de radon no sustituyen a la medición directa en cada edificio"
+          "Los mapas de radón no sustituyen a la medición directa en cada edificio"
         ],
-        "regulations": "Directiva 2013/59/EURATOM (Normas básicas de seguridad frente a radiaciones ionizantes), RD 1029/2022 (Reglamento sobre protección de la salud contra radiaciones ionizantes), RD 732/2019 (Modificación del CTE, nueva exigencia DB HS6), CTE DB HS6 (Protección frente al gas radon), Instrucción NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
+        "regulations": "Directiva 2013/59/EURATOM (Normas básicas de seguridad frente a radiaciones ionizantes), RD 1029/2022 (Reglamento sobre protección de la salud contra radiaciones ionizantes), RD 732/2019 (Modificación del CTE, nueva exigencia DB HS6), CTE DB HS6 (Protección frente al gas radón), Instrucción NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "residential": {
         "title": "Radon en Viviendas",
-        "description": "Servicio de medición de gas radon en viviendas y locales habitables para conocer la concentración real y adoptar medidas de protección si es necesario.",
-        "metaDescription": "Medición de gas radon en viviendas y locales habitables. Detectores acreditados, resultados fiables y asesoramiento personalizado. Consulta gratuita.",
-        "intro": "Conocer si tu vivienda tiene niveles elevados de radon es el primer paso para proteger la salud de tu familia. El radon es un gas radiactivo natural que puede acumularse en el interior de las casas y que esta clasificado como la segúnda causa de cancer de pulmon despues del tabaco.\n\nPara saber si hay radon en tu casa, se deben instalar detectores durante un periodo mínimo de 2-3 meses. Este tiempo es necesario porque la cantidad de radon cambia todos los dias en función de multiples factores. Solo así se obtiene una medición correcta que permita evaluar si existe algun riesgo.\n\nACM-2020 es una empresa fiable y experta en la medición de gas radon en viviendas. Conocemos bien todas las directrices vigentes de Europa y España, y estamos preparados para ofrecer una medición acreditada que te permita conocer el nivel real de radon en tu hogar y actuar en consecuencia.",
+        "description": "Servicio de medición de gas radón en viviendas y locales habitables para conocer la concentración real y adoptar medidas de protección si es necesario.",
+        "metaDescription": "Medición de gas radón en viviendas y locales habitables. Detectores acreditados, resultados fiables y asesoramiento personalizado. Consulta gratuita.",
+        "intro": "Conocer si tu vivienda tiene niveles elevados de radón es el primer paso para proteger la salud de tu familia. El radón es un gas radiactivo natural que puede acumularse en el interior de las casas y que esta clasificado como la segúnda causa de cancer de pulmon despues del tabaco.\n\nPara saber si hay radón en tu casa, se deben instalar detectores durante un periodo mínimo de 2-3 meses. Este tiempo es necesario porque la cantidad de radón cambia todos los dias en función de múltiples factores. Solo así se obtiene una medición correcta que permita evaluar si existe algun riesgo.\n\nACM-2020 es una empresa fiable y experta en la medición de gas radón en viviendas. Conocemos bien todas las directrices vigentes de Europa y España, y estamos preparados para ofrecer una medición acreditada que te permita conocer el nivel real de radón en tu hogar y actuar en consecuencia.",
         "sections": [
           {
-            "title": "Cómo se mide el radon en viviendas",
-            "content": "Para determinar la concentración de radon en una vivienda, se instalan detectores pasivos en las estancias de uso habitual (dormitorios, salon, estudio) durante un mínimo de 2 meses. Los detectores son dispositivos pequenos y discretos que no requieren electricidad ni mantenimiento. Una vez finalizado el periodo de medición, se recogen y envian a un laboratorio acreditado para su análisis. Los resultados se expresan en Bq/m3 (Becquerel por metro cubico)."
+            "title": "Cómo se mide el radón en viviendas",
+            "content": "Para determinar la concentración de radón en una vivienda, se instalan detectores pasivos en las estancias de uso habitual (dormitorios, salon, estudio) durante un mínimo de 2 meses. Los detectores son dispositivos pequenos y discretos que no requieren electricidad ni mantenimiento. Una vez finalizado el periodo de medición, se recogen y envian a un laboratorio acreditado para su análisis. Los resultados se expresan en Bq/m3 (Becquerel por metro cubico)."
           },
           {
             "title": "Cuándo es necesario medir",
-            "content": "La medición de radon es especialmente recomendable en viviendas situadas en municipios de actuación prioritaria (zonas con riesgo conocido de radon), en planta baja o semisotano, en edificios sin barreras de protección frente al terreno, y en cualquier vivienda donde no se haya realizado nunca una medición. También es obligatorio medir en edificios existentes que se sometan a ampliaciones, cambios de uso o reformas que afecten a la protección frente al radon."
+            "content": "La medición de radón es especialmente recomendable en viviendas situadas en municipios de actuación prioritaria (zonas con riesgo conocido de radón), en planta baja o semisotano, en edificios sin barreras de protección frente al terreno, y en cualquier vivienda donde no se haya realizado nunca una medición. También es obligatorio medir en edificios existentes que se sometan a ampliaciones, cambios de uso o reformas que afecten a la protección frente al radón."
           },
           {
             "title": "Qué hacer si los niveles son altos",
-            "content": "Si la concentración promedio anual de radon supera los 300 Bq/m3, es necesario adoptar medidas correctoras. Estas pueden incluir la mejora de la ventilación del edificio, la instalación de sistemas de extracción de radon del terreno (despresurización del terreno), el sellado de grietas y juntas en contacto con el suelo, o la instalación de membranas anti-radon. ACM-2020 asesora sobre las medidas más adecuadas para cada caso."
+            "content": "Si la concentración promedio anual de radón supera los 300 Bq/m3, es necesario adoptar medidas correctoras. Estas pueden incluir la mejora de la ventilación del edificio, la instalación de sistemas de extracción de radón del terreno (despresurización del terreno), el sellado de grietas y juntas en contacto con el suelo, o la instalación de membranas anti-radón. ACM-2020 asesora sobre las medidas más adecuadas para cada caso."
           },
           {
             "title": "Servicio de medición acreditada",
-            "content": "ACM-2020 ofrece un servicio completo de medición de radon en viviendas que incluye la visita técnica para la colocación de detectores, la recogida al finalizar el periodo de medición, el análisis en laboratorio acreditado conforme a UNE-EN ISO/IEC 17025, el informe de resultados con interpretación y recomendaciones, y el asesoramiento personalizado sobre las medidas a adoptar si los niveles son elevados."
+            "content": "ACM-2020 ofrece un servicio completo de medición de radón en viviendas que incluye la visita técnica para la colocación de detectores, la recogida al finalizar el periodo de medición, el análisis en laboratorio acreditado conforme a UNE-EN ISO/IEC 17025, el informe de resultados con interpretación y recomendaciones, y el asesoramiento personalizado sobre las medidas a adoptar si los niveles son elevados."
           }
         ],
         "keyPoints": [
@@ -681,17 +681,17 @@
           "Informe de resultados con interpretación clara y recomendaciones prácticas",
           "Asesoramiento personalizado sobre medidas correctoras si los niveles superan 300 Bq/m3"
         ],
-        "regulations": "RD 732/2019 (Modificación del CTE, exigencia DB HS6), CTE DB HS6 (Protección frente al gas radon), Directiva 2013/59/EURATOM, Instrucción NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
+        "regulations": "RD 732/2019 (Modificación del CTE, exigencia DB HS6), CTE DB HS6 (Protección frente al gas radón), Directiva 2013/59/EURATOM, Instrucción NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "workspace": {
         "title": "Radon en Lugares de Trabajo",
-        "description": "Medición de la concentración promedio anual de gas radon en lugares de trabajo para cumplir con las obligaciones del RD 1029/2022 de protección frente a radiaciones ionizantes.",
-        "metaDescription": "Medición de radon en lugares de trabajo conforme al RD 1029/2022. Detectores pasivos, laboratorio acreditado y asesoramiento para cumplimiento normativo.",
-        "intro": "La medición de gas radon en lugares de trabajo es una obligación derivada del Real Decreto 1029/2022, que establece el reglamento sobre protección de la salud contra los riesgos derivados de la exposición a las radiaciones ionizantes. Los empleadores deben conocer la concentración de radon en sus instalaciones y adoptar las medidas necesarias para proteger la salud de los trabajadores.\n\nEl ámbito laboral abarca todo tipo de espacios de trabajo: oficinas, fabricas, almacenes, talleres, cuevas, minas y otras instalaciones subterraneas. Las mediciones deben realizarse con detectores pasivos durante un periodo mínimo de 3 meses para obtener una concentración media representativa.\n\nACM-2020 realiza mediciones de radon en lugares de trabajo con carácter informativo, proporcionando a las empresas la información necesaria para evaluar el riesgo y cumplir con sus obligaciones legales en materia de protección radiologica.",
+        "description": "Medición de la concentración promedio anual de gas radón en lugares de trabajo para cumplir con las obligaciones del RD 1029/2022 de protección frente a radiaciones ionizantes.",
+        "metaDescription": "Medición de radón en lugares de trabajo conforme al RD 1029/2022. Detectores pasivos, laboratorio acreditado y asesoramiento para cumplimiento normativo.",
+        "intro": "La medición de gas radón en lugares de trabajo es una obligación derivada del Real Decreto 1029/2022, que establece el reglamento sobre protección de la salud contra los riesgos derivados de la exposición a las radiaciones ionizantes. Los empleadores deben conocer la concentración de radón en sus instalaciones y adoptar las medidas necesarias para proteger la salud de los trabajadores.\n\nEl ámbito laboral abarca todo tipo de espacios de trabajo: oficinas, fabricas, almacenes, talleres, cuevas, minas y otras instalaciones subterraneas. Las mediciones deben realizarse con detectores pasivos durante un periodo mínimo de 3 meses para obtener una concentración media representativa.\n\nACM-2020 realiza mediciones de radón en lugares de trabajo con carácter informativo, proporcionando a las empresas la información necesaria para evaluar el riesgo y cumplir con sus obligaciones legales en materia de protección radiologica.",
         "sections": [
           {
             "title": "Obligaciones del empleador",
-            "content": "El RD 1029/2022 establece que los titulares de lugares de trabajo situados en zonas de actuación prioritaria deben realizar mediciones de la concentración de radon. Si los resultados superan el valor de referencia de 300 Bq/m3, deben adoptarse medidas correctoras para reducir la exposición de los trabajadores. Estas obligaciones son especialmente relevantes para actividades laborales en plantas bajas, semisotanos, sotanos y cualquier espacio en contacto con el terreno."
+            "content": "El RD 1029/2022 establece que los titulares de lugares de trabajo situados en zonas de actuación prioritaria deben realizar mediciones de la concentración de radón. Si los resultados superan el valor de referencia de 300 Bq/m3, deben adoptarse medidas correctoras para reducir la exposición de los trabajadores. Estas obligaciones son especialmente relevantes para actividades laborales en plantas bajas, semisotanos, sotanos y cualquier espacio en contacto con el terreno."
           },
           {
             "title": "Protocolo de medición laboral",
@@ -699,43 +699,43 @@
           },
           {
             "title": "Sectores especialmente afectados",
-            "content": "Determinados sectores laborales presentan un riesgo mayor de exposición al radon: trabajos subterraneos (minas, tuneles, cuevas turisticas), trabajos en contacto directo con el terreno (plantas bajas, semisotanos), actividades en zonas de actuación prioritaria definidas por el CSN, y trabajos en instalaciones de tratamiento de aguas, balnearios y establecimientos termales. En estos sectores, la medición de radon es especialmente crítica."
+            "content": "Determinados sectores laborales presentan un riesgo mayor de exposición al radón: trabajos subterraneos (minas, tuneles, cuevas turisticas), trabajos en contacto directo con el terreno (plantas bajas, semisotanos), actividades en zonas de actuación prioritaria definidas por el CSN, y trabajos en instalaciones de tratamiento de aguas, balnearios y establecimientos termales. En estos sectores, la medición de radón es especialmente crítica."
           },
           {
             "title": "Integración con la prevención de riesgos",
-            "content": "Los resultados de las mediciones de radon deben integrarse en la evaluación de riesgos laborales de la empresa. ACM-2020 proporciona el asesoramiento necesario para que los servicios de prevención (SPP o SPA) puedan incorporar el riesgo de exposición al radon en sus planes de prevención y adoptar las medidas de protección adecuadas conforme a la normativa vigente."
+            "content": "Los resultados de las mediciones de radón deben integrarse en la evaluación de riesgos laborales de la empresa. ACM-2020 proporciona el asesoramiento necesario para que los servicios de prevención (SPP o SPA) puedan incorporar el riesgo de exposición al radón en sus planes de prevención y adoptar las medidas de protección adecuadas conforme a la normativa vigente."
           }
         ],
         "keyPoints": [
           "Cumplimiento de las obligaciones del RD 1029/2022 para empleadores",
           "Mediciones con detectores pasivos durante mínimo 3 meses en ámbito laboral",
           "Análisis en laboratorio acreditado ENAC conforme a UNE-EN ISO/IEC 17025",
-          "Asesoramiento para la integración del riesgo de radon en la prevención de riesgos laborales",
+          "Asesoramiento para la integración del riesgo de radón en la prevención de riesgos laborales",
           "Especial atención a sectores de riesgo: trabajos subterraneos, plantas bajas y zonas prioritarias"
         ],
         "regulations": "RD 1029/2022 (Reglamento sobre protección de la salud contra radiaciones ionizantes), Directiva 2013/59/EURATOM, UNE-EN ISO/IEC 17025:2017, Instrucción NOR/19-001 del CSN, Ley 31/1995 de Prevención de Riesgos Laborales."
       },
       "reports": {
         "title": "Informes Tecnicos de Radon",
-        "description": "Elaboración de informes técnicos especializados sobre mediciones de radon, evaluación de resultados y recomendaciones de actuación para propietarios, empresas y organismos públicos.",
-        "metaDescription": "Informes técnicos de radon: resultados de mediciones, evaluación de riesgos y recomendaciones. Para reformas, cambios de uso y cumplimiento normativo.",
-        "intro": "Los informes técnicos de radon constituyen la documentación esencial que acredita los resultados de las mediciones y proporciona las recomendaciones de actuación necesarias para cada caso. ACM-2020 elabora informes rigurosos y detallados que sirven tanto para el cumplimiento normativo como para la toma de decisiones por parte de propietarios, empresas y administraciones públicas.\n\nCada informe se elabora en base a los datos obtenidos de las mediciones con detectores pasivos analizados en laboratorio acreditado, e incluye la interpretación de los resultados, la comparación con los valores de referencia establecidos por la normativa y las recomendaciones específicas para cada situación.\n\nEstos informes son especialmente relevantes en el contexto de reformas, ampliaciones y cambios de uso de edificios existentes, donde el CTE DB HS6 exige verificar las condiciones de protección frente al radon.",
+        "description": "Elaboración de informes técnicos especializados sobre mediciones de radón, evaluación de resultados y recomendaciones de actuación para propietarios, empresas y organismos públicos.",
+        "metaDescription": "Informes técnicos de radón: resultados de mediciones, evaluación de riesgos y recomendaciones. Para reformas, cambios de uso y cumplimiento normativo.",
+        "intro": "Los informes técnicos de radón constituyen la documentación esencial que acredita los resultados de las mediciones y proporciona las recomendaciones de actuación necesarias para cada caso. ACM-2020 elabora informes rigurosos y detallados que sirven tanto para el cumplimiento normativo como para la toma de decisiones por parte de propietarios, empresas y administraciones públicas.\n\nCada informe se elabora en base a los datos obtenidos de las mediciones con detectores pasivos analizados en laboratorio acreditado, e incluye la interpretación de los resultados, la comparación con los valores de referencia establecidos por la normativa y las recomendaciones específicas para cada situación.\n\nEstos informes son especialmente relevantes en el contexto de reformas, ampliaciones y cambios de uso de edificios existentes, donde el CTE DB HS6 exige verificar las condiciones de protección frente al radón.",
         "sections": [
           {
             "title": "Contenido del informe técnico",
-            "content": "Cada informe técnico de radon incluye: la descripción del edificio o local medido, la ubicación y características de los puntos de medición, el periodo de medición y las condiciones durante el mismo, los resultados de las mediciones expresados en Bq/m3 con su incertidumbre asociada, la comparación con el valor de referencia de 300 Bq/m3, la interpretación de los resultados y las recomendaciones de actuación específicas."
+            "content": "Cada informe técnico de radón incluye: la descripción del edificio o local medido, la ubicación y características de los puntos de medición, el periodo de medición y las condiciones durante el mismo, los resultados de las mediciones expresados en Bq/m3 con su incertidumbre asociada, la comparación con el valor de referencia de 300 Bq/m3, la interpretación de los resultados y las recomendaciones de actuación específicas."
           },
           {
             "title": "Informes para reformas y cambios de uso",
-            "content": "Cuando un edificio existente se somete a una ampliación, cambio de uso o reforma que pueda afectar a la protección frente al radon, es necesario realizar mediciones y documentar los resultados en un informe técnico. ACM-2020 elabora estos informes conforme a las directrices del CTE DB HS6, proporcionando la documentación necesaria para el expediente de obra y la justificación del cumplimiento normativo."
+            "content": "Cuando un edificio existente se somete a una ampliación, cambio de uso o reforma que pueda afectar a la protección frente al radón, es necesario realizar mediciones y documentar los resultados en un informe técnico. ACM-2020 elabora estos informes conforme a las directrices del CTE DB HS6, proporcionando la documentación necesaria para el expediente de obra y la justificación del cumplimiento normativo."
           },
           {
             "title": "Informes para empresas y servicios de prevención",
-            "content": "Los informes de medición de radon en el ámbito laboral proporcionan a las empresas y sus servicios de prevención la información necesaria para evaluar el riesgo de exposición de los trabajadores. El informe incluye la valoración de los resultados en relación con el RD 1029/2022 y las recomendaciones para la adopción de medidas correctoras en caso de superar el valor de referencia."
+            "content": "Los informes de medición de radón en el ámbito laboral proporcionan a las empresas y sus servicios de prevención la información necesaria para evaluar el riesgo de exposición de los trabajadores. El informe incluye la valoración de los resultados en relación con el RD 1029/2022 y las recomendaciones para la adopción de medidas correctoras en caso de superar el valor de referencia."
           },
           {
             "title": "Informes para administraciones públicas",
-            "content": "ACM-2020 elabora informes para organismos públicos que necesitan conocer la concentración de radon en edificios de titularidad pública, en el marco de politicas de salud pública y calidad del aire interior. Estos informes pueden incluir la evaluación de multiples edificios y la priorización de las actuaciones correctoras en función de los niveles detectados y el uso de cada espacio."
+            "content": "ACM-2020 elabora informes para organismos públicos que necesitan conocer la concentración de radón en edificios de titularidad pública, en el marco de políticas de salud pública y calidad del aire interior. Estos informes pueden incluir la evaluación de múltiples edificios y la priorización de las actuaciones correctoras en función de los niveles detectados y el uso de cada espacio."
           }
         ],
         "keyPoints": [
@@ -749,17 +749,17 @@
       },
       "training": {
         "title": "Formación en Gas Radon",
-        "description": "Programas formativos especializados en gas radon para técnicos, servicios de prevención, ayuntamientos y empresas, con componente teorico y talleres prácticos de medición.",
-        "metaDescription": "Formación en gas radon: cursos para técnicos, servicios de prevención SPP/SPA y ayuntamientos. Teoria y talleres prácticos de medición in situ.",
-        "intro": "La formación en materia de gas radon es fundamental para que los profesionales involucrados en la protección de la salud, la prevención de riesgos laborales y la gestión de edificios dispongan de los conocimientos necesarios para abordar esta problemática con solvencia.\n\nACM-2020 ofrece programas formativos adaptados a distintos perfiles profesionales y niveles de conocimiento: desde técnicos de ayuntamientos que necesitan entender los requisitos normativos básicos, hasta técnicos de servicios de prevención que deben integrar el riesgo de radon en sus evaluaciones, o profesionales que quieren aprender a realizar mediciones de forma práctica.\n\nNuestros programas combinan formación teorica sobre el gas radon (origen, riesgos para la salud, normativa aplicable) con talleres prácticos in situ donde los asistentes aprenden a instalar detectores, planificar campanas de medición e interpretar resultados. Esta combinación de teoria y práctica garantiza una formación completa y directamente aplicable.",
+        "description": "Programas formativos especializados en gas radón para técnicos, servicios de prevención, ayuntamientos y empresas, con componente teorico y talleres prácticos de medición.",
+        "metaDescription": "Formación en gas radón: cursos para técnicos, servicios de prevención SPP/SPA y ayuntamientos. Teoria y talleres prácticos de medición in situ.",
+        "intro": "La formación en materia de gas radón es fundamental para que los profesionales involucrados en la protección de la salud, la prevención de riesgos laborales y la gestión de edificios dispongan de los conocimientos necesarios para abordar esta problemática con solvencia.\n\nACM-2020 ofrece programas formativos adaptados a distintos perfiles profesionales y niveles de conocimiento: desde técnicos de ayuntamientos que necesitan entender los requisitos normativos básicos, hasta técnicos de servicios de prevención que deben integrar el riesgo de radón en sus evaluaciones, o profesionales que quieren aprender a realizar mediciones de forma práctica.\n\nNuestros programas combinan formación teorica sobre el gas radón (origen, riesgos para la salud, normativa aplicable) con talleres prácticos in situ donde los asistentes aprenden a instalar detectores, planificar campanas de medición e interpretar resultados. Esta combinación de teoria y práctica garantiza una formación completa y directamente aplicable.",
         "sections": [
           {
             "title": "Formación para servicios de prevención",
-            "content": "Los técnicos de servicios de prevención propios (SPP) y ajenos (SPA) necesitan conocer los requisitos del RD 1029/2022 y como integrar el riesgo de exposición al radon en la evaluación de riesgos laborales. Nuestros cursos abordan la normativa aplicable, los criterios para determinar que lugares de trabajo deben ser medidos, la interpretación de los resultados de medición y las medidas correctoras disponibles."
+            "content": "Los técnicos de servicios de prevención propios (SPP) y ajenos (SPA) necesitan conocer los requisitos del RD 1029/2022 y como integrar el riesgo de exposición al radón en la evaluación de riesgos laborales. Nuestros cursos abordan la normativa aplicable, los criterios para determinar que lugares de trabajo deben ser medidos, la interpretación de los resultados de medición y las medidas correctoras disponibles."
           },
           {
             "title": "Formación para administraciones públicas",
-            "content": "ACM-2020 colabora con organismos públicos en la confección y diseño de acciones formativas dirigidas a técnicos de ayuntamientos y otras administraciones. Estos programas cubren los conceptos básicos del gas radon, la normativa de aplicación (CTE DB HS6 y RD 1029/2022), la identificación de zonas de actuación prioritaria y la gestión de consultas ciudadanas relacionadas con el radon."
+            "content": "ACM-2020 colabora con organismos públicos en la confección y diseño de acciones formativas dirigidas a técnicos de ayuntamientos y otras administraciones. Estos programas cubren los conceptos básicos del gas radón, la normativa de aplicación (CTE DB HS6 y RD 1029/2022), la identificación de zonas de actuación prioritaria y la gestión de consultas ciudadanas relacionadas con el radón."
           },
           {
             "title": "Talleres prácticos de medición",
@@ -767,7 +767,7 @@
           },
           {
             "title": "Formación para empresas",
-            "content": "Los directivos y técnicos de empresas que operan en zonas de actuación prioritaria necesitan comprender sus obligaciones en materia de protección frente al radon. Nuestros programas abordan la normativa aplicable, las responsabilidades del titular del lugar de trabajo, los procedimientos de medición y las opciones de remediación, adaptando el nivel de detalle a las necesidades específicas de cada organización."
+            "content": "Los directivos y técnicos de empresas que operan en zonas de actuación prioritaria necesitan comprender sus obligaciones en materia de protección frente al radón. Nuestros programas abordan la normativa aplicable, las responsabilidades del titular del lugar de trabajo, los procedimientos de medición y las opciones de remediación, adaptando el nivel de detalle a las necesidades específicas de cada organización."
           }
         ],
         "keyPoints": [
@@ -781,13 +781,13 @@
       },
       "howto": {
         "title": "Cómo Saber si Hay Radon",
-        "description": "Guía completa sobre como detectar y medir el gas radon en tu vivienda o lugar de trabajo, con información práctica sobre detectores, plazos y valores de referencia.",
-        "metaDescription": "Cómo saber si hay radon en tu casa o trabajo. Guía práctica: detectores pasivos, 2-3 meses de medición, valor de referencia 300 Bq/m3. Consulta gratuita.",
-        "intro": "El gas radon es un gas radiactivo natural, inodoro e invisible, que procede de la desintegración del uranio presente en el terreno. Puede acumularse en el interior de los edificios y representar un riesgo para la salud cuando la concentración supera los niveles de referencia. La única forma de saber si hay radon en un espacio interior es medirlo.\n\nMedir el radon es un proceso sencillo que consiste en instalar detectores pasivos durante un periodo de 2 a 3 meses. Este tiempo es necesario porque la concentración de radon cambia constantemente, y solo una medición prolongada permite obtener una media representativa que pueda compararse con el valor de referencia.\n\nLa normativa europea y el Codigo Técnico de la Edificación en España establecen que si la concentración promedio anual de radon supera los 300 Bq/m3, es necesario adoptar medidas correctoras. No es recomendable fiarse de los mapas de radon para estimar el nivel de un edificio concreto, ya que las concentraciones pueden variar enormemente incluso entre edificios vecinos.",
+        "description": "Guía completa sobre como detectar y medir el gas radón en tu vivienda o lugar de trabajo, con información práctica sobre detectores, plazos y valores de referencia.",
+        "metaDescription": "Cómo saber si hay radón en tu casa o trabajo. Guía práctica: detectores pasivos, 2-3 meses de medición, valor de referencia 300 Bq/m3. Consulta gratuita.",
+        "intro": "El gas radón es un gas radiactivo natural, inodoro e invisible, que procede de la desintegración del uranio presente en el terreno. Puede acumularse en el interior de los edificios y representar un riesgo para la salud cuando la concentración supera los niveles de referencia. La única forma de saber si hay radón en un espacio interior es medirlo.\n\nMedir el radón es un proceso sencillo que consiste en instalar detectores pasivos durante un periodo de 2 a 3 meses. Este tiempo es necesario porque la concentración de radón cambia constantemente, y solo una medición prolongada permite obtener una media representativa que pueda compararse con el valor de referencia.\n\nLa normativa europea y el Codigo Técnico de la Edificación en España establecen que si la concentración promedio anual de radón supera los 300 Bq/m3, es necesario adoptar medidas correctoras. No es recomendable fiarse de los mapas de radón para estimar el nivel de un edificio concreto, ya que las concentraciones pueden variar enormemente incluso entre edificios vecinos.",
         "sections": [
           {
-            "title": "Qué es el gas radon",
-            "content": "El radon es un gas noble radiactivo que se produce de forma natural por la desintegración del radio-226, que a su vez procede del uranio-238 presente en las rocas y suelos. Al ser un gas, se filtra a traves del terreno y puede entrar en los edificios por grietas en los cimientos, juntas constructivas, conductos de instalaciones y cualquier punto de contacto entre el edificio y el terreno. Una vez en el interior, puede acumularse y alcanzar concentraciones peligrosas, especialmente en plantas bajas y sotanos con ventilación insuficiente."
+            "title": "Qué es el gas radón",
+            "content": "El radón es un gas noble radiactivo que se produce de forma natural por la desintegración del radio-226, que a su vez procede del uranio-238 presente en las rocas y suelos. Al ser un gas, se filtra a traves del terreno y puede entrar en los edificios por grietas en los cimientos, juntas constructivas, conductos de instalaciones y cualquier punto de contacto entre el edificio y el terreno. Una vez en el interior, puede acumularse y alcanzar concentraciones peligrosas, especialmente en plantas bajas y sotanos con ventilación insuficiente."
           },
           {
             "title": "Cómo se realiza la medición",
@@ -798,23 +798,23 @@
             "content": "El número de detectores necesarios depende de las características del edificio: superficie, número de plantas, distribución de los espacios y zonas de contacto con el terreno. Cómo norma general, se instala al menos un detector por cada estancia habitable en la planta más baja del edificio. ACM-2020 ofrece asesoramiento personalizado para determinar el número y ubicación optima de los detectores en cada caso."
           },
           {
-            "title": "Por qué no fiarse de los mapas de radon",
-            "content": "Los mapas de radon proporcionan una vision general de las zonas con mayor probabilidad de presentar concentraciones elevadas, pero no pueden predecir el nivel de radon en un edificio concreto. La concentración de radon depende de multiples factores locales: la geología del terreno inmediato, las características constructivas del edificio, la ventilación, la estanqueidad de la cimentación y las condiciones climáticas. Dos edificios vecinos pueden presentar concentraciones muy diferentes. La única forma de conocer el nivel real es medir."
+            "title": "Por qué no fiarse de los mapas de radón",
+            "content": "Los mapas de radón proporcionan una vision general de las zonas con mayor probabilidad de presentar concentraciones elevadas, pero no pueden predecir el nivel de radón en un edificio concreto. La concentración de radón depende de múltiples factores locales: la geología del terreno inmediato, las características constructivas del edificio, la ventilación, la estanqueidad de la cimentación y las condiciones climáticas. Dos edificios vecinos pueden presentar concentraciones muy diferentes. La única forma de conocer el nivel real es medir."
           },
           {
             "title": "Qué hacer con los resultados",
-            "content": "Si la concentración promedio anual es inferior a 300 Bq/m3, el espacio se considera seguro conforme a la normativa vigente. Si supera este valor de referencia, es necesario adoptar medidas correctoras como mejorar la ventilación, instalar sistemas de extracción de radon, sellar grietas y juntas o instalar membranas anti-radon. ACM-2020 asesora sobre las medidas más adecuadas y puede realizar mediciones de verificación posterior para confirmar la eficacia de las actuaciones."
+            "content": "Si la concentración promedio anual es inferior a 300 Bq/m3, el espacio se considera seguro conforme a la normativa vigente. Si supera este valor de referencia, es necesario adoptar medidas correctoras como mejorar la ventilación, instalar sistemas de extracción de radón, sellar grietas y juntas o instalar membranas anti-radón. ACM-2020 asesora sobre las medidas más adecuadas y puede realizar mediciones de verificación posterior para confirmar la eficacia de las actuaciones."
           }
         ],
         "keyPoints": [
-          "El radon es inodoro e invisible: la única forma de detectarlo es medirlo",
+          "El radón es inodoro e invisible: la única forma de detectarlo es medirlo",
           "Medición sencilla con detectores pasivos durante 2-3 meses",
           "Valor de referencia en España: 300 Bq/m3 de concentración promedio anual",
-          "Los mapas de radon no sustituyen a la medición directa en cada edificio",
+          "Los mapas de radón no sustituyen a la medición directa en cada edificio",
           "Asesoramiento sobre medidas correctoras si los niveles son elevados",
           "Laboratorio acreditado ENAC para análisis de los detectores"
         ],
-        "regulations": "CTE DB HS6 (Protección frente al gas radon), RD 732/2019, RD 1029/2022, Directiva 2013/59/EURATOM, Instrucción NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
+        "regulations": "CTE DB HS6 (Protección frente al gas radón), RD 732/2019, RD 1029/2022, Directiva 2013/59/EURATOM, Instrucción NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       }
     },
     "whyTitle": "¿Por qué elegir nuestros servicios?",
