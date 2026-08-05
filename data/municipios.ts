@@ -149,10 +149,10 @@ export const municipios: Municipio[] = [
   generateMunicipioData('collbato', 'Collbato', 'Collbato', 'Barcelona', 'Baix Llobregat', 'alta'),
   // Barcelona - Barcelones
   generateMunicipioData('barcelona', 'Barcelona', 'Barcelona', 'Barcelona', 'Barcelones', 'baja'),
-  generateMunicipioData('badalona', 'Badalona', 'Badalona', 'Barcelona', 'Barcelones', 'baja'),
-  generateMunicipioData('santa-coloma-de-gramenet', 'Santa Coloma de Gramenet', 'Santa Coloma de Gramenet', 'Barcelona', 'Barcelones', 'baja'),
+  generateMunicipioData('badalona', 'Badalona', 'Badalona', 'Barcelona', 'Barcelones', 'alta'),
+  generateMunicipioData('santa-coloma-de-gramenet', 'Santa Coloma de Gramenet', 'Santa Coloma de Gramenet', 'Barcelona', 'Barcelones', 'alta'),
   // Barcelona - Maresme
-  generateMunicipioData('mataro', 'Mataro', 'Mataro', 'Barcelona', 'Maresme', 'baja'),
+  generateMunicipioData('mataro', 'Mataro', 'Mataro', 'Barcelona', 'Maresme', 'media'),
   generateMunicipioData('argentona', 'Argentona', 'Argentona', 'Barcelona', 'Maresme', 'media'),
   generateMunicipioData('dosrius', 'Dosrius', 'Dosrius', 'Barcelona', 'Maresme', 'alta'),
   // Barcelona - Solsones
@@ -191,9 +191,9 @@ export const municipios: Municipio[] = [
   generateMunicipioData('banyoles', 'Banyoles', 'Banyoles', 'Girona', 'Pla de l\'Estany', 'media'),
   // Girona - Emporda
   generateMunicipioData('figueres', 'Figueres', 'Figueres', 'Girona', 'Alt Emporda', 'media'),
-  generateMunicipioData('roses', 'Roses', 'Roses', 'Girona', 'Alt Emporda', 'baja'),
+  generateMunicipioData('roses', 'Roses', 'Roses', 'Girona', 'Alt Emporda', 'media'),
   generateMunicipioData('la-bisbal-demporda', 'La Bisbal d\'Emporda', 'la Bisbal d\'Emporda', 'Girona', 'Baix Emporda', 'media'),
-  generateMunicipioData('palafrugell', 'Palafrugell', 'Palafrugell', 'Girona', 'Baix Emporda', 'baja'),
+  generateMunicipioData('palafrugell', 'Palafrugell', 'Palafrugell', 'Girona', 'Baix Emporda', 'media'),
   // Lleida - Segria
   generateMunicipioData('lleida', 'Lleida', 'Lleida', 'Lleida', 'Segria', 'baja'),
   // Lleida - Solsones
@@ -291,8 +291,8 @@ export const municipios: Municipio[] = [
   // More Girona
   generateMunicipioData('lloret-de-mar', 'Lloret de Mar', 'Lloret de Mar', 'Girona', 'Selva', 'media'),
   generateMunicipioData('blanes', 'Blanes', 'Blanes', 'Girona', 'Selva', 'media'),
-  generateMunicipioData('sant-feliu-de-guixols', 'Sant Feliu de Guixols', 'Sant Feliu de Guixols', 'Girona', 'Baix Emporda', 'baja'),
-  generateMunicipioData('palamos', 'Palamos', 'Palamos', 'Girona', 'Baix Emporda', 'baja'),
+  generateMunicipioData('sant-feliu-de-guixols', 'Sant Feliu de Guixols', 'Sant Feliu de Guixols', 'Girona', 'Baix Emporda', 'media'),
+  generateMunicipioData('palamos', 'Palamos', 'Palamos', 'Girona', 'Baix Emporda', 'media'),
   // More Barcelona Anoia
   generateMunicipioData('la-pobla-de-claramunt', 'La Pobla de Claramunt', 'la Pobla de Claramunt', 'Barcelona', 'Anoia', 'alta'),
   generateMunicipioData('els-hostalets-de-pierola', 'Els Hostalets de Pierola', 'els Hostalets de Pierola', 'Barcelona', 'Anoia', 'alta'),
