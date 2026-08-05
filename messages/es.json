@@ -1191,8 +1191,8 @@
     },
     "provinciaPage": {
       "title": "Municipios de Actuación Prioritaria en {provincia}",
-      "zonaII": "Zona II - Exposición Alta",
-      "zonaI": "Zona I - Exposición Media",
+      "zonaII": "Zona II",
+      "zonaI": "Zona I",
       "zonaIIDesc": "Obligatorio medir radón en centros de trabajo (RD 1029/2022)",
       "zonaIDesc": "Se recomienda realizar mediciones preventivas"
     },

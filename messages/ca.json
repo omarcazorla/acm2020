@@ -130,7 +130,7 @@
       },
       "workspace": {
         "title": "Espais de Treball",
-        "description": "Avaluació de radó en centres de treball segons el Reial Decret 1029/2022."
+        "description": "Avaluació de radó en llocs de treball segons el Reial Decret 1029/2022."
       },
       "reports": {
         "title": "Informes Tècnics",
@@ -369,9 +369,9 @@
     },
     "provinciaPage": {
       "title": "Municipis d'Actuació Prioritària a {provincia}",
-      "zonaII": "Zona II - Exposició Alta",
-      "zonaI": "Zona I - Exposició Mitjana",
-      "zonaIIDesc": "Obligatori mesurar radó en centres de treball (RD 1029/2022)",
+      "zonaII": "Zona II",
+      "zonaI": "Zona I",
+      "zonaIIDesc": "Obligatori mesurar radó en llocs de treball (RD 1029/2022)",
       "zonaIDesc": "Es recomana realitzar mesuraments preventius"
     },
     "privacy": {
