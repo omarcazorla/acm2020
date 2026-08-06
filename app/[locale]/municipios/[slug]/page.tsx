@@ -15,7 +15,7 @@ import type { Locale } from '@/i18n/routing'
 import { routing } from '@/i18n/routing'
 import { getPathname } from '@/i18n/navigation'
 import Link from 'next/link'
-import { ArrowRight, MapPin, Shield, AlertTriangle } from 'lucide-react'
+import { ArrowRight, MapPin, Shield, AlertTriangle, Info } from 'lucide-react'
 
 // Parse markdown-style links [text](/path) in content and render as Next.js Link components
 function RichText({ text }: { text: string }) {
@@ -149,20 +149,38 @@ export default async function MunicipioPage({ params }: Props) {
       />
       <main className="section-padding bg-white">
         <div className="container-custom max-w-4xl">
-          {/* Zone badges */}
-          <div className="flex flex-wrap items-center gap-3 mb-8">
-            <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-primary" />
-              <span className={`text-sm px-3 py-1 rounded-full font-semibold ${zonaColor}`}>
-                {loc === 'es' ? 'Zona de exposición' : loc === 'ca' ? 'Zona d\'exposició' : loc === 'en' ? 'Exposure zone' : 'Zone d\'exposition'}: {zonaLabel}
-              </span>
+          {/* Zone badges — only for Zona I / Zona II */}
+          {municipio.zonaRadon !== 'baja' && (
+            <div className="flex flex-wrap items-center gap-3 mb-8">
+              <div className="flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-primary" />
+                <span className={`text-sm px-3 py-1 rounded-full font-semibold ${zonaColor}`}>
+                  {loc === 'es' ? 'Zona de exposición' : loc === 'ca' ? 'Zona d\'exposició' : loc === 'en' ? 'Exposure zone' : 'Zone d\'exposition'}: {zonaLabel}
+                </span>
+              </div>
+              {municipio.zonaActuacion && (
+                <span className={`text-sm px-3 py-1 rounded-full font-semibold ${municipio.zonaActuacion === 'II' ? 'bg-red-100 text-red-700' : 'bg-yellow-100 text-yellow-700'}`}>
+                  {loc === 'es' ? 'Zona de actuación prioritaria' : loc === 'ca' ? 'Zona d\'actuació prioritària' : loc === 'en' ? 'Priority action zone' : 'Zone d\'action prioritaire'}: {tProv(municipio.zonaActuacion === 'II' ? 'zonaII' : 'zonaI')}
+                </span>
+              )}
             </div>
-            {municipio.zonaActuacion && (
-              <span className={`text-sm px-3 py-1 rounded-full font-semibold ${municipio.zonaActuacion === 'II' ? 'bg-red-100 text-red-700' : 'bg-yellow-100 text-yellow-700'}`}>
-                {loc === 'es' ? 'Zona de actuación prioritaria' : loc === 'ca' ? 'Zona d\'actuació prioritària' : loc === 'en' ? 'Priority action zone' : 'Zone d\'action prioritaire'}: {tProv(municipio.zonaActuacion === 'II' ? 'zonaII' : 'zonaI')}
-              </span>
-            )}
-          </div>
+          )}
+
+          {/* Info block for low-risk (baja) municipalities */}
+          {municipio.zonaRadon === 'baja' && (
+            <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8 flex items-start gap-3">
+              <Info className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
+              <p className="text-sm text-blue-700">
+                {loc === 'es'
+                  ? 'Este municipio no figura en las zonas de actuación prioritaria del CSN (RD 1029/2022). La probabilidad de concentraciones elevadas de radón es baja, aunque el gas puede aparecer en cualquier edificio. ACM-2020 recomienda la medición preventiva.'
+                  : loc === 'ca'
+                  ? 'Aquest municipi no figura en les zones d\'actuació prioritària del CSN (RD 1029/2022). La probabilitat de concentracions elevades de radó és baixa, tot i que el gas pot aparèixer a qualsevol edifici. ACM-2020 recomana la mesura preventiva.'
+                  : loc === 'en'
+                  ? 'This municipality is not listed in CSN priority action zones (RD 1029/2022). The probability of elevated radon concentrations is low, although radon can appear in any building. ACM-2020 recommends preventive measurement.'
+                  : 'Cette commune ne figure pas dans les zones d\'action prioritaires du CSN (RD 1029/2022). La probabilité de concentrations élevées de radon est faible, bien que le gaz puisse apparaître dans n\'importe quel bâtiment. ACM-2020 recommande une mesure préventive.'}
+              </p>
+            </div>
+          )}
 
           {/* Zona actuacion alert for high zones */}
           {municipio.zonaActuacion === 'II' && (
