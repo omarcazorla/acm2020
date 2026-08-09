@@ -87,15 +87,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Provincia pages
-  for (const provinciaSlug of getProvinciasSlugs()) {
-    const params = { provincia: provinciaSlug }
+  const provinciaPathnames: Pathnames[] = [
+    '/municipios/barcelona',
+    '/municipios/girona',
+    '/municipios/lleida',
+    '/municipios/tarragona',
+  ]
+  for (const path of provinciaPathnames) {
     for (const locale of routing.locales) {
       entries.push({
-        url: getUrl('/municipios/provincia/[provincia]', locale, params),
+        url: getUrl(path, locale),
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.7,
-        alternates: getAlternates('/municipios/provincia/[provincia]', params),
+        alternates: getAlternates(path),
       })
     }
   }

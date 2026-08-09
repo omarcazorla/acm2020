@@ -58,6 +58,17 @@ const nextConfig: NextConfig = {
       { source: '/privacidad', destination: '/legal/privacidad', permanent: true },
       { source: '/aviso-legal', destination: '/legal/aviso-legal', permanent: true },
       { source: '/politica-cookies', destination: '/legal/cookies', permanent: true },
+      // Provincia redirects: /municipios/provincia/X → /municipios/X
+      { source: '/municipios/provincia/barcelona', destination: '/municipios/barcelona', permanent: true },
+      { source: '/municipios/provincia/girona', destination: '/municipios/girona', permanent: true },
+      { source: '/municipios/provincia/lleida', destination: '/municipios/lleida', permanent: true },
+      { source: '/municipios/provincia/tarragona', destination: '/municipios/tarragona', permanent: true },
+      { source: '/ca/municipis/provincia/barcelona', destination: '/ca/municipis/barcelona', permanent: true },
+      { source: '/ca/municipis/provincia/girona', destination: '/ca/municipis/girona', permanent: true },
+      { source: '/ca/municipis/provincia/lleida', destination: '/ca/municipis/lleida', permanent: true },
+      { source: '/ca/municipis/provincia/tarragona', destination: '/ca/municipis/tarragona', permanent: true },
+      { source: '/en/municipalities/province/:slug', destination: '/en/municipalities/:slug', permanent: true },
+      { source: '/fr/municipalites/province/:slug', destination: '/fr/municipalites/:slug', permanent: true },
       // Municipio and provincia redirects from old site
       ...allMunicipioRedirects,
     ]

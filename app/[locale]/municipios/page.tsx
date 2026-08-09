@@ -6,6 +6,7 @@ import PageHero from '@/components/layout/PageHero'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import MunicipiosIndex from '@/components/MunicipiosIndex'
+import MunicipiosMapWrapper from '@/components/MunicipiosMapWrapper'
 import { municipios } from '@/data/municipios'
 import { provincias } from '@/data/provincias'
 import { routing } from '@/i18n/routing'
@@ -114,7 +115,7 @@ export default async function MunicipiosPage({ params }: Props) {
             {provinciaStats.map((p) => (
               <Link
                 key={p.slug}
-                href={`/municipios/provincia/${p.slug}`}
+                href={`/municipios/${p.slug}`}
                 className="group p-6 rounded-xl border border-gray-100 hover:border-primary/30 hover:shadow-lg transition-all"
               >
                 <div className="flex items-center justify-between mb-4">
@@ -155,6 +156,30 @@ export default async function MunicipiosPage({ params }: Props) {
             }))}
             locale={locale}
           />
+
+          {/* Map */}
+          <div className="mt-12">
+            <h2 className="text-2xl font-bold text-secondary mb-6">
+              {loc === 'es' ? 'Mapa de zonas de radón' :
+               loc === 'ca' ? 'Mapa de zones de radó' :
+               loc === 'en' ? 'Radon zone map' :
+               'Carte des zones radon'}
+            </h2>
+            <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+              <MunicipiosMapWrapper
+                municipios={municipios.map((m) => ({
+                  slug: m.slug,
+                  name: locale === 'ca' ? m.nameCa : m.name,
+                  provincia: m.provincia,
+                  comarca: m.comarca,
+                  zonaRadon: m.zonaRadon,
+                  zonaActuacion: m.zonaActuacion,
+                }))}
+                locale={locale}
+                height="520px"
+              />
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

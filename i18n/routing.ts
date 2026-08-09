@@ -93,11 +93,29 @@ export const routing = defineRouting({
       en: '/municipalities',
       fr: '/municipalites',
     },
-    '/municipios/provincia/[provincia]': {
-      es: '/municipios/provincia/[provincia]',
-      ca: '/municipis/provincia/[provincia]',
-      en: '/municipalities/province/[provincia]',
-      fr: '/municipalites/province/[provincia]',
+    '/municipios/barcelona': {
+      es: '/municipios/barcelona',
+      ca: '/municipis/barcelona',
+      en: '/municipalities/barcelona',
+      fr: '/municipalites/barcelona',
+    },
+    '/municipios/girona': {
+      es: '/municipios/girona',
+      ca: '/municipis/girona',
+      en: '/municipalities/girona',
+      fr: '/municipalites/girona',
+    },
+    '/municipios/lleida': {
+      es: '/municipios/lleida',
+      ca: '/municipis/lleida',
+      en: '/municipalities/lleida',
+      fr: '/municipalites/lleida',
+    },
+    '/municipios/tarragona': {
+      es: '/municipios/tarragona',
+      ca: '/municipis/tarragona',
+      en: '/municipalities/tarragona',
+      fr: '/municipalites/tarragona',
     },
     '/municipios/[slug]': {
       es: '/municipios/[slug]',

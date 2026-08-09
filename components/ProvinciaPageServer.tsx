@@ -7,51 +7,44 @@ import PageHero from '@/components/layout/PageHero'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { BreadcrumbJsonLd } from '@/components/JsonLd'
-import { getProvinciaBySlug, getProvinciasSlugs } from '@/data/provincias'
-import { getMunicipiosByProvinciaAndZona, getComarcasByProvincia } from '@/data/municipios'
+import { getProvinciaBySlug } from '@/data/provincias'
+import { getMunicipiosByProvinciaAndZona } from '@/data/municipios'
 import type { Locale } from '@/i18n/routing'
-import { routing } from '@/i18n/routing'
-import { getPathname } from '@/i18n/navigation'
 import Link from 'next/link'
 import { MapPin, ArrowRight, AlertTriangle, Info } from 'lucide-react'
+import MunicipiosMapWrapper from '@/components/MunicipiosMapWrapper'
 
 const BASE_URL = 'https://acm2020.es'
 
 type Props = {
-  params: Promise<{ locale: string; provincia: string }>
+  locale: string
+  provinciaSlug: string
 }
 
-export function generateStaticParams() {
-  return getProvinciasSlugs().map((provincia) => ({ provincia }))
-}
-
-function getAlternates(provincia: string) {
-  const languages: Record<string, string> = {}
-  for (const locale of routing.locales) {
-    const path = getPathname({
-      locale,
-      href: { pathname: '/municipios/provincia/[provincia]', params: { provincia } } as never,
-    })
-    languages[locale] = `${BASE_URL}${path}`
+export function getProvinciaAlternates(provinciaSlug: string) {
+  return {
+    languages: {
+      es: `${BASE_URL}/municipios/${provinciaSlug}`,
+      ca: `${BASE_URL}/ca/municipis/${provinciaSlug}`,
+      en: `${BASE_URL}/en/municipalities/${provinciaSlug}`,
+      fr: `${BASE_URL}/fr/municipalites/${provinciaSlug}`,
+      'x-default': `${BASE_URL}/municipios/${provinciaSlug}`,
+    },
   }
-  languages['x-default'] = languages[routing.defaultLocale]
-  return { languages }
 }
 
-export async function generateMetadata({ params }: Props) {
-  const { locale, provincia: provinciaSlug } = await params
+export async function getProvinciaMetadata(locale: string, provinciaSlug: string) {
   const provincia = getProvinciaBySlug(provinciaSlug)
   if (!provincia) return {}
   const loc = locale as Locale
   return {
     title: provincia.metaTitle[loc],
     description: provincia.metaDescription[loc],
-    alternates: getAlternates(provinciaSlug),
+    alternates: getProvinciaAlternates(provinciaSlug),
   }
 }
 
-export default async function ProvinciaPage({ params }: Props) {
-  const { locale, provincia: provinciaSlug } = await params
+export default async function ProvinciaPageServer({ locale, provinciaSlug }: Props) {
   setRequestLocale(locale)
 
   const provincia = getProvinciaBySlug(provinciaSlug)
@@ -64,9 +57,8 @@ export default async function ProvinciaPage({ params }: Props) {
   const provinciaName = loc === 'ca' ? provincia.nameCa : provincia.name
   const zonaII = getMunicipiosByProvinciaAndZona(provincia.name, 'II')
   const zonaI = getMunicipiosByProvinciaAndZona(provincia.name, 'I')
-  const comarcas = getComarcasByProvincia(provincia.name)
+  const allProvMunicipios = [...zonaII, ...zonaI]
 
-  // Group by comarca
   function groupByComarca(municipios: typeof zonaII) {
     const grouped: Record<string, typeof zonaII> = {}
     for (const m of municipios) {
@@ -79,19 +71,21 @@ export default async function ProvinciaPage({ params }: Props) {
   const zonaIIByComarca = groupByComarca(zonaII)
   const zonaIByComarca = groupByComarca(zonaI)
 
+  const breadcrumbHome = loc === 'es' ? 'Inicio' : loc === 'ca' ? 'Inici' : loc === 'en' ? 'Home' : 'Accueil'
+
   return (
     <>
       <Navbar darkHero />
       <BreadcrumbJsonLd
         items={[
-          { name: loc === 'es' ? 'Inicio' : loc === 'ca' ? 'Inici' : loc === 'en' ? 'Home' : 'Accueil', url: `${BASE_URL}/` },
+          { name: breadcrumbHome, url: `${BASE_URL}/` },
           { name: tMunicipios('title'), url: `${BASE_URL}/municipios` },
-          { name: provinciaName, url: `${BASE_URL}/municipios/provincia/${provinciaSlug}` },
+          { name: provinciaName, url: `${BASE_URL}/municipios/${provinciaSlug}` },
         ]}
       />
       <PageHero
         title={t('title', { provincia: provinciaName })}
-        subtitle={`${zonaII.length + zonaI.length} ${loc === 'es' ? 'municipios de actuación prioritaria' : loc === 'ca' ? 'municipis d\'actuació prioritària' : loc === 'en' ? 'priority action municipalities' : 'municipalités d\'action prioritaire'}`}
+        subtitle={`${zonaII.length + zonaI.length} ${loc === 'es' ? 'municipios de actuación prioritaria' : loc === 'ca' ? "municipis d'actuació prioritària" : loc === 'en' ? 'priority action municipalities' : "municipalités d'action prioritaire"}`}
       />
       <Breadcrumbs
         items={[
@@ -126,7 +120,7 @@ export default async function ProvinciaPage({ params }: Props) {
             </div>
           </div>
 
-          {/* Zona II - Exposicion Alta */}
+          {/* Zona II */}
           {zonaIIByComarca.length > 0 && (
             <section className="mb-12">
               <h2 className="text-2xl font-bold text-secondary mb-6 flex items-center gap-3">
@@ -157,7 +151,7 @@ export default async function ProvinciaPage({ params }: Props) {
             </section>
           )}
 
-          {/* Zona I - Exposicion Media */}
+          {/* Zona I */}
           {zonaIByComarca.length > 0 && (
             <section className="mb-12">
               <h2 className="text-2xl font-bold text-secondary mb-6 flex items-center gap-3">
@@ -186,6 +180,32 @@ export default async function ProvinciaPage({ params }: Props) {
                 ))}
               </div>
             </section>
+          )}
+
+          {/* Map */}
+          {allProvMunicipios.length > 0 && (
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold text-secondary mb-6">
+                {loc === 'es' ? `Mapa de municipios — ${provinciaName}` :
+                 loc === 'ca' ? `Mapa de municipis — ${provinciaName}` :
+                 loc === 'en' ? `Municipality map — ${provinciaName}` :
+                 `Carte des municipalités — ${provinciaName}`}
+              </h2>
+              <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+                <MunicipiosMapWrapper
+                  municipios={allProvMunicipios.map((m) => ({
+                    slug: m.slug,
+                    name: loc === 'ca' ? m.nameCa : m.name,
+                    provincia: m.provincia,
+                    comarca: m.comarca,
+                    zonaRadon: m.zonaRadon,
+                    zonaActuacion: m.zonaActuacion,
+                  }))}
+                  locale={loc}
+                  height="460px"
+                />
+              </div>
+            </div>
           )}
 
           {/* CTA */}

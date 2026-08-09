@@ -1,0 +1,2410 @@
+{
+  "vilafranca-del-penedes": {
+    "lat": 41.3463825,
+    "lon": 1.6995213
+  },
+  "gelida": {
+    "lat": 41.4324961,
+    "lon": 1.8614458
+  },
+  "igualada": {
+    "lat": 41.5790182,
+    "lon": 1.617346
+  },
+  "vilanova-del-cami": {
+    "lat": 41.5624923,
+    "lon": 1.6397998
+  },
+  "santa-margarida-de-montbui": {
+    "lat": 41.5577979,
+    "lon": 1.5811668
+  },
+  "piera": {
+    "lat": 41.5216923,
+    "lon": 1.7526335
+  },
+  "capellades": {
+    "lat": 41.53,
+    "lon": 1.684787
+  },
+  "manresa": {
+    "lat": 41.7288939,
+    "lon": 1.8286765
+  },
+  "sant-joan-de-vilatorrada": {
+    "lat": 41.7422073,
+    "lon": 1.803625
+  },
+  "santpedor": {
+    "lat": 41.7847594,
+    "lon": 1.8386882
+  },
+  "navarcles": {
+    "lat": 41.7531567,
+    "lon": 1.9033612
+  },
+  "sallent": {
+    "lat": 41.8390397,
+    "lon": 1.9081612
+  },
+  "suria": {
+    "lat": 41.8328065,
+    "lon": 1.7526606
+  },
+  "cardona": {
+    "lat": 41.9142758,
+    "lon": 1.68133
+  },
+  "berga": {
+    "lat": 42.1011456,
+    "lon": 1.8454758
+  },
+  "gironella": {
+    "lat": 42.0337588,
+    "lon": 1.8825316
+  },
+  "puig-reig": {
+    "lat": 41.9735499,
+    "lon": 1.8775308
+  },
+  "baga": {
+    "lat": 42.2527659,
+    "lon": 1.8625903
+  },
+  "guardiola-de-bergueda": {
+    "lat": 42.2338584,
+    "lon": 1.8792389
+  },
+  "vic": {
+    "lat": 41.9302021,
+    "lon": 2.2545943
+  },
+  "manlleu": {
+    "lat": 41.9999811,
+    "lon": 2.2841159
+  },
+  "tona": {
+    "lat": 41.8538039,
+    "lon": 2.2280115
+  },
+  "centelles": {
+    "lat": 41.7981296,
+    "lon": 2.2218056
+  },
+  "taradell": {
+    "lat": 41.8762624,
+    "lon": 2.2859511
+  },
+  "roda-de-ter": {
+    "lat": 41.9814126,
+    "lon": 2.3096755
+  },
+  "seva": {
+    "lat": 41.8361292,
+    "lon": 2.2835441
+  },
+  "terrassa": {
+    "lat": 41.5629623,
+    "lon": 2.0100492
+  },
+  "sabadell": {
+    "lat": 41.5460801,
+    "lon": 2.1083214
+  },
+  "sant-cugat-del-valles": {
+    "lat": 41.4707933,
+    "lon": 2.0848815
+  },
+  "rubí": {
+    "lat": 41.4936194,
+    "lon": 2.0319476
+  },
+  "castellar-del-valles": {
+    "lat": 41.6183431,
+    "lon": 2.0879423
+  },
+  "matadepera": {
+    "lat": 41.6012311,
+    "lon": 2.0275199
+  },
+  "vacarisses": {
+    "lat": 41.6063852,
+    "lon": 1.9194608
+  },
+  "ullastrell": {
+    "lat": 41.5265763,
+    "lon": 1.9560471
+  },
+  "granollers": {
+    "lat": 41.6079555,
+    "lon": 2.2876008
+  },
+  "mollet-del-valles": {
+    "lat": 41.5393484,
+    "lon": 2.2130934
+  },
+  "la-garriga": {
+    "lat": 41.6849111,
+    "lon": 2.2865796
+  },
+  "llinars-del-valles": {
+    "lat": 41.6400252,
+    "lon": 2.3978389
+  },
+  "caldes-de-montbui": {
+    "lat": 41.6344802,
+    "lon": 2.1626124
+  },
+  "sant-celoni": {
+    "lat": 41.6895041,
+    "lon": 2.4914526
+  },
+  "cardedeu": {
+    "lat": 41.6385167,
+    "lon": 2.3558408
+  },
+  "martorell": {
+    "lat": 41.4743886,
+    "lon": 1.9307159
+  },
+  "olesa-de-montserrat": {
+    "lat": 41.5439614,
+    "lon": 1.8913809
+  },
+  "esparreguera": {
+    "lat": 41.5389434,
+    "lon": 1.8705935
+  },
+  "abrera": {
+    "lat": 41.5162832,
+    "lon": 1.9017313
+  },
+  "collbato": {
+    "lat": 41.570256,
+    "lon": 1.8285814
+  },
+  "barcelona": {
+    "lat": 41.3825802,
+    "lon": 2.177073
+  },
+  "badalona": {
+    "lat": 41.4493539,
+    "lon": 2.248254
+  },
+  "santa-coloma-de-gramenet": {
+    "lat": 41.4519395,
+    "lon": 2.2080809
+  },
+  "mataro": {
+    "lat": 41.5399994,
+    "lon": 2.4448577
+  },
+  "argentona": {
+    "lat": 41.5554326,
+    "lon": 2.4002787
+  },
+  "dosrius": {
+    "lat": 41.594347,
+    "lon": 2.4063166
+  },
+  "solsona": {
+    "lat": 42.0286738,
+    "lon": 1.6975061
+  },
+  "moià": {
+    "lat": 41.8130391,
+    "lon": 2.0978412
+  },
+  "calders": {
+    "lat": 41.7892144,
+    "lon": 1.9916386
+  },
+  "prats-de-llucanes": {
+    "lat": 42.0085421,
+    "lon": 2.0298689
+  },
+  "vilanova-i-la-geltru": {
+    "lat": 41.2241992,
+    "lon": 1.7256327
+  },
+  "sitges": {
+    "lat": 41.2353596,
+    "lon": 1.8114102
+  },
+  "girona": {
+    "lat": 41.9793006,
+    "lon": 2.8199439
+  },
+  "salt": {
+    "lat": 41.9741672,
+    "lon": 2.7949886
+  },
+  "sarria-de-ter": {
+    "lat": 42.0141923,
+    "lon": 2.8175976
+  },
+  "santa-coloma-de-farners": {
+    "lat": 41.8603109,
+    "lon": 2.6659047
+  },
+  "breda": {
+    "lat": 41.7484044,
+    "lon": 2.5613326
+  },
+  "hostalric": {
+    "lat": 41.7451889,
+    "lon": 2.6330963
+  },
+  "arbucies": {
+    "lat": 41.8160629,
+    "lon": 2.5141453
+  },
+  "vidreres": {
+    "lat": 41.7888681,
+    "lon": 2.7792768
+  },
+  "olot": {
+    "lat": 42.1822177,
+    "lon": 2.4890211
+  },
+  "les-preses": {
+    "lat": 42.1450901,
+    "lon": 2.4592158
+  },
+  "santa-pau": {
+    "lat": 42.153847,
+    "lon": 2.5832151
+  },
+  "besalu": {
+    "lat": 42.1986443,
+    "lon": 2.6959559
+  },
+  "ripoll": {
+    "lat": 42.1982391,
+    "lon": 2.1932496
+  },
+  "sant-joan-de-les-abadesses": {
+    "lat": 42.233743,
+    "lon": 2.2854845
+  },
+  "camprodon": {
+    "lat": 42.3127896,
+    "lon": 2.364926
+  },
+  "puigcerda": {
+    "lat": 42.4317966,
+    "lon": 1.9278693
+  },
+  "llívia": {
+    "lat": 42.4640786,
+    "lon": 1.9804293
+  },
+  "banyoles": {
+    "lat": 42.1180477,
+    "lon": 2.7653607
+  },
+  "figueres": {
+    "lat": 42.2666314,
+    "lon": 2.9638434
+  },
+  "roses": {
+    "lat": 42.2632018,
+    "lon": 3.1755328
+  },
+  "palafrugell": {
+    "lat": 41.9183618,
+    "lon": 3.1619905
+  },
+  "lleida": {
+    "lat": 41.6147605,
+    "lon": 0.6267842
+  },
+  "solsona-lleida": {
+    "lat": 41.9945762,
+    "lon": 1.5184038
+  },
+  "tremp": {
+    "lat": 42.1669782,
+    "lon": 0.8950137
+  },
+  "sort": {
+    "lat": 42.4114509,
+    "lon": 1.1298362
+  },
+  "vielha": {
+    "lat": 42.7017572,
+    "lon": 0.7954744
+  },
+  "balaguer": {
+    "lat": 41.7896408,
+    "lon": 0.8050711
+  },
+  "tarrega": {
+    "lat": 41.6472761,
+    "lon": 1.1409115
+  },
+  "el-pont-de-suert": {
+    "lat": 42.4079576,
+    "lon": 0.7401693
+  },
+  "tarragona": {
+    "lat": 41.1172364,
+    "lon": 1.2546057
+  },
+  "reus": {
+    "lat": 41.1555564,
+    "lon": 1.1076133
+  },
+  "valls": {
+    "lat": 41.2835355,
+    "lon": 1.2473637
+  },
+  "montblanc": {
+    "lat": 41.3762309,
+    "lon": 1.1620703
+  },
+  "falset": {
+    "lat": 41.1450982,
+    "lon": 0.8196237
+  },
+  "el-vendrell": {
+    "lat": 41.2199677,
+    "lon": 1.5348566
+  },
+  "gandesa": {
+    "lat": 41.0520413,
+    "lon": 0.4388956
+  },
+  "badia-del-valles": {
+    "lat": 41.5075702,
+    "lon": 2.1153773
+  },
+  "cerdanyola-del-valles": {
+    "lat": 41.4909972,
+    "lon": 2.1405506
+  },
+  "barbera-del-valles": {
+    "lat": 41.5172534,
+    "lon": 2.1265942
+  },
+  "sentmenat": {
+    "lat": 41.6110502,
+    "lon": 2.1374456
+  },
+  "palau-de-plegamans": {
+    "lat": 41.5875286,
+    "lon": 2.1786438
+  },
+  "polinyà": {
+    "lat": 41.5576041,
+    "lon": 2.1566544
+  },
+  "montcada-i-reixac": {
+    "lat": 41.4800754,
+    "lon": 2.187009
+  },
+  "ripollet": {
+    "lat": 41.4993372,
+    "lon": 2.1573095
+  },
+  "parets-del-valles": {
+    "lat": 41.5729405,
+    "lon": 2.2338087
+  },
+  "les-franqueses-del-valles": {
+    "lat": 41.647559,
+    "lon": 2.3091778
+  },
+  "canovelles": {
+    "lat": 41.6173948,
+    "lon": 2.28288
+  },
+  "aiguafreda": {
+    "lat": 41.6647921,
+    "lon": 2.1639573
+  },
+  "bigues-i-riells": {
+    "lat": 41.6865341,
+    "lon": 2.2074151
+  },
+  "monistrol-de-montserrat": {
+    "lat": 41.6105028,
+    "lon": 1.8452698
+  },
+  "castellbell-i-el-vilar": {
+    "lat": 41.6408802,
+    "lon": 1.8501448
+  },
+  "sant-vicenç-de-castellet": {
+    "lat": 41.6669999,
+    "lon": 1.8625559
+  },
+  "el-pont-de-vilomara-i-rocafort": {
+    "lat": 41.7049485,
+    "lon": 1.907075
+  },
+  "artes": {
+    "lat": 41.7973321,
+    "lon": 1.9551567
+  },
+  "avinyó": {
+    "lat": 41.8630096,
+    "lon": 1.9707409
+  },
+  "el-brull": {
+    "lat": 41.8168099,
+    "lon": 2.3052283
+  },
+  "sant-hipolit-de-voltrega": {
+    "lat": 42.0152733,
+    "lon": 2.2376471
+  },
+  "santa-eugenia-de-berga": {
+    "lat": 41.9000058,
+    "lon": 2.283319
+  },
+  "sant-pere-de-torello": {
+    "lat": 42.0754755,
+    "lon": 2.2955862
+  },
+  "torello": {
+    "lat": 42.0478304,
+    "lon": 2.2643391
+  },
+  "cal-rosal": {
+    "lat": 42.0730243,
+    "lon": 1.8658674
+  },
+  "casserres": {
+    "lat": 42.0138199,
+    "lon": 1.843045
+  },
+  "la-pobla-de-lillet": {
+    "lat": 42.2437379,
+    "lon": 1.9749329
+  },
+  "amer": {
+    "lat": 42.0092186,
+    "lon": 2.6030327
+  },
+  "angles": {
+    "lat": 41.9559224,
+    "lon": 2.6359493
+  },
+  "osor": {
+    "lat": 41.9451025,
+    "lon": 2.5569285
+  },
+  "sant-joan-les-fonts": {
+    "lat": 42.2132951,
+    "lon": 2.5134302
+  },
+  "castellfollit-de-la-roca": {
+    "lat": 42.2193323,
+    "lon": 2.5512465
+  },
+  "ribes-de-freser": {
+    "lat": 42.3057283,
+    "lon": 2.167817
+  },
+  "sant-joan-de-les-abadesses-2": {
+    "lat": 42.2484304,
+    "lon": 2.0905975
+  },
+  "cornella-de-llobregat": {
+    "lat": 41.355724,
+    "lon": 2.0706225
+  },
+  "sant-boi-de-llobregat": {
+    "lat": 41.3241016,
+    "lon": 2.0511278
+  },
+  "gava": {
+    "lat": 41.3050933,
+    "lon": 2.0063126
+  },
+  "castelldefels": {
+    "lat": 41.2861022,
+    "lon": 1.9824173
+  },
+  "sant-feliu-de-llobregat": {
+    "lat": 41.3812851,
+    "lon": 2.0446381
+  },
+  "sant-just-desvern": {
+    "lat": 41.3858295,
+    "lon": 2.0757651
+  },
+  "el-papiol": {
+    "lat": 41.4379916,
+    "lon": 2.0108896
+  },
+  "castellbisbal": {
+    "lat": 41.4765136,
+    "lon": 1.9832978
+  },
+  "mollerussa": {
+    "lat": 41.6298226,
+    "lon": 0.8937727
+  },
+  "cervera": {
+    "lat": 41.6730667,
+    "lon": 1.2729426
+  },
+  "ponts": {
+    "lat": 41.9154944,
+    "lon": 1.1863072
+  },
+  "tortosa": {
+    "lat": 40.8110158,
+    "lon": 0.5209333
+  },
+  "amposta": {
+    "lat": 40.7079905,
+    "lon": 0.5827636
+  },
+  "cambrils": {
+    "lat": 41.0679423,
+    "lon": 1.0657579
+  },
+  "calafell": {
+    "lat": 41.2010618,
+    "lon": 1.5686734
+  },
+  "lloret-de-mar": {
+    "lat": 41.6973503,
+    "lon": 2.8392392
+  },
+  "blanes": {
+    "lat": 41.6756178,
+    "lon": 2.7932391
+  },
+  "sant-feliu-de-guixols": {
+    "lat": 41.7838827,
+    "lon": 3.0283195
+  },
+  "palamos": {
+    "lat": 41.8495354,
+    "lon": 3.1278785
+  },
+  "la-pobla-de-claramunt": {
+    "lat": 41.5551874,
+    "lon": 1.6747485
+  },
+  "els-hostalets-de-pierola": {
+    "lat": 41.5340164,
+    "lon": 1.7692703
+  },
+  "masquefa": {
+    "lat": 41.5026351,
+    "lon": 1.8110722
+  },
+  "jorba": {
+    "lat": 41.605325,
+    "lon": 1.5225474
+  },
+  "odena": {
+    "lat": 41.6068791,
+    "lon": 1.6422209
+  },
+  "santa-maria-de-miralles": {
+    "lat": 41.5004287,
+    "lon": 1.5282249
+  },
+  "sant-pere-de-ribes": {
+    "lat": 41.2619218,
+    "lon": 1.7721357
+  },
+  "olivella": {
+    "lat": 41.3103129,
+    "lon": 1.8114946
+  },
+  "begues": {
+    "lat": 41.3328119,
+    "lon": 1.925468
+  },
+  "cervelló": {
+    "lat": 41.3964186,
+    "lon": 1.9585925
+  },
+  "vallirana": {
+    "lat": 41.3877623,
+    "lon": 1.9320806
+  },
+  "corbera-de-llobregat": {
+    "lat": 41.4164771,
+    "lon": 1.927753
+  },
+  "la-palma-de-cervello": {
+    "lat": 41.4119015,
+    "lon": 1.9701997
+  },
+  "torrelles-de-llobregat": {
+    "lat": 41.3565232,
+    "lon": 1.9816276
+  },
+  "sant-andreu-de-la-barca": {
+    "lat": 41.4499661,
+    "lon": 1.9719894
+  },
+  "sant-esteve-sesrovires": {
+    "lat": 41.4932429,
+    "lon": 1.8747348
+  },
+  "balsareny": {
+    "lat": 41.8631839,
+    "lon": 1.8755997
+  },
+  "callus": {
+    "lat": 41.7824664,
+    "lon": 1.7837664
+  },
+  "sant-fruitós-de-bages": {
+    "lat": 41.7532735,
+    "lon": 1.8749418
+  },
+  "sant-salvador-de-guardiola": {
+    "lat": 41.6797988,
+    "lon": 1.7671087
+  },
+  "sant-mateu-de-bages": {
+    "lat": 41.7969781,
+    "lon": 1.7327386
+  },
+  "les-masies-de-voltrega": {
+    "lat": 42.0267288,
+    "lon": 2.2347147
+  },
+  "sant-quirze-de-besora": {
+    "lat": 42.101426,
+    "lon": 2.2170289
+  },
+  "prats-de-llucanes-osona": {
+    "lat": 42.0578411,
+    "lon": 2.1511135
+  },
+  "sils": {
+    "lat": 41.8098347,
+    "lon": 2.743055
+  },
+  "alins": {
+    "lat": 42.549124,
+    "lon": 1.3180552
+  },
+  "espolla": {
+    "lat": 42.3893146,
+    "lon": 2.9994355
+  },
+  "botarell": {
+    "lat": 41.1362847,
+    "lon": 0.9897786
+  },
+  "vilaller": {
+    "lat": 42.4759263,
+    "lon": 0.7165615
+  },
+  "montgat": {
+    "lat": 41.4668611,
+    "lon": 2.2789842
+  },
+  "alp": {
+    "lat": 42.3736381,
+    "lon": 1.8871916
+  },
+  "llanars": {
+    "lat": 42.3207265,
+    "lon": 2.344001
+  },
+  "riudecanyes": {
+    "lat": 41.1303686,
+    "lon": 0.9618942
+  },
+  "riudecols": {
+    "lat": 41.1680845,
+    "lon": 0.9746249
+  },
+  "ger": {
+    "lat": 42.4115726,
+    "lon": 1.8472085
+  },
+  "cadaques": {
+    "lat": 42.2893484,
+    "lon": 3.2752159
+  },
+  "calonge": {
+    "lat": 41.8621982,
+    "lon": 3.0747803
+  },
+  "almoster": {
+    "lat": 41.1960574,
+    "lon": 1.1111352
+  },
+  "portbou": {
+    "lat": 42.4274333,
+    "lon": 3.1588785
+  },
+  "tiana": {
+    "lat": 41.4819226,
+    "lon": 2.2689473
+  },
+  "alforja": {
+    "lat": 41.2099763,
+    "lon": 0.9750606
+  },
+  "llança": {
+    "lat": 42.3617316,
+    "lon": 3.1511804
+  },
+  "alella": {
+    "lat": 41.4955603,
+    "lon": 2.2935325
+  },
+  "cabrera-de-mar": {
+    "lat": 41.5276986,
+    "lon": 2.3925117
+  },
+  "tordera": {
+    "lat": 41.6977173,
+    "lon": 2.7172987
+  },
+  "arenys-de-mar": {
+    "lat": 41.5797031,
+    "lon": 2.5491562
+  },
+  "cabrils": {
+    "lat": 41.5262354,
+    "lon": 2.3676258
+  },
+  "sant-andreu-de-llavaneres": {
+    "lat": 41.5739524,
+    "lon": 2.4828158
+  },
+  "sant-cebria-de-vallalta": {
+    "lat": 41.620353,
+    "lon": 2.6017906
+  },
+  "santa-susanna": {
+    "lat": 41.6357256,
+    "lon": 2.7065933
+  },
+  "vilassar-de-dalt": {
+    "lat": 41.5163595,
+    "lon": 2.3592879
+  },
+  "arenys-de-munt": {
+    "lat": 41.6095429,
+    "lon": 2.5400513
+  },
+  "pineda-de-mar": {
+    "lat": 41.6276807,
+    "lon": 2.6898707
+  },
+  "vilassar-de-mar": {
+    "lat": 41.5064041,
+    "lon": 2.3913883
+  },
+  "canet-de-mar": {
+    "lat": 41.5900933,
+    "lon": 2.5777998
+  },
+  "sant-iscle-de-vallalta": {
+    "lat": 41.62433,
+    "lon": 2.56914
+  },
+  "premia-de-mar": {
+    "lat": 41.4926822,
+    "lon": 2.3605846
+  },
+  "teia": {
+    "lat": 41.4994081,
+    "lon": 2.3205426
+  },
+  "orrius": {
+    "lat": 41.5551821,
+    "lon": 2.3549387
+  },
+  "palafolls": {
+    "lat": 41.6673913,
+    "lon": 2.7499262
+  },
+  "calella": {
+    "lat": 41.6132925,
+    "lon": 2.6576102
+  },
+  "malgrat-de-mar": {
+    "lat": 41.6459118,
+    "lon": 2.7414054
+  },
+  "sant-vicenc-de-montalt": {
+    "lat": 41.5787122,
+    "lon": 2.5103642
+  },
+  "premia-de-dalt": {
+    "lat": 41.5055692,
+    "lon": 2.3458624
+  },
+  "el-masnou": {
+    "lat": 41.4796899,
+    "lon": 2.3118347
+  },
+  "sant-pol-de-mar": {
+    "lat": 41.6030132,
+    "lon": 2.6238092
+  },
+  "vallromanes": {
+    "lat": 41.5323208,
+    "lon": 2.2989347
+  },
+  "figaro-montmany": {
+    "lat": 41.7098219,
+    "lon": 2.253646
+  },
+  "montornes-del-valles": {
+    "lat": 41.542545,
+    "lon": 2.2670557
+  },
+  "sant-fost-de-campsentelles": {
+    "lat": 41.518752,
+    "lon": 2.2328323
+  },
+  "santa-eulalia-de-roncana": {
+    "lat": 41.6523952,
+    "lon": 2.229264
+  },
+  "gualba": {
+    "lat": 41.7321147,
+    "lon": 2.5018684
+  },
+  "la-roca-del-valles": {
+    "lat": 41.5873365,
+    "lon": 2.3260575
+  },
+  "martorelles": {
+    "lat": 41.52851,
+    "lon": 2.2374755
+  },
+  "vilalba-sasserra": {
+    "lat": 41.6530012,
+    "lon": 2.4405379
+  },
+  "vallgorguina": {
+    "lat": 41.6473229,
+    "lon": 2.5100384
+  },
+  "santa-maria-de-palautordera": {
+    "lat": 41.693781,
+    "lon": 2.4442321
+  },
+  "vilanova-del-valles": {
+    "lat": 41.5536734,
+    "lon": 2.2862297
+  },
+  "santa-maria-de-martorelles": {
+    "lat": 41.5198085,
+    "lon": 2.2537044
+  },
+  "vilanova-de-sau": {
+    "lat": 41.9476741,
+    "lon": 2.383405
+  },
+  "fogars-de-la-selva": {
+    "lat": 41.7342133,
+    "lon": 2.6728108
+  },
+  "agullana": {
+    "lat": 42.3938409,
+    "lon": 2.8469168
+  },
+  "albanya": {
+    "lat": 42.3046915,
+    "lon": 2.7193001
+  },
+  "boadella-i-les-escaules": {
+    "lat": 42.3305346,
+    "lon": 2.8572023
+  },
+  "borrassa": {
+    "lat": 42.2224982,
+    "lon": 2.9268828
+  },
+  "cabanelles": {
+    "lat": 42.2302177,
+    "lon": 2.8187019
+  },
+  "cabanes": {
+    "lat": 42.3087348,
+    "lon": 2.9764243
+  },
+  "cistella": {
+    "lat": 42.268711,
+    "lon": 2.8472717
+  },
+  "colera": {
+    "lat": 42.4036867,
+    "lon": 3.1489254
+  },
+  "darnius": {
+    "lat": 42.3665352,
+    "lon": 2.8337409
+  },
+  "fluvia": {
+    "lat": 42.1732143,
+    "lon": 2.9904591
+  },
+  "garrigas": {
+    "lat": 42.1929222,
+    "lon": 2.9539294
+  },
+  "garrigoles": {
+    "lat": 42.2702884,
+    "lon": 3.1223418
+  },
+  "garriguella": {
+    "lat": 42.3446368,
+    "lon": 3.0642397
+  },
+  "jonquera-la": {
+    "lat": 42.4340121,
+    "lon": 2.8645567
+  },
+  "macanet-de-cabrenys": {
+    "lat": 42.3861179,
+    "lon": 2.7485579
+  },
+  "masarac": {
+    "lat": 42.3509939,
+    "lon": 2.9723618
+  },
+  "mollet-de-peralada": {
+    "lat": 42.3595501,
+    "lon": 2.9999085
+  },
+  "navata": {
+    "lat": 42.2248425,
+    "lon": 2.8584815
+  },
+  "ordis": {
+    "lat": 42.2185591,
+    "lon": 2.9072143
+  },
+  "palau-de-santa-eulalia": {
+    "lat": 42.1734468,
+    "lon": 2.9646635
+  },
+  "palau-saverdera": {
+    "lat": 42.3076083,
+    "lon": 3.146611
+  },
+  "pau": {
+    "lat": 42.3161009,
+    "lon": 3.1161931
+  },
+  "pedret-i-marza": {
+    "lat": 42.3078129,
+    "lon": 3.0706399
+  },
+  "peralada": {
+    "lat": 42.3085047,
+    "lon": 3.0089916
+  },
+  "pont-de-molins": {
+    "lat": 42.3148493,
+    "lon": 2.9304359
+  },
+  "pontos": {
+    "lat": 42.1858949,
+    "lon": 2.9172363
+  },
+  "port-de-la-selva-el": {
+    "lat": 42.3373159,
+    "lon": 3.2047232
+  },
+  "rabos": {
+    "lat": 42.4027998,
+    "lon": 3.0546102
+  },
+  "sant-climent-sescebes": {
+    "lat": 42.3693761,
+    "lon": 2.9802226
+  },
+  "sant-llorenc-de-la-muga": {
+    "lat": 42.3199618,
+    "lon": 2.7888647
+  },
+  "sant-mori": {
+    "lat": 42.1559696,
+    "lon": 2.9896074
+  },
+  "sant-pere-pescador": {
+    "lat": 42.1899836,
+    "lon": 3.0837479
+  },
+  "siurana": {
+    "lat": 42.2095097,
+    "lon": 2.9940216
+  },
+  "terrades": {
+    "lat": 42.3106341,
+    "lon": 2.8381619
+  },
+  "torroella-de-fluvia": {
+    "lat": 42.174492,
+    "lon": 3.0402489
+  },
+  "ventallo": {
+    "lat": 42.1491351,
+    "lon": 3.0268953
+  },
+  "vilabertan": {
+    "lat": 42.2826972,
+    "lon": 2.9814591
+  },
+  "vilafant": {
+    "lat": 42.2515266,
+    "lon": 2.9418008
+  },
+  "vilamacolum": {
+    "lat": 42.1965528,
+    "lon": 3.0571146
+  },
+  "vilamalla": {
+    "lat": 42.2165982,
+    "lon": 2.9708293
+  },
+  "vilamaniscle": {
+    "lat": 42.3743918,
+    "lon": 3.067464
+  },
+  "vilanova-de-la-muga": {
+    "lat": 42.2804405,
+    "lon": 3.0438764
+  },
+  "calonge-i-sant-antoni": {
+    "lat": 41.8621762,
+    "lon": 3.0660825
+  },
+  "cassa-de-la-selva": {
+    "lat": 41.8874685,
+    "lon": 2.8742461
+  },
+  "fontanilles": {
+    "lat": 42.0111362,
+    "lon": 3.1065584
+  },
+  "forallac": {
+    "lat": 41.9405813,
+    "lon": 3.0817246
+  },
+  "gualta": {
+    "lat": 42.0229382,
+    "lon": 3.1180207
+  },
+  "jafre": {
+    "lat": 42.0726347,
+    "lon": 3.0107448
+  },
+  "madremanya": {
+    "lat": 42.0038789,
+    "lon": 2.9623236
+  },
+  "mar": {
+    "lat": 41.8582846,
+    "lon": 3.1476007
+  },
+  "monells": {
+    "lat": 41.9748795,
+    "lon": 2.9992048
+  },
+  "mont-ras": {
+    "lat": 41.9080196,
+    "lon": 3.144796
+  },
+  "pals": {
+    "lat": 41.9709891,
+    "lon": 3.1460371
+  },
+  "parlava": {
+    "lat": 42.022591,
+    "lon": 3.0304741
+  },
+  "regencos": {
+    "lat": 41.9523563,
+    "lon": 3.1687852
+  },
+  "rupia": {
+    "lat": 42.0153691,
+    "lon": 3.0092668
+  },
+  "sant-andreu-salou": {
+    "lat": 41.8732667,
+    "lon": 2.8254449
+  },
+  "torroella-de-montgri": {
+    "lat": 42.040982,
+    "lon": 3.1262041
+  },
+  "ultramort": {
+    "lat": 42.037127,
+    "lon": 3.0349373
+  },
+  "vilopriu": {
+    "lat": 42.1043198,
+    "lon": 2.9918548
+  },
+  "aiguaviva": {
+    "lat": 41.9267354,
+    "lon": 2.7690595
+  },
+  "bescano": {
+    "lat": 41.9670349,
+    "lon": 2.7389937
+  },
+  "celra": {
+    "lat": 42.0247111,
+    "lon": 2.8789816
+  },
+  "cellera-de-ter-la": {
+    "lat": 41.9686921,
+    "lon": 2.6205193
+  },
+  "cervia-de-ter": {
+    "lat": 42.0676956,
+    "lon": 2.9122136
+  },
+  "cornella-del-terri": {
+    "lat": 42.0898363,
+    "lon": 2.8157343
+  },
+  "estanyol": {
+    "lat": 41.9411518,
+    "lon": 2.7406459
+  },
+  "fornells-de-la-selva": {
+    "lat": 41.9319675,
+    "lon": 2.8090343
+  },
+  "juia": {
+    "lat": 42.0172969,
+    "lon": 2.9067184
+  },
+  "quart": {
+    "lat": 41.9401591,
+    "lon": 2.8413516
+  },
+  "sant-gregori": {
+    "lat": 41.9910304,
+    "lon": 2.7564765
+  },
+  "sant-jordi-desvalls": {
+    "lat": 42.0714043,
+    "lon": 2.9522691
+  },
+  "sant-julia-del-llor-i-bonmati": {
+    "lat": 41.9780037,
+    "lon": 2.6487993
+  },
+  "vilablareix": {
+    "lat": 41.9569396,
+    "lon": 2.7728439
+  },
+  "viladasens": {
+    "lat": 42.0951146,
+    "lon": 2.9294718
+  },
+  "argelaguer": {
+    "lat": 42.2145207,
+    "lon": 2.6414922
+  },
+  "brunyola-i-sant-marti-sapresa": {
+    "lat": 41.9049114,
+    "lon": 2.6839536
+  },
+  "macanet-de-la-selva": {
+    "lat": 41.7774422,
+    "lon": 2.7309252
+  },
+  "montagut-i-oix": {
+    "lat": 42.2309257,
+    "lon": 2.5967415
+  },
+  "riudaura": {
+    "lat": 42.1887348,
+    "lon": 2.4093804
+  },
+  "sales-de-llierca": {
+    "lat": 42.2358533,
+    "lon": 2.6499657
+  },
+  "sant-feliu-de-pallerols": {
+    "lat": 42.0758164,
+    "lon": 2.5078037
+  },
+  "tortella": {
+    "lat": 42.233331,
+    "lon": 2.630869
+  },
+  "vall-de-bianya-la": {
+    "lat": 42.2415208,
+    "lon": 2.4326305
+  },
+  "campdevanol": {
+    "lat": 42.2230582,
+    "lon": 2.1680717
+  },
+  "llosses-les": {
+    "lat": 42.1506279,
+    "lon": 2.1166718
+  },
+  "mollo": {
+    "lat": 42.3485369,
+    "lon": 2.4043962
+  },
+  "ogassa": {
+    "lat": 42.2656267,
+    "lon": 2.2777794
+  },
+  "sant-pau-de-seguries": {
+    "lat": 42.2633408,
+    "lon": 2.366055
+  },
+  "vallcanera": {
+    "lat": 41.8420676,
+    "lon": 2.7358775
+  },
+  "camos": {
+    "lat": 42.0939665,
+    "lon": 2.7673592
+  },
+  "crespia": {
+    "lat": 42.1877796,
+    "lon": 2.7982926
+  },
+  "esponella": {
+    "lat": 42.1773757,
+    "lon": 2.7955223
+  },
+  "fontcoberta": {
+    "lat": 42.1425379,
+    "lon": 2.7897817
+  },
+  "porqueres": {
+    "lat": 42.1226823,
+    "lon": 2.7254945
+  },
+  "sant-miquel-de-campmajor": {
+    "lat": 42.135899,
+    "lon": 2.6790781
+  },
+  "serinya": {
+    "lat": 42.1687245,
+    "lon": 2.7448646
+  },
+  "llagostera": {
+    "lat": 41.7460936,
+    "lon": 2.768262
+  },
+  "riudarenes": {
+    "lat": 41.8218536,
+    "lon": 2.7163817
+  },
+  "susqueda": {
+    "lat": 41.9983697,
+    "lon": 2.5131351
+  },
+  "viladrau": {
+    "lat": 41.8429431,
+    "lon": 2.4256329
+  },
+  "isovol": {
+    "lat": 42.3781028,
+    "lon": 1.8175789
+  },
+  "urus": {
+    "lat": 42.3520412,
+    "lon": 1.8534065
+  },
+  "alas-i-cerc": {
+    "lat": 42.3219118,
+    "lon": 1.5170869
+  },
+  "peramola": {
+    "lat": 42.0577991,
+    "lon": 1.2678488
+  },
+  "bellver-de-cerdanya": {
+    "lat": 42.3702061,
+    "lon": 1.7745202
+  },
+  "riu-de-cerdanya": {
+    "lat": 42.3451931,
+    "lon": 1.8261265
+  },
+  "juncosa": {
+    "lat": 41.3715158,
+    "lon": 0.7753498
+  },
+  "juneda": {
+    "lat": 41.5473229,
+    "lon": 0.8287796
+  },
+  "soleras-el": {
+    "lat": 41.4134942,
+    "lon": 0.6819598
+  },
+  "torms-els": {
+    "lat": 41.3945871,
+    "lon": 0.7200786
+  },
+  "albesa": {
+    "lat": 41.7513409,
+    "lon": 0.6591801
+  },
+  "artesa-de-segre": {
+    "lat": 41.9234251,
+    "lon": 1.0788533
+  },
+  "camarasa": {
+    "lat": 41.8756649,
+    "lon": 0.8778945
+  },
+  "castello-de-farfanya": {
+    "lat": 41.8203233,
+    "lon": 0.7277803
+  },
+  "cubells": {
+    "lat": 41.8418325,
+    "lon": 0.988554
+  },
+  "ivars-de-noguera": {
+    "lat": 41.8511097,
+    "lon": 0.5853357
+  },
+  "les-avellanes-i-santa-linya": {
+    "lat": 41.8783143,
+    "lon": 0.7764424
+  },
+  "llorenç-de-montgai": {
+    "lat": 41.8664115,
+    "lon": 0.8326339
+  },
+  "os-de-balaguer": {
+    "lat": 41.8718032,
+    "lon": 0.7191666
+  },
+  "penelles": {
+    "lat": 41.7585412,
+    "lon": 0.9655624
+  },
+  "sentiu-de-sio-la": {
+    "lat": 41.8150612,
+    "lon": 0.8815003
+  },
+  "termens": {
+    "lat": 41.7172836,
+    "lon": 0.764939
+  },
+  "vilanova-de-meia": {
+    "lat": 41.9953518,
+    "lon": 1.0228846
+  },
+  "espui": {
+    "lat": 42.4550677,
+    "lon": 0.9878482
+  },
+  "la-pobla-de-segur": {
+    "lat": 42.2473665,
+    "lon": 0.9672725
+  },
+  "salas-de-pallars": {
+    "lat": 42.2120193,
+    "lon": 0.932087
+  },
+  "talarn": {
+    "lat": 42.1860349,
+    "lon": 0.8995312
+  },
+  "alt-aneu": {
+    "lat": 42.6903552,
+    "lon": 1.0624833
+  },
+  "espot": {
+    "lat": 42.5762878,
+    "lon": 1.0884847
+  },
+  "esterri-de-cardos": {
+    "lat": 42.5924733,
+    "lon": 1.2620454
+  },
+  "farrera": {
+    "lat": 42.4802681,
+    "lon": 1.2956313
+  },
+  "norís": {
+    "lat": 42.5595715,
+    "lon": 1.3472414
+  },
+  "barbens": {
+    "lat": 41.6777676,
+    "lon": 1.0164683
+  },
+  "castellnou-de-seana": {
+    "lat": 41.6468732,
+    "lon": 0.9700315
+  },
+  "fondarella": {
+    "lat": 41.6342812,
+    "lon": 0.8739685
+  },
+  "golmes": {
+    "lat": 41.6331288,
+    "lon": 0.9321508
+  },
+  "miralcamp": {
+    "lat": 41.6049685,
+    "lon": 0.8801705
+  },
+  "sidamon": {
+    "lat": 41.6289346,
+    "lon": 0.8318491
+  },
+  "vila-sana": {
+    "lat": 41.6628331,
+    "lon": 0.9289367
+  },
+  "sant-ramon": {
+    "lat": 41.7253374,
+    "lon": 1.363189
+  },
+  "talavera": {
+    "lat": 41.5817985,
+    "lon": 1.33826
+  },
+  "aitona": {
+    "lat": 41.4939531,
+    "lon": 0.4591083
+  },
+  "albatarrec": {
+    "lat": 41.5733194,
+    "lon": 0.6059163
+  },
+  "alcano": {
+    "lat": 41.4811336,
+    "lon": 0.6167568
+  },
+  "alcarras": {
+    "lat": 41.5632578,
+    "lon": 0.5240396
+  },
+  "alcoletge": {
+    "lat": 41.6472222,
+    "lon": 0.6944444
+  },
+  "alguaire": {
+    "lat": 41.7361463,
+    "lon": 0.585933
+  },
+  "almacelles": {
+    "lat": 41.7294989,
+    "lon": 0.4404763
+  },
+  "alpicat": {
+    "lat": 41.6666421,
+    "lon": 0.5554774
+  },
+  "artesa-de-lleida": {
+    "lat": 41.552805,
+    "lon": 0.7034622
+  },
+  "corbins": {
+    "lat": 41.6905677,
+    "lon": 0.6930804
+  },
+  "gimenells-i-el-pla-de-la-font": {
+    "lat": 41.6714077,
+    "lon": 0.3842872
+  },
+  "maials": {
+    "lat": 41.3640737,
+    "lon": 0.5053309
+  },
+  "massalcoreig": {
+    "lat": 41.4591786,
+    "lon": 0.3596468
+  },
+  "montoliu-de-lleida": {
+    "lat": 41.5601373,
+    "lon": 0.5889379
+  },
+  "puigverd-de-lleida": {
+    "lat": 41.5436104,
+    "lon": 0.7334031
+  },
+  "rossello": {
+    "lat": 41.694584,
+    "lon": 0.592262
+  },
+  "seros": {
+    "lat": 41.4636665,
+    "lon": 0.4118677
+  },
+  "sudanell": {
+    "lat": 41.556894,
+    "lon": 0.5669118
+  },
+  "sunyer": {
+    "lat": 41.5230023,
+    "lon": 0.5924514
+  },
+  "torres-de-segre": {
+    "lat": 41.5353408,
+    "lon": 0.513451
+  },
+  "riner": {
+    "lat": 41.9189771,
+    "lon": 1.5483256
+  },
+  "sant-llorenc-de-morunys": {
+    "lat": 42.1360783,
+    "lon": 1.5885869
+  },
+  "agramunt": {
+    "lat": 41.787076,
+    "lon": 1.0985119
+  },
+  "anglesola": {
+    "lat": 41.6581289,
+    "lon": 1.0834165
+  },
+  "bellpuig": {
+    "lat": 41.6254383,
+    "lon": 1.0117111
+  },
+  "ciutadilla": {
+    "lat": 41.5613952,
+    "lon": 1.1393955
+  },
+  "fuliola-la": {
+    "lat": 41.7143699,
+    "lon": 1.0187145
+  },
+  "sant-marti-de-malda": {
+    "lat": 41.5593056,
+    "lon": 1.0552952
+  },
+  "vallbona-de-les-monges": {
+    "lat": 41.5249704,
+    "lon": 1.0890539
+  },
+  "verdu": {
+    "lat": 41.6102775,
+    "lon": 1.143512
+  },
+  "vilagrassa": {
+    "lat": 41.648938,
+    "lon": 1.1054885
+  },
+  "vilanova-de-bellpuig": {
+    "lat": 41.6044126,
+    "lon": 0.9574424
+  },
+  "arres": {
+    "lat": 42.7583345,
+    "lon": 0.7090562
+  },
+  "bordes-es": {
+    "lat": 42.7375291,
+    "lon": 0.7200281
+  },
+  "puiggros": {
+    "lat": 41.5510407,
+    "lon": 0.8890694
+  },
+  "alcover": {
+    "lat": 41.2629186,
+    "lon": 1.1702772
+  },
+  "cabra-del-camp": {
+    "lat": 41.3952451,
+    "lon": 1.2772435
+  },
+  "mont-ral": {
+    "lat": 41.2871207,
+    "lon": 1.0980821
+  },
+  "nulles": {
+    "lat": 41.2492881,
+    "lon": 1.2957338
+  },
+  "rourell-el": {
+    "lat": 41.223574,
+    "lon": 1.2183923
+  },
+  "capafonts": {
+    "lat": 41.2948795,
+    "lon": 1.0269673
+  },
+  "brufaganya": {
+    "lat": 41.484539,
+    "lon": 1.4483835
+  },
+  "llorac": {
+    "lat": 41.5561484,
+    "lon": 1.3071491
+  },
+  "pira": {
+    "lat": 41.4236202,
+    "lon": 1.2031023
+  },
+  "sarral": {
+    "lat": 41.4453774,
+    "lon": 1.2469434
+  },
+  "savalla-del-comtat": {
+    "lat": 41.5428139,
+    "lon": 1.2997894
+  },
+  "vilaverd": {
+    "lat": 41.3346124,
+    "lon": 1.1774773
+  },
+  "ulldemolins": {
+    "lat": 41.3222886,
+    "lon": 0.8761351
+  },
+  "vilella-alta-la": {
+    "lat": 41.2250307,
+    "lon": 0.7803592
+  },
+  "altafulla": {
+    "lat": 41.1423467,
+    "lon": 1.3768704
+  },
+  "canonja-la": {
+    "lat": 41.120408,
+    "lon": 1.1820704
+  },
+  "catllar-el": {
+    "lat": 41.1748794,
+    "lon": 1.3256814
+  },
+  "morell-el": {
+    "lat": 41.1923512,
+    "lon": 1.2071006
+  },
+  "pallaresos-els": {
+    "lat": 41.1739791,
+    "lon": 1.2729716
+  },
+  "la-llagosta": {
+    "lat": 41.5131188,
+    "lon": 2.1931226
+  },
+  "masies-de-roda-les": {
+    "lat": 41.9900725,
+    "lon": 2.3064465
+  },
+  "monistrol-de-calders": {
+    "lat": 41.7608379,
+    "lon": 2.0146236
+  },
+  "prat-de-llobregat-el": {
+    "lat": 41.3305918,
+    "lon": 2.0930815
+  },
+  "balenya": {
+    "lat": 41.8155343,
+    "lon": 2.2139849
+  },
+  "bigues-i-riells-del-fai": {
+    "lat": 41.6865341,
+    "lon": 2.2074151
+  },
+  "calldetenes": {
+    "lat": 41.9257651,
+    "lon": 2.2834318
+  },
+  "campins": {
+    "lat": 41.7271582,
+    "lon": 2.4707423
+  },
+  "castellfollit-de-riubregos": {
+    "lat": 41.7762237,
+    "lon": 1.4383714
+  },
+  "castellgali": {
+    "lat": 41.6732765,
+    "lon": 1.8378043
+  },
+  "esplugues-de-llobregat": {
+    "lat": 41.3778094,
+    "lon": 2.0886257
+  },
+  "fogars-de-montclus": {
+    "lat": 41.7471608,
+    "lon": 2.4394274
+  },
+  "folgueroles": {
+    "lat": 41.9392868,
+    "lon": 2.3180742
+  },
+  "gisclareny": {
+    "lat": 42.249978,
+    "lon": 1.7866137
+  },
+  "gurb": {
+    "lat": 41.9409869,
+    "lon": 2.2433019
+  },
+  "llica-de-vall": {
+    "lat": 41.5863002,
+    "lon": 2.2391397
+  },
+  "malla": {
+    "lat": 41.887016,
+    "lon": 2.2354564
+  },
+  "molins-de-rei": {
+    "lat": 41.4138087,
+    "lon": 2.0159626
+  },
+  "montesquiu": {
+    "lat": 42.108728,
+    "lon": 2.2086111
+  },
+  "montmelo": {
+    "lat": 41.5515189,
+    "lon": 2.2480812
+  },
+  "navas": {
+    "lat": 41.8895711,
+    "lon": 1.7940495
+  },
+  "oris": {
+    "lat": 42.065576,
+    "lon": 2.2121313
+  },
+  "palau-solita-i-plegamans": {
+    "lat": 41.5875286,
+    "lon": 2.1786438
+  },
+  "palleja": {
+    "lat": 41.4223067,
+    "lon": 1.9967356
+  },
+  "saldes": {
+    "lat": 42.2287591,
+    "lon": 1.7349486
+  },
+  "sant-adria-de-besos": {
+    "lat": 41.4304832,
+    "lon": 2.2182775
+  },
+  "sant-esteve-de-palautordera": {
+    "lat": 41.7040768,
+    "lon": 2.4343426
+  },
+  "sant-feliu-de-codines": {
+    "lat": 41.6885036,
+    "lon": 2.1646769
+  },
+  "sant-joan-despi": {
+    "lat": 41.3667951,
+    "lon": 2.0570346
+  },
+  "sant-julia-de-cerdanyola": {
+    "lat": 42.2234097,
+    "lon": 1.8921354
+  },
+  "sant-julia-de-vilatorta": {
+    "lat": 41.9219404,
+    "lon": 2.3240651
+  },
+  "sant-llorenc-savall": {
+    "lat": 41.6794647,
+    "lon": 2.0579669
+  },
+  "sant-marti-de-centelles": {
+    "lat": 41.7540904,
+    "lon": 2.2195762
+  },
+  "sant-pere-de-vilamajor": {
+    "lat": 41.6843288,
+    "lon": 2.3900497
+  },
+  "sant-quirze-del-valles": {
+    "lat": 41.5331789,
+    "lon": 2.0806453
+  },
+  "sant-vicenc-de-torello": {
+    "lat": 42.0630229,
+    "lon": 2.272337
+  },
+  "sant-vicenc-dels-horts": {
+    "lat": 41.3934193,
+    "lon": 2.0099482
+  },
+  "santa-coloma-de-cervello": {
+    "lat": 41.3687006,
+    "lon": 2.0174512
+  },
+  "santa-perpetua-de-mogoda": {
+    "lat": 41.5343245,
+    "lon": 2.1835803
+  },
+  "tavernoles": {
+    "lat": 41.9520757,
+    "lon": 2.3263016
+  },
+  "viladecans": {
+    "lat": 41.3163083,
+    "lon": 2.0156034
+  },
+  "viladecavalls": {
+    "lat": 41.5563969,
+    "lon": 1.9553173
+  },
+  "begur": {
+    "lat": 41.9541918,
+    "lon": 3.2088349
+  },
+  "beuda": {
+    "lat": 42.2372601,
+    "lon": 2.7097379
+  },
+  "biure": {
+    "lat": 42.3380996,
+    "lon": 2.8949823
+  },
+  "bolvir": {
+    "lat": 42.417885,
+    "lon": 1.8798183
+  },
+  "bordils": {
+    "lat": 42.0440682,
+    "lon": 2.9116018
+  },
+  "caldes-de-malavella": {
+    "lat": 41.8282907,
+    "lon": 2.8073845
+  },
+  "campelles": {
+    "lat": 42.2946353,
+    "lon": 2.1405635
+  },
+  "campllong": {
+    "lat": 41.8948831,
+    "lon": 2.8309625
+  },
+  "cantallops": {
+    "lat": 42.4235685,
+    "lon": 2.9248575
+  },
+  "capmany": {
+    "lat": 42.3689077,
+    "lon": 2.9018685
+  },
+  "corca": {
+    "lat": 41.9893624,
+    "lon": 3.0170799
+  },
+  "das": {
+    "lat": 42.3636176,
+    "lon": 1.8713459
+  },
+  "espinelves": {
+    "lat": 41.8779208,
+    "lon": 2.3993229
+  },
+  "flaca": {
+    "lat": 42.0456854,
+    "lon": 2.9569565
+  },
+  "foixa": {
+    "lat": 42.0542404,
+    "lon": 3.0098912
+  },
+  "fontanals-de-cerdanya": {
+    "lat": 42.3844794,
+    "lon": 1.9112934
+  },
+  "fortia": {
+    "lat": 42.2424345,
+    "lon": 3.0404198
+  },
+  "gombren": {
+    "lat": 42.2484304,
+    "lon": 2.0905975
+  },
+  "guils-de-cerdanya": {
+    "lat": 42.4479402,
+    "lon": 1.879737
+  },
+  "la-pera": {
+    "lat": 42.0205464,
+    "lon": 2.9736244
+  },
+  "la-selva-de-mar": {
+    "lat": 42.3241056,
+    "lon": 3.1868248
+  },
+  "la-vajol": {
+    "lat": 42.4039078,
+    "lon": 2.800086
+  },
+  "llambilles": {
+    "lat": 41.9204519,
+    "lon": 2.8540402
+  },
+  "llers": {
+    "lat": 42.2956869,
+    "lon": 2.9114592
+  },
+  "maia-de-montcal": {
+    "lat": 42.2221769,
+    "lon": 2.7431144
+  },
+  "masarac-i-vilarnadal": {
+    "lat": 42.3509939,
+    "lon": 2.9723618
+  },
+  "massanes": {
+    "lat": 41.7654696,
+    "lon": 2.6528719
+  },
+  "meranges": {
+    "lat": 42.4460663,
+    "lon": 1.7870102
+  },
+  "mieres": {
+    "lat": 42.1244124,
+    "lon": 2.6401122
+  },
+  "palau-sator": {
+    "lat": 41.9897891,
+    "lon": 3.1103856
+  },
+  "palol-de-revardit": {
+    "lat": 42.0694953,
+    "lon": 2.7958985
+  },
+  "pardines": {
+    "lat": 42.312731,
+    "lon": 2.2139864
+  },
+  "planoles": {
+    "lat": 42.3148273,
+    "lon": 2.1029743
+  },
+  "queralbs": {
+    "lat": 42.3495722,
+    "lon": 2.1632838
+  },
+  "riells-i-viabrea": {
+    "lat": 41.7764308,
+    "lon": 2.5129067
+  },
+  "riudellots-de-la-selva": {
+    "lat": 41.8793464,
+    "lon": 2.8172516
+  },
+  "riumors": {
+    "lat": 42.2269331,
+    "lon": 3.0420591
+  },
+  "sant-aniol-de-finestres": {
+    "lat": 42.0694432,
+    "lon": 2.6084554
+  },
+  "sant-feliu-de-buixalleu": {
+    "lat": 41.7913017,
+    "lon": 2.5861463
+  },
+  "sant-ferriol": {
+    "lat": 42.1868577,
+    "lon": 2.6783028
+  },
+  "sant-hilari-sacalm": {
+    "lat": 41.8780822,
+    "lon": 2.5131751
+  },
+  "sant-jaume-de-llierca": {
+    "lat": 42.2119833,
+    "lon": 2.6074259
+  },
+  "sant-joan-de-mollet": {
+    "lat": 42.0442275,
+    "lon": 2.941985
+  },
+  "sant-julia-de-ramis": {
+    "lat": 42.0346552,
+    "lon": 2.8394572
+  },
+  "sant-marti-de-llemena": {
+    "lat": 42.0364324,
+    "lon": 2.6475329
+  },
+  "sant-marti-vell": {
+    "lat": 42.0196093,
+    "lon": 2.9311901
+  },
+  "setcases": {
+    "lat": 42.375331,
+    "lon": 2.3016103
+  },
+  "torrent": {
+    "lat": 41.9515047,
+    "lon": 3.1267566
+  },
+  "toses": {
+    "lat": 42.3218595,
+    "lon": 2.0168227
+  },
+  "tossa-de-mar": {
+    "lat": 41.7197773,
+    "lon": 2.9312155
+  },
+  "ullastret": {
+    "lat": 42.0008975,
+    "lon": 3.0689759
+  },
+  "vall-llobrega": {
+    "lat": 41.8792987,
+    "lon": 3.1263403
+  },
+  "vallfogona-de-ripolles": {
+    "lat": 42.1963139,
+    "lon": 2.3036247
+  },
+  "vila-sacra": {
+    "lat": 42.2668061,
+    "lon": 3.0170438
+  },
+  "vilabertran": {
+    "lat": 42.2826972,
+    "lon": 2.9814591
+  },
+  "vilajuiga": {
+    "lat": 42.3255898,
+    "lon": 3.0937345
+  },
+  "vilallonga-de-ter": {
+    "lat": 42.331497,
+    "lon": 2.3125292
+  },
+  "vilanant": {
+    "lat": 42.2544997,
+    "lon": 2.8897248
+  },
+  "arseguel": {
+    "lat": 42.3507602,
+    "lon": 1.5830268
+  },
+  "baix-pallars": {
+    "lat": 42.3386268,
+    "lon": 1.0139824
+  },
+  "bausen": {
+    "lat": 42.8347635,
+    "lon": 0.7158147
+  },
+  "biosca": {
+    "lat": 41.6739964,
+    "lon": 1.2696853
+  },
+  "bossost": {
+    "lat": 42.7859893,
+    "lon": 0.69312
+  },
+  "cabo": {
+    "lat": 42.4271247,
+    "lon": 1.0028583
+  },
+  "canejan": {
+    "lat": 42.8382496,
+    "lon": 0.7399836
+  },
+  "castellsera": {
+    "lat": 41.752479,
+    "lon": 0.9993247
+  },
+  "cava": {
+    "lat": 42.3165818,
+    "lon": 1.6111497
+  },
+  "el-poal": {
+    "lat": 41.6786341,
+    "lon": 0.8557482
+  },
+  "el-pont-de-bar": {
+    "lat": 42.3792894,
+    "lon": 1.6117658
+  },
+  "els-plans-de-sio": {
+    "lat": 41.7342829,
+    "lon": 1.2086174
+  },
+  "estamariu": {
+    "lat": 42.3750366,
+    "lon": 1.5237335
+  },
+  "figols-i-alinya": {
+    "lat": 42.2068675,
+    "lon": 1.3889096
+  },
+  "josa-i-tuixen": {
+    "lat": 42.2449099,
+    "lon": 1.5879768
+  },
+  "la-portella": {
+    "lat": 41.7396381,
+    "lon": 0.6397836
+  },
+  "la-torre-de-cabdella": {
+    "lat": 42.4223351,
+    "lon": 0.9821933
+  },
+  "la-vall-de-boi": {
+    "lat": 42.5428062,
+    "lon": 0.8675631
+  },
+  "la-vansa-i-fornols": {
+    "lat": 42.2432113,
+    "lon": 1.4719326
+  },
+  "les": {
+    "lat": 42.8126854,
+    "lon": 0.7118311
+  },
+  "les-oluges": {
+    "lat": 41.6967254,
+    "lon": 1.3200824
+  },
+  "les-valls-de-valira": {
+    "lat": 42.4514885,
+    "lon": 1.3986254
+  },
+  "lladorre": {
+    "lat": 42.6209464,
+    "lon": 1.2494301
+  },
+  "llavorsi": {
+    "lat": 42.4957479,
+    "lon": 1.210519
+  },
+  "lles-de-cerdanya": {
+    "lat": 42.3903804,
+    "lon": 1.6875851
+  },
+  "menarguens": {
+    "lat": 41.7279365,
+    "lon": 0.7424595
+  },
+  "montella-i-martinet": {
+    "lat": 42.3229253,
+    "lon": 1.6931213
+  },
+  "montferrer-i-castellbo": {
+    "lat": 42.3957216,
+    "lon": 1.3376396
+  },
+  "montgai": {
+    "lat": 41.8664115,
+    "lon": 0.8326339
+  },
+  "montoliu-de-segarra": {
+    "lat": 41.5900878,
+    "lon": 1.2698212
+  },
+  "montornes-de-segarra": {
+    "lat": 41.6009305,
+    "lon": 1.230309
+  },
+  "naut-aran": {
+    "lat": 42.7016601,
+    "lon": 0.9131665
+  },
+  "organya": {
+    "lat": 42.2107781,
+    "lon": 1.327822
+  },
+  "osso-de-sio": {
+    "lat": 41.7548359,
+    "lon": 1.1592516
+  },
+  "prats-i-sansor": {
+    "lat": 42.3654525,
+    "lon": 1.8372016
+  },
+  "preixens": {
+    "lat": 41.793561,
+    "lon": 1.0506325
+  },
+  "prullans": {
+    "lat": 42.3803293,
+    "lon": 1.7364774
+  },
+  "rialp": {
+    "lat": 42.4430046,
+    "lon": 1.1354914
+  },
+  "sanauja": {
+    "lat": 41.876169,
+    "lon": 1.3106363
+  },
+  "sarroca-de-bellera": {
+    "lat": 42.3595877,
+    "lon": 0.8812388
+  },
+  "senterada": {
+    "lat": 42.3249257,
+    "lon": 0.9366155
+  },
+  "soriguera": {
+    "lat": 42.3848228,
+    "lon": 1.1834819
+  },
+  "soses": {
+    "lat": 41.5331552,
+    "lon": 0.4874802
+  },
+  "tarroja-de-segarra": {
+    "lat": 41.7308605,
+    "lon": 1.2742092
+  },
+  "tirvia": {
+    "lat": 42.514956,
+    "lon": 1.243896
+  },
+  "tora": {
+    "lat": 41.6733933,
+    "lon": 1.2802937
+  },
+  "tornabous": {
+    "lat": 41.7018162,
+    "lon": 1.0524009
+  },
+  "torrefeta-i-florejacs": {
+    "lat": 41.7787656,
+    "lon": 1.2473908
+  },
+  "torrelameu": {
+    "lat": 41.703056,
+    "lon": 0.708139
+  },
+  "vall-de-cardos": {
+    "lat": 42.5936277,
+    "lon": 1.2026698
+  },
+  "vallfogona-de-balaguer": {
+    "lat": 41.7855771,
+    "lon": 0.828003
+  },
+  "vielha-e-mijaran": {
+    "lat": 42.7017572,
+    "lon": 0.7954744
+  },
+  "vilamos": {
+    "lat": 42.7471748,
+    "lon": 0.7277956
+  },
+  "vilanova-de-la-barca": {
+    "lat": 41.6895577,
+    "lon": 0.7288787
+  },
+  "vilanova-de-segria": {
+    "lat": 41.7121134,
+    "lon": 0.6169172
+  },
+  "arnes": {
+    "lat": 40.9110193,
+    "lon": 0.2610217
+  },
+  "caseres": {
+    "lat": 41.0394845,
+    "lon": 0.2512487
+  },
+  "castellvell-del-camp": {
+    "lat": 41.1802558,
+    "lon": 1.0978312
+  },
+  "colldejou": {
+    "lat": 41.0991567,
+    "lon": 0.8875766
+  },
+  "constanti": {
+    "lat": 41.1528113,
+    "lon": 1.2151822
+  },
+  "duesaigues": {
+    "lat": 41.1457974,
+    "lon": 0.9305023
+  },
+  "la-pobla-de-mafumet": {
+    "lat": 41.1865974,
+    "lon": 1.2082805
+  },
+  "la-selva-del-camp": {
+    "lat": 41.2145609,
+    "lon": 1.1377856
+  },
+  "la-torre-de-fontaubella": {
+    "lat": 41.1245958,
+    "lon": 0.8644949
+  },
+  "les-borges-del-camp": {
+    "lat": 41.1715857,
+    "lon": 1.0204424
+  },
+  "maspujols": {
+    "lat": 41.1817965,
+    "lon": 1.0457853
+  },
+  "mont-roig-del-camp": {
+    "lat": 41.0846728,
+    "lon": 0.9613021
+  },
+  "montbrio-del-camp": {
+    "lat": 41.1200937,
+    "lon": 1.0057341
+  },
+  "perafort": {
+    "lat": 41.1852534,
+    "lon": 1.2477073
+  },
+  "poboleda": {
+    "lat": 41.233358,
+    "lon": 0.844888
+  },
+  "pradell-de-la-teixeta": {
+    "lat": 41.1346464,
+    "lon": 1.1167031
+  },
+  "pratdip": {
+    "lat": 41.0515188,
+    "lon": 0.8716047
+  },
+  "riudoms": {
+    "lat": 41.1390915,
+    "lon": 1.0519702
+  },
+  "salou": {
+    "lat": 41.0768193,
+    "lon": 1.1440411
+  },
+  "vallfogona-de-riucorb": {
+    "lat": 41.5632199,
+    "lon": 1.2363297
+  },
+  "vila-seca": {
+    "lat": 41.1109268,
+    "lon": 1.144961
+  },
+  "vilaplana": {
+    "lat": 41.2281084,
+    "lon": 1.0336452
+  },
+  "vinyols-i-els-arcs": {
+    "lat": 41.1139986,
+    "lon": 1.0387245
+  }
+}
