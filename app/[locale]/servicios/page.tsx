@@ -44,8 +44,9 @@ export default async function ServiciosPage({ params }: Props) {
               href="/servicios/amianto"
               className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 card-hover"
             >
-              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <Image src="/amiant.svg" alt="Amianto" width={32} height={32} className="w-8 h-8" />
+              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
+                <Image src="/amiant_dark.svg" alt="Amianto" width={32} height={32} className="w-8 h-8 block group-hover:hidden" />
+                <Image src="/amiant_light.svg" alt="Amianto" width={32} height={32} className="w-8 h-8 hidden group-hover:block" />
               </div>
               <h2 className="text-2xl font-bold text-secondary mb-3">
                 {tServices('asbestosTitle')}
@@ -64,8 +65,9 @@ export default async function ServiciosPage({ params }: Props) {
               href="/servicios/radon"
               className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 card-hover"
             >
-              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <Image src="/radon.svg" alt="Radó" width={32} height={32} className="w-8 h-8" />
+              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
+                <Image src="/radon_dark.svg" alt="Radó" width={32} height={32} className="w-8 h-8 block group-hover:hidden" />
+                <Image src="/radon_light.svg" alt="Radó" width={32} height={32} className="w-8 h-8 hidden group-hover:block" />
               </div>
               <h2 className="text-2xl font-bold text-secondary mb-3">
                 {tServices('radonTitle')}
