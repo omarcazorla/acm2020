@@ -29,7 +29,7 @@ function injectZoneLabels(text: string, locale: string): string {
         ? locale === 'ca' ? 'Zona II' : 'Zona II'
         : m.zonaRadon === 'media'
         ? locale === 'ca' ? 'Zona I' : 'Zona I'
-        : locale === 'es' ? 'sin zona CSN' : locale === 'ca' ? 'sense zona CSN' : locale === 'en' ? 'no CSN zone' : 'hors zone CSN'
+        : locale === 'es' ? 'zona no prioritaria' : locale === 'ca' ? 'zona no prioritària' : locale === 'en' ? 'non-priority zone' : 'zone non prioritaire'
     return `[${name} (${label})](/municipios/${slug})`
   })
 }
