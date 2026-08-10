@@ -17,6 +17,23 @@ import { getPathname } from '@/i18n/navigation'
 import Link from 'next/link'
 import { ArrowRight, MapPin, Shield, AlertTriangle, Info } from 'lucide-react'
 
+// Inject zone labels into municipality links inside a "limita con" paragraph.
+// Finds [Name](/municipios/slug) patterns, looks up the slug's zonaRadon,
+// and rewrites as [Name (Zona II)](/municipios/slug) etc.
+function injectZoneLabels(text: string, locale: string): string {
+  return text.replace(/\[([^\]]+)\]\(\/municipios\/([^)]+)\)/g, (match, name, slug) => {
+    const m = getMunicipioBySlug(slug)
+    if (!m) return match
+    const label =
+      m.zonaRadon === 'alta'
+        ? locale === 'ca' ? 'Zona II' : 'Zona II'
+        : m.zonaRadon === 'media'
+        ? locale === 'ca' ? 'Zona I' : 'Zona I'
+        : locale === 'es' ? 'sin zona CSN' : locale === 'ca' ? 'sense zona CSN' : locale === 'en' ? 'no CSN zone' : 'hors zone CSN'
+    return `[${name} (${label})](/municipios/${slug})`
+  })
+}
+
 // Parse markdown-style links [text](/path) in content and render as Next.js Link components
 function RichText({ text }: { text: string }) {
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/)
@@ -106,6 +123,12 @@ export default async function MunicipioPage({ params }: Props) {
       description = description + '\n\n' + limitaCon
     }
   }
+
+  // Inject live zone labels into municipality links inside the "limita con" paragraph
+  description = description
+    .split('\n\n')
+    .map(p => p.includes('limita con') ? injectZoneLabels(p, loc) : p)
+    .join('\n\n')
 
   // Provincia slug for breadcrumbs
   const provinciaSlug = municipio.provincia.toLowerCase()
