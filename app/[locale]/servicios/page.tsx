@@ -6,11 +6,8 @@ import PageHero from '@/components/layout/PageHero'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import Link from 'next/link'
-import {
-  AlertTriangle,
-  Activity,
-  ArrowRight,
-} from 'lucide-react'
+import Image from 'next/image'
+import { ArrowRight } from 'lucide-react'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
 
@@ -48,7 +45,7 @@ export default async function ServiciosPage({ params }: Props) {
               className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 card-hover"
             >
               <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors">
-                <AlertTriangle className="w-8 h-8 text-primary group-hover:text-white transition-colors" />
+                <Image src="/amiant.svg" alt="Amianto" width={32} height={32} className="w-8 h-8" />
               </div>
               <h2 className="text-2xl font-bold text-secondary mb-3">
                 {tServices('asbestosTitle')}
@@ -68,7 +65,7 @@ export default async function ServiciosPage({ params }: Props) {
               className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 card-hover"
             >
               <div className="w-16 h-16 bg-secondary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
-                <Activity className="w-8 h-8 text-secondary group-hover:text-white transition-colors" />
+                <Image src="/radon.svg" alt="Radó" width={32} height={32} className="w-8 h-8" />
               </div>
               <h2 className="text-2xl font-bold text-secondary mb-3">
                 {tServices('radonTitle')}
