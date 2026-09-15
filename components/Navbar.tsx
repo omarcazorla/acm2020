@@ -86,7 +86,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
           {/* CTA Button */}
           <div className="hidden md:flex items-center space-x-3">
             <a
-              href="tel:667623844"
+              href="tel:+34667623844"
               className={`flex items-center space-x-2 text-sm font-medium transition-colors duration-300 ${isScrolled || !darkHero ? 'text-secondary' : 'text-white/90'}`}
             >
               <Phone className="w-4 h-4" />
@@ -137,7 +137,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
             })}
             <div className="pt-2 border-t border-gray-100">
               <a
-                href="tel:667623844"
+                href="tel:+34667623844"
                 className="flex items-center space-x-2 px-4 py-3 text-secondary font-medium"
               >
                 <Phone className="w-4 h-4" />

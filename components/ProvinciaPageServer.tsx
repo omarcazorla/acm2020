@@ -186,10 +186,10 @@ export default async function ProvinciaPageServer({ locale, provinciaSlug }: Pro
           {allProvMunicipios.length > 0 && (
             <div className="mb-12">
               <h2 className="text-2xl font-bold text-secondary mb-6">
-                {loc === 'es' ? `Mapa de municipios — ${provinciaName}` :
-                 loc === 'ca' ? `Mapa de municipis — ${provinciaName}` :
-                 loc === 'en' ? `Municipality map — ${provinciaName}` :
-                 `Carte des municipalités — ${provinciaName}`}
+                {loc === 'es' ? `Mapa de municipios: ${provinciaName}` :
+                 loc === 'ca' ? `Mapa de municipis: ${provinciaName}` :
+                 loc === 'en' ? `Municipality map: ${provinciaName}` :
+                 `Carte des municipalités: ${provinciaName}`}
               </h2>
               <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
                 <MunicipiosMapWrapper

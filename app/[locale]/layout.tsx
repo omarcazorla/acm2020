@@ -68,6 +68,8 @@ export default async function LocaleLayout({ children, params }: Props) {
     <html lang={locale} className={`${dmSans.variable} ${stix.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <meta name="theme-color" content="#1E3A5F" />
         <OrganizationJsonLd />
         <LocalBusinessJsonLd />
       </head>

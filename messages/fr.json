@@ -375,13 +375,96 @@
       "zonaIDesc": "Des mesures préventives sont recommandées"
     },
     "privacy": {
-      "title": "Politique de Confidentialité"
+      "title": "Politique de Confidentialité",
+      "lastUpdated": "2024",
+      "sections": [
+        {
+          "title": "Responsable du traitement",
+          "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nC. Ibiza, 1, Rez-de-chaussée\n08214 Badia del Valles, Barcelone, Espagne\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844"
+        },
+        {
+          "title": "Finalité du traitement",
+          "content": "Les données personnelles collectées via ce site web sont traitées aux fins suivantes : gestion des demandes d'information et de contact reçues par le formulaire web, prestation des services professionnels demandés, envoi de communications relatives aux services contractés et respect des obligations légales applicables."
+        },
+        {
+          "title": "Base juridique du traitement",
+          "content": "La base juridique du traitement de vos données personnelles est le consentement accordé lors de l'envoi du formulaire de contact, l'exécution d'un contrat ou de mesures précontractuelles demandées par la personne concernée, et le respect des obligations légales applicables à l'activité professionnelle d'ACM 2020."
+        },
+        {
+          "title": "Destinataires des données",
+          "content": "Les données personnelles ne seront pas communiquées à des tiers sauf obligation légale. Aucun transfert international de données en dehors de l'Espace économique européen n'est effectué. S'il s'avérait nécessaire de communiquer des données à des tiers pour la prestation de services contractés, la personne concernée en serait préalablement informée."
+        },
+        {
+          "title": "Droits de la personne concernée",
+          "content": "La personne concernée peut exercer les droits d'accès, de rectification, d'effacement, d'opposition, de limitation du traitement et de portabilité des données en envoyant une demande à acm@acm2020.es ou par courrier postal à l'adresse indiquée. Elle a également le droit de déposer une réclamation auprès de l'Agence espagnole de protection des données (www.aepd.es) si elle considère que le traitement de ses données enfreint la réglementation en vigueur."
+        },
+        {
+          "title": "Conservation des données",
+          "content": "Les données personnelles seront conservées pendant le temps nécessaire à l'accomplissement de la finalité pour laquelle elles ont été collectées et à la détermination des responsabilités éventuelles qui pourraient en découler. Les dispositions contenues dans la réglementation applicable en matière d'archivage et de documentation s'appliqueront."
+        },
+        {
+          "title": "Mesures de sécurité",
+          "content": "ACM 2020 a adopté les mesures techniques et organisationnelles nécessaires pour garantir la sécurité et l'intégrité des données personnelles, ainsi que pour prévenir leur altération, leur perte, leur traitement ou leur accès non autorisé, compte tenu de l'état de la technologie, de la nature des données stockées et des risques auxquels elles sont exposées."
+        }
+      ]
     },
     "legalNotice": {
-      "title": "Mentions Légales"
+      "title": "Mentions Légales",
+      "sections": [
+        {
+          "title": "Données d'identification",
+          "content": "Conformément au devoir d'information établi par la loi espagnole 34/2002, du 11 juillet, relative aux services de la société de l'information et au commerce électronique (LSSI-CE), les données d'identification du titulaire de ce site web sont indiquées ci-dessous :\n\nDénomination sociale : ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nCIF : B67442938\nSiège social : C. Ibiza, 1, Rez-de-chaussée, 08214 Badia del Valles, Barcelone\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844\nRegistre RERA : 86/AB/09"
+        },
+        {
+          "title": "Objet",
+          "content": "Ce site web a pour objet de fournir au public des informations sur les services professionnels de conseil en gestion intégrale de l'amiante et de mesure du gaz radon proposés par ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. Les informations fournies ont un caractère général et indicatif et ne sauraient être considérées comme un conseil professionnel contraignant."
+        },
+        {
+          "title": "Conditions d'utilisation",
+          "content": "L'utilisation de ce site web confère la qualité d'utilisateur et implique l'acceptation pleine et sans réserve de l'ensemble des dispositions incluses dans les présentes Mentions Légales. L'utilisateur s'engage à faire un usage approprié des contenus et services qu'ACM 2020 propose via ce site web et s'abstient de les utiliser à des fins illicites ou contraires à la bonne foi."
+        },
+        {
+          "title": "Propriété intellectuelle et industrielle",
+          "content": "L'ensemble des contenus de ce site web (textes, photographies, graphiques, images, logos, icônes, technologie, logiciels, liens et autres contenus audiovisuels ou sonores), ainsi que sa conception graphique et ses codes source, sont la propriété intellectuelle d'ACM 2020 ou de tiers, sans qu'aucun droit d'exploitation sur ceux-ci ne puisse être considéré comme cédé à l'utilisateur au-delà de ce qui est strictement nécessaire à l'utilisation correcte du site web."
+        },
+        {
+          "title": "Exclusion de responsabilité",
+          "content": "ACM 2020 ne saurait être tenue responsable des dommages pouvant résulter d'interférences, d'omissions, d'interruptions, de virus informatiques, de pannes ou de déconnexions dans le fonctionnement du système électronique, causés par des raisons étrangères à ACM 2020, ni des retards ou blocages d'utilisation causés par des déficiences ou des surcharges d'Internet ou d'autres systèmes électroniques."
+        },
+        {
+          "title": "Liens vers des tiers",
+          "content": "Ce site web peut contenir des liens vers des sites web de tiers. ACM 2020 n'assume aucune responsabilité quant au contenu, à la véracité ou à la politique de confidentialité de ces sites web externes. L'accès à ceux-ci via les liens de ce site web se fait sous la responsabilité exclusive de l'utilisateur."
+        },
+        {
+          "title": "Législation applicable et juridiction",
+          "content": "Pour la résolution de tout litige ou question en rapport avec ce site web ou avec les activités qui y sont développées, la législation espagnole sera applicable, à laquelle les parties se soumettent expressément, et les tribunaux de Barcelone seront compétents pour résoudre tout conflit découlant de son utilisation ou y étant lié."
+        }
+      ]
     },
     "cookiesPolicy": {
-      "title": "Politique de Cookies"
+      "title": "Politique de Cookies",
+      "sections": [
+        {
+          "title": "Que sont les cookies ?",
+          "content": "Les cookies sont de petits fichiers texte stockés sur l'appareil de l'utilisateur (ordinateur, tablette ou téléphone portable) lors de la visite d'un site web. Elles servent à mémoriser les préférences de l'utilisateur, à analyser le comportement de navigation et à améliorer l'expérience d'utilisation du site web. Les cookies ne peuvent pas endommager votre appareil ni accéder aux informations personnelles qui y sont stockées."
+        },
+        {
+          "title": "Types de cookies utilisées",
+          "content": "Cookies techniques : nécessaires au fonctionnement de base du site web, comme la navigation entre les pages et l'accès aux zones sécurisées. Sans elles, le site web ne fonctionnerait pas correctement.\n\nCookies de préférences : permettent au site web de mémoriser les choix de l'utilisateur, comme la langue sélectionnée ou la région depuis laquelle il accède au site.\n\nCookies analytiques : collectent des informations de manière anonyme sur la façon dont les visiteurs utilisent le site web, les pages qu'ils visitent le plus fréquemment et s'ils reçoivent des messages d'erreur. Ces informations sont utilisées pour améliorer les performances du site web."
+        },
+        {
+          "title": "Gestion et désactivation des cookies",
+          "content": "L'utilisateur peut configurer son navigateur pour refuser l'installation de cookies ou pour être averti lorsqu'un site web tente d'en installer une. Veuillez noter que la désactivation des cookies peut affecter la fonctionnalité du site web.\n\nPour gérer les cookies depuis votre navigateur, consultez les instructions du fabricant de votre navigateur."
+        },
+        {
+          "title": "Mise à jour de la politique de cookies",
+          "content": "ACM 2020 se réserve le droit de mettre à jour cette Politique de Cookies à tout moment pour l'adapter aux nouveautés législatives, aux critères jurisprudentiels ou aux pratiques du secteur. Toute modification sera publiée sur cette même page."
+        },
+        {
+          "title": "Plus d'informations",
+          "content": "Pour plus d'informations sur l'utilisation des cookies sur ce site web, ou si vous souhaitez exercer vos droits concernant vos données personnelles, vous pouvez nous contacter :\n\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844\nAdresse : C. Ibiza, 1, Rez-de-chaussée, 08214 Badia del Valles, Barcelone, Espagne"
+        }
+      ]
     }
   },
   "anchors": {

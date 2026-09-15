@@ -375,13 +375,96 @@
       "zonaIDesc": "Es recomana realitzar mesuraments preventius"
     },
     "privacy": {
-      "title": "Política de Privacitat"
+      "title": "Política de Privacitat",
+      "lastUpdated": "2024",
+      "sections": [
+        {
+          "title": "Responsable del tractament",
+          "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nC. Eivissa, 1, Baixos\n08214 Badia del Vallès, Barcelona, Espanya\nEmail: acm@acm2020.es\nTelèfon: 667 623 844"
+        },
+        {
+          "title": "Finalitat del tractament",
+          "content": "Les dades personals recollides a través d'aquest lloc web es tracten amb les finalitats següents: gestionar les sol·licituds d'informació i contacte rebudes a través del formulari web, prestar els serveis professionals sol·licitats, enviar comunicacions relacionades amb els serveis contractats i complir les obligacions legals aplicables."
+        },
+        {
+          "title": "Base legal del tractament",
+          "content": "La base legal per al tractament de les vostres dades personals és el consentiment atorgat en enviar el formulari de contacte, l'execució d'un contracte o de mesures precontractuals sol·licitades per l'interessat, i el compliment d'obligacions legals aplicables a l'activitat professional d'ACM 2020."
+        },
+        {
+          "title": "Destinataris de les dades",
+          "content": "Les dades personals no seran cedides a tercers llevat d'obligació legal. No es realitzen transferències internacionals de dades fora de l'Espai Econòmic Europeu. En cas que fos necessari comunicar dades a tercers per a la prestació de serveis contractats, s'informarà prèviament l'interessat."
+        },
+        {
+          "title": "Drets de l'interessat",
+          "content": "L'interessat pot exercir els drets d'accés, rectificació, supressió, oposició, limitació del tractament i portabilitat de les dades enviant una sol·licitud a acm@acm2020.es o per correu postal a l'adreça indicada. Així mateix, té dret a presentar una reclamació davant l'Agència Espanyola de Protecció de Dades (www.aepd.es) si considera que el tractament de les seves dades vulnera la normativa vigent."
+        },
+        {
+          "title": "Conservació de dades",
+          "content": "Les dades personals es conservaran durant el temps necessari per complir amb la finalitat per a la qual van ser recollides i per determinar les possibles responsabilitats que se'n puguin derivar. Seran d'aplicació les disposicions contingudes en la normativa d'arxius i documentació vigent."
+        },
+        {
+          "title": "Mesures de seguretat",
+          "content": "ACM 2020 ha adoptat les mesures tècniques i organitzatives necessàries per garantir la seguretat i la integritat de les dades personals, així com per evitar-ne l'alteració, la pèrdua, el tractament o l'accés no autoritzat, tenint en compte l'estat de la tecnologia, la naturalesa de les dades emmagatzemades i els riscos als quals estan exposades."
+        }
+      ]
     },
     "legalNotice": {
-      "title": "Avís Legal"
+      "title": "Avís Legal",
+      "sections": [
+        {
+          "title": "Dades identificatives",
+          "content": "En compliment del deure d'informació establert a la Llei 34/2002, d'11 de juliol, de Serveis de la Societat de la Informació i Comerç Electrònic (LSSI-CE), s'indiquen les dades identificatives del titular d'aquest lloc web:\n\nDenominació social: ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nCIF: B67442938\nDomicili social: C. Eivissa, 1, Baixos, 08214 Badia del Vallès, Barcelona\nEmail: acm@acm2020.es\nTelèfon: 667 623 844\nRegistre RERA: 86/AB/09"
+        },
+        {
+          "title": "Objecte",
+          "content": "Aquest lloc web té per objecte facilitar al públic informació sobre els serveis professionals de consultoria en gestió integral d'amiant i mesurament de gas radó que ofereix ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. La informació proporcionada té caràcter general i orientatiu, sense que pugui considerar-se com a assessorament professional vinculant."
+        },
+        {
+          "title": "Condicions d'ús",
+          "content": "La utilització d'aquest lloc web atribueix la condició d'usuari i implica l'acceptació plena i sense reserves de totes i cadascuna de les disposicions incloses en aquest Avís Legal. L'usuari es compromet a fer un ús adequat dels continguts i serveis que ACM 2020 ofereix a través d'aquest lloc web, i s'absté d'emprar-los per a activitats il·lícites o contràries a la bona fe."
+        },
+        {
+          "title": "Propietat intel·lectual i industrial",
+          "content": "Tots els continguts d'aquest lloc web (textos, fotografies, gràfics, imatges, logotips, icones, tecnologia, programari, enllaços i altres continguts audiovisuals o sonors), així com el seu disseny gràfic i codis font, són propietat intel·lectual d'ACM 2020 o de tercers, sense que puguin entendre's cedits a l'usuari cap dels drets d'explotació sobre els mateixos més enllà del que sigui estrictament necessari per a l'ús correcte del lloc web."
+        },
+        {
+          "title": "Exclusió de responsabilitat",
+          "content": "ACM 2020 no es fa responsable dels danys i perjudicis que puguin derivar-se d'interferències, omissions, interrupcions, virus informàtics, avaries o desconnexions en el funcionament operatiu del sistema electrònic, motivats per causes alienes a ACM 2020, ni dels retards o bloquejos en l'ús causats per deficiències o sobrecàrregues d'Internet o en altres sistemes electrònics."
+        },
+        {
+          "title": "Enllaços a tercers",
+          "content": "Aquest lloc web pot contenir enllaços a pàgines web de tercers. ACM 2020 no assumeix cap responsabilitat pel contingut, la veracitat o la política de privacitat d'aquests llocs web externs. L'accés als mateixos a través dels enllaços d'aquest lloc web es realitza sota l'exclusiva responsabilitat de l'usuari."
+        },
+        {
+          "title": "Legislació aplicable i jurisdicció",
+          "content": "Per a la resolució de totes les controvèrsies o qüestions relacionades amb aquest lloc web o de les activitats que s'hi desenvolupin, serà d'aplicació la legislació espanyola, a la qual se sotmeten expressament les parts, i seran competents per a la resolució de tots els conflictes derivats o relacionats amb el seu ús els Jutjats i Tribunals de Barcelona."
+        }
+      ]
     },
     "cookiesPolicy": {
-      "title": "Política de Cookies"
+      "title": "Política de Cookies",
+      "sections": [
+        {
+          "title": "Què són les cookies?",
+          "content": "Les cookies són petits arxius de text que s'emmagatzemen al dispositiu de l'usuari (ordinador, tauleta o telèfon mòbil) quan visita un lloc web. S'utilitzen per recordar les preferències de l'usuari, analitzar el comportament de navegació i millorar l'experiència d'ús del lloc web. Les cookies no poden danyar el vostre dispositiu ni accedir a informació personal emmagatzemada en ell."
+        },
+        {
+          "title": "Tipus de cookies utilitzades",
+          "content": "Cookies tècniques: necessàries per al funcionament bàsic del lloc web, com ara la navegació entre pàgines i l'accés a àrees segures. Sense elles, el lloc web no funcionaria correctament.\n\nCookies de preferències: permeten que el lloc web recordi les opcions de l'usuari, com l'idioma seleccionat o la regió des de la qual accedeix.\n\nCookies analítiques: recopilen informació de forma anònima sobre com els visitants utilitzen el lloc web, quines pàgines visiten amb més freqüència i si reben missatges d'error. Aquesta informació s'utilitza per millorar el rendiment del lloc web."
+        },
+        {
+          "title": "Gestió i desactivació de cookies",
+          "content": "L'usuari pot configurar el seu navegador per rebutjar la instal·lació de cookies o per ser avisat quan un lloc web intenti instal·lar-ne una. Tingui en compte que la desactivació de cookies pot afectar la funcionalitat del lloc web.\n\nPer gestionar les cookies des del navegador, pot consultar les instruccions del fabricant del seu navegador."
+        },
+        {
+          "title": "Actualització de la política de cookies",
+          "content": "ACM 2020 es reserva el dret d'actualitzar aquesta Política de Cookies en qualsevol moment per adaptar-la a novetats legislatives, criteris jurisprudencials o pràctiques del sector. Qualsevol modificació serà publicada en aquesta mateixa pàgina."
+        },
+        {
+          "title": "Més informació",
+          "content": "Per a més informació sobre l'ús de cookies en aquest lloc web, o si desitja exercir els seus drets en relació amb les seves dades personals, pot contactar amb nosaltres a través de:\n\nEmail: acm@acm2020.es\nTelèfon: 667 623 844\nAdreça: C. Eivissa, 1, Baixos, 08214 Badia del Vallès, Barcelona, Espanya"
+        }
+      ]
     }
   },
   "anchors": {

@@ -170,7 +170,7 @@ export default async function RadonServicePage({ params }: Props) {
                 {t('whyCta')}
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
-              <a href="tel:667623844" className="btn-outline group">
+              <a href="tel:+34667623844" className="btn-outline group">
                 <Phone className="w-5 h-5 mr-2" />
                 667 623 844
               </a>

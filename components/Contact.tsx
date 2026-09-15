@@ -31,7 +31,7 @@ export default function Contact() {
       icon: Phone,
       label: t('phone'),
       value: '667 623 844',
-      href: 'tel:667623844',
+      href: 'tel:+34667623844',
     },
     {
       icon: Mail,
