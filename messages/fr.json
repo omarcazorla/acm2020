@@ -33,8 +33,8 @@
     "statsReraLabel": "Certification",
     "statsProjects": "+200",
     "statsProjectsLabel": "Projets",
-    "statsCommitment": "100%",
-    "statsCommitmentLabel": "Engagement"
+    "statsCommitment": "+50",
+    "statsCommitmentLabel": "Municipalités"
   },
   "services": {
     "sectionLabel": "Nos Services",
@@ -145,8 +145,8 @@
         "description": "Guide de détection et mesure du gaz radon."
       }
     },
-    "whyTitle": "Pourquoi choisir nos services ?",
-    "whySubtitle": "Nous disposons de l'expérience, des certifications et de l'engagement nécessaires pour garantir votre sécurité et votre tranquillité.",
+    "whyTitle": "Les garanties qui nous soutiennent",
+    "whySubtitle": "Expertise certifiée, inscription RERA et une équipe technique opérant selon les standards d'impartialité de la norme ISO/IEC 17020.",
     "whyItems": [
       "Plus de 25 ans d'expérience dans le secteur",
       "Certification RERA 86/AB/09",
@@ -218,8 +218,8 @@
         "label": "Projets réalisés"
       },
       "clients": {
-        "value": "+200",
-        "label": "Clients satisfaits"
+        "value": "+1 000",
+        "label": "Rapports émis"
       },
       "municipalities": {
         "value": "+50",

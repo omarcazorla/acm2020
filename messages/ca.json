@@ -33,8 +33,8 @@
     "statsReraLabel": "Inscripció",
     "statsProjects": "+200",
     "statsProjectsLabel": "Projectes",
-    "statsCommitment": "100%",
-    "statsCommitmentLabel": "Compromís"
+    "statsCommitment": "+50",
+    "statsCommitmentLabel": "Ajuntaments"
   },
   "services": {
     "sectionLabel": "Els Nostres Serveis",
@@ -145,8 +145,8 @@
         "description": "Guia sobre com detectar i mesurar el gas radó."
       }
     },
-    "whyTitle": "Per què escollir els nostres serveis?",
-    "whySubtitle": "Comptem amb l'experiència, certificacions i el compromís necessaris per garantir la seva seguretat i tranquil·litat.",
+    "whyTitle": "Garanties que ens avalen",
+    "whySubtitle": "Experiència acreditada, inscripció RERA i un equip tècnic que treballa sota els estàndards d'imparcialitat de la norma ISO/IEC 17020.",
     "whyItems": [
       "Més de 25 anys d'experiència en el sector",
       "Inscripció RERA 86/AB/09",
@@ -218,8 +218,8 @@
         "label": "Projectes realitzats"
       },
       "clients": {
-        "value": "+200",
-        "label": "Clients satisfets"
+        "value": "+1.000",
+        "label": "Informes emesos"
       },
       "municipalities": {
         "value": "+50",
