@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import PageHero from '@/components/layout/PageHero'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import { FAQPageJsonLd } from '@/components/JsonLd'
 import { radonServices } from '@/data/services'
 import { ArrowRight, CheckCircle, Scale, Phone } from 'lucide-react'
 import Link from 'next/link'
@@ -50,9 +51,11 @@ export default async function RadonServicePage({ params }: Props) {
   const hasSections = t.has(`${key}.sections`)
   const hasKeyPoints = t.has(`${key}.keyPoints`)
   const hasRegulations = t.has(`${key}.regulations`)
+  const hasFaqs = t.has(`${key}.faqs`)
 
   const sections = hasSections ? (t.raw(`${key}.sections`) as { title: string; content: string }[]) : []
   const keyPoints = hasKeyPoints ? (t.raw(`${key}.keyPoints`) as string[]) : []
+  const faqs = hasFaqs ? (t.raw(`${key}.faqs`) as { question: string; answer: string }[]) : []
 
   return (
     <>
@@ -120,7 +123,7 @@ export default async function RadonServicePage({ params }: Props) {
           <section className="py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
             <div className="container-custom max-w-4xl">
               <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-8 text-center">
-                Aspectos clave
+                {t('keyPointsTitle')}
               </h2>
               <div className="grid sm:grid-cols-2 gap-4">
                 {keyPoints.map((point, i) => (
@@ -147,10 +150,33 @@ export default async function RadonServicePage({ params }: Props) {
                     <Scale className="w-5 h-5 text-secondary" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-secondary mb-3">Normativa de aplicación</h3>
+                    <h3 className="text-lg font-bold text-secondary mb-3">{t('regulationsTitle')}</h3>
                     <p className="text-gray-600 text-sm leading-relaxed">{t(`${key}.regulations`)}</p>
                   </div>
                 </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {/* FAQs */}
+        {faqs.length > 0 && (
+          <section className="py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+            <div className="container-custom max-w-4xl">
+              <h2 className="text-2xl md:text-3xl font-bold text-secondary mb-10 text-center">
+                {t('faqsTitle')}
+              </h2>
+              <div className="space-y-8">
+                {faqs.map((faq, i) => (
+                  <div key={i} className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+                    <h3 className="text-lg font-semibold text-secondary mb-3">{faq.question}</h3>
+                    <div className="text-gray-600 leading-relaxed space-y-3">
+                      {faq.answer.split('\n\n').map((p, j) => (
+                        <p key={j}>{p}</p>
+                      ))}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </section>
@@ -160,10 +186,10 @@ export default async function RadonServicePage({ params }: Props) {
         <section className="py-16 md:py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-secondary to-secondary-700">
           <div className="container-custom max-w-3xl text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              ¿Necesita este servicio?
+              {t('serviceCta')}
             </h2>
             <p className="text-white/80 mb-8 text-lg">
-              Contacte con nuestro equipo técnico para recibir asesoramiento personalizado sin compromiso.
+              {t('serviceCtaDescription')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contacto" className="btn-primary group">
@@ -179,6 +205,7 @@ export default async function RadonServicePage({ params }: Props) {
         </section>
       </main>
 
+      {faqs.length > 0 && <FAQPageJsonLd faqs={faqs} />}
       <Footer />
       <WhatsAppButton />
     </>

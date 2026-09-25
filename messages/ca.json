@@ -99,8 +99,95 @@
         "description": "Detecció i gestió d'amiant en comunitats de propietaris."
       },
       "realestate": {
-        "title": "Compravenda d'Immobles",
-        "description": "Detecció d'amiant prèvia a la compravenda d'immobles."
+        "title": "Certificat d'amiant per a compravenda i lloguer d'immobles a Catalunya",
+        "description": "Certificat de presència o absència d'amiant, obligatori des del 3 d'octubre de 2026 a Catalunya (Llei 8/2026, art. 21). Emès per higienista industrial amb inscripció RERA.",
+        "metaDescription": "Certificat d'amiant per a compravenda i lloguer a Catalunya. Obligatori des d'octubre 2026 (Llei 8/2026). Emès per higienista industrial RERA amb +15 anys d'experiència.",
+        "intro": "El certificat de presència o absència d'amiant és el document que informa sobre la situació de l'amiant en un immoble en el moment de la seva emissió. Creat per la Llei 8/2026, de 2 de juliol, de prevenció i eradicació de l'amiant a Catalunya, el seu objectiu és que compradors i llogaters coneguin l'estat real de la propietat abans de formalitzar l'operació.\n\nDes del 3 d'octubre de 2026, aquest certificat és obligatori en tota compravenda i lloguer d'immobles a Catalunya. Mentre s'aprova el reglament de desplegament, el certificat ha d'incloure com a mínim la presència o absència d'amiant visible, l'estat de conservació dels materials i el risc que suposen per a les persones.\n\nLa mateixa llei recomana que aquestes verificacions les faci un tècnic higienista industrial amb experiència en la identificació d'amiant. ACM-2020 emet aquest certificat amb tècnics higienistes industrials inscrits al RERA (n.º 86/AB/09) i amb més de 15 anys d'experiència en la identificació d'amiant en tot tipus d'immobles.",
+        "sections": [
+          {
+            "title": "Quan és obligatori el certificat d'amiant",
+            "content": "Des del 3 d'octubre de 2026, el certificat s'ha de lliurar en tota compravenda i lloguer d'immobles a Catalunya. L'obligació no es limita a habitatges: afecta també locals comercials, oficines, naus industrials i edificis sencers.\n\nEn la compravenda, el venedor lliura el certificat al comprador. Si es detecta presència d'amiant, aquesta ha de constar en la inscripció registral de la transmissió onerosa (disposició addicional 7a), juntament amb les ajudes a la retirada rebudes.\n\nEn el lloguer, el propietari lliura el certificat al llogater en el moment de la signatura del contracte."
+          },
+          {
+            "title": "Quins immobles poden contenir amiant",
+            "content": "Qualsevol immoble construït o reformat abans de 2002 pot contenir amiant, ja que aquell va ser l'any de la seva prohibició a Espanya. Els materials amb amiant més freqüents en edificis són: cobertes i plaques de fibrociment (Uralita), baixants, conduccions d'aigua i xemeneies de fibrociment, dipòsits d'aigua, fals sostres i panells, paviments vinílics i les seves coles, aïllaments de calderes, canonades i conductes de ventilació, juntes i cordons d'estufes i calefactors.\n\nMolts d'aquests materials es troben en bon estat de conservació i no suposen un risc immediat, però s'han d'identificar al certificat."
+          },
+          {
+            "title": "Com emetem el certificat d'amiant",
+            "content": "El procés té tres fases. Primer, la inspecció visual: el tècnic higienista industrial recorre l'immoble, localitza els materials amb amiant, els fotografia i els registra en un inventari. Per a cada material, avalua l'estat de conservació i el risc d'alliberament de fibres. La durada de la visita és de 60 a 90 minuts.\n\nSegon, la presa de mostres i anàlisi (opcional): quan un material no es pot identificar amb certesa visual, es pren una mostra seguint el protocol de seguretat del Pla de Treball. Les mostres s'analitzen en laboratori acreditat conforme a UNE-EN ISO/IEC 17025:2017. El mostreig es pressuposteja a part i només es fa si és necessari.\n\nTercer, el certificat i informe: es lliura el certificat acompanyat d'un informe tècnic amb la localització dels materials, el seu estat de conservació, l'avaluació del risc i fotografies. Si es detecta amiant i el client ho sol·licita, els tècnics d'ACM-2020 proporcionen estimació de quantitat, cost de retirada i mesures preventives recomanades."
+          },
+          {
+            "title": "Per què ACM-2020",
+            "content": "ACM-2020 és una consultora especialitzada exclusivament en amiant i gas radó. Els certificats els emeten tècnics higienistes industrials inscrits al RERA amb el n.º 86/AB/09, amb més de 15 anys d'experiència inspeccionant amiant per a empreses, ajuntaments, administradors de finques i particulars.\n\nSi apareix amiant, ACM-2020 pot acompanyar el client durant tot el procés posterior: redacció del Pla de Treball, supervisió de la retirada per l'empresa RERA contractada i verificació final del resultat."
+          }
+        ],
+        "keyPoints": [
+          "Tècnics higienistes industrials amb inscripció RERA n.º 86/AB/09",
+          "Més de 15 anys d'experiència en la identificació d'amiant en immobles",
+          "Preu tancat per a la inspecció; el mostreig es pressuposteja a part i només si cal",
+          "Certificat en 5 dies hàbils des de la visita",
+          "Procés complet: si apareix amiant, acompanyament durant la retirada",
+          "Imparcialitat: consultora independent, sense vinculació amb empreses de retirada"
+        ],
+        "regulations": "Llei 8/2026, de 2 de juliol, de prevenció i eradicació de l'amiant a Catalunya (art. 21 — Certificat de presència o absència d'amiant), RD 396/2006 (procediments de treball amb risc d'exposició a l'amiant), Ordre de 7 de desembre de 2001 (prohibició total de l'amiant a Espanya).",
+        "faqs": [
+          {
+            "question": "És obligatori el certificat d'amiant per llogar?",
+            "answer": "Sí. La Llei 8/2026 exigeix el lliurament del certificat de presència o absència d'amiant tant en la compravenda com en el lloguer d'immobles a Catalunya, des del 3 d'octubre de 2026."
+          },
+          {
+            "question": "Qui paga el certificat d'amiant?",
+            "answer": "Normalment l'encarrega i el paga el propietari (venedor o arrendador), ja que és qui té l'obligació legal de lliurar el certificat. La llei no fixa expressament qui assumeix el cost."
+          },
+          {
+            "question": "Qui pot emetre el certificat d'amiant?",
+            "answer": "El reglament de desplegament està pendent d'aprovació. Mentrestant, el més recomanable és que l'emeti un tècnic amb experiència acreditada en la identificació d'amiant, com un higienista industrial inscrit al RERA. Convé evitar conflictes d'interès amb laboratoris, empreses de retirada o professionals sense experiència específica en amiant."
+          },
+          {
+            "question": "Si hi ha amiant, cal retirar-lo per vendre?",
+            "answer": "No. El certificat informa de la situació, però no obliga a la retirada immediata. La informació sobre la presència d'amiant sí que influeix en la negociació del preu entre comprador i venedor. La llei estableix un calendari de retirada progressiva amb 2032 com a horitzó general."
+          },
+          {
+            "question": "Quant tarda el procés d'obtenció del certificat?",
+            "answer": "La visita es programa normalment en un termini de 7 dies des de la confirmació. Sense necessitat de mostreig, el certificat es lliura en 2-3 dies hàbils després de la visita. Si es requereix anàlisi de laboratori, el termini s'amplia fins a 5 dies hàbils."
+          },
+          {
+            "question": "El certificat serveix per a un pis en una comunitat?",
+            "answer": "Sí. S'inspecciona l'habitatge i els elements comuns accessibles que l'afecten directament (coberta, baixants, dipòsits). La comunitat de propietaris també pot sol·licitar un diagnòstic de l'edifici complet."
+          },
+          {
+            "question": "Què passa si no lliuro el certificat d'amiant?",
+            "answer": "No lliurar el certificat quan és obligatori constitueix una infracció lleu segons l'article 53.c de la Llei 8/2026, sancionable amb multa de 100 a 3.000 euros (art. 54). El règim sancionador específic entrarà en vigor quan s'aprovi el decret de desplegament."
+          },
+          {
+            "question": "Necessita certificat el meu habitatge si es va construir després de 2002?",
+            "answer": "Sí. La llei exigeix el certificat en tota compravenda i lloguer sense excepcions per any de construcció. En immobles posteriors a 2002, el certificat normalment acreditarà l'absència d'amiant, però s'ha d'emetre igualment."
+          },
+          {
+            "question": "Quant temps és vàlid el certificat?",
+            "answer": "La llei no estableix un període de validesa concret. El certificat informa de la situació de l'immoble en el moment de la seva emissió (art. 21.1). Si es fan obres o retirades posteriors, és aconsellable actualitzar-lo. El reglament de desplegament podria fixar una caducitat."
+          },
+          {
+            "question": "Què passa amb els contractes de lloguer signats abans del 3 d'octubre de 2026?",
+            "answer": "La llei no té disposició transitòria. L'obligació neix en el moment de la venda o el lloguer, per la qual cosa s'aplica als contractes signats a partir del 3 d'octubre de 2026, no als existents. La renovació d'un contracte vigent no és un nou lloguer; un contracte nou amb el mateix llogater sí que ho és."
+          },
+          {
+            "question": "La inspecció i el certificat inclouen l'amiant ocult?",
+            "answer": "La inspecció és visual i abasta tot l'amiant visible a l'immoble. Només quan hi ha dubtes fundats sobre un material es pren una mostra petita i localitzada amb les mesures de seguretat corresponents. No es fan excavacions ni cales destructives per descobrir amiant ocult."
+          },
+          {
+            "question": "Aquest certificat també cal en locals, naus, garatges o trasters?",
+            "answer": "Sí. La llei es refereix a «immoble» (art. 21.2) i reconeix el dret al certificat quan es lloga «habitatge o altres immobles» (art. 5.d). Afecta qualsevol immoble amb independència del seu ús."
+          },
+          {
+            "question": "El certificat ha de constar al Registre de la Propietat?",
+            "answer": "En la compravenda, sí. En inscriure la transmissió onerosa ha de constar la certificació de presència o absència d'amiant i les ajudes a la retirada rebudes (disposició addicional 7a). En el lloguer no s'exigeix anotació registral."
+          },
+          {
+            "question": "Quin paper té l'administrador de finques?",
+            "answer": "L'administrador ha d'assegurar que els propietaris lliuren el certificat al comprador o llogater i facilitar la gestió del procés (art. 12.1.b). També té l'obligació de comunicar la presència d'amiant als propietaris i al Cens, i informar de les ajudes disponibles per a la retirada."
+          }
+        ]
       },
       "breeam": {
         "title": "Inscripció BREEAM",
@@ -154,6 +241,11 @@
       "Compliment estricte de normativa"
     ],
     "whyCta": "Sol·licitar informació",
+    "keyPointsTitle": "Aspectes clau",
+    "regulationsTitle": "Normativa d'aplicació",
+    "serviceCta": "Necessita aquest servei?",
+    "serviceCtaDescription": "Contacti amb el nostre equip tècnic per rebre assessorament personalitzat sense compromís.",
+    "faqsTitle": "Preguntes freqüents",
     "operationalLabel": "Serveis Operatius",
     "consultingLabel": "Consultoria i Formació",
     "viewAllAsbestos": "Veure tots els serveis d'amiant"
