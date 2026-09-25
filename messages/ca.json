@@ -415,10 +415,28 @@
     "asbestosIndex": {
       "title": "Gestió d'Amiant",
       "subtitle": "Serveis integrals per a la gestió segura de materials amb amiant",
-      "operationalTitle": "Serveis Operatius",
-      "operationalSubtitle": "Serveis amb exposició subjectes al Pla de Treball 86/AB/09-001-B",
-      "consultingTitle": "Consultoria i Formació",
-      "consultingSubtitle": "Assessorament tècnic, formació i gestió documental"
+      "categories": {
+        "inspeccion": {
+          "title": "Inspecció i Diagnosi",
+          "subtitle": "Identificació, avaluació i caracterització de materials amb amiant"
+        },
+        "gestion": {
+          "title": "Gestió i Consultoria",
+          "subtitle": "Planificació, assessorament i gestió documental de l'amiant"
+        },
+        "desamiantado": {
+          "title": "Desamiantatge i Control",
+          "subtitle": "Projectes de retirada, direcció d'obra i verificació de resultats"
+        },
+        "certificacion": {
+          "title": "Certificació i Serveis Immobiliaris",
+          "subtitle": "Certificats, diagnòstics i serveis per al sector immobiliari"
+        },
+        "formacion": {
+          "title": "Formació",
+          "subtitle": "Programes formatius especialitzats en amiant"
+        }
+      }
     },
     "radonIndex": {
       "title": "Control de Gas Radó",

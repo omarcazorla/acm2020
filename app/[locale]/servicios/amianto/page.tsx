@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
-import { amiantoOperativos, amiantoConsultoria } from '@/data/services'
+import { amiantoServices, amiantoCategories } from '@/data/services'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
 import type { ServicePage } from '@/data/services'
@@ -72,39 +72,31 @@ export default async function AmiantoPage({ params }: Props) {
       />
       <main className="section-padding bg-white">
         <div className="container-custom">
-          <section className="mb-16">
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-secondary mb-2">{t('operationalTitle')}</h2>
-              <p className="text-gray-600">{t('operationalSubtitle')}</p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {amiantoOperativos.map((service) => (
-                <ServiceCard
-                  key={service.slug}
-                  service={service}
-                  tServices={tServices}
-                  tCommon={tCommon}
-                />
-              ))}
-            </div>
-          </section>
-
-          <section>
-            <div className="mb-8">
-              <h2 className="text-2xl font-bold text-secondary mb-2">{t('consultingTitle')}</h2>
-              <p className="text-gray-600">{t('consultingSubtitle')}</p>
-            </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {amiantoConsultoria.map((service) => (
-                <ServiceCard
-                  key={service.slug}
-                  service={service}
-                  tServices={tServices}
-                  tCommon={tCommon}
-                />
-              ))}
-            </div>
-          </section>
+          {amiantoCategories.map((cat, idx) => {
+            const services = amiantoServices.filter((s) => s.subcategory === cat)
+            return (
+              <section key={cat} className={idx < amiantoCategories.length - 1 ? 'mb-16' : ''}>
+                <div className="mb-8">
+                  <h2 className="text-2xl font-bold text-secondary mb-2">
+                    {t(`categories.${cat}.title`)}
+                  </h2>
+                  <p className="text-gray-600">
+                    {t(`categories.${cat}.subtitle`)}
+                  </p>
+                </div>
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {services.map((service) => (
+                    <ServiceCard
+                      key={service.slug}
+                      service={service}
+                      tServices={tServices}
+                      tCommon={tCommon}
+                    />
+                  ))}
+                </div>
+              </section>
+            )
+          })}
         </div>
       </main>
       <Footer />

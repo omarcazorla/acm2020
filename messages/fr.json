@@ -328,10 +328,28 @@
     "asbestosIndex": {
       "title": "Gestion de l'Amiante",
       "subtitle": "Services complets pour la gestion sécurisée des matériaux contenant de l'amiante",
-      "operationalTitle": "Services Opérationnels",
-      "operationalSubtitle": "Services avec exposition soumis au Plan de Travail 86/AB/09-001-B",
-      "consultingTitle": "Conseil et Formation",
-      "consultingSubtitle": "Conseil technique, formation et gestion documentaire"
+      "categories": {
+        "inspeccion": {
+          "title": "Inspection et Diagnostic",
+          "subtitle": "Identification, évaluation et caractérisation des matériaux contenant de l'amiante"
+        },
+        "gestion": {
+          "title": "Gestion et Conseil",
+          "subtitle": "Planification, conseil et gestion documentaire de l'amiante"
+        },
+        "desamiantado": {
+          "title": "Désamiantage et Contrôle",
+          "subtitle": "Projets de retrait, direction de chantier et vérification des résultats"
+        },
+        "certificacion": {
+          "title": "Certification et Services Immobiliers",
+          "subtitle": "Certificats, diagnostics et services pour le secteur immobilier"
+        },
+        "formacion": {
+          "title": "Formation",
+          "subtitle": "Programmes de formation spécialisés en amiante"
+        }
+      }
     },
     "radonIndex": {
       "title": "Contrôle du Gaz Radon",

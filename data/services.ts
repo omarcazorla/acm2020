@@ -1,35 +1,41 @@
+export const amiantoCategories = [
+  'inspeccion', 'gestion', 'desamiantado', 'certificacion', 'formacion',
+] as const
+
+export type AmiantoCategory = typeof amiantoCategories[number]
+
 export interface ServicePage {
   slug: string
   translationKey: string
   category: 'amianto' | 'radon'
-  subcategory?: 'operativo' | 'consultoria'
+  subcategory?: AmiantoCategory
 }
 
 export const amiantoServices: ServicePage[] = [
-  // Operativos (bajo Plan de Trabajo 86/AB/09-001-B)
-  { slug: 'inspeccion-identificacion', translationKey: 'inspection', category: 'amianto', subcategory: 'operativo' },
-  { slug: 'evaluacion-riesgos', translationKey: 'risk', category: 'amianto', subcategory: 'operativo' },
-  { slug: 'direccion-obra', translationKey: 'supervision', category: 'amianto', subcategory: 'operativo' },
-  { slug: 'control-calidad-final', translationKey: 'qualityControl', category: 'amianto', subcategory: 'operativo' },
-  { slug: 'control-periodico', translationKey: 'periodicControl', category: 'amianto', subcategory: 'operativo' },
-  { slug: 'muestreo-ambiental', translationKey: 'airSampling', category: 'amianto', subcategory: 'operativo' },
-  // Consultoria y Formacion
-  { slug: 'asesoria-consultoria', translationKey: 'consulting', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'formacion', translationKey: 'training', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'censos-municipales', translationKey: 'censuses', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'planes-gestion', translationKey: 'management', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'auditorias', translationKey: 'audits', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'proyectos-desamiantado', translationKey: 'projects', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'gestion-residuos', translationKey: 'waste', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'amianto-aguas', translationKey: 'water', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'amianto-suelos', translationKey: 'soil', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'comunidades-vecinos', translationKey: 'communities', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'compraventa-inmuebles', translationKey: 'realestate', category: 'amianto', subcategory: 'consultoria' },
-  { slug: 'certificacion-breeam', translationKey: 'breeam', category: 'amianto', subcategory: 'consultoria' },
+  // Inspecccion y Diagnostico
+  { slug: 'inspeccion-identificacion', translationKey: 'inspection', category: 'amianto', subcategory: 'inspeccion' },
+  { slug: 'evaluacion-riesgos', translationKey: 'risk', category: 'amianto', subcategory: 'inspeccion' },
+  { slug: 'muestreo-ambiental', translationKey: 'airSampling', category: 'amianto', subcategory: 'inspeccion' },
+  { slug: 'censos-municipales', translationKey: 'censuses', category: 'amianto', subcategory: 'inspeccion' },
+  { slug: 'amianto-aguas', translationKey: 'water', category: 'amianto', subcategory: 'inspeccion' },
+  { slug: 'amianto-suelos', translationKey: 'soil', category: 'amianto', subcategory: 'inspeccion' },
+  // Gestion y Consultoria
+  { slug: 'planes-gestion', translationKey: 'management', category: 'amianto', subcategory: 'gestion' },
+  { slug: 'auditorias', translationKey: 'audits', category: 'amianto', subcategory: 'gestion' },
+  { slug: 'asesoria-consultoria', translationKey: 'consulting', category: 'amianto', subcategory: 'gestion' },
+  { slug: 'gestion-residuos', translationKey: 'waste', category: 'amianto', subcategory: 'gestion' },
+  // Desamiantado y Control
+  { slug: 'proyectos-desamiantado', translationKey: 'projects', category: 'amianto', subcategory: 'desamiantado' },
+  { slug: 'direccion-obra', translationKey: 'supervision', category: 'amianto', subcategory: 'desamiantado' },
+  { slug: 'control-calidad-final', translationKey: 'qualityControl', category: 'amianto', subcategory: 'desamiantado' },
+  { slug: 'control-periodico', translationKey: 'periodicControl', category: 'amianto', subcategory: 'desamiantado' },
+  // Certificacion y Servicios Inmobiliarios
+  { slug: 'compraventa-inmuebles', translationKey: 'realestate', category: 'amianto', subcategory: 'certificacion' },
+  { slug: 'certificacion-breeam', translationKey: 'breeam', category: 'amianto', subcategory: 'certificacion' },
+  { slug: 'comunidades-vecinos', translationKey: 'communities', category: 'amianto', subcategory: 'certificacion' },
+  // Formacion
+  { slug: 'formacion', translationKey: 'training', category: 'amianto', subcategory: 'formacion' },
 ]
-
-export const amiantoOperativos = amiantoServices.filter((s) => s.subcategory === 'operativo')
-export const amiantoConsultoria = amiantoServices.filter((s) => s.subcategory === 'consultoria')
 
 export const radonServices: ServicePage[] = [
   { slug: 'medicion-gas-radon', translationKey: 'measurement', category: 'radon' },

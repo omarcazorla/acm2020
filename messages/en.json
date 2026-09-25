@@ -328,10 +328,28 @@
     "asbestosIndex": {
       "title": "Asbestos Management",
       "subtitle": "Comprehensive services for safe asbestos-containing material management",
-      "operationalTitle": "Operational Services",
-      "operationalSubtitle": "Exposure-related services under Work Plan 86/AB/09-001-B",
-      "consultingTitle": "Consulting & Training",
-      "consultingSubtitle": "Technical advisory, training and document management"
+      "categories": {
+        "inspeccion": {
+          "title": "Inspection & Diagnostics",
+          "subtitle": "Identification, assessment and characterisation of asbestos-containing materials"
+        },
+        "gestion": {
+          "title": "Management & Consulting",
+          "subtitle": "Planning, advisory and asbestos document management"
+        },
+        "desamiantado": {
+          "title": "Asbestos Removal & Control",
+          "subtitle": "Removal projects, site supervision and results verification"
+        },
+        "certificacion": {
+          "title": "Certification & Property Services",
+          "subtitle": "Certificates, diagnostics and services for the real estate sector"
+        },
+        "formacion": {
+          "title": "Training",
+          "subtitle": "Specialised asbestos training programmes"
+        }
+      }
     },
     "radonIndex": {
       "title": "Radon Gas Control",
