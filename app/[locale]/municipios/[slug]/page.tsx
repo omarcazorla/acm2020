@@ -229,71 +229,7 @@ export default async function MunicipioPage({ params }: Props) {
             ))}
           </div>
 
-          {/* Fibrocemento data section */}
-          {fibro && (
-            <>
-              <div className="mb-6">
-                <h2 className="text-2xl font-bold text-secondary mb-4 flex items-center gap-2">
-                  <Building2 className="w-6 h-6 text-primary" />
-                  {loc === 'es' ? `Fibrocemento detectado en ${name}` :
-                   loc === 'ca' ? `Fibrociment detectat a ${name}` :
-                   loc === 'en' ? `Fibre cement detected in ${name}` :
-                   `Fibrociment détecté à ${name}`}
-                </h2>
-                <p className="text-sm text-gray-500 mb-4">
-                  {loc === 'es' ? 'Datos de teledetección ICGC (cubiertas exteriores)' :
-                   loc === 'ca' ? 'Dades de teledetecció ICGC (cobertes exteriors)' :
-                   loc === 'en' ? 'ICGC remote sensing data (exterior roofing)' :
-                   'Données de télédétection ICGC (toitures extérieures)'}
-                </p>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="bg-gray-50 rounded-xl p-4 text-center">
-                    <div className="text-2xl font-bold text-secondary">{fibro.cubiertas.toLocaleString(loc)}</div>
-                    <div className="text-sm text-gray-600">
-                      {loc === 'es' ? 'Cubiertas' : loc === 'ca' ? 'Cobertes' : loc === 'en' ? 'Rooftops' : 'Toitures'}
-                    </div>
-                  </div>
-                  <div className="bg-gray-50 rounded-xl p-4 text-center">
-                    <div className="text-2xl font-bold text-secondary">{fibro.areaM2.toLocaleString(loc)}</div>
-                    <div className="text-sm text-gray-600">m&sup2;</div>
-                  </div>
-                  <div className="bg-gray-50 rounded-xl p-4 text-center">
-                    <div className="text-2xl font-bold text-secondary">{fibro.pesoT.toLocaleString(loc, { maximumFractionDigits: 0 })}</div>
-                    <div className="text-sm text-gray-600">
-                      {loc === 'es' ? 'Toneladas est.' : loc === 'ca' ? 'Tones est.' : loc === 'en' ? 'Est. tonnes' : 'Tonnes est.'}
-                    </div>
-                  </div>
-                  <div className="bg-gray-50 rounded-xl p-4 text-center">
-                    <div className="text-2xl font-bold text-secondary">
-                      {fibro.rankingProvincia.rank}/{fibro.rankingProvincia.total}
-                    </div>
-                    <div className="text-sm text-gray-600">
-                      {loc === 'es' ? `Ranking ${municipio.provincia}` :
-                       loc === 'ca' ? `Rànquing ${municipio.provincia}` :
-                       loc === 'en' ? `${municipio.provincia} ranking` :
-                       `Classement ${municipio.provincia}`}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Asbestos info notice — fibrocemento is not the only source */}
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-12 flex items-start gap-3">
-                <Info className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
-                <p className="text-sm text-amber-800">
-                  {loc === 'es'
-                    ? <>Los datos anteriores reflejan solo las cubiertas de fibrocemento detectadas por teledetección. El amianto puede estar presente en muchos otros materiales y elementos constructivos, tanto en exteriores como en interiores. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Consulta dónde puede encontrarse amianto en tu edificio</Link>.</>
-                    : loc === 'ca'
-                    ? <>Les dades anteriors reflecteixen només les cobertes de fibrociment detectades per teledetecció. L&apos;amiant pot ser present en molts altres materials i elements constructius, tant en exteriors com en interiors. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Consulta on es pot trobar amiant al teu edifici</Link>.</>
-                    : loc === 'en'
-                    ? <>The data above reflects only fibre cement roofing detected by remote sensing. Asbestos may be present in many other building materials and elements, both outdoors and indoors. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Find out where asbestos can be found in your building</Link>.</>
-                    : <>Les données ci-dessus ne reflètent que les toitures de fibrociment détectées par télédétection. L&apos;amiante peut être présent dans de nombreux autres matériaux et éléments de construction, tant à l&apos;extérieur qu&apos;à l&apos;intérieur. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Découvrez où l&apos;amiante peut se trouver dans votre bâtiment</Link>.</>}
-                </p>
-              </div>
-            </>
-          )}
-
-          {/* Services CTA */}
+          {/* Services CTA — radon */}
           <div className="bg-secondary rounded-2xl p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-4">
@@ -322,6 +258,104 @@ export default async function MunicipioPage({ params }: Props) {
               </Link>
             </div>
           </div>
+
+          {/* Fibrocemento data section */}
+          {fibro && (
+            <>
+              <div className="mb-6">
+                <h2 className="text-2xl font-bold text-secondary mb-4 flex items-center gap-2">
+                  <Building2 className="w-6 h-6 text-primary" />
+                  {loc === 'es' ? `Fibrocemento detectado en ${name}` :
+                   loc === 'ca' ? `Fibrociment detectat a ${name}` :
+                   loc === 'en' ? `Fibre cement detected in ${name}` :
+                   `Fibrociment détecté à ${name}`}
+                </h2>
+                <p className="text-sm text-gray-500 mb-4">
+                  {loc === 'es' ? 'Según el censo de cubiertas con fibrocemento en Catalunya (ICGC)' :
+                   loc === 'ca' ? 'Segons el cens de cobertes amb fibrociment a Catalunya (ICGC)' :
+                   loc === 'en' ? 'According to the fibre cement roofing census in Catalonia (ICGC)' :
+                   'Selon le recensement des toitures en fibrociment en Catalogne (ICGC)'}
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                  <div className="bg-gray-50 rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-secondary">{fibro.cubiertas.toLocaleString(loc)}</div>
+                    <div className="text-sm text-gray-600">
+                      {loc === 'es' ? 'Cubiertas' : loc === 'ca' ? 'Cobertes' : loc === 'en' ? 'Rooftops' : 'Toitures'}
+                    </div>
+                  </div>
+                  <div className="bg-gray-50 rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-secondary">{fibro.areaM2.toLocaleString(loc)}</div>
+                    <div className="text-sm text-gray-600">m&sup2;</div>
+                  </div>
+                  <div className="bg-gray-50 rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-secondary">{fibro.pesoT.toLocaleString(loc, { maximumFractionDigits: 0 })}</div>
+                    <div className="text-sm text-gray-600">
+                      {loc === 'es' ? 'Toneladas est.' : loc === 'ca' ? 'Tones est.' : loc === 'en' ? 'Est. tonnes' : 'Tonnes est.'}
+                    </div>
+                  </div>
+                  <div className="bg-gray-50 rounded-xl p-4 text-center">
+                    <div className="text-2xl font-bold text-secondary">
+                      {fibro.rankingProvincia.rank}/{fibro.rankingProvincia.total}
+                    </div>
+                    <div className="text-sm text-gray-600">
+                      {loc === 'es' ? `Ranking ${municipio.provincia}` :
+                       loc === 'ca' ? `Rànquing ${municipio.provincia}` :
+                       loc === 'en' ? `${municipio.provincia} ranking` :
+                       `Classement ${municipio.provincia}`}
+                    </div>
+                  </div>
+                </div>
+
+                {/* Asbestos service links */}
+                <div className="flex flex-wrap gap-2">
+                  <Link href="/servicios/amianto/inspeccion-identificacion" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
+                    {loc === 'es' ? 'Inspección e identificación' :
+                     loc === 'ca' ? 'Inspecció i identificació' :
+                     loc === 'en' ? 'Inspection & identification' :
+                     'Inspection et identification'}
+                  </Link>
+                  <Link href="/servicios/amianto/evaluacion-riesgos" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
+                    {loc === 'es' ? 'Evaluación de riesgos' :
+                     loc === 'ca' ? 'Avaluació de riscos' :
+                     loc === 'en' ? 'Risk assessment' :
+                     'Évaluation des risques'}
+                  </Link>
+                  <Link href="/servicios/amianto/planes-gestion" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
+                    {loc === 'es' ? 'Planes de gestión' :
+                     loc === 'ca' ? 'Plans de gestió' :
+                     loc === 'en' ? 'Management plans' :
+                     'Plans de gestion'}
+                  </Link>
+                  <Link href="/servicios/amianto/proyectos-desamiantado" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
+                    {loc === 'es' ? 'Desamiantado' :
+                     loc === 'ca' ? 'Desamiantatge' :
+                     loc === 'en' ? 'Asbestos removal' :
+                     'Désamiantage'}
+                  </Link>
+                  <Link href="/servicios/amianto" className="text-sm px-3 py-1.5 rounded-full bg-primary/10 text-primary font-medium hover:bg-primary/20 transition-colors">
+                    {loc === 'es' ? 'Todos los servicios de amianto →' :
+                     loc === 'ca' ? 'Tots els serveis d\'amiant →' :
+                     loc === 'en' ? 'All asbestos services →' :
+                     'Tous les services amiante →'}
+                  </Link>
+                </div>
+              </div>
+
+              {/* Asbestos info notice — fibrocemento is not the only source */}
+              <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-12 flex items-start gap-3">
+                <Info className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
+                <p className="text-sm text-amber-800">
+                  {loc === 'es'
+                    ? <>Los datos anteriores reflejan solo las cubiertas de fibrocemento detectadas por teledetección. El amianto puede estar presente en muchos otros materiales y elementos constructivos, tanto en exteriores como en interiores. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Consulta dónde puede encontrarse amianto en tu edificio</Link>.</>
+                    : loc === 'ca'
+                    ? <>Les dades anteriors reflecteixen només les cobertes de fibrociment detectades per teledetecció. L&apos;amiant pot ser present en molts altres materials i elements constructius, tant en exteriors com en interiors. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Consulta on es pot trobar amiant al teu edifici</Link>.</>
+                    : loc === 'en'
+                    ? <>The data above reflects only fibre cement roofing detected by remote sensing. Asbestos may be present in many other building materials and elements, both outdoors and indoors. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Find out where asbestos can be found in your building</Link>.</>
+                    : <>Les données ci-dessus ne reflètent que les toitures de fibrociment détectées par télédétection. L&apos;amiante peut être présent dans de nombreux autres matériaux et éléments de construction, tant à l&apos;extérieur qu&apos;à l&apos;intérieur. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Découvrez où l&apos;amiante peut se trouver dans votre bâtiment</Link>.</>}
+                </p>
+              </div>
+            </>
+          )}
 
           {/* FAQs */}
           {municipio.faqs[loc] && municipio.faqs[loc].length > 0 && (
