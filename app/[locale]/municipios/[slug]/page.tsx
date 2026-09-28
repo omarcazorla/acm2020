@@ -231,31 +231,51 @@ export default async function MunicipioPage({ params }: Props) {
 
           {/* Services CTA — radon */}
           <div className="bg-secondary rounded-2xl p-8 mb-12">
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="flex items-center gap-4">
-                <Shield className="w-10 h-10 text-primary" />
-                <div>
-                  <h3 className="text-xl font-bold text-white">
-                    {loc === 'es' ? `Servicios de radón en ${name}` :
-                     loc === 'ca' ? `Serveis de radó a ${name}` :
-                     loc === 'en' ? `Radon services in ${name}` :
-                     `Services radon a ${name}`}
-                  </h3>
-                  <p className="text-white/70 text-sm">
-                    {loc === 'es' ? 'Medición, diagnóstico y soluciones profesionales' :
-                     loc === 'ca' ? 'Mesurament, diagnostic i solucions professionals' :
-                     loc === 'en' ? 'Measurement, diagnosis, and professional solutions' :
-                     'Mesure, diagnostic et solutions professionnelles'}
-                  </p>
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                <div className="flex items-center gap-4">
+                  <Shield className="w-10 h-10 text-primary flex-shrink-0" />
+                  <div>
+                    <h3 className="text-xl font-bold text-white">
+                      {loc === 'es' ? `Servicios de radón en ${name}` :
+                       loc === 'ca' ? `Serveis de radó a ${name}` :
+                       loc === 'en' ? `Radon services in ${name}` :
+                       `Services radon à ${name}`}
+                    </h3>
+                    <p className="text-white/70 text-sm">
+                      {loc === 'es' ? 'Medición, diagnóstico y soluciones profesionales' :
+                       loc === 'ca' ? 'Mesurament, diagnostic i solucions professionals' :
+                       loc === 'en' ? 'Measurement, diagnosis, and professional solutions' :
+                       'Mesure, diagnostic et solutions professionnelles'}
+                    </p>
+                  </div>
                 </div>
+                <Link href="/contacto" className="btn-primary group whitespace-nowrap">
+                  {loc === 'es' ? 'Solicitar presupuesto' :
+                   loc === 'ca' ? 'Sol·licitar pressupost' :
+                   loc === 'en' ? 'Request a quote' :
+                   'Demander un devis'}
+                  <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                </Link>
               </div>
-              <Link href="/contacto" className="btn-primary group whitespace-nowrap">
-                {loc === 'es' ? 'Solicitar presupuesto' :
-                 loc === 'ca' ? 'Sol·licitar pressupost' :
-                 loc === 'en' ? 'Request a quote' :
-                 'Demander un devis'}
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Link>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <Link href="/servicios/radon/espacios-trabajo" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                  <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                  <span className="text-sm text-white/90 group-hover:text-white transition-colors">CTE DB HS6</span>
+                </Link>
+                <Link href="/servicios/radon/medicion-gas-radon" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                  <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                  <span className="text-sm text-white/90 group-hover:text-white transition-colors">
+                    {loc === 'es' ? 'Instrucción IS-47' : loc === 'ca' ? 'Instrucció IS-47' : loc === 'en' ? 'Instruction IS-47' : 'Instruction IS-47'}
+                  </span>
+                </Link>
+                <Link href="/servicios/radon/soluciones-residenciales" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                  <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                  <span className="text-sm text-white/90 group-hover:text-white transition-colors">
+                    {loc === 'es' ? 'Medida de hogar' : loc === 'ca' ? 'Mesura de la llar' : loc === 'en' ? 'Home measurement' : 'Mesure à domicile'}
+                  </span>
+                </Link>
+              </div>
             </div>
           </div>
 
@@ -355,10 +375,10 @@ export default async function MunicipioPage({ params }: Props) {
                         {loc === 'es' ? 'Planes de Gestión del Amianto' : loc === 'ca' ? 'Plans de Gestió' : loc === 'en' ? 'Management Plans' : 'Plans de Gestion'}
                       </span>
                     </Link>
-                    <Link href="/servicios/amianto/proyectos-desamiantado" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                    <Link href="/servicios/amianto/muestreo-ambiental" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
                       <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
                       <span className="text-sm text-white/90 group-hover:text-white transition-colors">
-                        {loc === 'es' ? 'Proyectos de Retirada de Amianto' : loc === 'ca' ? 'Projectes de Desamiantatge' : loc === 'en' ? 'Asbestos Removal Projects' : 'Projets de Désamiantage'}
+                        {loc === 'es' ? 'Muestreo Estático Ambiental de Amianto' : loc === 'ca' ? 'Mostreig Estàtic Ambiental d\'Amiant' : loc === 'en' ? 'Environmental Air Sampling for Asbestos' : 'Prélèvement Statique Environnemental d\'Amiante'}
                       </span>
                     </Link>
                   </div>
