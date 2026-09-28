@@ -1,7 +1,6 @@
 'use client'
 
 import { Shield, Award, ArrowRight } from 'lucide-react'
-import { motion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { ContainerScroll } from '@/components/ui/ContainerScroll'
@@ -17,43 +16,38 @@ export default function Hero() {
           titleComponent={
             <div className="pt-20 md:pt-28 pb-4">
               {/* Eyebrow */}
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0, ease: 'easeOut' }}
+              <p
+                data-reveal="fade"
                 className="uppercase tracking-[0.3em] text-sm text-secondary/60 mb-8"
               >
                 {t('badge')}
-              </motion.p>
+              </p>
 
-              {/* Headline */}
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1, ease: 'easeOut' }}
+              {/* Headline — word-by-word stagger */}
+              <div
+                data-stagger="fade"
+                data-stagger-seq="0.25"
                 className="text-4xl sm:text-5xl lg:text-[64px] lg:leading-[83px] font-bold text-secondary leading-tight mb-6"
               >
-                {t('titleStart')}{' '}
-                <span className="text-primary">{t('titleHighlight1')}</span>{' '}
-                {t('titleMid')}{' '}
+                <span>{t('titleStart')} </span>
+                <span className="text-primary">{t('titleHighlight1')} </span>
+                <span>{t('titleMid')} </span>
                 <span className="text-primary">{t('titleHighlight2')}</span>
-              </motion.h1>
+              </div>
 
               {/* Subheadline */}
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2, ease: 'easeOut' }}
+              <p
+                data-reveal="fade"
+                style={{ transitionDelay: '1.2s' }}
                 className="text-lg sm:text-xl lg:text-[22px] font-light text-secondary/70 max-w-2xl mx-auto mb-10 leading-relaxed"
               >
                 {t('subtitle')}
-              </motion.p>
+              </p>
 
               {/* CTAs */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.3, ease: 'easeOut' }}
+              <div
+                data-reveal="fade"
+                style={{ transitionDelay: '1.5s' }}
                 className="flex flex-col sm:flex-row gap-4 justify-center"
               >
                 <Link
@@ -69,12 +63,16 @@ export default function Hero() {
                 >
                   {t('ctaSecondary')}
                 </Link>
-              </motion.div>
+              </div>
             </div>
           }
           statsComponent={
             <div className="max-w-2xl mx-auto">
-              <div className="grid grid-cols-2 gap-x-16 gap-y-10">
+              <div
+                data-stagger="zoom"
+                data-stagger-seq="0.1"
+                className="grid grid-cols-2 gap-x-16 gap-y-10 stagger-perspective"
+              >
                 <div className="flex items-center space-x-4">
                   <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
                     <Shield className="w-7 h-7 text-primary" />

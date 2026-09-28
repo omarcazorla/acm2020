@@ -11,7 +11,6 @@ import {
   Leaf,
 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-import RevealOnScroll from '@/components/ui/RevealOnScroll'
 
 const featureKeys = [
   { key: 'rera', icon: Award },
@@ -35,9 +34,8 @@ export default function About() {
     <section id={tAnchors('about')} className="section-padding bg-warm">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Left content */}
-          <RevealOnScroll>
-          <div>
+          {/* Left content — line-by-line stagger */}
+          <div data-stagger="fade" data-stagger-seq="0.2">
             <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
               {t('sectionLabel')}
             </span>
@@ -74,13 +72,15 @@ export default function About() {
               ))}
             </div>
           </div>
-          </RevealOnScroll>
 
-          {/* Right content - Trust indicators */}
-          <div className="grid sm:grid-cols-2 gap-6">
-            {featureKeys.map((feature, index) => (
-              <RevealOnScroll key={feature.key} delay={index * 0.1}>
-              <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 card-hover h-full">
+          {/* Right content - Trust indicators — zoom from center */}
+          <div
+            data-stagger="zoom"
+            data-stagger-seq="0.1"
+            className="grid sm:grid-cols-2 gap-6 stagger-perspective"
+          >
+            {featureKeys.map((feature) => (
+              <div key={feature.key} className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 card-hover h-full">
                 <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg shadow-primary/25">
                   <feature.icon className="w-7 h-7 text-white" />
                 </div>
@@ -94,13 +94,12 @@ export default function About() {
                   {t(`features.${feature.key}.description`)}
                 </p>
               </div>
-              </RevealOnScroll>
             ))}
           </div>
         </div>
 
         {/* Mission statement */}
-        <RevealOnScroll className="mt-20 text-center">
+        <div data-reveal="zoom" className="mt-20 text-center">
           <div className="max-w-4xl mx-auto bg-gradient-to-br from-secondary to-secondary-600 rounded-3xl p-10 md:p-14 relative overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
@@ -115,7 +114,7 @@ export default function About() {
               </p>
             </div>
           </div>
-        </RevealOnScroll>
+        </div>
       </div>
     </section>
   )

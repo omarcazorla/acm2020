@@ -17,8 +17,9 @@ export function ContainerScroll({
     offset: ['start end', 'center center'],
   })
 
-  const statsOpacity = useTransform(scrollYProgress, [0, 0.5], [0, 1])
-  const statsY = useTransform(scrollYProgress, [0, 0.5], [20, 0])
+  // Slower reveal — maps over a wider scroll range
+  const statsOpacity = useTransform(scrollYProgress, [0, 0.6], [0, 1])
+  const statsY = useTransform(scrollYProgress, [0, 0.6], [30, 0])
 
   return (
     <div>
@@ -33,7 +34,11 @@ export function ContainerScroll({
       {statsComponent && (
         <div ref={statsRef} className="px-4 pb-16">
           <motion.div
-            style={{ opacity: statsOpacity, y: statsY }}
+            style={{
+              opacity: statsOpacity,
+              y: statsY,
+              transition: 'transform 0.75s cubic-bezier(0.43, 0.19, 0.21, 0.97)',
+            }}
             className="max-w-7xl mx-auto"
           >
             {statsComponent}

@@ -13,6 +13,11 @@
   --primary-dark: #C56A1A;
   --secondary: #1E3A5F;
   --secondary-dark: #152a47;
+
+  /* Motion tokens */
+  --ease-cinematic: cubic-bezier(0.43, 0.19, 0.21, 0.97);
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --reveal-duration: 0.75s;
 }
 
 html {
@@ -33,11 +38,19 @@ body {
 
 @layer components {
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-primary rounded-lg shadow-lg hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-primary rounded-lg shadow-lg hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:shadow-xl;
+    transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic);
+  }
+  .btn-primary:hover {
+    transform: scale(1.03);
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-secondary bg-white border-2 border-secondary rounded-lg shadow-lg hover:bg-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-secondary bg-white border-2 border-secondary rounded-lg shadow-lg hover:bg-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 hover:shadow-xl;
+    transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic), color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic);
+  }
+  .btn-secondary:hover {
+    transform: scale(1.03);
   }
 
   .btn-outline {
@@ -57,7 +70,11 @@ body {
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-2xl hover:-translate-y-1;
+    transition: transform 0.5s var(--ease-cinematic), box-shadow 0.5s var(--ease-cinematic);
+  }
+  .card-hover:hover {
+    transform: scale(1.01);
+    @apply shadow-2xl;
   }
 
   .text-gradient {
@@ -65,7 +82,11 @@ body {
   }
 
   .btn-primary-sm {
-    @apply inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-primary rounded-lg shadow-lg hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-all duration-300 hover:shadow-xl hover:-translate-y-0.5;
+    @apply inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-primary rounded-lg shadow-lg hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:shadow-xl;
+    transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic);
+  }
+  .btn-primary-sm:hover {
+    transform: scale(1.03);
   }
 }
 
@@ -117,4 +138,52 @@ body {
 /* Filter to tint black image to secondary blue #1E3A5F */
 .filter-secondary {
   filter: brightness(0) saturate(100%) invert(18%) sepia(30%) saturate(1200%) hue-rotate(180deg) brightness(95%) contrast(95%);
+}
+
+/* ---------------------------------------------------------------------------
+   Cinematic reveal system
+   --------------------------------------------------------------------------- */
+
+/* Base reveal transition — applied to all [data-reveal] */
+[data-reveal] {
+  transition:
+    opacity var(--reveal-duration) var(--ease-cinematic),
+    transform var(--reveal-duration) var(--ease-cinematic);
+}
+
+/* Initial hidden states (only when motion is OK) */
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal="fade"] {
+    opacity: 0;
+  }
+  [data-reveal="zoom"] {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+
+/* Visible state — toggled by IntersectionObserver */
+[data-reveal].is-visible {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Reduced-motion: everything visible, no animation */
+html.motion-reduced [data-reveal] {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+/* Global link color transition */
+a {
+  transition: color 0.3s var(--ease-cinematic);
+}
+
+/* Social icon hover */
+.social-icon-hover {
+  transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic);
+}
+.social-icon-hover:hover {
+  transform: scale(1.03);
 }

@@ -35,7 +35,11 @@ export default function Footer() {
   return (
     <footer className="bg-secondary text-white">
       <div className="container-custom section-padding pb-8">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+        <div
+          data-stagger="fade"
+          data-stagger-seq="0.1"
+          className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8"
+        >
           {/* Brand column */}
           <div className="lg:col-span-1">
             <div className="mb-6">
@@ -62,7 +66,7 @@ export default function Footer() {
                   key={index}
                   href={social.href}
                   aria-label={social.label}
-                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
+                  className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary social-icon-hover"
                 >
                   <social.icon className="w-5 h-5" />
                 </a>
@@ -78,7 +82,8 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     href={link.href}
-                    className="text-white/70 hover:text-primary transition-colors text-sm"
+                    className="text-white/70 hover:text-primary text-sm"
+                    style={{ transition: 'color 0.3s var(--ease-cinematic)' }}
                   >
                     {link.name}
                   </Link>
@@ -95,7 +100,8 @@ export default function Footer() {
                 <li key={index}>
                   <Link
                     href={service.href}
-                    className="text-white/70 hover:text-primary transition-colors text-sm"
+                    className="text-white/70 hover:text-primary text-sm"
+                    style={{ transition: 'color 0.3s var(--ease-cinematic)' }}
                   >
                     {service.name}
                   </Link>
@@ -111,7 +117,8 @@ export default function Footer() {
               <li>
                 <a
                   href="tel:+34667623844"
-                  className="flex items-center space-x-3 text-white/70 hover:text-primary transition-colors text-sm"
+                  className="flex items-center space-x-3 text-white/70 hover:text-primary text-sm"
+                  style={{ transition: 'color 0.3s var(--ease-cinematic)' }}
                 >
                   <Phone className="w-5 h-5" />
                   <span>667 623 844</span>
@@ -120,7 +127,8 @@ export default function Footer() {
               <li>
                 <a
                   href="mailto:acm@acm2020.es"
-                  className="flex items-center space-x-3 text-white/70 hover:text-primary transition-colors text-sm"
+                  className="flex items-center space-x-3 text-white/70 hover:text-primary text-sm"
+                  style={{ transition: 'color 0.3s var(--ease-cinematic)' }}
                 >
                   <Mail className="w-5 h-5" />
                   <span>acm@acm2020.es</span>
@@ -131,7 +139,7 @@ export default function Footer() {
                   <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                   <span>
                     C. Ibiza, 1, Bajos<br />
-                    08214 Badia del Vallés<br />
+                    08214 Badia del Valles<br />
                     Barcelona
                   </span>
                 </div>
@@ -148,13 +156,13 @@ export default function Footer() {
             </p>
             <LanguageSwitcher variant="inline" theme="dark" />
             <div className="flex space-x-6 text-sm">
-              <Link href="/legal/privacidad" className="text-white/60 hover:text-primary transition-colors">
+              <Link href="/legal/privacidad" className="text-white/60 hover:text-primary" style={{ transition: 'color 0.3s var(--ease-cinematic)' }}>
                 {t('privacy')}
               </Link>
-              <Link href="/legal/aviso-legal" className="text-white/60 hover:text-primary transition-colors">
+              <Link href="/legal/aviso-legal" className="text-white/60 hover:text-primary" style={{ transition: 'color 0.3s var(--ease-cinematic)' }}>
                 {t('legal')}
               </Link>
-              <Link href="/legal/cookies" className="text-white/60 hover:text-primary transition-colors">
+              <Link href="/legal/cookies" className="text-white/60 hover:text-primary" style={{ transition: 'color 0.3s var(--ease-cinematic)' }}>
                 {t('cookies')}
               </Link>
             </div>

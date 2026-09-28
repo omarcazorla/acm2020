@@ -11,7 +11,6 @@ import {
   AlertCircle,
 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
-import RevealOnScroll from '@/components/ui/RevealOnScroll'
 
 export default function Contact() {
   const t = useTranslations('contact')
@@ -93,24 +92,22 @@ export default function Contact() {
     <section id={tAnchors('contact')} className="section-padding bg-white">
       <div className="container-custom">
         {/* Section header */}
-        <RevealOnScroll>
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-              {t('sectionLabel')}
-            </span>
-            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
-              {t('title')}{' '}
-              <span className="text-gradient">{t('titleHighlight')}</span>?
-            </h2>
-            <p className="text-lg text-gray-600">
-              {t('subtitle')}
-            </p>
-          </div>
-        </RevealOnScroll>
+        <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
+          <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+            {t('sectionLabel')}
+          </span>
+          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
+            {t('title')}{' '}
+            <span className="text-gradient">{t('titleHighlight')}</span>?
+          </h2>
+          <p className="text-lg text-gray-600">
+            {t('subtitle')}
+          </p>
+        </div>
 
         <div className="grid lg:grid-cols-5 gap-12">
           {/* Contact info */}
-          <RevealOnScroll className="lg:col-span-2">
+          <div data-reveal="fade" className="lg:col-span-2">
             <div className="bg-secondary rounded-3xl p-8 h-full relative overflow-hidden noise-texture">
               <h3 className="text-2xl font-bold text-white mb-6">
                 {t('infoTitle')}
@@ -119,7 +116,7 @@ export default function Contact() {
                 {t('infoSubtitle')}
               </p>
 
-              <div className="space-y-6">
+              <div data-stagger="fade" data-stagger-seq="0.15" className="space-y-6">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -160,10 +157,10 @@ export default function Contact() {
                 />
               </div>
             </div>
-          </RevealOnScroll>
+          </div>
 
           {/* Contact form */}
-          <RevealOnScroll delay={0.15} className="lg:col-span-3">
+          <div data-reveal="fade" style={{ transitionDelay: '0.15s' }} className="lg:col-span-3">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
@@ -180,7 +177,8 @@ export default function Contact() {
                     value={formState.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none"
+                    style={{ transition: 'border-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic)' }}
                     placeholder={t('form.namePlaceholder')}
                   />
                 </div>
@@ -198,7 +196,8 @@ export default function Contact() {
                     value={formState.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none"
+                    style={{ transition: 'border-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic)' }}
                     placeholder={t('form.emailPlaceholder')}
                   />
                 </div>
@@ -218,7 +217,8 @@ export default function Contact() {
                     name="phone"
                     value={formState.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none"
+                    style={{ transition: 'border-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic)' }}
                     placeholder={t('form.phonePlaceholder')}
                   />
                 </div>
@@ -235,7 +235,8 @@ export default function Contact() {
                     value={formState.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all bg-white"
+                    className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none bg-white"
+                    style={{ transition: 'border-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic)' }}
                   >
                     <option value="">{t('form.subjectPlaceholder')}</option>
                     <option value="amianto">{t('form.subjectAsbestos')}</option>
@@ -261,7 +262,8 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={6}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"
+                  className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none resize-none"
+                  style={{ transition: 'border-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic)' }}
                   placeholder={t('form.messagePlaceholder')}
                 />
               </div>
@@ -306,7 +308,7 @@ export default function Contact() {
                 </div>
               )}
             </form>
-          </RevealOnScroll>
+          </div>
         </div>
       </div>
     </section>

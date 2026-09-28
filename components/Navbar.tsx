@@ -33,7 +33,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20)
+      setIsScrolled(window.scrollY > 150)
     }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
@@ -41,14 +41,15 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 ${
         isScrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-lg'
+          ? 'bg-white/95 backdrop-blur-[30px] shadow-lg'
           : 'bg-transparent'
       }`}
+      style={{ transition: 'all 0.6s var(--ease-out-soft)' }}
     >
       <div className="container-custom">
-        <div className="flex items-center justify-between h-20">
+        <div className={`flex items-center justify-between transition-[height] duration-500 ${isScrolled ? 'h-16' : 'h-20'}`} style={{ transitionTimingFunction: 'var(--ease-out-soft)' }}>
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
@@ -113,9 +114,10 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
 
         {/* Mobile Navigation */}
         <div
-          className={`md:hidden transition-all duration-300 overflow-hidden ${
+          className={`md:hidden overflow-hidden ${
             isOpen ? 'max-h-96 pb-4' : 'max-h-0'
           }`}
+          style={{ transition: 'max-height 0.4s var(--ease-cinematic), padding 0.4s var(--ease-cinematic)' }}
         >
           <div className="bg-white rounded-xl shadow-xl p-4 space-y-1">
             {navigation.map((item) => {
