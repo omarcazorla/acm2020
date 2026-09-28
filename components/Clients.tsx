@@ -60,14 +60,26 @@ export default function Clients() {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 stagger-perspective"
         >
           {statKeys.map((stat) => (
-            <div key={stat.key} className="bg-white rounded-2xl p-6 text-center shadow-sm border border-gray-100 border-t-4 border-t-primary card-hover h-full">
-              <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                <stat.icon className="w-7 h-7 text-primary" />
+            <div key={stat.key} className="bg-white rounded-2xl p-8 text-center shadow-sm border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
+              <div
+                className="absolute top-0 left-1/2 -translate-x-1/2 w-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent group-hover:w-full transition-all duration-700"
+                style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+              />
+              <div className="w-16 h-16 bg-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-6 relative">
+                <div
+                  className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                />
+                <stat.icon
+                  strokeWidth={1.5}
+                  className="w-8 h-8 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                />
               </div>
-              <div className="text-3xl md:text-4xl font-bold text-secondary mb-1">
+              <div className="text-4xl md:text-5xl font-bold text-secondary mb-2 tabular-nums">
                 {t(`stats.${stat.key}.value`)}
               </div>
-              <div className="text-sm text-gray-600">{t(`stats.${stat.key}.label`)}</div>
+              <div className="text-sm text-gray-600 font-medium">{t(`stats.${stat.key}.label`)}</div>
             </div>
           ))}
         </div>
@@ -147,10 +159,11 @@ export default function Clients() {
               {[0, 1, 2, 3, 4, 5].map((index) => (
                 <div
                   key={index}
-                  className="flex items-center space-x-3 bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-colors"
+                  className="flex items-center space-x-4 bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all duration-500 group"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 >
-                  <div className="w-2 h-2 bg-primary rounded-full" />
-                  <span className="text-white font-medium">{t(`sectors.${index}`)}</span>
+                  <div className="w-2 h-2 bg-primary rounded-full transition-transform duration-500 group-hover:scale-125" style={{ transitionTimingFunction: 'var(--ease-cinematic)' }} />
+                  <span className="text-white font-medium text-[15px]">{t(`sectors.${index}`)}</span>
                 </div>
               ))}
             </div>

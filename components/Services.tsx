@@ -80,15 +80,27 @@ export default function Services() {
               <Link
                 key={service.key}
                 href={{ pathname: '/servicios/amianto/[slug]', params: { slug: service.slug } }}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 border-l-4 border-l-primary card-hover group block h-full"
+                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
-                  <service.icon className="w-6 h-6 text-primary group-hover:text-white transition-colors" />
+                <div
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                />
+                <div className="w-16 h-16 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 relative">
+                  <div
+                    className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                  />
+                  <service.icon
+                    strokeWidth={1.5}
+                    className="w-7 h-7 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                    style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                  />
                 </div>
-                <h4 className="text-lg font-semibold text-secondary mb-2">
+                <h4 className="text-xl font-semibold text-secondary mb-3 tracking-tight">
                   {t(`asbestos.${service.key}.title`)}
                 </h4>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-[15px] leading-relaxed">
                   {t(`asbestos.${service.key}.description`)}
                 </p>
               </Link>
@@ -106,15 +118,27 @@ export default function Services() {
               <Link
                 key={service.key}
                 href={{ pathname: '/servicios/amianto/[slug]', params: { slug: service.slug } }}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 border-l-4 border-l-primary card-hover group block h-full"
+                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
-                  <service.icon className="w-6 h-6 text-primary group-hover:text-white transition-colors" />
+                <div
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                />
+                <div className="w-16 h-16 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 relative">
+                  <div
+                    className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                  />
+                  <service.icon
+                    strokeWidth={1.5}
+                    className="w-7 h-7 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                    style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                  />
                 </div>
-                <h4 className="text-lg font-semibold text-secondary mb-2">
+                <h4 className="text-xl font-semibold text-secondary mb-3 tracking-tight">
                   {t(`asbestos.${service.key}.title`)}
                 </h4>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-[15px] leading-relaxed">
                   {t(`asbestos.${service.key}.description`)}
                 </p>
               </Link>
@@ -153,15 +177,27 @@ export default function Services() {
             {radonServiceKeys.map((service) => (
               <div
                 key={service.key}
-                className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 border-l-4 border-l-secondary card-hover group h-full"
+                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group h-full relative overflow-hidden"
               >
-                <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-secondary group-hover:scale-110 transition-all duration-300">
-                  <service.icon className="w-6 h-6 text-secondary group-hover:text-white transition-colors" />
+                <div
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-secondary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                />
+                <div className="w-16 h-16 bg-secondary/5 rounded-2xl flex items-center justify-center mb-6 relative">
+                  <div
+                    className="absolute inset-0 bg-gradient-to-br from-secondary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                  />
+                  <service.icon
+                    strokeWidth={1.5}
+                    className="w-7 h-7 text-secondary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                    style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                  />
                 </div>
-                <h4 className="text-lg font-semibold text-secondary mb-2">
+                <h4 className="text-xl font-semibold text-secondary mb-3 tracking-tight">
                   {t(`radon.${service.key}.title`)}
                 </h4>
-                <p className="text-gray-600 text-sm leading-relaxed">
+                <p className="text-gray-600 text-[15px] leading-relaxed">
                   {t(`radon.${service.key}.description`)}
                 </p>
               </div>

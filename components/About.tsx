@@ -80,19 +80,28 @@ export default function About() {
             className="grid sm:grid-cols-2 gap-6 stagger-perspective"
           >
             {featureKeys.map((feature) => (
-              <div key={feature.key} className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 card-hover h-full">
-                <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg shadow-primary/25">
-                  <feature.icon className="w-7 h-7 text-white" />
+              <div key={feature.key} className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
+                <div
+                  className="absolute -top-24 -right-24 w-48 h-48 bg-primary/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                />
+                <div
+                  className="w-16 h-16 bg-gradient-to-br from-primary/90 to-primary-600 rounded-2xl flex items-center justify-center mb-6 shadow-md shadow-primary/15 group-hover:shadow-lg group-hover:shadow-primary/25 transition-shadow duration-500 relative z-10"
+                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
+                >
+                  <feature.icon strokeWidth={1.5} className="w-8 h-8 text-white" />
                 </div>
-                <div className="text-sm font-bold text-primary mb-1">
-                  {t(`features.${feature.key}.highlight`)}
+                <div className="relative z-10">
+                  <div className="text-xs font-bold text-primary mb-2 uppercase tracking-wider">
+                    {t(`features.${feature.key}.highlight`)}
+                  </div>
+                  <h3 className="text-xl font-bold text-secondary mb-3 tracking-tight">
+                    {t(`features.${feature.key}.title`)}
+                  </h3>
+                  <p className="text-gray-600 text-[15px] leading-relaxed">
+                    {t(`features.${feature.key}.description`)}
+                  </p>
                 </div>
-                <h3 className="text-lg font-bold text-secondary mb-2">
-                  {t(`features.${feature.key}.title`)}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {t(`features.${feature.key}.description`)}
-                </p>
               </div>
             ))}
           </div>
