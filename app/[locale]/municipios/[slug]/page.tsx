@@ -276,7 +276,7 @@ export default async function MunicipioPage({ params }: Props) {
                    loc === 'en' ? 'According to the fibre cement roofing census in Catalonia (ICGC)' :
                    'Selon le recensement des toitures en fibrociment en Catalogne (ICGC)'}
                 </p>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="bg-gray-50 rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-secondary">{fibro.cubiertas.toLocaleString(loc)}</div>
                     <div className="text-sm text-gray-600">
@@ -305,39 +305,63 @@ export default async function MunicipioPage({ params }: Props) {
                     </div>
                   </div>
                 </div>
+              </div>
 
-                {/* Asbestos service links */}
-                <div className="flex flex-wrap gap-2">
-                  <Link href="/servicios/amianto/inspeccion-identificacion" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
-                    {loc === 'es' ? 'Inspección e identificación' :
-                     loc === 'ca' ? 'Inspecció i identificació' :
-                     loc === 'en' ? 'Inspection & identification' :
-                     'Inspection et identification'}
-                  </Link>
-                  <Link href="/servicios/amianto/evaluacion-riesgos" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
-                    {loc === 'es' ? 'Evaluación de riesgos' :
-                     loc === 'ca' ? 'Avaluació de riscos' :
-                     loc === 'en' ? 'Risk assessment' :
-                     'Évaluation des risques'}
-                  </Link>
-                  <Link href="/servicios/amianto/planes-gestion" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
-                    {loc === 'es' ? 'Planes de gestión' :
-                     loc === 'ca' ? 'Plans de gestió' :
-                     loc === 'en' ? 'Management plans' :
-                     'Plans de gestion'}
-                  </Link>
-                  <Link href="/servicios/amianto/proyectos-desamiantado" className="text-sm px-3 py-1.5 rounded-full border border-gray-200 text-gray-700 hover:border-primary/40 hover:text-primary transition-colors">
-                    {loc === 'es' ? 'Desamiantado' :
-                     loc === 'ca' ? 'Desamiantatge' :
-                     loc === 'en' ? 'Asbestos removal' :
-                     'Désamiantage'}
-                  </Link>
-                  <Link href="/servicios/amianto" className="text-sm px-3 py-1.5 rounded-full bg-primary/10 text-primary font-medium hover:bg-primary/20 transition-colors">
-                    {loc === 'es' ? 'Todos los servicios de amianto →' :
-                     loc === 'ca' ? 'Tots els serveis d\'amiant →' :
-                     loc === 'en' ? 'All asbestos services →' :
-                     'Tous les services amiante →'}
-                  </Link>
+              {/* Services CTA — asbestos */}
+              <div className="bg-secondary rounded-2xl p-8 mb-6">
+                <div className="flex flex-col gap-6">
+                  <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                    <div className="flex items-center gap-4">
+                      <Building2 className="w-10 h-10 text-primary flex-shrink-0" />
+                      <div>
+                        <h3 className="text-xl font-bold text-white">
+                          {loc === 'es' ? `Servicios de amianto en ${name}` :
+                           loc === 'ca' ? `Serveis d'amiant a ${name}` :
+                           loc === 'en' ? `Asbestos services in ${name}` :
+                           `Services amiante à ${name}`}
+                        </h3>
+                        <p className="text-white/70 text-sm">
+                          {loc === 'es' ? 'Inspección, gestión, desamiantado y certificación' :
+                           loc === 'ca' ? 'Inspecció, gestió, desamiantatge i certificació' :
+                           loc === 'en' ? 'Inspection, management, removal, and certification' :
+                           'Inspection, gestion, désamiantage et certification'}
+                        </p>
+                      </div>
+                    </div>
+                    <Link href="/servicios/amianto" className="btn-primary group whitespace-nowrap">
+                      {loc === 'es' ? 'Ver servicios' :
+                       loc === 'ca' ? 'Veure serveis' :
+                       loc === 'en' ? 'View services' :
+                       'Voir les services'}
+                      <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+                    </Link>
+                  </div>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    <Link href="/servicios/amianto/inspeccion-identificacion" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                      <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                      <span className="text-sm text-white/90 group-hover:text-white transition-colors">
+                        {loc === 'es' ? 'Inspección' : loc === 'ca' ? 'Inspecció' : loc === 'en' ? 'Inspection' : 'Inspection'}
+                      </span>
+                    </Link>
+                    <Link href="/servicios/amianto/evaluacion-riesgos" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                      <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                      <span className="text-sm text-white/90 group-hover:text-white transition-colors">
+                        {loc === 'es' ? 'Evaluación de riesgos' : loc === 'ca' ? 'Avaluació de riscos' : loc === 'en' ? 'Risk assessment' : 'Risques'}
+                      </span>
+                    </Link>
+                    <Link href="/servicios/amianto/planes-gestion" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                      <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                      <span className="text-sm text-white/90 group-hover:text-white transition-colors">
+                        {loc === 'es' ? 'Planes de gestión' : loc === 'ca' ? 'Plans de gestió' : loc === 'en' ? 'Management' : 'Gestion'}
+                      </span>
+                    </Link>
+                    <Link href="/servicios/amianto/proyectos-desamiantado" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
+                      <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
+                      <span className="text-sm text-white/90 group-hover:text-white transition-colors">
+                        {loc === 'es' ? 'Desamiantado' : loc === 'ca' ? 'Desamiantatge' : loc === 'en' ? 'Removal' : 'Désamiantage'}
+                      </span>
+                    </Link>
+                  </div>
                 </div>
               </div>
 
