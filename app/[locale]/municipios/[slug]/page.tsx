@@ -224,6 +224,20 @@ export default async function MunicipioPage({ params }: Props) {
             ))}
           </div>
 
+          {/* Asbestos info notice — fibrocemento is not the only source */}
+          <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-12 flex items-start gap-3">
+            <Info className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" />
+            <p className="text-sm text-amber-800">
+              {loc === 'es'
+                ? <>Los datos de fibrocemento reflejan solo las cubiertas detectadas por teledetección. El amianto puede estar presente en muchos otros materiales y elementos constructivos, tanto en exteriores como en interiores. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Consulta dónde puede encontrarse amianto en tu edificio</Link>.</>
+                : loc === 'ca'
+                ? <>Les dades de fibrociment reflecteixen només les cobertes detectades per teledetecció. L&apos;amiant pot ser present en molts altres materials i elements constructius, tant en exteriors com en interiors. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Consulta on es pot trobar amiant al teu edifici</Link>.</>
+                : loc === 'en'
+                ? <>Fibre cement data reflects only roofing detected by remote sensing. Asbestos may be present in many other building materials and elements, both outdoors and indoors. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Find out where asbestos can be found in your building</Link>.</>
+                : <>Les données de fibrociment ne reflètent que les toitures détectées par télédétection. L&apos;amiante peut être présent dans de nombreux autres matériaux et éléments de construction, tant à l&apos;extérieur qu&apos;à l&apos;intérieur. <Link href="/amianto-donde-se-encuentra-casa-trabajo" className="text-amber-900 underline font-medium hover:text-amber-700">Découvrez où l&apos;amiante peut se trouver dans votre bâtiment</Link>.</>}
+            </p>
+          </div>
+
           {/* Services CTA */}
           <div className="bg-secondary rounded-2xl p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
