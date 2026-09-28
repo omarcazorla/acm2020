@@ -336,29 +336,29 @@ export default async function MunicipioPage({ params }: Props) {
                       <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                     </Link>
                   </div>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <Link href="/servicios/amianto/inspeccion-identificacion" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
                       <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
                       <span className="text-sm text-white/90 group-hover:text-white transition-colors">
-                        {loc === 'es' ? 'Inspección' : loc === 'ca' ? 'Inspecció' : loc === 'en' ? 'Inspection' : 'Inspection'}
+                        {loc === 'es' ? 'Identificación y Evaluación de Amianto' : loc === 'ca' ? 'Inspecció i Identificació' : loc === 'en' ? 'Inspection & Identification' : 'Inspection et Identification'}
                       </span>
                     </Link>
                     <Link href="/servicios/amianto/evaluacion-riesgos" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
                       <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
                       <span className="text-sm text-white/90 group-hover:text-white transition-colors">
-                        {loc === 'es' ? 'Evaluación de riesgos' : loc === 'ca' ? 'Avaluació de riscos' : loc === 'en' ? 'Risk assessment' : 'Risques'}
+                        {loc === 'es' ? 'Evaluación del Estado de Conservación' : loc === 'ca' ? 'Avaluació de Riscos' : loc === 'en' ? 'Risk Assessment' : 'Évaluation des Risques'}
                       </span>
                     </Link>
                     <Link href="/servicios/amianto/planes-gestion" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
                       <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
                       <span className="text-sm text-white/90 group-hover:text-white transition-colors">
-                        {loc === 'es' ? 'Planes de gestión' : loc === 'ca' ? 'Plans de gestió' : loc === 'en' ? 'Management' : 'Gestion'}
+                        {loc === 'es' ? 'Planes de Gestión del Amianto' : loc === 'ca' ? 'Plans de Gestió' : loc === 'en' ? 'Management Plans' : 'Plans de Gestion'}
                       </span>
                     </Link>
                     <Link href="/servicios/amianto/proyectos-desamiantado" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
                       <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
                       <span className="text-sm text-white/90 group-hover:text-white transition-colors">
-                        {loc === 'es' ? 'Desamiantado' : loc === 'ca' ? 'Desamiantatge' : loc === 'en' ? 'Removal' : 'Désamiantage'}
+                        {loc === 'es' ? 'Proyectos de Retirada de Amianto' : loc === 'ca' ? 'Projectes de Desamiantatge' : loc === 'en' ? 'Asbestos Removal Projects' : 'Projets de Désamiantage'}
                       </span>
                     </Link>
                   </div>
