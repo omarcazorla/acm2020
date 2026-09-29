@@ -51,13 +51,13 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
       <div className="container-custom">
         <div className={`flex items-center justify-between transition-[height] duration-500 ${isScrolled ? 'h-16' : 'h-20'}`} style={{ transitionTimingFunction: 'var(--ease-out-soft)' }}>
           {/* Logo */}
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="flex items-center pl-2">
             <Image
               src="/logomono.webp"
               alt="ACM-2020"
               width={180}
               height={60}
-              className={`h-14 w-auto transition-all duration-300 ${isScrolled || !darkHero ? 'filter-secondary' : 'invert'}`}
+              className={`h-11 w-auto transition-all duration-300 ${isScrolled || !darkHero ? 'filter-secondary' : 'invert'}`}
               priority
             />
           </Link>
