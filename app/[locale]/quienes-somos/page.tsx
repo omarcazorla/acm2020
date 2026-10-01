@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import CountUp from '@/components/about/CountUp'
-import { Award, FileCheck, Lock, Share2, Scale, MessageSquareText, Handshake, Globe, Unlink, Users, Zap, ArrowRight, Quote } from 'lucide-react'
+import { FileText, BookText, FileCheck, Lock, Share2, Scale, MessageSquareText, Handshake, Globe, Unlink, Users, Zap, ArrowRight, Quote } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
@@ -244,7 +244,9 @@ export default async function QuienesSomosPage({ params }: Props) {
                 data-stagger-seq="0.12"
                 className="grid md:grid-cols-2 gap-8 stagger-perspective"
               >
-                {companyAccreditations.map((item, i) => (
+                {companyAccreditations.map((item, i) => {
+                  const Icon = [FileText, BookText][i] || FileText
+                  return (
                   <div
                     key={i}
                     className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/[0.15] hover:border-white/20 card-hover relative group"
@@ -253,7 +255,7 @@ export default async function QuienesSomosPage({ params }: Props) {
                       className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-primary/25 group-hover:shadow-xl group-hover:shadow-primary/35"
                       style={{ transition: 'box-shadow 0.5s var(--ease-cinematic)' }}
                     >
-                      <Award
+                      <Icon
                         strokeWidth={1.5}
                         className="w-7 h-7 text-white group-hover:scale-110"
                         style={{ transition: 'transform 0.5s var(--ease-cinematic)' }}
@@ -266,7 +268,8 @@ export default async function QuienesSomosPage({ params }: Props) {
                       {item.description}
                     </p>
                   </div>
-                ))}
+                  )
+                })}
               </div>
             </div>
 
