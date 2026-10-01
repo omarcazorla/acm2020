@@ -26,7 +26,6 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
     { name: t('services'), href: '/servicios' as const },
     { name: t('radon'), href: '/servicios/radon' as const },
     { name: t('asbestos'), href: '/servicios/amianto' as const },
-    { name: t('municipalities'), href: '/municipios' as const },
     { name: t('aboutUs'), href: '/quienes-somos' as const },
     { name: t('clients'), href: '/clientes' as const },
   ]
