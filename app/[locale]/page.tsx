@@ -7,7 +7,6 @@ import Clients from '@/components/Clients'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
-import MotionInit from '@/components/MotionInit'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
 
@@ -28,7 +27,6 @@ export default async function Home({ params }: Props) {
 
   return (
     <>
-      <MotionInit />
       <Navbar />
       <main>
         <Hero />

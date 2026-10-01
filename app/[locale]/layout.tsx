@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
 import { routing } from '@/i18n/routing'
 import { OrganizationJsonLd, LocalBusinessJsonLd } from '@/components/JsonLd'
+import MotionInit from '@/components/MotionInit'
 import '../globals.css'
 
 const dmSans = DM_Sans({
@@ -75,6 +76,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       </head>
       <body className={`${dmSans.className} bg-white text-gray-900 antialiased`}>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <MotionInit />
           {children}
         </NextIntlClientProvider>
       </body>

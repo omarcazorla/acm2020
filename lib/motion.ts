@@ -109,40 +109,83 @@ function createRevealObserver(): IntersectionObserver {
 // ---------------------------------------------------------------------------
 
 export function initMotion(): MotionCleanup {
+  const reduced = prefersReducedMotion()
+
   // Bail entirely if user prefers reduced motion
-  if (prefersReducedMotion()) {
+  if (reduced) {
     document.documentElement.classList.add('motion-reduced')
-    // Make everything visible immediately
     document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => {
       el.classList.add('is-visible')
     })
-    return () => {}
   }
 
   // iOS --vh fix
   setVh()
   window.addEventListener('resize', setVh)
 
-  // Expand staggers before observing
-  expandStaggers()
+  if (!reduced) {
+    // Expand staggers before observing
+    expandStaggers()
 
-  // Set perspective origins (needs layout to be painted)
-  requestAnimationFrame(() => {
-    setPerspectiveOrigins()
-  })
+    // Set perspective origins (needs layout to be painted)
+    requestAnimationFrame(() => {
+      setPerspectiveOrigins()
+    })
 
-  // Mark html as motion-ready (removes the initial-hide CSS)
-  document.documentElement.classList.add('motion-ready')
+    // Mark html as motion-ready (removes the initial-hide CSS)
+    document.documentElement.classList.add('motion-ready')
+  }
 
   // Observe all [data-reveal] elements
-  const observer = createRevealObserver()
+  const observer = reduced ? null : createRevealObserver()
   document.querySelectorAll<HTMLElement>('[data-reveal]').forEach((el) => {
-    observer.observe(el)
+    if (reduced) {
+      el.classList.add('is-visible')
+    } else {
+      observer!.observe(el)
+    }
   })
+
+  // Watch for new [data-reveal] elements added during client-side navigation
+  const mutationObserver = new MutationObserver((mutations) => {
+    for (const mutation of mutations) {
+      for (const node of mutation.addedNodes) {
+        if (!(node instanceof HTMLElement)) continue
+        // Check the node itself and its descendants
+        const reveals = node.matches?.('[data-reveal]')
+          ? [node, ...node.querySelectorAll<HTMLElement>('[data-reveal]')]
+          : [...node.querySelectorAll<HTMLElement>('[data-reveal]')]
+        for (const el of reveals) {
+          if (reduced) {
+            (el as HTMLElement).classList.add('is-visible')
+          } else {
+            observer!.observe(el as HTMLElement)
+          }
+        }
+        // Expand staggers inside new content
+        if (!reduced) {
+          const staggers = node.matches?.('[data-stagger]')
+            ? [node, ...node.querySelectorAll<HTMLElement>('[data-stagger]')]
+            : [...node.querySelectorAll<HTMLElement>('[data-stagger]')]
+          for (const container of staggers) {
+            const type = (container as HTMLElement).dataset.stagger
+            const seq = parseFloat((container as HTMLElement).dataset.staggerSeq || '0.1')
+            Array.from(container.children).forEach((child, i) => {
+              ;(child as HTMLElement).setAttribute('data-reveal', type || 'fade')
+              ;(child as HTMLElement).style.transitionDelay = `${(i * seq).toFixed(2)}s`
+              observer!.observe(child as HTMLElement)
+            })
+          }
+        }
+      }
+    }
+  })
+  mutationObserver.observe(document.body, { childList: true, subtree: true })
 
   // Cleanup
   return () => {
-    observer.disconnect()
+    observer?.disconnect()
+    mutationObserver.disconnect()
     window.removeEventListener('resize', setVh)
   }
 }
