@@ -35,11 +35,12 @@ export default async function QuienesSomosPage({ params }: Props) {
   const hasStory = t.has('story')
   const hasStats = t.has('stats')
   const hasQuality = t.has('qualityPolicy')
-  const hasCerts = t.has('certifications')
+  const hasAccreditations = t.has('accreditations')
   const hasVision = t.has('vision')
 
   const principles = hasQuality ? (t.raw('qualityPolicy.principles') as { name: string; description: string }[]) : []
-  const certs = hasCerts ? (t.raw('certifications.items') as { name: string; description: string }[]) : []
+  const companyAccreditations = hasAccreditations ? (t.raw('accreditations.companyItems') as { name: string; description: string }[]) : []
+  const techAccreditations = hasAccreditations ? (t.raw('accreditations.techItems') as { name: string; description: string }[]) : []
   const storyParagraphs = hasStory ? (t('story.content') as string).split('\n\n') : []
 
   return (
@@ -214,8 +215,8 @@ export default async function QuienesSomosPage({ params }: Props) {
         </section>
       )}
 
-      {/* ─── Certifications ─── */}
-      {certs.length > 0 && (
+      {/* ─── Accreditations ─── */}
+      {hasAccreditations && (
         <section className="section-padding bg-secondary relative overflow-hidden noise-texture">
           <div className="absolute inset-0">
             <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-[100px] transform translate-x-1/2 -translate-y-1/2" />
@@ -227,42 +228,88 @@ export default async function QuienesSomosPage({ params }: Props) {
               <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
                 {t('certsLabel')}
               </span>
-              <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-white">
-                {t('certifications.title')}
-              </h2>
             </div>
 
-            <div
-              data-stagger="zoom"
-              data-stagger-seq="0.12"
-              className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto stagger-perspective"
-            >
-              {certs.map((cert, i) => {
-                const Icon = certIcons[i % certIcons.length]
-                return (
+            {/* Company accreditations */}
+            <div className="max-w-5xl mx-auto mb-16">
+              <div data-reveal="fade" className="mb-8">
+                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-2">
+                  {t('accreditations.companyTitle')}
+                </h3>
+                <p className="text-white/50 text-sm">
+                  {t('accreditations.companySubtitle')}
+                </p>
+              </div>
+              <div
+                data-stagger="zoom"
+                data-stagger-seq="0.12"
+                className="grid md:grid-cols-2 gap-8 stagger-perspective"
+              >
+                {companyAccreditations.map((item, i) => (
                   <div
                     key={i}
-                    className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center border border-white/10 hover:bg-white/[0.15] hover:border-white/20 card-hover relative group"
+                    className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/[0.15] hover:border-white/20 card-hover relative group"
                   >
                     <div
-                      className="w-16 h-16 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-primary/25 group-hover:shadow-xl group-hover:shadow-primary/35"
+                      className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-primary/25 group-hover:shadow-xl group-hover:shadow-primary/35"
                       style={{ transition: 'box-shadow 0.5s var(--ease-cinematic)' }}
                     >
-                      <Icon
+                      <Award
                         strokeWidth={1.5}
-                        className="w-8 h-8 text-white group-hover:scale-110"
+                        className="w-7 h-7 text-white group-hover:scale-110"
                         style={{ transition: 'transform 0.5s var(--ease-cinematic)' }}
                       />
                     </div>
-                    <h3 className="text-xl font-bold text-white mb-3 tracking-tight">
-                      {cert.name}
-                    </h3>
+                    <h4 className="text-xl font-bold text-white mb-3 tracking-tight">
+                      {item.name}
+                    </h4>
                     <p className="text-white/70 text-sm leading-relaxed">
-                      {cert.description}
+                      {item.description}
                     </p>
                   </div>
-                )
-              })}
+                ))}
+              </div>
+            </div>
+
+            {/* Technician accreditations */}
+            <div className="max-w-5xl mx-auto">
+              <div data-reveal="fade" className="mb-8">
+                <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-2">
+                  {t('accreditations.techTitle')}
+                </h3>
+                <p className="text-white/50 text-sm">
+                  {t('accreditations.techSubtitle')}
+                </p>
+              </div>
+              <div
+                data-stagger="zoom"
+                data-stagger-seq="0.12"
+                className="grid md:grid-cols-2 gap-8 stagger-perspective"
+              >
+                {techAccreditations.map((item, i) => (
+                  <div
+                    key={i}
+                    className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:bg-white/[0.15] hover:border-white/20 card-hover relative group"
+                  >
+                    <div
+                      className="w-14 h-14 bg-gradient-to-br from-primary to-primary-600 rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-primary/25 group-hover:shadow-xl group-hover:shadow-primary/35"
+                      style={{ transition: 'box-shadow 0.5s var(--ease-cinematic)' }}
+                    >
+                      <FileCheck
+                        strokeWidth={1.5}
+                        className="w-7 h-7 text-white group-hover:scale-110"
+                        style={{ transition: 'transform 0.5s var(--ease-cinematic)' }}
+                      />
+                    </div>
+                    <h4 className="text-xl font-bold text-white mb-3 tracking-tight">
+                      {item.name}
+                    </h4>
+                    <p className="text-white/70 text-sm leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </section>

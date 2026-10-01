@@ -1176,20 +1176,29 @@
         ],
         "footer": "Los conceptos y contenidos de esta Política se revisan periódicamente por la Dirección en base a lo dispuesto en las normas de gestión ISO 45.001, ISO 9001 y UNE-EN ISO/IEC 17020 implantadas en la empresa."
       },
-      "certifications": {
-        "title": "Certificaciones y Acreditaciones",
-        "items": [
+      "accreditations": {
+        "companyTitle": "Acreditaciones y Habilitaciones de la Empresa",
+        "companySubtitle": "Documentos oficiales verificables que habilitan a ACM-2020 para el ejercicio de sus actividades.",
+        "companyItems": [
           {
             "name": "RERA 86/AB/09",
-            "description": "Inscripción en el Registro de Empresas con Riesgo de Amianto, que acredita a ACM 2020 para realizar actividades de identificación, diagnóstico y seguimiento de materiales con amianto."
+            "description": "Inscripción en el Registro de Empresas con Riesgo de Amianto, que acredita a ACM-2020 para realizar actividades de identificación, diagnóstico y seguimiento de materiales con amianto."
           },
           {
             "name": "Plan de Trabajo 86/AB/09-001-B",
-            "description": "Plan de trabajo aprobado por la autoridad laboral, que regula los servicios operativos de ACM 2020 sujetos permanentemente a seguimiento y medición."
+            "description": "Plan de trabajo aprobado por la autoridad laboral, que regula los servicios operativos de ACM-2020 sujetos permanentemente a seguimiento y medición."
+          }
+        ],
+        "techTitle": "Capacitación y Acreditaciones de los Técnicos",
+        "techSubtitle": "Formación acreditada y verificable del equipo técnico de ACM-2020.",
+        "techItems": [
+          {
+            "name": "UNE 171370-2:2021",
+            "description": "Norma UNE 171370-2:2021 Amianto. Parte 2: Localización y diagnóstico de amianto. Formación específica para la identificación, toma de muestras y evaluación de materiales con amianto en edificios e instalaciones."
           },
           {
-            "name": "ISO/IEC 17020",
-            "description": "Actuación conforme a los criterios de imparcialidad y neutralidad establecidos por esta norma internacional, garantizando la independencia y fiabilidad de cada informe y diagnóstico emitido."
+            "name": "Higiene Industrial y PRL",
+            "description": "Formaciones complementarias en higiene industrial, prevención de riesgos laborales y técnicas de muestreo ambiental aplicadas al sector del amianto."
           }
         ]
       },
