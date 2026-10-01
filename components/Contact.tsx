@@ -56,6 +56,14 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
         </div>
 
         <div className="grid lg:grid-cols-5 gap-12">
+          {/* Contact form — first on mobile and desktop */}
+          <div
+            data-reveal="fade"
+            className="lg:col-span-3"
+          >
+            <ContactFormBase formId={formId} prefill={prefill} />
+          </div>
+
           {/* Contact info */}
           <div data-reveal="fade" className="lg:col-span-2">
             <div className="bg-secondary rounded-3xl p-8 h-full relative overflow-hidden noise-texture">
@@ -117,15 +125,6 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
                 />
               </div>
             </div>
-          </div>
-
-          {/* Contact form */}
-          <div
-            data-reveal="fade"
-            style={{ transitionDelay: '0.15s' }}
-            className="lg:col-span-3"
-          >
-            <ContactFormBase formId={formId} prefill={prefill} />
           </div>
         </div>
       </div>

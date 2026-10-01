@@ -18,7 +18,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
 
   return (
     <nav aria-label="Breadcrumb" className="bg-gray-50 border-b border-gray-100">
-      <div className="container-custom py-3">
+      <div className="container-custom px-4 sm:px-6 lg:px-8 py-3">
         <ol className="flex items-center space-x-2 text-sm">
           <li>
             <Link
