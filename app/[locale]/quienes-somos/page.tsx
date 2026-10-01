@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import CountUp from '@/components/about/CountUp'
-import { Award, FileCheck, Shield, Lock, Share2, Scale, BookOpen, Heart, Globe, Handshake, Zap, ArrowRight, Quote } from 'lucide-react'
+import { Award, FileCheck, Lock, Share2, Scale, MessageSquareText, Handshake, Globe, Unlink, Users, Zap, ArrowRight, Quote } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
@@ -23,8 +23,7 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
-const principleIcons = [Lock, Share2, Scale, BookOpen, Heart, Globe, Shield, Handshake, Zap]
-const certIcons = [Award, FileCheck, Shield]
+const principleIcons = [Lock, Share2, Scale, MessageSquareText, Handshake, Globe, Unlink, Users, Zap]
 
 export default async function QuienesSomosPage({ params }: Props) {
   const { locale } = await params
