@@ -4,7 +4,6 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
-import About from '@/components/About'
 import CountUp from '@/components/about/CountUp'
 import { Award, FileCheck, Shield, Users, Briefcase, Wind, FlaskConical, Droplets, ArrowRight, Quote } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
@@ -73,9 +72,6 @@ export default async function QuienesSomosPage({ params }: Props) {
       </section>
 
       <Breadcrumbs items={[{ label: t('title') }]} />
-
-      {/* ─── About (features, values, mission) ─── */}
-      <About />
 
       {/* ─── Stats Counter Band ─── */}
       {hasStats && (
