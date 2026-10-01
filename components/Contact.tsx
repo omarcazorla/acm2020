@@ -63,19 +63,18 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
         {/* Contact info — below form */}
         <div data-reveal="fade" className="mt-16">
           <div className="bg-secondary rounded-3xl p-8 lg:p-10 relative overflow-hidden noise-texture">
-            <div className="lg:flex lg:items-start lg:gap-12">
-              <div className="lg:flex-shrink-0 mb-8 lg:mb-0">
-                <h3 className="text-2xl font-bold text-white mb-2">
-                  {t('infoTitle')}
-                </h3>
-                <p className="text-white/70">{t('infoSubtitle')}</p>
-              </div>
+            <div className="mb-8">
+              <h3 className="text-2xl font-bold text-white mb-2">
+                {t('infoTitle')}
+              </h3>
+              <p className="text-white/70">{t('infoSubtitle')}</p>
+            </div>
 
-              <div
-                data-stagger="fade"
-                data-stagger-seq="0.1"
-                className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 flex-1"
-              >
+            <div
+              data-stagger="fade"
+              data-stagger-seq="0.1"
+              className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8"
+            >
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
                     <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
@@ -108,7 +107,6 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
                     </div>
                   </div>
                 ))}
-              </div>
             </div>
           </div>
         </div>
