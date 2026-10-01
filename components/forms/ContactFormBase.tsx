@@ -36,12 +36,27 @@ export default function ContactFormBase({
     'idle' | 'sending' | 'success' | 'error'
   >('idle')
 
-  // Apply prefill values
+  // Initialize locked checkbox values + apply prefill
   useEffect(() => {
-    if (prefill) {
-      setQualificationData((prev) => ({ ...prev, ...prefill }))
+    const lockedDefaults: Record<string, string> = {}
+    for (const field of config.fields) {
+      if (field.type === 'checkboxGroup' && field.options) {
+        const lockedValues = field.options
+          .filter((o) => o.locked)
+          .map((o) => o.value)
+        if (lockedValues.length > 0) {
+          lockedDefaults[field.name] = lockedValues.join(',')
+        }
+      }
     }
-  }, [prefill])
+    if (Object.keys(lockedDefaults).length > 0 || prefill) {
+      setQualificationData((prev) => ({
+        ...prev,
+        ...lockedDefaults,
+        ...prefill,
+      }))
+    }
+  }, [config.fields, prefill])
 
   const handleCommonChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -144,6 +159,51 @@ export default function ContactFormBase({
       )
     }
 
+    if (field.type === 'checkboxGroup' && field.options) {
+      const currentValues = (qualificationData[field.name] || '').split(',').filter(Boolean)
+
+      const handleCheckboxToggle = (value: string, checked: boolean) => {
+        const updated = checked
+          ? [...currentValues, value]
+          : currentValues.filter((v) => v !== value)
+        setQualificationData((prev) => ({
+          ...prev,
+          [field.name]: updated.join(','),
+        }))
+      }
+
+      return (
+        <div key={field.name} className={field.fullWidth ? 'sm:col-span-2' : ''}>
+          <span className="block text-sm font-medium text-secondary mb-3">
+            {label}
+          </span>
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            {field.options.map((opt) => {
+              const isLocked = opt.locked === true
+              const isChecked = isLocked || currentValues.includes(opt.value)
+              return (
+                <label
+                  key={opt.value}
+                  className={`flex items-center gap-2 cursor-pointer ${isLocked ? 'opacity-70 cursor-default' : ''}`}
+                >
+                  <input
+                    type="checkbox"
+                    checked={isChecked}
+                    disabled={isLocked}
+                    onChange={(e) =>
+                      handleCheckboxToggle(opt.value, e.target.checked)
+                    }
+                    className="w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary disabled:opacity-60"
+                  />
+                  <span className="text-sm text-gray-700">{t(opt.labelKey)}</span>
+                </label>
+              )
+            })}
+          </div>
+        </div>
+      )
+    }
+
     if (field.type === 'textarea') {
       return (
         <div key={field.name} className="sm:col-span-2">
@@ -169,7 +229,7 @@ export default function ContactFormBase({
     }
 
     return (
-      <div key={field.name}>
+      <div key={field.name} className={field.fullWidth ? 'sm:col-span-2' : ''}>
         <label
           htmlFor={field.name}
           className="block text-sm font-medium text-secondary mb-2"

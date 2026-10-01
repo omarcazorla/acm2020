@@ -560,7 +560,11 @@
       "direccion": "Full address",
       "direccionPlaceholder": "Street, number, municipality",
       "finalidad": "Purpose",
-      "motivo": "Reason for contact"
+      "motivo": "Reason for contact",
+      "numPlantas": "Number of floors to measure",
+      "numPlantasPlaceholder": "E.g.: 3",
+      "plantasTipo": "Floors to measure",
+      "plantasTipoTrabajo": "Floors with workers to measure"
     },
     "options": {
       "residencial": "Residential",
@@ -586,6 +590,10 @@
       "finalidadVenta": "Sale/Purchase",
       "finalidadReforma": "Renovation",
       "finalidadDemolicion": "Demolition",
+      "plantasBajoRasante": "Basement floors",
+      "plantaBaja": "Ground floor",
+      "plantasSobreRasante": "Upper floors",
+      "plantasBajoRasanteTrabajadores": "Basement floors with workers",
       "motivoAmianto": "Asbestos enquiry",
       "motivoRadon": "Radon gas enquiry",
       "motivoPresupuestoAmianto": "Request asbestos quote",

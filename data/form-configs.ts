@@ -1,15 +1,17 @@
 export interface FormFieldOption {
   value: string
   labelKey: string // i18n key under forms namespace
+  locked?: boolean // pre-checked and not uncheckable
 }
 
 export interface FormField {
   name: string
-  type: 'text' | 'select' | 'number' | 'textarea'
+  type: 'text' | 'select' | 'number' | 'textarea' | 'checkboxGroup'
   labelKey: string
   placeholderKey?: string
   options?: FormFieldOption[]
   required?: boolean
+  fullWidth?: boolean // span both columns in grid
 }
 
 export interface FormConfig {
@@ -46,6 +48,24 @@ export const formConfigs: Record<string, FormConfig> = {
           { value: 'comercial', labelKey: 'forms.options.comercial' },
           { value: 'industrial', labelKey: 'forms.options.industrial' },
           { value: 'publico', labelKey: 'forms.options.publico' },
+        ],
+      },
+      {
+        name: 'num_plantas',
+        type: 'number',
+        labelKey: 'forms.fields.numPlantas',
+        placeholderKey: 'forms.fields.numPlantasPlaceholder',
+        required: true,
+      },
+      {
+        name: 'plantas_tipo',
+        type: 'checkboxGroup',
+        labelKey: 'forms.fields.plantasTipo',
+        fullWidth: true,
+        options: [
+          { value: 'bajo_rasante', labelKey: 'forms.options.plantasBajoRasante' },
+          { value: 'planta_baja', labelKey: 'forms.options.plantaBaja', locked: true },
+          { value: 'sobre_rasante', labelKey: 'forms.options.plantasSobreRasante' },
         ],
       },
       {
@@ -93,6 +113,16 @@ export const formConfigs: Record<string, FormConfig> = {
           { value: 'educativo', labelKey: 'forms.options.educativo' },
           { value: 'sanitario', labelKey: 'forms.options.sanitario' },
           { value: 'otro', labelKey: 'forms.options.otro' },
+        ],
+      },
+      {
+        name: 'plantas_tipo',
+        type: 'checkboxGroup',
+        labelKey: 'forms.fields.plantasTipoTrabajo',
+        fullWidth: true,
+        options: [
+          { value: 'bajo_rasante', labelKey: 'forms.options.plantasBajoRasanteTrabajadores' },
+          { value: 'planta_baja', labelKey: 'forms.options.plantaBaja', locked: true },
         ],
       },
       {

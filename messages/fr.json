@@ -560,7 +560,11 @@
       "direccion": "Adresse complete",
       "direccionPlaceholder": "Rue, numero, commune",
       "finalidad": "Finalite",
-      "motivo": "Motif de contact"
+      "motivo": "Motif de contact",
+      "numPlantas": "Nombre d'etages a mesurer",
+      "numPlantasPlaceholder": "Ex: 3",
+      "plantasTipo": "Etages a mesurer",
+      "plantasTipoTrabajo": "Etages avec travailleurs a mesurer"
     },
     "options": {
       "residencial": "Residentiel",
@@ -586,6 +590,10 @@
       "finalidadVenta": "Vente/Achat",
       "finalidadReforma": "Renovation",
       "finalidadDemolicion": "Demolition",
+      "plantasBajoRasante": "Etages en sous-sol",
+      "plantaBaja": "Rez-de-chaussee",
+      "plantasSobreRasante": "Etages superieurs",
+      "plantasBajoRasanteTrabajadores": "Etages en sous-sol avec travailleurs",
       "motivoAmianto": "Question sur l'amiante",
       "motivoRadon": "Question sur le gaz radon",
       "motivoPresupuestoAmianto": "Demander un devis amiante",

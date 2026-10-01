@@ -647,7 +647,11 @@
       "direccion": "Adreca completa",
       "direccionPlaceholder": "Carrer, numero, municipi",
       "finalidad": "Finalitat",
-      "motivo": "Motiu de contacte"
+      "motivo": "Motiu de contacte",
+      "numPlantas": "Nombre de plantes a mesurar",
+      "numPlantasPlaceholder": "Ex: 3",
+      "plantasTipo": "Plantes a mesurar",
+      "plantasTipoTrabajo": "Plantes amb treballadors a mesurar"
     },
     "options": {
       "residencial": "Residencial",
@@ -673,6 +677,10 @@
       "finalidadVenta": "Compravenda",
       "finalidadReforma": "Reforma",
       "finalidadDemolicion": "Demolicio",
+      "plantasBajoRasante": "Plantes sota rasant",
+      "plantaBaja": "Planta baixa",
+      "plantasSobreRasante": "Plantes sobre rasant",
+      "plantasBajoRasanteTrabajadores": "Plantes sota rasant amb treballadors",
       "motivoAmianto": "Consulta sobre amiant",
       "motivoRadon": "Consulta sobre gas rado",
       "motivoPresupuestoAmianto": "Sol-licitar pressupost amiant",
