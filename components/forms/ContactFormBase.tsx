@@ -1,9 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useTranslations } from 'next-intl'
 import { useLocale } from 'next-intl'
-import { Send, CheckCircle, AlertCircle } from 'lucide-react'
+import { Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react'
 import { getFormConfig } from '@/data/form-configs'
 import type { FormField } from '@/data/form-configs'
 
@@ -19,6 +19,7 @@ export default function ContactFormBase({
   const t = useTranslations()
   const locale = useLocale()
   const config = getFormConfig(formId)
+  const formRef = useRef<HTMLFormElement>(null)
 
   const [commonFields, setCommonFields] = useState({
     name: '',
@@ -74,6 +75,15 @@ export default function ContactFormBase({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+
+    // Focus first invalid field if native validation fails
+    if (formRef.current && !formRef.current.checkValidity()) {
+      const firstInvalid = formRef.current.querySelector(':invalid') as HTMLElement
+      firstInvalid?.focus()
+      formRef.current.reportValidity()
+      return
+    }
+
     setStatus('sending')
 
     // Build subject from form config
@@ -120,10 +130,10 @@ export default function ContactFormBase({
   }
 
   const inputClasses =
-    'w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none'
+    'w-full px-4 py-3 rounded-xl border border-gray-200 bg-white focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none text-base'
   const inputTransition = {
     transition:
-      'border-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic)',
+      'border-color 0.2s var(--ease-cinematic), box-shadow 0.2s var(--ease-cinematic)',
   }
 
   const renderField = (field: FormField) => {
@@ -252,7 +262,7 @@ export default function ContactFormBase({
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form ref={formRef} onSubmit={handleSubmit} className="space-y-6" noValidate>
       {/* Common fields */}
       <div className="grid sm:grid-cols-2 gap-6">
         <div>
@@ -269,6 +279,7 @@ export default function ContactFormBase({
             value={commonFields.name}
             onChange={handleCommonChange}
             required
+            autoComplete="name"
             className={inputClasses}
             style={inputTransition}
             placeholder={t('forms.common.namePlaceholder')}
@@ -288,6 +299,7 @@ export default function ContactFormBase({
             value={commonFields.email}
             onChange={handleCommonChange}
             required
+            autoComplete="email"
             className={inputClasses}
             style={inputTransition}
             placeholder={t('forms.common.emailPlaceholder')}
@@ -309,6 +321,7 @@ export default function ContactFormBase({
             name="phone"
             value={commonFields.phone}
             onChange={handleCommonChange}
+            autoComplete="tel"
             className={inputClasses}
             style={inputTransition}
             placeholder={t('forms.common.phonePlaceholder')}
@@ -327,6 +340,7 @@ export default function ContactFormBase({
             name="company"
             value={commonFields.company}
             onChange={handleCommonChange}
+            autoComplete="organization"
             className={inputClasses}
             style={inputTransition}
             placeholder={t('forms.common.companyPlaceholder')}
@@ -336,9 +350,12 @@ export default function ContactFormBase({
 
       {/* Service-specific fields */}
       {config.fields.length > 0 && (
-        <div className="grid sm:grid-cols-2 gap-6">
-          {config.fields.map(renderField)}
-        </div>
+        <>
+          <hr className="border-gray-100" />
+          <div className="grid sm:grid-cols-2 gap-6">
+            {config.fields.map(renderField)}
+          </div>
+        </>
       )}
 
       {/* Message */}
@@ -355,7 +372,7 @@ export default function ContactFormBase({
           value={commonFields.message}
           onChange={handleCommonChange}
           required
-          rows={6}
+          rows={5}
           className={`${inputClasses} resize-none`}
           style={inputTransition}
           placeholder={t('forms.common.messagePlaceholder')}
@@ -381,39 +398,49 @@ export default function ContactFormBase({
           checked={privacyAccepted}
           onChange={(e) => setPrivacyAccepted(e.target.checked)}
           required
-          className="mt-1 w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary"
+          className="mt-1 w-5 h-5 text-primary border-gray-300 rounded focus:ring-primary"
         />
-        <span className="text-sm text-gray-600">
+        <span className="text-sm text-gray-600 leading-relaxed">
           {t('forms.common.privacy')} *
         </span>
       </label>
 
-      <div className="flex items-center justify-between">
-        <p className="text-sm text-gray-500">* {t('forms.common.required')}</p>
+      <div className="flex items-center justify-between gap-4">
+        <p className="text-sm text-gray-400">* {t('forms.common.required')}</p>
         <button
           type="submit"
           disabled={status === 'sending'}
-          className="btn-primary group disabled:opacity-70"
+          className="btn-primary group disabled:opacity-60 disabled:cursor-not-allowed"
         >
-          {status === 'sending'
-            ? t('forms.common.sending')
-            : t('forms.common.submit')}
-          <Send className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+          {status === 'sending' ? (
+            <>
+              <Loader2 className="w-5 h-5 mr-2 animate-spin" />
+              {t('forms.common.sending')}
+            </>
+          ) : (
+            <>
+              {t('forms.common.submit')}
+              <Send className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+            </>
+          )}
         </button>
       </div>
 
-      {status === 'success' && (
-        <div className="flex items-center space-x-2 text-green-600 bg-green-50 p-4 rounded-xl">
-          <CheckCircle className="w-5 h-5 flex-shrink-0" />
-          <span>{t('forms.common.success')}</span>
-        </div>
-      )}
-      {status === 'error' && (
-        <div className="flex items-center space-x-2 text-red-600 bg-red-50 p-4 rounded-xl">
-          <AlertCircle className="w-5 h-5 flex-shrink-0" />
-          <span>{t('forms.common.error')}</span>
-        </div>
-      )}
+      {/* Status feedback — aria-live for screen readers */}
+      <div aria-live="polite" aria-atomic="true">
+        {status === 'success' && (
+          <div className="flex items-center space-x-3 text-green-700 bg-green-50 border border-green-200 p-4 rounded-xl">
+            <CheckCircle className="w-5 h-5 flex-shrink-0" />
+            <span>{t('forms.common.success')}</span>
+          </div>
+        )}
+        {status === 'error' && (
+          <div className="flex items-center space-x-3 text-red-700 bg-red-50 border border-red-200 p-4 rounded-xl">
+            <AlertCircle className="w-5 h-5 flex-shrink-0" />
+            <span>{t('forms.common.error')}</span>
+          </div>
+        )}
+      </div>
     </form>
   )
 }
