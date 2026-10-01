@@ -55,35 +55,34 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
           <p className="text-lg text-gray-600">{t('subtitle')}</p>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-12">
-          {/* Contact form — first on mobile and desktop */}
-          <div
-            data-reveal="fade"
-            className="lg:col-span-3"
-          >
-            <ContactFormBase formId={formId} prefill={prefill} />
-          </div>
+        {/* Contact form */}
+        <div data-reveal="fade" className="max-w-3xl mx-auto">
+          <ContactFormBase formId={formId} prefill={prefill} />
+        </div>
 
-          {/* Contact info */}
-          <div data-reveal="fade" className="lg:col-span-2">
-            <div className="bg-secondary rounded-3xl p-8 h-full relative overflow-hidden noise-texture">
-              <h3 className="text-2xl font-bold text-white mb-6">
-                {t('infoTitle')}
-              </h3>
-              <p className="text-white/70 mb-8">{t('infoSubtitle')}</p>
+        {/* Contact info — below form */}
+        <div data-reveal="fade" className="mt-16">
+          <div className="bg-secondary rounded-3xl p-8 lg:p-10 relative overflow-hidden noise-texture">
+            <div className="lg:flex lg:items-start lg:gap-12">
+              <div className="lg:flex-shrink-0 mb-8 lg:mb-0">
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {t('infoTitle')}
+                </h3>
+                <p className="text-white/70">{t('infoSubtitle')}</p>
+              </div>
 
               <div
                 data-stagger="fade"
-                data-stagger-seq="0.15"
-                className="space-y-6"
+                data-stagger-seq="0.1"
+                className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 flex-1"
               >
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start space-x-4">
-                    <div className="w-12 h-12 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
-                      <item.icon className="w-6 h-6 text-primary" />
+                    <div className="w-10 h-10 bg-white/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <item.icon className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <div className="text-white/60 text-sm mb-1">
+                      <div className="text-white/60 text-xs mb-1">
                         {item.label}
                       </div>
                       {item.href ? (
@@ -97,32 +96,18 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
                               ? 'noopener noreferrer'
                               : undefined
                           }
-                          className="text-white font-medium hover:text-primary transition-colors whitespace-pre-line"
+                          className="text-white text-sm font-medium hover:text-primary transition-colors whitespace-pre-line"
                         >
                           {item.value}
                         </a>
                       ) : (
-                        <div className="text-white font-medium whitespace-pre-line">
+                        <div className="text-white text-sm font-medium whitespace-pre-line">
                           {item.value}
                         </div>
                       )}
                     </div>
                   </div>
                 ))}
-              </div>
-
-              {/* Map */}
-              <div className="mt-8 rounded-2xl overflow-hidden h-48 bg-white/10">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.5139755761886!2d2.1147563!3d41.5073889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bcb3a1d4f8c1%3A0x4b4b4b4b4b4b4b4b!2sC.%20Ibiza%2C%201%2C%2008214%20Bad%C3%ADa%20del%20Vall%C3%A8s%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="ACM-2020"
-                />
               </div>
             </div>
           </div>
