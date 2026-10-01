@@ -1383,35 +1383,35 @@
       "namePlaceholder": "Su nombre",
       "email": "Email",
       "emailPlaceholder": "su@email.com",
-      "phone": "Telefono",
+      "phone": "Teléfono",
       "phonePlaceholder": "667 123 456",
       "company": "Empresa",
       "companyPlaceholder": "Nombre de la empresa (opcional)",
       "message": "Mensaje",
-      "messagePlaceholder": "Cuentenos en que podemos ayudarle...",
-      "privacy": "He leido y acepto la politica de privacidad",
+      "messagePlaceholder": "Cuéntenos en qué podemos ayudarle...",
+      "privacy": "He leído y acepto la política de privacidad",
       "required": "Campos obligatorios",
       "submit": "Enviar solicitud",
       "sending": "Enviando...",
       "success": "Solicitud enviada correctamente. Le responderemos en menos de 24 horas.",
-      "error": "Error al enviar la solicitud. Por favor, intentelo de nuevo.",
-      "selectPlaceholder": "Seleccione una opcion"
+      "error": "Error al enviar la solicitud. Por favor, inténtelo de nuevo.",
+      "selectPlaceholder": "Seleccione una opción"
     },
     "radonCte": {
-      "title": "Solicitar medicion de radon (CTE)",
-      "description": "Complete el formulario para recibir presupuesto de medicion de gas radon segun el Codigo Tecnico de la Edificacion."
+      "title": "Solicitar medición de radón (CTE)",
+      "description": "Complete el formulario para recibir presupuesto de medición de gas radón según el Código Técnico de la Edificación."
     },
     "radonIs47": {
-      "title": "Medicion de radon en centro de trabajo (IS-47)",
-      "description": "Solicite medicion de radon en su centro de trabajo segun la Instruccion IS-47 del CSN."
+      "title": "Medición de radón en centro de trabajo (IS-47)",
+      "description": "Solicite medición de radón en su centro de trabajo según la Instrucción IS-47 del CSN."
     },
     "radonHogar": {
-      "title": "Medicion de radon en vivienda",
-      "description": "Solicite una medicion de gas radon en su hogar."
+      "title": "Medición de radón en vivienda",
+      "description": "Solicite una medición de gas radón en su hogar."
     },
     "amiantoInspeccion": {
-      "title": "Inspeccion e identificacion de amianto",
-      "description": "Solicite una inspeccion para identificar materiales con amianto en su edificio."
+      "title": "Inspección e identificación de amianto",
+      "description": "Solicite una inspección para identificar materiales con amianto en su edificio."
     },
     "amiantoCertificado": {
       "title": "Certificado de amianto para compraventa",
@@ -1419,29 +1419,29 @@
     },
     "general": {
       "title": "Contactar con ACM-2020",
-      "description": "Cuentenos en que podemos ayudarle y le responderemos lo antes posible."
+      "description": "Cuéntenos en qué podemos ayudarle y le responderemos lo antes posible."
     },
     "fields": {
       "municipio": "Municipio",
       "municipioPlaceholder": "Nombre del municipio",
       "tipoEdificio": "Tipo de edificio",
-      "m2": "Superficie (m2)",
+      "m2": "Superficie (m²)",
       "m2Placeholder": "Ej: 120",
       "faseProyecto": "Fase del proyecto",
       "tipoCentro": "Tipo de centro de trabajo",
-      "numTrabajadores": "Numero de trabajadores",
+      "numTrabajadores": "Número de trabajadores",
       "numTrabajadoresPlaceholder": "Ej: 25",
       "tipoVivienda": "Tipo de vivienda",
-      "anioConstruccion": "Anio de construccion",
+      "anioConstruccion": "Año de construcción",
       "anioConstruccionPlaceholder": "Ej: 1975",
-      "ubicacion": "Ubicacion / Direccion",
+      "ubicacion": "Ubicación / Dirección",
       "ubicacionPlaceholder": "Ciudad, provincia",
       "urgencia": "Urgencia",
-      "direccion": "Direccion completa",
-      "direccionPlaceholder": "Calle, numero, municipio",
+      "direccion": "Dirección completa",
+      "direccionPlaceholder": "Calle, número, municipio",
       "finalidad": "Finalidad",
       "motivo": "Motivo de contacto",
-      "numPlantas": "Numero de plantas a medir",
+      "numPlantas": "Número de plantas a medir",
       "numPlantasPlaceholder": "Ej: 3",
       "plantasTipo": "Plantas a medir",
       "plantasTipoTrabajo": "Plantas con trabajadores a medir"
@@ -1450,35 +1450,35 @@
       "residencial": "Residencial",
       "comercial": "Comercial",
       "industrial": "Industrial",
-      "publico": "Edificio publico",
+      "publico": "Edificio público",
       "faseProyecto": "En fase de proyecto",
-      "faseConstruccion": "En construccion",
+      "faseConstruccion": "En construcción",
       "faseExistente": "Edificio existente",
       "oficina": "Oficina",
-      "fabrica": "Fabrica / Taller",
-      "almacen": "Almacen / Nave",
+      "fabrica": "Fábrica / Taller",
+      "almacen": "Almacén / Nave",
       "educativo": "Centro educativo",
       "sanitario": "Centro sanitario",
       "otro": "Otro",
       "piso": "Piso / Apartamento",
       "casa": "Casa independiente",
       "adosado": "Adosado / Pareado",
-      "duplex": "Duplex",
+      "duplex": "Dúplex",
       "urgenciaNormal": "Normal",
       "urgenciaUrgente": "Urgente",
       "urgenciaPlanificada": "Planificada",
       "finalidadVenta": "Compraventa",
       "finalidadReforma": "Reforma",
-      "finalidadDemolicion": "Demolicion",
+      "finalidadDemolicion": "Demolición",
       "plantasBajoRasante": "Plantas bajo rasante",
       "plantaBaja": "Planta baja",
       "plantasSobreRasante": "Plantas sobre rasante",
       "plantasBajoRasanteTrabajadores": "Plantas bajo rasante con trabajadores",
       "motivoAmianto": "Consulta sobre amianto",
-      "motivoRadon": "Consulta sobre gas radon",
+      "motivoRadon": "Consulta sobre gas radón",
       "motivoPresupuestoAmianto": "Solicitar presupuesto amianto",
-      "motivoPresupuestoRadon": "Solicitar presupuesto radon",
-      "motivoColaboracion": "Colaboracion profesional",
+      "motivoPresupuestoRadon": "Solicitar presupuesto radón",
+      "motivoColaboracion": "Colaboración profesional",
       "motivoOtro": "Otro"
     }
   }
