@@ -496,5 +496,102 @@
     "about": "a-propos",
     "clients": "clients",
     "contact": "contact"
+  },
+  "forms": {
+    "common": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Email",
+      "emailPlaceholder": "votre@email.com",
+      "phone": "Telephone",
+      "phonePlaceholder": "667 123 456",
+      "company": "Entreprise",
+      "companyPlaceholder": "Nom de l'entreprise (optionnel)",
+      "message": "Message",
+      "messagePlaceholder": "Dites-nous comment nous pouvons vous aider...",
+      "privacy": "J'ai lu et j'accepte la politique de confidentialite",
+      "required": "Champs obligatoires",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi en cours...",
+      "success": "Demande envoyee avec succes. Nous vous repondrons dans les 24 heures.",
+      "error": "Erreur lors de l'envoi de la demande. Veuillez reessayer.",
+      "selectPlaceholder": "Selectionnez une option"
+    },
+    "radonCte": {
+      "title": "Demander une mesure de radon (CTE)",
+      "description": "Remplissez le formulaire pour recevoir un devis de mesure de gaz radon selon le Code Technique du Batiment."
+    },
+    "radonIs47": {
+      "title": "Mesure de radon sur le lieu de travail (IS-47)",
+      "description": "Demandez une mesure de radon sur votre lieu de travail selon l'instruction IS-47 du CSN."
+    },
+    "radonHogar": {
+      "title": "Mesure de radon a domicile",
+      "description": "Demandez une mesure de gaz radon dans votre logement."
+    },
+    "amiantoInspeccion": {
+      "title": "Inspection et identification d'amiante",
+      "description": "Demandez une inspection pour identifier les materiaux contenant de l'amiante dans votre batiment."
+    },
+    "amiantoCertificado": {
+      "title": "Certificat d'amiante pour transaction immobiliere",
+      "description": "Demandez un certificat de presence/absence d'amiante pour les operations immobilieres."
+    },
+    "general": {
+      "title": "Contacter ACM-2020",
+      "description": "Dites-nous comment nous pouvons vous aider et nous vous repondrons dans les plus brefs delais."
+    },
+    "fields": {
+      "municipio": "Commune",
+      "municipioPlaceholder": "Nom de la commune",
+      "tipoEdificio": "Type de batiment",
+      "m2": "Surface (m2)",
+      "m2Placeholder": "Ex: 120",
+      "faseProyecto": "Phase du projet",
+      "tipoCentro": "Type de lieu de travail",
+      "numTrabajadores": "Nombre de travailleurs",
+      "numTrabajadoresPlaceholder": "Ex: 25",
+      "tipoVivienda": "Type de logement",
+      "anioConstruccion": "Annee de construction",
+      "anioConstruccionPlaceholder": "Ex: 1975",
+      "ubicacion": "Localisation / Adresse",
+      "ubicacionPlaceholder": "Ville, province",
+      "urgencia": "Urgence",
+      "direccion": "Adresse complete",
+      "direccionPlaceholder": "Rue, numero, commune",
+      "finalidad": "Finalite",
+      "motivo": "Motif de contact"
+    },
+    "options": {
+      "residencial": "Residentiel",
+      "comercial": "Commercial",
+      "industrial": "Industriel",
+      "publico": "Batiment public",
+      "faseProyecto": "Phase de conception",
+      "faseConstruccion": "En construction",
+      "faseExistente": "Batiment existant",
+      "oficina": "Bureau",
+      "fabrica": "Usine / Atelier",
+      "almacen": "Entrepot",
+      "educativo": "Centre educatif",
+      "sanitario": "Centre de sante",
+      "otro": "Autre",
+      "piso": "Appartement",
+      "casa": "Maison individuelle",
+      "adosado": "Maison mitoyenne",
+      "duplex": "Duplex",
+      "urgenciaNormal": "Normale",
+      "urgenciaUrgente": "Urgente",
+      "urgenciaPlanificada": "Planifiee",
+      "finalidadVenta": "Vente/Achat",
+      "finalidadReforma": "Renovation",
+      "finalidadDemolicion": "Demolition",
+      "motivoAmianto": "Question sur l'amiante",
+      "motivoRadon": "Question sur le gaz radon",
+      "motivoPresupuestoAmianto": "Demander un devis amiante",
+      "motivoPresupuestoRadon": "Demander un devis radon",
+      "motivoColaboracion": "Collaboration professionnelle",
+      "motivoOtro": "Autre"
+    }
   }
 }

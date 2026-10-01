@@ -11,6 +11,7 @@ import type { Locale } from '@/i18n/routing'
 
 type Props = {
   params: Promise<{ locale: string }>
+  searchParams: Promise<{ service?: string; municipio?: string }>
 }
 
 export async function generateMetadata({ params }: Props) {
@@ -22,17 +23,22 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
-export default async function ContactoPage({ params }: Props) {
+export default async function ContactoPage({ params, searchParams }: Props) {
   const { locale } = await params
+  const { service, municipio } = await searchParams
   setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'pages.contactPage' })
+
+  const formId = service || 'general'
+  const prefill: Record<string, string> = {}
+  if (municipio) prefill.municipio = municipio
 
   return (
     <>
       <Navbar darkHero />
       <PageHero title={t('title')} subtitle={t('subtitle')} />
       <Breadcrumbs items={[{ label: t('title') }]} />
-      <Contact />
+      <Contact formId={formId} prefill={Object.keys(prefill).length > 0 ? prefill : undefined} />
       <Footer />
       <WhatsAppButton />
     </>

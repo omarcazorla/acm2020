@@ -496,5 +496,102 @@
     "about": "about-us",
     "clients": "clients",
     "contact": "contact"
+  },
+  "forms": {
+    "common": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "667 123 456",
+      "company": "Company",
+      "companyPlaceholder": "Company name (optional)",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "privacy": "I have read and accept the privacy policy",
+      "required": "Required fields",
+      "submit": "Send request",
+      "sending": "Sending...",
+      "success": "Request sent successfully. We will respond within 24 hours.",
+      "error": "Error sending the request. Please try again.",
+      "selectPlaceholder": "Select an option"
+    },
+    "radonCte": {
+      "title": "Request radon measurement (CTE)",
+      "description": "Complete the form to receive a quote for radon gas measurement according to the Technical Building Code."
+    },
+    "radonIs47": {
+      "title": "Radon measurement in workplace (IS-47)",
+      "description": "Request radon measurement in your workplace according to CSN Instruction IS-47."
+    },
+    "radonHogar": {
+      "title": "Home radon measurement",
+      "description": "Request a radon gas measurement in your home."
+    },
+    "amiantoInspeccion": {
+      "title": "Asbestos inspection and identification",
+      "description": "Request an inspection to identify asbestos-containing materials in your building."
+    },
+    "amiantoCertificado": {
+      "title": "Asbestos certificate for property transactions",
+      "description": "Request a certificate of asbestos presence/absence for real estate operations."
+    },
+    "general": {
+      "title": "Contact ACM-2020",
+      "description": "Tell us how we can help you and we will respond as soon as possible."
+    },
+    "fields": {
+      "municipio": "Municipality",
+      "municipioPlaceholder": "Municipality name",
+      "tipoEdificio": "Building type",
+      "m2": "Area (m2)",
+      "m2Placeholder": "E.g.: 120",
+      "faseProyecto": "Project phase",
+      "tipoCentro": "Workplace type",
+      "numTrabajadores": "Number of workers",
+      "numTrabajadoresPlaceholder": "E.g.: 25",
+      "tipoVivienda": "Housing type",
+      "anioConstruccion": "Year of construction",
+      "anioConstruccionPlaceholder": "E.g.: 1975",
+      "ubicacion": "Location / Address",
+      "ubicacionPlaceholder": "City, province",
+      "urgencia": "Urgency",
+      "direccion": "Full address",
+      "direccionPlaceholder": "Street, number, municipality",
+      "finalidad": "Purpose",
+      "motivo": "Reason for contact"
+    },
+    "options": {
+      "residencial": "Residential",
+      "comercial": "Commercial",
+      "industrial": "Industrial",
+      "publico": "Public building",
+      "faseProyecto": "Design phase",
+      "faseConstruccion": "Under construction",
+      "faseExistente": "Existing building",
+      "oficina": "Office",
+      "fabrica": "Factory / Workshop",
+      "almacen": "Warehouse",
+      "educativo": "Educational centre",
+      "sanitario": "Healthcare centre",
+      "otro": "Other",
+      "piso": "Flat / Apartment",
+      "casa": "Detached house",
+      "adosado": "Semi-detached / Terraced",
+      "duplex": "Duplex",
+      "urgenciaNormal": "Normal",
+      "urgenciaUrgente": "Urgent",
+      "urgenciaPlanificada": "Planned",
+      "finalidadVenta": "Sale/Purchase",
+      "finalidadReforma": "Renovation",
+      "finalidadDemolicion": "Demolition",
+      "motivoAmianto": "Asbestos enquiry",
+      "motivoRadon": "Radon gas enquiry",
+      "motivoPresupuestoAmianto": "Request asbestos quote",
+      "motivoPresupuestoRadon": "Request radon quote",
+      "motivoColaboracion": "Professional collaboration",
+      "motivoOtro": "Other"
+    }
   }
 }

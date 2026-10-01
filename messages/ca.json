@@ -583,5 +583,102 @@
     "about": "qui-som",
     "clients": "clients",
     "contact": "contacte"
+  },
+  "forms": {
+    "common": {
+      "name": "Nom complet",
+      "namePlaceholder": "El seu nom",
+      "email": "Email",
+      "emailPlaceholder": "el-seu@email.com",
+      "phone": "Telefon",
+      "phonePlaceholder": "667 123 456",
+      "company": "Empresa",
+      "companyPlaceholder": "Nom de l'empresa (opcional)",
+      "message": "Missatge",
+      "messagePlaceholder": "Expliqui'ns en que podem ajudar-lo...",
+      "privacy": "He llegit i accepto la politica de privacitat",
+      "required": "Camps obligatoris",
+      "submit": "Enviar sol-licitud",
+      "sending": "Enviant...",
+      "success": "Sol-licitud enviada correctament. Li respondrem en menys de 24 hores.",
+      "error": "Error en enviar la sol-licitud. Si us plau, torni a intentar-ho.",
+      "selectPlaceholder": "Seleccioni una opcio"
+    },
+    "radonCte": {
+      "title": "Sol-licitar mesura de rado (CTE)",
+      "description": "Completi el formulari per rebre pressupost de mesura de gas rado segons el Codi Tecnic de l'Edificacio."
+    },
+    "radonIs47": {
+      "title": "Mesura de rado en centre de treball (IS-47)",
+      "description": "Sol-liciti mesura de rado en el seu centre de treball segons la Instruccio IS-47 del CSN."
+    },
+    "radonHogar": {
+      "title": "Mesura de rado a l'habitatge",
+      "description": "Sol-liciti una mesura de gas rado a la seva llar."
+    },
+    "amiantoInspeccion": {
+      "title": "Inspeccio i identificacio d'amiant",
+      "description": "Sol-liciti una inspeccio per identificar materials amb amiant al seu edifici."
+    },
+    "amiantoCertificado": {
+      "title": "Certificat d'amiant per compravenda",
+      "description": "Sol-liciti un certificat de presencia/absencia d'amiant per a operacions immobiliaries."
+    },
+    "general": {
+      "title": "Contactar amb ACM-2020",
+      "description": "Expliqui'ns en que podem ajudar-lo i li respondrem el mes aviat possible."
+    },
+    "fields": {
+      "municipio": "Municipi",
+      "municipioPlaceholder": "Nom del municipi",
+      "tipoEdificio": "Tipus d'edifici",
+      "m2": "Superficie (m2)",
+      "m2Placeholder": "Ex: 120",
+      "faseProyecto": "Fase del projecte",
+      "tipoCentro": "Tipus de centre de treball",
+      "numTrabajadores": "Nombre de treballadors",
+      "numTrabajadoresPlaceholder": "Ex: 25",
+      "tipoVivienda": "Tipus d'habitatge",
+      "anioConstruccion": "Any de construccio",
+      "anioConstruccionPlaceholder": "Ex: 1975",
+      "ubicacion": "Ubicacio / Adreca",
+      "ubicacionPlaceholder": "Ciutat, provincia",
+      "urgencia": "Urgencia",
+      "direccion": "Adreca completa",
+      "direccionPlaceholder": "Carrer, numero, municipi",
+      "finalidad": "Finalitat",
+      "motivo": "Motiu de contacte"
+    },
+    "options": {
+      "residencial": "Residencial",
+      "comercial": "Comercial",
+      "industrial": "Industrial",
+      "publico": "Edifici public",
+      "faseProyecto": "En fase de projecte",
+      "faseConstruccion": "En construccio",
+      "faseExistente": "Edifici existent",
+      "oficina": "Oficina",
+      "fabrica": "Fabrica / Taller",
+      "almacen": "Magatzem / Nau",
+      "educativo": "Centre educatiu",
+      "sanitario": "Centre sanitari",
+      "otro": "Altre",
+      "piso": "Pis / Apartament",
+      "casa": "Casa independent",
+      "adosado": "Adossat / Aparellat",
+      "duplex": "Duplex",
+      "urgenciaNormal": "Normal",
+      "urgenciaUrgente": "Urgent",
+      "urgenciaPlanificada": "Planificada",
+      "finalidadVenta": "Compravenda",
+      "finalidadReforma": "Reforma",
+      "finalidadDemolicion": "Demolicio",
+      "motivoAmianto": "Consulta sobre amiant",
+      "motivoRadon": "Consulta sobre gas rado",
+      "motivoPresupuestoAmianto": "Sol-licitar pressupost amiant",
+      "motivoPresupuestoRadon": "Sol-licitar pressupost rado",
+      "motivoColaboracion": "Col-laboracio professional",
+      "motivoOtro": "Altre"
+    }
   }
 }

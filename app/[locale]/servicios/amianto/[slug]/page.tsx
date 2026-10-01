@@ -192,7 +192,7 @@ export default async function AmiantoServicePage({ params }: Props) {
               {t('serviceCtaDescription')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contacto" className="btn-primary group">
+              <Link href={`/contacto?service=amianto-inspeccion`} className="btn-primary group">
                 {t('whyCta')}
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>

@@ -250,7 +250,7 @@ export default async function MunicipioPage({ params }: Props) {
                     </p>
                   </div>
                 </div>
-                <Link href="/contacto" className="btn-primary group whitespace-nowrap">
+                <Link href={`/contacto?service=radon-cte&municipio=${encodeURIComponent(name)}`} className="btn-primary group whitespace-nowrap">
                   {loc === 'es' ? 'Solicitar presupuesto' :
                    loc === 'ca' ? 'Sol·licitar pressupost' :
                    loc === 'en' ? 'Request a quote' :
@@ -272,7 +272,7 @@ export default async function MunicipioPage({ params }: Props) {
                 <Link href="/servicios/radon/soluciones-residenciales" className="group flex items-center gap-2 px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors">
                   <ArrowRight className="w-3.5 h-3.5 text-primary flex-shrink-0 group-hover:translate-x-0.5 transition-transform" />
                   <span className="text-sm text-white/90 group-hover:text-white transition-colors">
-                    {loc === 'es' ? 'Medida de hogar' : loc === 'ca' ? 'Mesura de la llar' : loc === 'en' ? 'Home measurement' : 'Mesure à domicile'}
+                    {loc === 'es' ? 'Medir en mi hogar' : loc === 'ca' ? 'Mesurar la meva llar' : loc === 'en' ? 'Home measurement' : 'Mesure à domicile'}
                   </span>
                 </Link>
               </div>
