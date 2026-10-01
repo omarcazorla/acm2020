@@ -1,7 +1,15 @@
 import { Resend } from 'resend'
 import type { Solicitud } from './types/solicitudes'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+let resendClient: Resend | null = null
+
+function getResend() {
+  if (!resendClient) {
+    resendClient = new Resend(process.env.RESEND_API_KEY)
+  }
+  return resendClient
+}
+
 const notificationEmail = process.env.ADMIN_NOTIFICATION_EMAIL || 'acm@acm2020.es'
 const fromEmail = 'ACM-2020 <no-reply@acm2020.es>'
 
@@ -13,7 +21,7 @@ export async function sendNotificationEmail(solicitud: Solicitud) {
 
   const adminUrl = `${process.env.NEXT_PUBLIC_SITE_URL || 'https://acm2020.es'}/admin/solicitudes/${solicitud.id}`
 
-  await resend.emails.send({
+  await getResend().emails.send({
     from: fromEmail,
     to: notificationEmail,
     subject: `Nueva solicitud: ${solicitud.subject} - ${solicitud.name}`,
@@ -45,7 +53,7 @@ export async function sendResponseEmail(
   subject: string,
   body: string
 ) {
-  await resend.emails.send({
+  await getResend().emails.send({
     from: fromEmail,
     to,
     subject,
