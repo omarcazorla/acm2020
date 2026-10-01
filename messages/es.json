@@ -1183,7 +1183,11 @@
           }
         ]
       },
+      "storyLabel": "Nuestra Trayectoria",
+      "teamLabel": "Capital Humano",
+      "certsLabel": "Garantía de Calidad",
       "mission": "Contribuir a la protección de la salud pública y la preservación del medio ambiente mediante servicios de consultoría especializados en la gestión integral del amianto y el control del gas radón, con los más altos estándares de calidad, imparcialidad y profesionalidad.",
+      "visionTitle": "Nuestra Visión",
       "vision": "Ser la consultora de referencia en España en gestión de amianto y control de gas radón, reconocida por su rigor técnico, independencia y compromiso con la erradicación responsable del amianto en el entorno construido."
     },
     "clientsPage": {
