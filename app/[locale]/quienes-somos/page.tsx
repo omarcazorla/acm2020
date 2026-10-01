@@ -5,7 +5,7 @@ import Footer from '@/components/Footer'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import CountUp from '@/components/about/CountUp'
-import { Award, FileCheck, Shield, Users, Briefcase, Wind, FlaskConical, Droplets, ArrowRight, Quote } from 'lucide-react'
+import { Award, FileCheck, Shield, Lock, Share2, Scale, BookOpen, Heart, Globe, Handshake, Zap, ArrowRight, Quote } from 'lucide-react'
 import { Link } from '@/i18n/navigation'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: Props) {
   }
 }
 
-const areaIcons = [Briefcase, FileCheck, Users, Shield, Wind, FlaskConical, Droplets]
+const principleIcons = [Lock, Share2, Scale, BookOpen, Heart, Globe, Shield, Handshake, Zap]
 const certIcons = [Award, FileCheck, Shield]
 
 export default async function QuienesSomosPage({ params }: Props) {
@@ -34,11 +34,11 @@ export default async function QuienesSomosPage({ params }: Props) {
 
   const hasStory = t.has('story')
   const hasStats = t.has('stats')
-  const hasTeam = t.has('team')
+  const hasQuality = t.has('qualityPolicy')
   const hasCerts = t.has('certifications')
   const hasVision = t.has('vision')
 
-  const areas = hasTeam ? (t.raw('team.areas') as { name: string; description: string }[]) : []
+  const principles = hasQuality ? (t.raw('qualityPolicy.principles') as { name: string; description: string }[]) : []
   const certs = hasCerts ? (t.raw('certifications.items') as { name: string; description: string }[]) : []
   const storyParagraphs = hasStory ? (t('story.content') as string).split('\n\n') : []
 
@@ -161,69 +161,54 @@ export default async function QuienesSomosPage({ params }: Props) {
         </section>
       )}
 
-      {/* ─── Team Areas ─── */}
-      {areas.length > 0 && (
+      {/* ─── Quality Policy ─── */}
+      {hasQuality && (
         <section className="section-padding bg-white">
           <div className="container-custom">
-            <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
+            <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-12">
               <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
-                {t('teamLabel')}
+                {t('qualityLabel')}
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
-                {t('team.title')}
+                {t('qualityPolicy.title')}
               </h2>
-              <p className="text-lg text-gray-600">
-                {t('team.description')}
+              <p className="text-lg text-gray-600 leading-relaxed">
+                {t('qualityPolicy.intro')}
               </p>
             </div>
 
             <div
               data-stagger="fade"
-              data-stagger-seq="0.08"
-              className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
+              data-stagger-seq="0.06"
+              className="grid md:grid-cols-2 gap-x-12 gap-y-8 max-w-5xl mx-auto"
             >
-              {areas.map((area, i) => {
-                const Icon = areaIcons[i % areaIcons.length]
+              {principles.map((p, i) => {
+                const Icon = principleIcons[i % principleIcons.length]
                 return (
-                  <div
-                    key={i}
-                    className="bg-white rounded-2xl p-8 border border-gray-100 hover:border-gray-200 card-hover relative group overflow-hidden"
-                    style={{
-                      boxShadow: '0 1px 2px rgba(0,0,0,0.02), 0 4px 8px rgba(0,0,0,0.02), 0 12px 24px rgba(0,0,0,0.03)',
-                    }}
-                  >
-                    {/* Top gradient accent — reveals on hover */}
+                  <div key={i} className="flex gap-4 items-start group">
                     <div
-                      className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent opacity-0 group-hover:opacity-100"
-                      style={{ transition: 'opacity 0.5s var(--ease-cinematic)' }}
-                    />
-                    {/* Ambient glow */}
-                    <div
-                      className="absolute -top-24 -right-24 w-48 h-48 bg-primary/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100"
-                      style={{ transition: 'opacity 0.7s var(--ease-cinematic)' }}
-                    />
-
-                    <div
-                      className="w-14 h-14 bg-gradient-to-br from-primary/90 to-primary-600 rounded-2xl flex items-center justify-center mb-5 shadow-md shadow-primary/15 group-hover:shadow-lg group-hover:shadow-primary/25 relative z-10"
-                      style={{ transition: 'box-shadow 0.5s var(--ease-cinematic)' }}
+                      className="w-10 h-10 flex-shrink-0 bg-primary/10 rounded-xl flex items-center justify-center mt-0.5 group-hover:bg-primary/15"
+                      style={{ transition: 'background-color 0.3s var(--ease-cinematic)' }}
                     >
-                      <Icon
-                        strokeWidth={1.5}
-                        className="w-7 h-7 text-white group-hover:scale-110 relative z-10"
-                        style={{ transition: 'transform 0.5s var(--ease-cinematic)' }}
-                      />
+                      <Icon strokeWidth={1.5} className="w-5 h-5 text-primary" />
                     </div>
-                    <div className="relative z-10">
-                      <h3 className="text-lg font-bold text-secondary mb-2 tracking-tight">
-                        {area.name}
+                    <div>
+                      <h3 className="text-base font-bold text-secondary mb-1">
+                        {p.name}
                       </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        {area.description}
+                      <p className="text-sm text-gray-600 leading-relaxed">
+                        {p.description}
                       </p>
                     </div>
                   </div>
                 )
               })}
+            </div>
+
+            <div data-reveal="fade" className="mt-12 max-w-3xl mx-auto">
+              <p className="text-sm text-gray-400 text-center leading-relaxed italic">
+                {t('qualityPolicy.footer')}
+              </p>
             </div>
           </div>
         </section>

@@ -1133,39 +1133,48 @@
         "pullQuote": "Colaborar en la identificación y posterior retirada responsable del amianto en España",
         "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. nació con una misión clara: colaborar, dentro de nuestras posibilidades, en la identificación y posterior retirada responsable del amianto en España. Desde nuestros inicios, nos hemos consolidado como una empresa consultora RERA de referencia, especializada en la identificación y evaluación de materiales con amianto en edificios, instalaciones e infraestructuras.\n\nA lo largo de más de 25 años de trayectoria, hemos acumulado experiencia en múltiples sectores y escenarios, desde administraciones públicas y grandes infraestructuras de transporte hasta comunidades de propietarios y empresas industriales. Esta experiencia multisectorial nos ha permitido desarrollar metodologías propias y adaptarnos a las necesidades específicas de cada cliente.\n\nNuestro compromiso con la formación continua y la actualización normativa garantiza que cada proyecto se ejecuta con los estándares técnicos más exigentes. Trabajamos bajo los criterios de imparcialidad y neutralidad de la norma ISO/IEC 17020, lo que nos posiciona como una entidad independiente y fiable para la emisión de diagnósticos e informes técnicos.\n\nCon sede en Badia del Vallès (Barcelona), ACM 2020 ha colaborado con las principales administraciones públicas catalanas, operadores de transporte, entidades del sector del agua y organismos de salud pública, contribuyendo activamente a la protección de la salud de las personas y la preservación del medio ambiente."
       },
-      "team": {
-        "title": "Nuestro Equipo",
-        "description": "ACM 2020 dispone de un equipo humano cualificado, capacitado y con experiencia en las actividades razón de ser de la empresa: identificación, toma de muestras de materiales sospechosos de contener amianto en edificios e instalaciones, redacción de diagnósticos, seguimiento de los planes de trabajo y control de calidad, siempre con el objetivo de mantener legalmente posicionados a nuestros clientes.",
-        "areas": [
+      "qualityPolicy": {
+        "title": "Política de Calidad",
+        "intro": "La Política de Calidad de ACM-2020 gira en torno al cumplimiento de principios éticos de conducta empresarial responsable, sujetos a seguimiento permanente y evaluación periódica. Principios basados en el mantenimiento de la confianza con administraciones públicas, entidades privadas, clientes, proveedores, asociaciones y colectivos de afectados por enfermedades por amianto.",
+        "principles": [
           {
-            "name": "Dirección",
-            "description": "Liderazgo estratégico y supervisión global de todos los proyectos y operaciones de la empresa, garantizando el cumplimiento de los estándares de calidad y la normativa vigente."
+            "name": "Confidencialidad",
+            "description": "De los datos y de la información proporcionada por las empresas/clientes y/o elaborada por nuestro personal técnico en cada proyecto."
           },
           {
-            "name": "Administración",
-            "description": "Gestión administrativa y del Sistema Integrado de Gestión Técnico-Administrativa (S.I.G.T.A.), asegurando la correcta documentación y trazabilidad de cada proyecto."
+            "name": "Difusión",
+            "description": "De datos e información global con el ánimo de proporcionar y difundir objetivos para la mejora continua."
           },
           {
-            "name": "Coordinación Técnica",
-            "description": "Planificación y coordinación de las actividades de campo, supervisión de los equipos técnicos y aseguramiento de la calidad en la ejecución de los servicios operativos."
+            "name": "Objetividad",
+            "description": "Al ofrecer a nuestros clientes, entidades públicas y empresas privadas, un valor técnico coherente con respecto a la necesidad confiada."
           },
           {
-            "name": "Higiene de Materiales",
-            "description": "Identificación, toma de muestras y evaluación de materiales sospechosos de contener amianto en edificios, instalaciones e infraestructuras. Análisis del estado de deterioro y clasificación según nivel de riesgo."
+            "name": "Transmisión de Conocimiento",
+            "description": "La experiencia acumulada por las personas que colaboran y conforman nuestra empresa es básica para el beneficio de los clientes y la Sociedad Civil, con un compromiso permanente con la Salud Pública."
           },
           {
-            "name": "Higiene del Aire",
-            "description": "Muestreo estático ambiental y medición de fibras de amianto en aire mediante metodología acreditada. Control de la calidad del aire durante y tras los trabajos de retirada de amianto."
+            "name": "Compromiso",
+            "description": "Para con lo convenido y establecido, convirtiéndose para nosotros en un requisito legal y por ello sujeto a evaluación de cumplimiento."
           },
           {
-            "name": "Higiene de Suelos",
-            "description": "Cuantificación de la concentración de amianto en suelos y determinación de fibras respirables. Evaluación de terrenos contaminados conforme a estándares europeos."
+            "name": "Responsabilidad Social Empresarial",
+            "description": "En lo referente al control y gestión de las tareas y actividades, de los procesos y productos/servicios orientados hacia la calidad total."
           },
           {
-            "name": "Higiene del Agua",
-            "description": "Determinación de la concentración de fibras de amianto disueltas en aguas potables y naturales. Análisis del suministro de agua para garantizar la seguridad del consumo."
+            "name": "Independencia",
+            "description": "Al no estar nuestra empresa sometida ni condicionada por grupos o entes de presión."
+          },
+          {
+            "name": "Colaboración",
+            "description": "Con las administraciones públicas en todo aquello que pueda beneficiar al Sector del Amianto y a la mejora de los procesos."
+          },
+          {
+            "name": "Eficacia, Eficiencia y Efectividad",
+            "description": "Son los pilares a través de los cuales ACM-2020 pretende alcanzar el nivel de calidad que toda empresa desea de sus proveedores."
           }
-        ]
+        ],
+        "footer": "Los conceptos y contenidos de esta Política se revisan periódicamente por la Dirección en base a lo dispuesto en las normas de gestión ISO 45.001, ISO 9001 y UNE-EN ISO/IEC 17020 implantadas en la empresa."
       },
       "certifications": {
         "title": "Certificaciones y Acreditaciones",
@@ -1185,7 +1194,7 @@
         ]
       },
       "storyLabel": "Nuestra Trayectoria",
-      "teamLabel": "Capital Humano",
+      "qualityLabel": "Nuestros Principios",
       "certsLabel": "Garantía de Calidad",
       "stats": {
         "yearsLabel": "Años de experiencia",
