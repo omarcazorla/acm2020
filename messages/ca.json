@@ -648,10 +648,8 @@
       "direccionPlaceholder": "Carrer, número, municipi",
       "finalidad": "Finalitat",
       "motivo": "Motiu de contacte",
-      "numPlantas": "Nombre de plantes a mesurar",
-      "numPlantasPlaceholder": "Ex: 3",
-      "plantasTipo": "Plantes a mesurar",
-      "plantasTipoTrabajo": "Plantes amb treballadors a mesurar"
+      "plantasEdificio": "Plantes de què disposa l'edifici",
+      "plantasEdificioTrabajo": "Plantes del centre de treball"
     },
     "options": {
       "residencial": "Residencial",

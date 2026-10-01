@@ -561,10 +561,8 @@
       "direccionPlaceholder": "Street, number, municipality",
       "finalidad": "Purpose",
       "motivo": "Reason for contact",
-      "numPlantas": "Number of floors to measure",
-      "numPlantasPlaceholder": "E.g.: 3",
-      "plantasTipo": "Floors to measure",
-      "plantasTipoTrabajo": "Floors with workers to measure"
+      "plantasEdificio": "Floors the building has",
+      "plantasEdificioTrabajo": "Floors of the workplace"
     },
     "options": {
       "residencial": "Residential",

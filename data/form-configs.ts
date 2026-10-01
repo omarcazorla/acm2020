@@ -51,16 +51,9 @@ export const formConfigs: Record<string, FormConfig> = {
         ],
       },
       {
-        name: 'num_plantas',
-        type: 'number',
-        labelKey: 'forms.fields.numPlantas',
-        placeholderKey: 'forms.fields.numPlantasPlaceholder',
-        required: true,
-      },
-      {
         name: 'plantas_tipo',
         type: 'checkboxGroup',
-        labelKey: 'forms.fields.plantasTipo',
+        labelKey: 'forms.fields.plantasEdificio',
         fullWidth: true,
         options: [
           { value: 'bajo_rasante', labelKey: 'forms.options.plantasBajoRasante' },
@@ -118,7 +111,7 @@ export const formConfigs: Record<string, FormConfig> = {
       {
         name: 'plantas_tipo',
         type: 'checkboxGroup',
-        labelKey: 'forms.fields.plantasTipoTrabajo',
+        labelKey: 'forms.fields.plantasEdificioTrabajo',
         fullWidth: true,
         options: [
           { value: 'bajo_rasante', labelKey: 'forms.options.plantasBajoRasanteTrabajadores' },

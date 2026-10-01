@@ -561,10 +561,8 @@
       "direccionPlaceholder": "Rue, numéro, commune",
       "finalidad": "Finalité",
       "motivo": "Motif de contact",
-      "numPlantas": "Nombre d'étages à mesurer",
-      "numPlantasPlaceholder": "Ex: 3",
-      "plantasTipo": "Étages à mesurer",
-      "plantasTipoTrabajo": "Étages avec travailleurs à mesurer"
+      "plantasEdificio": "Étages dont dispose le bâtiment",
+      "plantasEdificioTrabajo": "Étages du lieu de travail"
     },
     "options": {
       "residencial": "Résidentiel",

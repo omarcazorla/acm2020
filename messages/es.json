@@ -1441,10 +1441,8 @@
       "direccionPlaceholder": "Calle, número, municipio",
       "finalidad": "Finalidad",
       "motivo": "Motivo de contacto",
-      "numPlantas": "Número de plantas a medir",
-      "numPlantasPlaceholder": "Ej: 3",
-      "plantasTipo": "Plantas a medir",
-      "plantasTipoTrabajo": "Plantas con trabajadores a medir"
+      "plantasEdificio": "Plantas de las que dispone el edificio",
+      "plantasEdificioTrabajo": "Plantas del centro de trabajo"
     },
     "options": {
       "residencial": "Residencial",
