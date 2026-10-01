@@ -1130,6 +1130,7 @@
       "heroDescription": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. es una empresa consultora RERA especializada en la identificación y evaluación del amianto en edificios e instalaciones, y en la medición y control del gas radón en interiores.",
       "story": {
         "title": "Nuestra Historia",
+        "pullQuote": "Colaborar en la identificación y posterior retirada responsable del amianto en España",
         "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. nació con una misión clara: colaborar, dentro de nuestras posibilidades, en la identificación y posterior retirada responsable del amianto en España. Desde nuestros inicios, nos hemos consolidado como una empresa consultora RERA de referencia, especializada en la identificación y evaluación de materiales con amianto en edificios, instalaciones e infraestructuras.\n\nA lo largo de más de 25 años de trayectoria, hemos acumulado experiencia en múltiples sectores y escenarios, desde administraciones públicas y grandes infraestructuras de transporte hasta comunidades de propietarios y empresas industriales. Esta experiencia multisectorial nos ha permitido desarrollar metodologías propias y adaptarnos a las necesidades específicas de cada cliente.\n\nNuestro compromiso con la formación continua y la actualización normativa garantiza que cada proyecto se ejecuta con los estándares técnicos más exigentes. Trabajamos bajo los criterios de imparcialidad y neutralidad de la norma ISO/IEC 17020, lo que nos posiciona como una entidad independiente y fiable para la emisión de diagnósticos e informes técnicos.\n\nCon sede en Badia del Vallès (Barcelona), ACM 2020 ha colaborado con las principales administraciones públicas catalanas, operadores de transporte, entidades del sector del agua y organismos de salud pública, contribuyendo activamente a la protección de la salud de las personas y la preservación del medio ambiente."
       },
       "team": {
@@ -1186,6 +1187,11 @@
       "storyLabel": "Nuestra Trayectoria",
       "teamLabel": "Capital Humano",
       "certsLabel": "Garantía de Calidad",
+      "stats": {
+        "yearsLabel": "Años de experiencia",
+        "areasLabel": "Áreas especializadas",
+        "certsLabel": "Acreditaciones oficiales"
+      },
       "mission": "Contribuir a la protección de la salud pública y la preservación del medio ambiente mediante servicios de consultoría especializados en la gestión integral del amianto y el control del gas radón, con los más altos estándares de calidad, imparcialidad y profesionalidad.",
       "visionTitle": "Nuestra Visión",
       "vision": "Ser la consultora de referencia en España en gestión de amianto y control de gas radón, reconocida por su rigor técnico, independencia y compromiso con la erradicación responsable del amianto en el entorno construido."
