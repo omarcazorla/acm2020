@@ -257,7 +257,7 @@
     "phone": "Phone",
     "email": "Email",
     "address": "Address",
-    "addressValue": "C. Ibiza, 1, Ground Floor\n08214 Badia del Vallés, Barcelona",
+    "addressValue": "C. Ibiza, 1, Ground Floor\n08214 Badia del Vallès, Barcelona",
     "hours": "Hours",
     "hoursValue": "Monday to Friday\n9:00 AM - 6:00 PM",
     "form": {
@@ -403,7 +403,7 @@
       "sections": [
         {
           "title": "Data controller",
-          "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nC. Ibiza, 1, Ground Floor\n08214 Badia del Valles, Barcelona, Spain\nEmail: acm@acm2020.es\nPhone: +34 667 623 844"
+          "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nC. Ibiza, 1, Ground Floor\n08214 Badia del Vallès, Barcelona, Spain\nEmail: acm@acm2020.es\nPhone: +34 667 623 844"
         },
         {
           "title": "Purpose of data processing",
@@ -436,7 +436,7 @@
       "sections": [
         {
           "title": "Identifying information",
-          "content": "In compliance with the duty of information established in Spanish Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI-CE), the identifying data of the owner of this website are provided below:\n\nCompany name: ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nTax ID (CIF): B67442938\nRegistered office: C. Ibiza, 1, Ground Floor, 08214 Badia del Valles, Barcelona\nEmail: acm@acm2020.es\nPhone: +34 667 623 844\nRERA Registry: 86/AB/09"
+          "content": "In compliance with the duty of information established in Spanish Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI-CE), the identifying data of the owner of this website are provided below:\n\nCompany name: ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nTax ID (CIF): B67442938\nRegistered office: C. Ibiza, 1, Ground Floor, 08214 Badia del Vallès, Barcelona\nEmail: acm@acm2020.es\nPhone: +34 667 623 844\nRERA Registry: 86/AB/09"
         },
         {
           "title": "Purpose",
@@ -485,7 +485,7 @@
         },
         {
           "title": "Further information",
-          "content": "For more information about the use of cookies on this website, or if you wish to exercise your rights in relation to your personal data, you can contact us at:\n\nEmail: acm@acm2020.es\nPhone: +34 667 623 844\nAddress: C. Ibiza, 1, Ground Floor, 08214 Badia del Valles, Barcelona, Spain"
+          "content": "For more information about the use of cookies on this website, or if you wish to exercise your rights in relation to your personal data, you can contact us at:\n\nEmail: acm@acm2020.es\nPhone: +34 667 623 844\nAddress: C. Ibiza, 1, Ground Floor, 08214 Badia del Vallès, Barcelona, Spain"
         }
       ]
     }

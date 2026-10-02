@@ -42,9 +42,9 @@
     "titleHighlight": "sécurité",
     "subtitle": "Nous offrons des services complets en gestion de l'amiante et contrôle du gaz radon, adaptés aux besoins de chaque client.",
     "asbestosTitle": "Gestion de l'Amiante",
-    "asbestosSubtitle": "Services intégraux pour la gestion sécurisée des MCA",
+    "asbestosSubtitle": "Services complets pour la gestion sécurisée des MCA",
     "radonTitle": "Contrôle du Gaz Radon",
-    "radonSubtitle": "Mesure et contrôle du gaz radon en intérieur",
+    "radonSubtitle": "Mesure et contrôle du gaz radon en milieu intérieur",
     "asbestos": {
       "inspection": {
         "title": "Inspection et Identification",
@@ -257,9 +257,9 @@
     "phone": "Téléphone",
     "email": "Email",
     "address": "Adresse",
-    "addressValue": "C. Ibiza, 1, Rez-de-chaussée\n08214 Badia del Vallés, Barcelone",
+    "addressValue": "C. Ibiza, 1, Rez-de-chaussée\n08214 Badia del Vallès, Barcelone",
     "hours": "Horaires",
-    "hoursValue": "Lundi au Vendredi\n9h00 - 18h00",
+    "hoursValue": "Du lundi au vendredi\n9h00 - 18h00",
     "form": {
       "name": "Nom complet",
       "namePlaceholder": "Votre nom",
@@ -403,7 +403,7 @@
       "sections": [
         {
           "title": "Responsable du traitement",
-          "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nC. Ibiza, 1, Rez-de-chaussée\n08214 Badia del Valles, Barcelone, Espagne\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844"
+          "content": "ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nC. Ibiza, 1, Rez-de-chaussée\n08214 Badia del Vallès, Barcelone, Espagne\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844"
         },
         {
           "title": "Finalité du traitement",
@@ -436,7 +436,7 @@
       "sections": [
         {
           "title": "Données d'identification",
-          "content": "Conformément au devoir d'information établi par la loi espagnole 34/2002, du 11 juillet, relative aux services de la société de l'information et au commerce électronique (LSSI-CE), les données d'identification du titulaire de ce site web sont indiquées ci-dessous :\n\nDénomination sociale : ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nCIF : B67442938\nSiège social : C. Ibiza, 1, Rez-de-chaussée, 08214 Badia del Valles, Barcelone\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844\nRegistre RERA : 86/AB/09"
+          "content": "Conformément au devoir d'information établi par la loi espagnole 34/2002, du 11 juillet, relative aux services de la société de l'information et au commerce électronique (LSSI-CE), les données d'identification du titulaire de ce site web sont indiquées ci-dessous :\n\nDénomination sociale : ACM 2020 Consultoría y Diagnóstico de Amianto, S.L.\nCIF : B67442938\nSiège social : C. Ibiza, 1, Rez-de-chaussée, 08214 Badia del Vallès, Barcelone\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844\nRegistre RERA : 86/AB/09"
         },
         {
           "title": "Objet",
@@ -469,15 +469,15 @@
       "sections": [
         {
           "title": "Que sont les cookies ?",
-          "content": "Les cookies sont de petits fichiers texte stockés sur l'appareil de l'utilisateur (ordinateur, tablette ou téléphone portable) lors de la visite d'un site web. Elles servent à mémoriser les préférences de l'utilisateur, à analyser le comportement de navigation et à améliorer l'expérience d'utilisation du site web. Les cookies ne peuvent pas endommager votre appareil ni accéder aux informations personnelles qui y sont stockées."
+          "content": "Les cookies sont de petits fichiers texte stockés sur l'appareil de l'utilisateur (ordinateur, tablette ou téléphone portable) lors de la visite d'un site web. Ils servent à mémoriser les préférences de l'utilisateur, à analyser le comportement de navigation et à améliorer l'expérience d'utilisation du site web. Les cookies ne peuvent pas endommager votre appareil ni accéder aux informations personnelles qui y sont stockées."
         },
         {
-          "title": "Types de cookies utilisées",
-          "content": "Cookies techniques : nécessaires au fonctionnement de base du site web, comme la navigation entre les pages et l'accès aux zones sécurisées. Sans elles, le site web ne fonctionnerait pas correctement.\n\nCookies de préférences : permettent au site web de mémoriser les choix de l'utilisateur, comme la langue sélectionnée ou la région depuis laquelle il accède au site.\n\nCookies analytiques : collectent des informations de manière anonyme sur la façon dont les visiteurs utilisent le site web, les pages qu'ils visitent le plus fréquemment et s'ils reçoivent des messages d'erreur. Ces informations sont utilisées pour améliorer les performances du site web."
+          "title": "Types de cookies utilisés",
+          "content": "Cookies techniques : nécessaires au fonctionnement de base du site web, comme la navigation entre les pages et l'accès aux zones sécurisées. Sans eux, le site web ne fonctionnerait pas correctement.\n\nCookies de préférences : permettent au site web de mémoriser les choix de l'utilisateur, comme la langue sélectionnée ou la région depuis laquelle il accède au site.\n\nCookies analytiques : collectent des informations de manière anonyme sur la façon dont les visiteurs utilisent le site web, les pages qu'ils visitent le plus fréquemment et s'ils reçoivent des messages d'erreur. Ces informations sont utilisées pour améliorer les performances du site web."
         },
         {
           "title": "Gestion et désactivation des cookies",
-          "content": "L'utilisateur peut configurer son navigateur pour refuser l'installation de cookies ou pour être averti lorsqu'un site web tente d'en installer une. Veuillez noter que la désactivation des cookies peut affecter la fonctionnalité du site web.\n\nPour gérer les cookies depuis votre navigateur, consultez les instructions du fabricant de votre navigateur."
+          "content": "L'utilisateur peut configurer son navigateur pour refuser l'installation de cookies ou pour être averti lorsqu'un site web tente d'en installer un. Veuillez noter que la désactivation des cookies peut affecter la fonctionnalité du site web.\n\nPour gérer les cookies depuis votre navigateur, consultez les instructions du fabricant de votre navigateur."
         },
         {
           "title": "Mise à jour de la politique de cookies",
@@ -485,7 +485,7 @@
         },
         {
           "title": "Plus d'informations",
-          "content": "Pour plus d'informations sur l'utilisation des cookies sur ce site web, ou si vous souhaitez exercer vos droits concernant vos données personnelles, vous pouvez nous contacter :\n\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844\nAdresse : C. Ibiza, 1, Rez-de-chaussée, 08214 Badia del Valles, Barcelone, Espagne"
+          "content": "Pour plus d'informations sur l'utilisation des cookies sur ce site web, ou si vous souhaitez exercer vos droits concernant vos données personnelles, vous pouvez nous contacter :\n\nEmail : acm@acm2020.es\nTéléphone : +34 667 623 844\nAdresse : C. Ibiza, 1, Rez-de-chaussée, 08214 Badia del Vallès, Barcelone, Espagne"
         }
       ]
     }

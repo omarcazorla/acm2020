@@ -2,7 +2,7 @@
   "metadata": {
     "title": "ACM-2020 | Consultoria Especialitzada en Amiant i Gas Radó",
     "description": "ACM-2020: Més de 25 anys d'experiència en gestió d'amiant i mesurament de gas radó. Inscripció RERA 86/AB/09. Protegim la salut pública i el medi ambient.",
-    "keywords": "amiant, asbestós, gas radó, consultoria mediambiental, desamiantatge, Barcelona, RERA, salut pública",
+    "keywords": "amiant, asbest, gas radó, consultoria mediambiental, desamiantatge, Barcelona, RERA, salut pública",
     "ogTitle": "ACM-2020 | Consultoria Especialitzada en Amiant i Gas Radó",
     "ogDescription": "Més de 25 anys protegint la salut pública i el medi ambient. Experts en amiant i gas radó."
   },
@@ -13,7 +13,7 @@
     "aboutUs": "Qui som",
     "clients": "Clients",
     "services": "Serveis",
-    "contact": "Contactar",
+    "contact": "Contacte",
     "blog": "Blog",
     "faq": "FAQ",
     "municipalities": "Municipis"
@@ -270,7 +270,7 @@
       "team": {
         "highlight": "Experts",
         "title": "Equip Especialitzat",
-        "description": "Professionals qualificats i en formació contínua sobre les últimes normatives i tècniques."
+        "description": "Professionals qualificats i en formació contínua sobre les darreres normatives i tècniques."
       },
       "health": {
         "highlight": "Prioritat",
@@ -293,7 +293,7 @@
       },
       "sustainability": {
         "title": "Sostenibilitat",
-        "description": "Respecte al medi ambient"
+        "description": "Respecte pel medi ambient"
       }
     },
     "missionTitle": "La Nostra Missió",
@@ -323,7 +323,7 @@
       }
     },
     "someClients": "Alguns dels nostres clients",
-    "sectorsTitle": "Sectors en els que treballem",
+    "sectorsTitle": "Sectors en què treballem",
     "sectorsSubtitle": "La nostra experiència abasta múltiples sectors, adaptant els nostres serveis a les necessitats específiques de cada client.",
     "sectors": [
       "Ajuntaments i administracions públiques",
@@ -344,9 +344,9 @@
     "phone": "Telèfon",
     "email": "Email",
     "address": "Adreça",
-    "addressValue": "C. Ibiza, 1, Baixos\n08214 Badia del Vallès, Barcelona",
+    "addressValue": "C. Eivissa, 1, Baixos\n08214 Badia del Vallès, Barcelona",
     "hours": "Horari",
-    "hoursValue": "Dilluns a Divendres\n9:00 - 18:00",
+    "hoursValue": "De dilluns a divendres\n9:00 - 18:00",
     "form": {
       "name": "Nom complet",
       "namePlaceholder": "El seu nom",
@@ -367,7 +367,7 @@
       "submit": "Enviar missatge",
       "sending": "Enviant...",
       "success": "Missatge enviat correctament. Li respondrem aviat.",
-      "error": "Error en enviar el missatge. Si us plau, torni-ho a intentar."
+      "error": "Error en enviar el missatge. Si us plau, torni a intentar-ho."
     }
   },
   "footer": {
@@ -380,7 +380,7 @@
     "inspections": "Inspeccions",
     "technicalProjects": "Projectes tècnics",
     "copyright": "ACM-2020. Tots els drets reservats.",
-    "privacy": "Política de privadesa",
+    "privacy": "Política de privacitat",
     "legal": "Avís legal",
     "cookies": "Cookies"
   },
@@ -471,7 +471,7 @@
     },
     "newsPage": {
       "title": "Notícies",
-      "subtitle": "Últimes novetats i projectes d'ACM-2020"
+      "subtitle": "Darreres novetats i projectes d'ACM-2020"
     },
     "municipiosIndex": {
       "title": "Municipis d'actuació",
@@ -498,7 +498,7 @@
         },
         {
           "title": "Base legal del tractament",
-          "content": "La base legal per al tractament de les vostres dades personals és el consentiment atorgat en enviar el formulari de contacte, l'execució d'un contracte o de mesures precontractuals sol·licitades per l'interessat, i el compliment d'obligacions legals aplicables a l'activitat professional d'ACM 2020."
+          "content": "La base legal per al tractament de les seves dades personals és el consentiment atorgat en enviar el formulari de contacte, l'execució d'un contracte o de mesures precontractuals sol·licitades per l'interessat, i el compliment d'obligacions legals aplicables a l'activitat professional d'ACM 2020."
         },
         {
           "title": "Destinataris de les dades",
@@ -527,7 +527,7 @@
         },
         {
           "title": "Objecte",
-          "content": "Aquest lloc web té per objecte facilitar al públic informació sobre els serveis professionals de consultoria en gestió integral d'amiant i mesurament de gas radó que ofereix ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. La informació proporcionada té caràcter general i orientatiu, sense que pugui considerar-se com a assessorament professional vinculant."
+          "content": "Aquest lloc web té per objecte facilitar al públic informació sobre els serveis professionals de consultoria en gestió integral d'amiant i mesurament de gas radó que ofereix ACM 2020 Consultoría y Diagnóstico de Amianto, S.L. La informació proporcionada té caràcter general i orientatiu, sense que es pugui considerar com a assessorament professional vinculant."
         },
         {
           "title": "Condicions d'ús",
@@ -535,15 +535,15 @@
         },
         {
           "title": "Propietat intel·lectual i industrial",
-          "content": "Tots els continguts d'aquest lloc web (textos, fotografies, gràfics, imatges, logotips, icones, tecnologia, programari, enllaços i altres continguts audiovisuals o sonors), així com el seu disseny gràfic i codis font, són propietat intel·lectual d'ACM 2020 o de tercers, sense que puguin entendre's cedits a l'usuari cap dels drets d'explotació sobre els mateixos més enllà del que sigui estrictament necessari per a l'ús correcte del lloc web."
+          "content": "Tots els continguts d'aquest lloc web (textos, fotografies, gràfics, imatges, logotips, icones, tecnologia, programari, enllaços i altres continguts audiovisuals o sonors), així com el seu disseny gràfic i codis font, són propietat intel·lectual d'ACM 2020 o de tercers, sense que es puguin entendre cedits a l'usuari cap dels drets d'explotació sobre els mateixos més enllà del que sigui estrictament necessari per a l'ús correcte del lloc web."
         },
         {
           "title": "Exclusió de responsabilitat",
-          "content": "ACM 2020 no es fa responsable dels danys i perjudicis que puguin derivar-se d'interferències, omissions, interrupcions, virus informàtics, avaries o desconnexions en el funcionament operatiu del sistema electrònic, motivats per causes alienes a ACM 2020, ni dels retards o bloquejos en l'ús causats per deficiències o sobrecàrregues d'Internet o en altres sistemes electrònics."
+          "content": "ACM 2020 no es fa responsable dels danys i perjudicis que es puguin derivar d'interferències, omissions, interrupcions, virus informàtics, avaries o desconnexions en el funcionament operatiu del sistema electrònic, motivats per causes alienes a ACM 2020, ni dels retards o bloquejos en l'ús causats per deficiències o sobrecàrregues d'Internet o en altres sistemes electrònics."
         },
         {
           "title": "Enllaços a tercers",
-          "content": "Aquest lloc web pot contenir enllaços a pàgines web de tercers. ACM 2020 no assumeix cap responsabilitat pel contingut, la veracitat o la política de privacitat d'aquests llocs web externs. L'accés als mateixos a través dels enllaços d'aquest lloc web es realitza sota l'exclusiva responsabilitat de l'usuari."
+          "content": "Aquest lloc web pot contenir enllaços a pàgines web de tercers. ACM 2020 no assumeix cap responsabilitat pel contingut, la veracitat o la política de privacitat d'aquests llocs web externs. L'accés a aquests llocs a través dels enllaços d'aquest lloc web es realitza sota l'exclusiva responsabilitat de l'usuari."
         },
         {
           "title": "Legislació aplicable i jurisdicció",
@@ -556,7 +556,7 @@
       "sections": [
         {
           "title": "Què són les cookies?",
-          "content": "Les cookies són petits arxius de text que s'emmagatzemen al dispositiu de l'usuari (ordinador, tauleta o telèfon mòbil) quan visita un lloc web. S'utilitzen per recordar les preferències de l'usuari, analitzar el comportament de navegació i millorar l'experiència d'ús del lloc web. Les cookies no poden danyar el vostre dispositiu ni accedir a informació personal emmagatzemada en ell."
+          "content": "Les cookies són petits arxius de text que s'emmagatzemen al dispositiu de l'usuari (ordinador, tauleta o telèfon mòbil) quan visita un lloc web. S'utilitzen per recordar les preferències de l'usuari, analitzar el comportament de navegació i millorar l'experiència d'ús del lloc web. Les cookies no poden danyar el seu dispositiu ni accedir a informació personal que hi estigui emmagatzemada."
         },
         {
           "title": "Tipus de cookies utilitzades",
