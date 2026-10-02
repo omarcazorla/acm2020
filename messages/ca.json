@@ -34,7 +34,8 @@
     "statsProjects": "+200",
     "statsProjectsLabel": "Projectes",
     "statsCommitment": "+50",
-    "statsCommitmentLabel": "Ajuntaments"
+    "statsCommitmentLabel": "Ajuntaments",
+    "trustedBy": "Empreses i administracions que confien en nosaltres"
   },
   "services": {
     "sectionLabel": "Els Nostres Serveis",

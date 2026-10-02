@@ -34,7 +34,8 @@
     "statsProjects": "+200",
     "statsProjectsLabel": "Projets",
     "statsCommitment": "+50",
-    "statsCommitmentLabel": "Municipalités"
+    "statsCommitmentLabel": "Municipalités",
+    "trustedBy": "Des entreprises et administrations qui nous font confiance"
   },
   "services": {
     "sectionLabel": "Nos Services",

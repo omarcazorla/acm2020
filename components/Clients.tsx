@@ -3,6 +3,7 @@
 import { Building2, Home, Landmark, Factory } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
+import { clientLogos } from '@/lib/clients'
 
 const statKeys = [
   { key: 'projects', icon: Building2 },
@@ -10,27 +11,6 @@ const statKeys = [
   { key: 'municipalities', icon: Landmark },
   { key: 'companies', icon: Factory },
 ] as const
-
-// Logos de clientes en /public/logos/
-const clientLogos: string[] = [
-  'ajuntament_badia_del_valles-1920w.png',
-  'logo_bcn-1920w.webp',
-  'diba-1920w.webp',
-  'generalitat-departament-dempresa-i-ocupacio-1920w.webp',
-  'agbar-1920w.webp',
-  'aigu-es-de-barcelona-1920w.webp',
-  'transports_metropolitans_barcelona-1920w.png',
-  'Ferrocarris_de_la_Generalitat-1920w.png',
-  'TV3-1920w.png',
-  'bimsa-1920w.webp',
-  'ajuntament_manresa-640w-1920w.webp',
-  'ajuntament_martorell-1920w.webp',
-  'agencia_residus_catalunya-1920w.webp',
-  'consell_relacions_laborals_catalunya-1920w.webp',
-  'gestora-de-runes-1920w.webp',
-  'insst2-1920w.webp',
-  'atl_aigua_ter-llobregat.gif',
-]
 
 export default function Clients() {
   const t = useTranslations('clients')

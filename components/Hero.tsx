@@ -1,9 +1,11 @@
 'use client'
 
-import { Shield, Award, ArrowRight } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
+import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { ContainerScroll } from '@/components/ui/ContainerScroll'
+import { clientLogos } from '@/lib/clients'
 
 export default function Hero() {
   const t = useTranslations('hero')
@@ -64,49 +66,58 @@ export default function Hero() {
                   {t('ctaSecondary')}
                 </Link>
               </div>
-            </div>
-          }
-          statsComponent={
-            <div className="max-w-2xl mx-auto">
+
+              {/* Client logo marquee */}
               <div
-                data-stagger="zoom"
-                data-stagger-seq="0.1"
-                className="grid grid-cols-2 gap-x-16 gap-y-10 stagger-perspective"
+                data-reveal="fade"
+                style={{ transitionDelay: '1.8s' }}
+                className="mt-16 max-w-3xl mx-auto"
               >
-                <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-7 h-7 text-primary" />
-                  </div>
-                  <div>
-                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsYears')}</div>
-                    <div className="text-sm text-secondary/50">{t('statsYearsLabel')}</div>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
-                    <Award className="w-7 h-7 text-primary" />
-                  </div>
-                  <div>
-                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsRera')}</div>
-                    <div className="text-sm text-secondary/50">{t('statsReraLabel')}</div>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
-                    <Shield className="w-7 h-7 text-primary" />
-                  </div>
-                  <div>
-                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsProjects')}</div>
-                    <div className="text-sm text-secondary/50">{t('statsProjectsLabel')}</div>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center flex-shrink-0">
-                    <Award className="w-7 h-7 text-primary" />
-                  </div>
-                  <div>
-                    <div className="text-3xl md:text-4xl font-bold text-secondary">{t('statsCommitment')}</div>
-                    <div className="text-sm text-secondary/50">{t('statsCommitmentLabel')}</div>
+                <p className="text-center text-xs text-secondary/40 uppercase tracking-wider mb-6">
+                  {t('trustedBy')}
+                </p>
+
+                <div className="relative overflow-hidden py-4">
+                  {/* Gradient overlays — inherit bg-warm */}
+                  <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-warm to-transparent z-10" />
+                  <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-warm to-transparent z-10" />
+
+                  {/* Scrolling track */}
+                  <div className="flex animate-marquee">
+                    {clientLogos.map((logo, index) => (
+                      <div
+                        key={`hero-logo-1-${index}`}
+                        className="flex-shrink-0 mx-6 flex items-center justify-center"
+                      >
+                        <div className="w-24 h-10 relative grayscale opacity-40">
+                          <Image
+                            src={`/logos/${logo}`}
+                            alt=""
+                            fill
+                            sizes="96px"
+                            quality={75}
+                            className="object-contain"
+                          />
+                        </div>
+                      </div>
+                    ))}
+                    {clientLogos.map((logo, index) => (
+                      <div
+                        key={`hero-logo-2-${index}`}
+                        className="flex-shrink-0 mx-6 flex items-center justify-center"
+                      >
+                        <div className="w-24 h-10 relative grayscale opacity-40">
+                          <Image
+                            src={`/logos/${logo}`}
+                            alt=""
+                            fill
+                            sizes="96px"
+                            quality={75}
+                            className="object-contain"
+                          />
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
