@@ -1,8 +1,10 @@
 'use client'
 
+import { useMemo } from 'react'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import ContactFormBase from './forms/ContactFormBase'
+import { Typewriter } from './ui/Typewriter'
 
 interface ContactProps {
   formId?: string
@@ -12,6 +14,12 @@ interface ContactProps {
 export default function Contact({ formId = 'general', prefill }: ContactProps) {
   const t = useTranslations('contact')
   const tAnchors = useTranslations('anchors')
+
+  const titleWords = t.raw('titleWords') as string[]
+  const sequences = useMemo(
+    () => titleWords.map((word) => ({ text: word, deleteAfter: true, pauseAfter: 2000 })),
+    [titleWords],
+  )
 
   const contactInfo = [
     {
@@ -50,7 +58,18 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
             {t('title')}{' '}
-            <span className="text-gradient">{t('titleHighlight')}</span>?
+            <Typewriter
+              sequences={sequences}
+              typingSpeed={60}
+              deleteSpeed={35}
+              pauseBeforeDelete={2000}
+              startDelay={500}
+              loopDelay={300}
+              autoLoop
+              naturalVariance
+              className="font-accent italic"
+            />
+            ?
           </h2>
           <p className="text-lg text-gray-600">{t('subtitle')}</p>
         </div>

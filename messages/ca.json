@@ -339,6 +339,7 @@
     "sectionLabel": "Contacte",
     "title": "Parlem del seu",
     "titleHighlight": "projecte",
+    "titleWords": ["projecte", "problema", "necessitat", "objectiu", "consulta", "dubte", "preocupació", "situació", "cas", "negoci", "empresa", "habitatge", "obra"],
     "subtitle": "Expliqui'ns les seves necessitats i li oferirem una solució personalitzada. Respondrem a la seva consulta en menys de 24 hores.",
     "infoTitle": "Informació de contacte",
     "infoSubtitle": "Estem aquí per ajudar-lo. Contacti amb nosaltres per qualsevol d'aquests mitjans.",

@@ -40,6 +40,7 @@ const config: Config = {
       fontFamily: {
         sans: ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
         heading: ['var(--font-stix)', 'Georgia', 'serif'],
+        accent: ['var(--font-instrument-serif)', 'Georgia', 'serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

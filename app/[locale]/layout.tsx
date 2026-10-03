@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { DM_Sans, STIX_Two_Text } from 'next/font/google'
+import { DM_Sans, STIX_Two_Text, Instrument_Serif } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
@@ -19,6 +19,14 @@ const stix = STIX_Two_Text({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-stix',
+})
+
+const instrumentSerif = Instrument_Serif({
+  subsets: ['latin'],
+  weight: '400',
+  style: 'italic',
+  display: 'swap',
+  variable: '--font-instrument-serif',
 })
 
 type Props = {
@@ -66,7 +74,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = (await import(`../../messages/${locale}.json`)).default
 
   return (
-    <html lang={locale} className={`${dmSans.variable} ${stix.variable}`}>
+    <html lang={locale} className={`${dmSans.variable} ${stix.variable} ${instrumentSerif.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
