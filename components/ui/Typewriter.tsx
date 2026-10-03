@@ -1,6 +1,5 @@
 'use client'
 
-import { motion } from 'framer-motion'
 import {
   useEffect,
   useLayoutEffect,
@@ -157,16 +156,11 @@ export function Typewriter({
   }, [sequences, typingSpeed, deleteSpeed, naturalVariance, startAnimation])
 
   return (
-    <motion.span
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.5 }}
-      className={className}
-    >
+    <span className={`animate-fade-in ${className ?? ''}`}>
       <span className="inline-block min-h-[1.2em] min-w-[0.5em]">
         {displayText}
       </span>
-    </motion.span>
+    </span>
   )
 }
 

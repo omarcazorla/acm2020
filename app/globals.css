@@ -185,6 +185,21 @@ a {
   transition: color 0.3s var(--ease-cinematic);
 }
 
+/* Shiny text sweep — 75% sweep + 25% hold matches speed=3 delay=1 (all current usages) */
+@keyframes shiny-sweep {
+  0% { background-position: 150% center; }
+  75%, 100% { background-position: -50% center; }
+}
+
+/* Fade-in for Typewriter and similar components */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
+
 /* Social icon hover */
 .social-icon-hover {
   transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic);

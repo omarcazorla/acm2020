@@ -69,6 +69,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
                 <Link
                   key={item.name}
                   href={item.href}
+                  prefetch={false}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                     active
                       ? 'text-primary font-semibold bg-primary/10'
@@ -125,6 +126,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
                 <Link
                   key={item.name}
                   href={item.href}
+                  prefetch={false}
                   onClick={() => setIsOpen(false)}
                   className={`block px-4 py-3 font-medium rounded-lg transition-colors ${
                     active
