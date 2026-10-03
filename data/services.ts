@@ -9,11 +9,12 @@ export interface ServicePage {
   translationKey: string
   category: 'amianto' | 'radon'
   subcategory?: AmiantoCategory
+  formId?: string
 }
 
 export const amiantoServices: ServicePage[] = [
   // Inspecccion y Diagnostico
-  { slug: 'inspeccion-identificacion', translationKey: 'inspection', category: 'amianto', subcategory: 'inspeccion' },
+  { slug: 'inspeccion-identificacion', translationKey: 'inspection', category: 'amianto', subcategory: 'inspeccion', formId: 'amianto-inspeccion' },
   { slug: 'evaluacion-riesgos', translationKey: 'risk', category: 'amianto', subcategory: 'inspeccion' },
   { slug: 'muestreo-ambiental', translationKey: 'airSampling', category: 'amianto', subcategory: 'inspeccion' },
   { slug: 'censos-municipales', translationKey: 'censuses', category: 'amianto', subcategory: 'inspeccion' },
@@ -30,7 +31,7 @@ export const amiantoServices: ServicePage[] = [
   { slug: 'control-calidad-final', translationKey: 'qualityControl', category: 'amianto', subcategory: 'desamiantado' },
   { slug: 'control-periodico', translationKey: 'periodicControl', category: 'amianto', subcategory: 'desamiantado' },
   // Certificacion y Servicios Inmobiliarios
-  { slug: 'compraventa-inmuebles', translationKey: 'realestate', category: 'amianto', subcategory: 'certificacion' },
+  { slug: 'compraventa-inmuebles', translationKey: 'realestate', category: 'amianto', subcategory: 'certificacion', formId: 'amianto-certificado' },
   { slug: 'certificacion-breeam', translationKey: 'breeam', category: 'amianto', subcategory: 'certificacion' },
   { slug: 'comunidades-vecinos', translationKey: 'communities', category: 'amianto', subcategory: 'certificacion' },
   // Formacion

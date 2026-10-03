@@ -50,12 +50,14 @@ export default function ContactFormBase({
         }
       }
     }
-    if (Object.keys(lockedDefaults).length > 0 || prefill) {
-      setQualificationData((prev) => ({
-        ...prev,
-        ...lockedDefaults,
-        ...prefill,
-      }))
+    if (prefill) {
+      const { message: prefillMessage, ...restPrefill } = prefill
+      setQualificationData((prev) => ({ ...prev, ...lockedDefaults, ...restPrefill }))
+      if (prefillMessage) {
+        setCommonFields((prev) => ({ ...prev, message: prefillMessage }))
+      }
+    } else if (Object.keys(lockedDefaults).length > 0) {
+      setQualificationData((prev) => ({ ...prev, ...lockedDefaults }))
     }
   }, [config.fields, prefill])
 
