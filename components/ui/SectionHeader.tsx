@@ -9,7 +9,7 @@ export default function SectionHeader({ label, title, titleHighlight, subtitle }
   return (
     <div className="text-center max-w-3xl mx-auto mb-16">
       {label && (
-        <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+        <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
           {label}
         </span>
       )}

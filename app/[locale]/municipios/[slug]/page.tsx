@@ -44,7 +44,7 @@ function RichText({ text }: { text: string }) {
         const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/)
         if (match) {
           return (
-            <Link key={i} href={match[2]} className="text-primary hover:underline font-medium">
+            <Link key={i} href={match[2]} className="text-primary-text hover:underline font-medium">
               {match[1]}
             </Link>
           )

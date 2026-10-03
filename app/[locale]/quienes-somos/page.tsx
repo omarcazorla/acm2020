@@ -121,7 +121,7 @@ export default async function QuienesSomosPage({ params }: Props) {
         <section className="section-padding bg-gray-50">
           <div className="container-custom">
             <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
-              <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+              <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
                 {t('storyLabel')}
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary">
@@ -166,7 +166,7 @@ export default async function QuienesSomosPage({ params }: Props) {
         <section className="section-padding bg-white">
           <div className="container-custom">
             <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-12">
-              <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+              <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
                 {t('qualityLabel')}
               </span>
               <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">

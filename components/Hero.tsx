@@ -32,9 +32,9 @@ export default function Hero() {
                 className="text-3xl sm:text-5xl lg:text-[64px] lg:leading-[83px] font-bold text-secondary leading-tight mb-6"
               >
                 <span>{t('titleStart')} </span>
-                <span className="text-primary">{t('titleHighlight1')} </span>
+                <span className="text-primary-text">{t('titleHighlight1')} </span>
                 <span>{t('titleMid')} </span>
-                <span className="text-primary">{t('titleHighlight2')}</span>
+                <span className="text-primary-text">{t('titleHighlight2')}</span>
               </div>
 
               {/* Subheadline */}

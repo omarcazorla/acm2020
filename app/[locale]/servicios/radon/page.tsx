@@ -151,7 +151,7 @@ export default async function RadonPage({ params }: Props) {
                   <p className="text-gray-600 text-sm leading-relaxed mb-4">
                     {tServices(`radon.${service.translationKey}.description`)}
                   </p>
-                  <span className="inline-flex items-center text-primary text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                  <span className="inline-flex items-center text-primary-text text-sm font-semibold group-hover:translate-x-1 transition-transform">
                     {tCommon('learnMore')}
                     <ArrowRight className="w-4 h-4 ml-1" />
                   </span>

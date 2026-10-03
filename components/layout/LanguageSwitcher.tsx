@@ -76,7 +76,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light'
 
   if (variant === 'inline') {
     const baseText = theme === 'dark' ? 'text-white/60' : 'text-gray-500'
-    const activeText = theme === 'dark' ? 'text-primary font-semibold' : 'text-primary font-semibold'
+    const activeText = theme === 'dark' ? 'text-primary font-semibold' : 'text-primary-text font-semibold'
     const hoverText = theme === 'dark' ? 'hover:text-white' : 'hover:text-secondary'
 
     return (
@@ -121,7 +121,7 @@ export default function LanguageSwitcher({ variant = 'dropdown', theme = 'light'
               key={l}
               onClick={() => switchLocale(l)}
               className={`w-full text-left px-4 py-2 text-sm hover:bg-primary/10 transition-colors ${
-                l === locale ? 'text-primary font-semibold' : 'text-secondary'
+                l === locale ? 'text-primary-text font-semibold' : 'text-secondary'
               }`}
             >
               <LocaleFlag locale={l} className="mr-2" />

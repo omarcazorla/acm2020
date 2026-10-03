@@ -11,6 +11,7 @@
 :root {
   --primary: #E67E22;
   --primary-dark: #C56A1A;
+  --primary-text: #A85613;
   --secondary: #1E3A5F;
   --secondary-dark: #152a47;
 
@@ -35,26 +36,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-white bg-primary rounded-lg shadow-lg hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:shadow-xl;
     transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic);
   }
   .btn-primary:hover {
-    transform: scale(1.03);
-  }
-
-  .btn-secondary {
-    @apply inline-flex items-center justify-center px-6 py-3 text-base font-semibold text-secondary bg-white border-2 border-secondary rounded-lg shadow-lg hover:bg-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-secondary focus:ring-offset-2 hover:shadow-xl;
-    transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic), color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic);
-  }
-  .btn-secondary:hover {
     transform: scale(1.03);
   }
 
@@ -68,10 +55,6 @@ body {
 
   .container-custom {
     @apply max-w-7xl mx-auto;
-  }
-
-  .gradient-overlay {
-    background: linear-gradient(135deg, rgba(30, 58, 95, 0.95) 0%, rgba(30, 58, 95, 0.8) 50%, rgba(230, 126, 34, 0.3) 100%);
   }
 
   .card-hover {

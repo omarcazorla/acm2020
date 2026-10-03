@@ -37,7 +37,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left content — line-by-line stagger */}
           <div data-stagger="fade" data-stagger-seq="0.2">
-            <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+            <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
               {t('sectionLabel')}
             </span>
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">
@@ -93,7 +93,7 @@ export default function About() {
                   <feature.icon strokeWidth={1.5} className="w-8 h-8 text-white" />
                 </div>
                 <div className="relative z-10">
-                  <div className="text-xs font-bold text-primary mb-2 uppercase tracking-wider">
+                  <div className="text-xs font-bold text-primary-text mb-2 uppercase tracking-wider">
                     {t(`features.${feature.key}.highlight`)}
                   </div>
                   <h3 className="text-xl font-bold text-secondary mb-3 tracking-tight">

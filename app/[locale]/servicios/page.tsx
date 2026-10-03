@@ -54,7 +54,7 @@ export default async function ServiciosPage({ params }: Props) {
               <p className="text-gray-600 mb-6">
                 {tServices('asbestosSubtitle')}
               </p>
-              <span className="inline-flex items-center text-primary font-semibold group-hover:translate-x-1 transition-transform">
+              <span className="inline-flex items-center text-primary-text font-semibold group-hover:translate-x-1 transition-transform">
                 {tCommon('learnMore')}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </span>
@@ -75,7 +75,7 @@ export default async function ServiciosPage({ params }: Props) {
               <p className="text-gray-600 mb-6">
                 {tServices('radonSubtitle')}
               </p>
-              <span className="inline-flex items-center text-primary font-semibold group-hover:translate-x-1 transition-transform">
+              <span className="inline-flex items-center text-primary-text font-semibold group-hover:translate-x-1 transition-transform">
                 {tCommon('learnMore')}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </span>

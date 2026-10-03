@@ -72,7 +72,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
                   prefetch={false}
                   className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-300 ${
                     active
-                      ? 'text-primary font-semibold bg-primary/10'
+                      ? 'text-primary-text font-semibold bg-primary/10'
                       : isScrolled || !darkHero
                         ? 'text-secondary hover:text-primary hover:bg-primary/10'
                         : 'text-white/90 hover:text-white hover:bg-white/10'
@@ -130,7 +130,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
                   onClick={() => setIsOpen(false)}
                   className={`block px-4 py-3 font-medium rounded-lg transition-colors ${
                     active
-                      ? 'text-primary font-semibold bg-primary/10'
+                      ? 'text-primary-text font-semibold bg-primary/10'
                       : 'text-secondary hover:bg-primary/10 hover:text-primary'
                   }`}
                 >

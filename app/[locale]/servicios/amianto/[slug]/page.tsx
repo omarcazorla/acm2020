@@ -95,7 +95,7 @@ export default async function AmiantoServicePage({ params }: Props) {
                   <div key={i} className="group">
                     <div className="flex items-start gap-4">
                       <div className="hidden sm:flex w-10 h-10 rounded-xl bg-primary/10 items-center justify-center flex-shrink-0 mt-1">
-                        <span className="text-primary font-bold text-sm">{String(i + 1).padStart(2, '0')}</span>
+                        <span className="text-primary-text font-bold text-sm">{String(i + 1).padStart(2, '0')}</span>
                       </div>
                       <div className="flex-1">
                         <h2 className="text-xl md:text-2xl font-bold text-secondary mb-4">

@@ -22,7 +22,7 @@ export default function Clients() {
       <div className="container-custom">
         {/* Section header */}
         <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-4">
+          <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
             {t('sectionLabel')}
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
