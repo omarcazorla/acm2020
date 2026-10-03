@@ -8,7 +8,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { FAQPageJsonLd } from '@/components/JsonLd'
 import { radonServices } from '@/data/services'
-import { ArrowRight, CheckCircle, Scale, Phone } from 'lucide-react'
+import { ArrowRight, CheckCircle, Scale } from 'lucide-react'
 import Link from 'next/link'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
@@ -191,16 +191,22 @@ export default async function RadonServicePage({ params }: Props) {
             <p className="text-white/80 mb-8 text-lg">
               {t('serviceCtaDescription')}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href={`/contacto?service=radon-cte`} className="btn-primary group">
-                {t('whyCta')}
-                <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <a href="tel:+34667623844" className="btn-outline group">
-                <Phone className="w-5 h-5 mr-2" />
-                667 623 844
-              </a>
-            </div>
+            <Link
+              href={`/contacto?service=${service.formId || 'general'}&message=${encodeURIComponent(t('ctaPresupuestoMessage', { service: t(`${key}.title`) }))}`}
+              className="btn-primary group"
+            >
+              {t('ctaPresupuesto')}
+              <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
+            </Link>
+            <p className="text-white/70 mt-8 mb-4 text-base">
+              {t('ctaConsultaText')}
+            </p>
+            <Link
+              href={`/contacto?service=${service.formId || 'general'}&message=${encodeURIComponent(t('ctaConsultaMessage', { service: t(`${key}.title`) }))}`}
+              className="text-white underline underline-offset-4 hover:text-white/90 transition-colors font-medium"
+            >
+              {t('ctaConsulta')}
+            </Link>
           </div>
         </section>
       </main>

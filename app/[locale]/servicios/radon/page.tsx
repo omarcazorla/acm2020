@@ -171,8 +171,8 @@ export default async function RadonPage({ params }: Props) {
               {t('ctaDescription')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contacto" className="btn-primary group">
-                {tServices('whyCta')}
+              <Link href="/contacto?service=radon-cte" className="btn-primary group">
+                {tServices('ctaPresupuesto')}
                 <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
               <a href="tel:+34667623844" className="btn-outline group">

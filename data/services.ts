@@ -39,9 +39,9 @@ export const amiantoServices: ServicePage[] = [
 ]
 
 export const radonServices: ServicePage[] = [
-  { slug: 'medicion-gas-radon', translationKey: 'measurement', category: 'radon' },
-  { slug: 'soluciones-residenciales', translationKey: 'residential', category: 'radon' },
-  { slug: 'espacios-trabajo', translationKey: 'workspace', category: 'radon' },
+  { slug: 'medicion-gas-radon', translationKey: 'measurement', category: 'radon', formId: 'radon-cte' },
+  { slug: 'soluciones-residenciales', translationKey: 'residential', category: 'radon', formId: 'radon-hogar' },
+  { slug: 'espacios-trabajo', translationKey: 'workspace', category: 'radon', formId: 'radon-is47' },
   { slug: 'informes-tecnicos', translationKey: 'reports', category: 'radon' },
   { slug: 'formacion-radon', translationKey: 'training', category: 'radon' },
   { slug: 'como-medir-radon', translationKey: 'howto', category: 'radon' },
