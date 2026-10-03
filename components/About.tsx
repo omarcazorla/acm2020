@@ -52,7 +52,7 @@ export default function About() {
             </p>
 
             {/* Values */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
               {valueKeys.map((value) => (
                 <div
                   key={value.key}
@@ -81,7 +81,7 @@ export default function About() {
             className="grid sm:grid-cols-2 gap-6 stagger-perspective"
           >
             {featureKeys.map((feature) => (
-              <div key={feature.key} className="bg-white rounded-2xl p-8 shadow-md hover:shadow-xl border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
+              <div key={feature.key} className="bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
                 <div
                   className="absolute -top-24 -right-24 w-48 h-48 bg-primary/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
@@ -110,7 +110,7 @@ export default function About() {
 
         {/* Mission statement */}
         <div data-reveal="zoom" className="mt-20 text-center">
-          <div className="max-w-4xl mx-auto bg-gradient-to-br from-secondary to-secondary-600 rounded-3xl p-10 md:p-14 relative overflow-hidden">
+          <div className="max-w-4xl mx-auto bg-gradient-to-br from-secondary to-secondary-600 rounded-3xl p-6 sm:p-10 md:p-14 relative overflow-hidden">
             {/* Decorative elements */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
             <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary/10 rounded-full blur-2xl transform -translate-x-1/2 translate-y-1/2" />

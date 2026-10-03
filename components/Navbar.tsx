@@ -47,7 +47,7 @@ export default function Navbar({ darkHero = false }: { darkHero?: boolean }) {
       }`}
       style={{ transition: 'all 0.6s var(--ease-out-soft)' }}
     >
-      <div className="container-custom">
+      <div className="container-custom px-4 sm:px-6 lg:px-8">
         <div className={`flex items-center justify-between transition-[height] duration-500 ${isScrolled ? 'h-16' : 'h-20'}`} style={{ transitionTimingFunction: 'var(--ease-out-soft)' }}>
           {/* Logo */}
           <Link href="/" className="flex items-center pl-2">

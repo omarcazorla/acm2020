@@ -81,7 +81,7 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
 
         {/* Contact info — below form */}
         <div data-reveal="fade" className="mt-16">
-          <div className="bg-secondary rounded-3xl p-8 lg:p-10 relative overflow-hidden noise-texture">
+          <div className="bg-secondary rounded-3xl p-6 sm:p-8 lg:p-10 relative overflow-hidden noise-texture">
             <div className="mb-8">
               <h3 className="text-2xl font-bold text-white mb-2">
                 {t('infoTitle')}

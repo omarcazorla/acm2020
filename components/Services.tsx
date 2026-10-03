@@ -81,7 +81,7 @@ export default function Services() {
               <Link
                 key={service.key}
                 href={{ pathname: '/servicios/amianto/[slug]', params: { slug: service.slug } }}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
+                className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
                 <div
                   className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -119,7 +119,7 @@ export default function Services() {
               <Link
                 key={service.key}
                 href={{ pathname: '/servicios/amianto/[slug]', params: { slug: service.slug } }}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
+                className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
                 <div
                   className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -178,7 +178,7 @@ export default function Services() {
             {radonServiceKeys.map((service) => (
               <div
                 key={service.key}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group h-full relative overflow-hidden"
+                className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group h-full relative overflow-hidden"
               >
                 <div
                   className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-secondary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
@@ -208,7 +208,7 @@ export default function Services() {
 
         {/* Why our services */}
         <div data-reveal="zoom" className="mt-16">
-          <div className="bg-secondary rounded-3xl p-8 md:p-12 relative overflow-hidden noise-texture">
+          <div className="bg-secondary rounded-3xl p-6 sm:p-8 md:p-12 relative overflow-hidden noise-texture">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-4">

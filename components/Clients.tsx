@@ -41,23 +41,23 @@ export default function Clients() {
           className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 stagger-perspective"
         >
           {statKeys.map((stat) => (
-            <div key={stat.key} className="bg-white rounded-2xl p-8 text-center shadow-sm border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
+            <div key={stat.key} className="bg-white rounded-2xl p-5 sm:p-8 text-center shadow-sm border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
               <div
                 className="absolute top-0 left-1/2 -translate-x-1/2 w-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent group-hover:w-full transition-all duration-700"
                 style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
               />
-              <div className="w-16 h-16 bg-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-6 relative">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 relative">
                 <div
                   className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
                 <stat.icon
                   strokeWidth={1.5}
-                  className="w-8 h-8 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                  className="w-6 h-6 sm:w-8 sm:h-8 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
               </div>
-              <div className="text-4xl md:text-5xl font-bold text-secondary mb-2 tabular-nums">
+              <div className="text-2xl sm:text-4xl md:text-5xl font-bold text-secondary mb-2 tabular-nums">
                 {t(`stats.${stat.key}.value`)}
               </div>
               <div className="text-sm text-gray-600 font-medium">{t(`stats.${stat.key}.label`)}</div>
@@ -123,7 +123,7 @@ export default function Clients() {
 
         {/* Client types */}
         <div data-reveal="zoom">
-          <div className="bg-secondary rounded-3xl p-8 md:p-12 relative overflow-hidden noise-texture">
+          <div className="bg-secondary rounded-3xl p-6 sm:p-8 md:p-12 relative overflow-hidden noise-texture">
             <div className="text-center mb-10">
               <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-4">
                 {t('sectorsTitle')}
