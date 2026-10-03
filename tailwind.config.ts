@@ -47,6 +47,7 @@ const config: Config = {
         'slide-up': 'slideUp 0.5s ease-out',
         'float': 'float 3s ease-in-out infinite',
         'marquee': 'marquee 30s linear infinite',
+        'shine': 'shine 3s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -64,6 +65,10 @@ const config: Config = {
         marquee: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
+        },
+        shine: {
+          '0%, 100%': { backgroundPosition: '200% center' },
+          '50%': { backgroundPosition: '-200% center' },
         },
       },
     },

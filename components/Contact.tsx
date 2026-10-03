@@ -67,7 +67,7 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
               loopDelay={300}
               autoLoop
               naturalVariance
-              className="font-accent italic"
+              className="font-accent italic text-[0.85em]"
             />
             ?
           </h2>

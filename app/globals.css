@@ -81,6 +81,22 @@ body {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary via-amber-500 to-primary-700;
   }
 
+  .shiny-text {
+    background-image: linear-gradient(
+      120deg,
+      #E67E22 0%,
+      #E67E22 35%,
+      #ffffff 50%,
+      #E67E22 65%,
+      #E67E22 100%
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @apply animate-shine;
+  }
+
   .btn-primary-sm {
     @apply inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-primary rounded-lg shadow-lg hover:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 hover:shadow-xl;
     transition: transform 0.2s ease-out, background-color 0.3s var(--ease-cinematic), box-shadow 0.3s var(--ease-cinematic);
