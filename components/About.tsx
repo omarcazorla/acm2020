@@ -11,6 +11,7 @@ import {
   Leaf,
 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import ShinyText from '@/components/ui/ShinyText'
 
 const featureKeys = [
   { key: 'rera', icon: Award },
@@ -41,7 +42,7 @@ export default function About() {
             </span>
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">
               {t('title')}{' '}
-              <span className="text-gradient">{t('titleHighlight')}</span>
+              <ShinyText text={t('titleHighlight')} speed={3} delay={1} />
             </h2>
             <p className="text-lg text-gray-600 mb-6">
               {t('description1')}

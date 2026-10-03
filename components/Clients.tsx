@@ -4,6 +4,7 @@ import { Building2, Home, Landmark, Factory } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { clientLogos } from '@/lib/clients'
+import ShinyText from '@/components/ui/ShinyText'
 
 const statKeys = [
   { key: 'projects', icon: Building2 },
@@ -26,7 +27,7 @@ export default function Clients() {
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
             {t('title')}{' '}
-            <span className="text-gradient">{t('titleHighlight')}</span>
+            <ShinyText text={t('titleHighlight')} speed={3} delay={1} />
           </h2>
           <p className="text-lg text-gray-600">
             {t('subtitle')}

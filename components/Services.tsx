@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import ShinyText from '@/components/ui/ShinyText'
 
 const operativoHighlights = [
   { key: 'inspection', slug: 'inspeccion-identificacion', icon: FileSearch },
@@ -50,7 +51,7 @@ export default function Services() {
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
             {t('title')}{' '}
-            <span className="shiny-text">{t('titleHighlight')}</span>
+            <ShinyText text={t('titleHighlight')} speed={3} delay={1} />
           </h2>
           <p className="text-lg text-gray-600">
             {t('subtitle')}
