@@ -12,7 +12,7 @@ export default function Hero() {
   const tAnchors = useTranslations('anchors')
 
   return (
-    <section id={tAnchors('home')} className="relative bg-warm noise-texture">
+    <section id={tAnchors('home')} className="relative bg-warm noise-texture overflow-hidden">
       <div className="relative z-10">
         <ContainerScroll
           titleComponent={
@@ -20,7 +20,7 @@ export default function Hero() {
               {/* Eyebrow */}
               <p
                 data-reveal="fade"
-                className="uppercase tracking-[0.3em] text-sm text-secondary/60 mb-8"
+                className="uppercase tracking-[0.1em] sm:tracking-[0.3em] text-sm text-secondary/60 mb-8"
               >
                 {t('badge')}
               </p>
