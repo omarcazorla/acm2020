@@ -257,6 +257,7 @@
     "sectionLabel": "Contact",
     "title": "Let's talk about your",
     "titleHighlight": "project",
+    "titleEnd": "",
     "titleWords": ["project", "problem", "need", "goal", "inquiry", "doubt", "concern", "situation", "case", "business", "company", "home", "build"],
     "subtitle": "Tell us about your needs and we'll offer you a personalized solution. We'll respond to your inquiry within 24 hours.",
     "infoTitle": "Contact information",

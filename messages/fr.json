@@ -257,6 +257,7 @@
     "sectionLabel": "Contact",
     "title": "Parlons de votre",
     "titleHighlight": "projet",
+    "titleEnd": "",
     "titleWords": ["projet", "problème", "besoin", "objectif", "question", "doute", "préoccupation", "situation", "cas", "entreprise", "société", "logement", "chantier"],
     "subtitle": "Décrivez-nous vos besoins et nous vous proposerons une solution personnalisée. Nous répondrons à votre demande dans les 24 heures.",
     "infoTitle": "Informations de contact",

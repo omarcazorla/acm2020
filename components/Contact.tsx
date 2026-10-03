@@ -69,7 +69,7 @@ export default function Contact({ formId = 'general', prefill }: ContactProps) {
               naturalVariance
               className="font-accent italic text-[0.85em]"
             />
-            ?
+            {t('titleEnd')}
           </h2>
           <p className="text-lg text-gray-600">{t('subtitle')}</p>
         </div>

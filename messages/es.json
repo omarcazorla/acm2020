@@ -987,6 +987,7 @@
     "sectionLabel": "Contacto",
     "title": "¿Hablamos de su",
     "titleHighlight": "proyecto",
+    "titleEnd": "?",
     "titleWords": ["proyecto", "problema", "necesidad", "objetivo", "consulta", "duda", "preocupación", "situación", "caso", "negocio", "empresa", "vivienda", "obra"],
     "subtitle": "Cuéntenos sus necesidades y le ofreceremos una solución personalizada. Responderemos a su consulta en menos de 24 horas.",
     "infoTitle": "Información de contacto",
