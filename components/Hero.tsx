@@ -29,7 +29,7 @@ export default function Hero() {
               <div
                 data-stagger="fade"
                 data-stagger-seq="0.25"
-                className="text-4xl sm:text-5xl lg:text-[64px] lg:leading-[83px] font-bold text-secondary leading-tight mb-6"
+                className="text-3xl sm:text-5xl lg:text-[64px] lg:leading-[83px] font-bold text-secondary leading-tight mb-6"
               >
                 <span>{t('titleStart')} </span>
                 <span className="text-primary">{t('titleHighlight1')} </span>
@@ -54,14 +54,14 @@ export default function Hero() {
               >
                 <Link
                   href="/contacto"
-                  className="inline-flex items-center justify-center gap-2 bg-secondary text-white rounded-[10px] px-7 py-3 text-lg font-medium hover:bg-secondary/90 transition-colors group"
+                  className="inline-flex items-center justify-center gap-2 bg-secondary text-white rounded-[10px] px-5 py-2.5 text-base sm:px-7 sm:py-3 sm:text-lg font-medium hover:bg-secondary/90 transition-colors group"
                 >
                   {t('ctaPrimary')}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
                 <Link
                   href="/servicios"
-                  className="inline-flex items-center justify-center px-7 py-3 text-lg font-medium text-secondary border-2 border-secondary/20 rounded-[10px] hover:border-secondary/50 transition-colors"
+                  className="inline-flex items-center justify-center px-5 py-2.5 text-base sm:px-7 sm:py-3 sm:text-lg font-medium text-secondary border-2 border-secondary/20 rounded-[10px] hover:border-secondary/50 transition-colors"
                 >
                   {t('ctaSecondary')}
                 </Link>

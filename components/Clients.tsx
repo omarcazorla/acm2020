@@ -38,7 +38,7 @@ export default function Clients() {
         <div
           data-stagger="zoom"
           data-stagger-seq="0.1"
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16 stagger-perspective"
+          className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-16 stagger-perspective"
         >
           {statKeys.map((stat) => (
             <div key={stat.key} className="bg-white rounded-2xl p-5 sm:p-8 text-center shadow-sm border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">

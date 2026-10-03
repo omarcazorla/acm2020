@@ -407,7 +407,7 @@ export default function ContactFormBase({
         </span>
       </label>
 
-      <div className="flex items-center justify-between gap-4">
+      <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-gray-400">* {t('forms.common.required')}</p>
         <button
           type="submit"

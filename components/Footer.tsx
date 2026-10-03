@@ -155,7 +155,7 @@ export default function Footer() {
               &copy; {currentYear} {t('copyright')}
             </p>
             <LanguageSwitcher variant="inline" theme="dark" />
-            <div className="flex space-x-6 text-sm">
+            <div className="flex flex-wrap gap-x-4 gap-y-2 text-sm">
               <Link href="/legal/privacidad" className="text-white/60 hover:text-primary" style={{ transition: 'color 0.3s var(--ease-cinematic)' }}>
                 {t('privacy')}
               </Link>

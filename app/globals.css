@@ -20,9 +20,13 @@
   --reveal-duration: 0.75s;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {

@@ -9,7 +9,7 @@ export function ContainerScroll({
 }) {
   return (
     <div>
-      <div className="min-h-screen flex items-center justify-center px-4">
+      <div className="min-h-dvh flex items-center justify-center px-4">
         <div className="max-w-5xl mx-auto text-center">
           {titleComponent}
         </div>
