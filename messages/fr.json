@@ -49,101 +49,831 @@
     "asbestos": {
       "inspection": {
         "title": "Inspection et Identification",
-        "description": "Localisation et évaluation des matériaux contenant de l'amiante dans les bâtiments et installations."
+        "description": "Localisation et évaluation des matériaux contenant de l'amiante dans les bâtiments et installations.",
+        "metaDescription": "Service professionnel d’identification et d’évaluation de l’amiante dans les bâtiments et infrastructures. Diagnostic conforme à la norme UNE 171370-2:2021 et ISO/IEC 17020.",
+        "intro": "Toute intervention responsable face à l’amiante commence par une question précise : y a-t-il de l’amiante dans ce bâtiment, et dans quel état se trouve-t-il ? L’identification et l’évaluation des matériaux contenant de l’amiante répondent à cette question avec rigueur technique et conformité réglementaire.\n\nPropriétaires, syndics de copropriété, organismes publics et entités gestionnaires font appel à ce service pour obtenir un diagnostic impartial, élaboré conformément à la norme ISO/IEC 17020 et avec une formation spécifique à la norme UNE 171370-2:2021.\n\nLe rapport résultant n’est pas un document accessoire : c’est la base obligatoire sur laquelle se fonde tout Plan de Travail ultérieur d’une entreprise RERA. Sans ce point de départ, aucun retrait sécurisé ni aucune conformité réglementaire ne sont possibles.",
+        "sections": [
+          {
+            "title": "Objectif du service",
+            "content": "L’objectif principal est de constater ou de confirmer la présence ou l’absence d’amiante dans un bâtiment, une installation ou une infrastructure, indépendamment de sa localisation ou de sa typologie. Lorsqu’un matériau positif à l’amiante est détecté, le rapport recueille le résultat détaillé et constitue le point de départ pour l’adoption des mesures préventives et correctives nécessaires. Le rapport inclut la localisation précise de chaque matériau identifié, sa quantification, son état de conservation et les recommandations techniques pertinentes."
+          },
+          {
+            "title": "Méthodologie d’inspection",
+            "content": "Le processus débute par une inspection visuelle exhaustive du bâtiment ou de l’installation afin de détecter les matériaux susceptibles de contenir de l’amiante. Par la suite, les techniciens procèdent au prélèvement d’échantillons solides ou de poussières de surface pour analyse en laboratoire. Les résultats permettent de confirmer la présence d’amiante, d’identifier le type de fibre et d’évaluer le risque associé. Chaque échantillon est analysé par des laboratoires agréés et accrédités par des organismes étatiques de pays européens, étant donné qu’en Espagne il n’existe pas encore d’accréditation de laboratoires pour l’analyse de fibres d’amiante dans les matériaux."
+          },
+          {
+            "title": "Types de matériaux analysés",
+            "content": "Le service couvre l’identification de l’amiante dans tous types de matériaux et éléments de construction : toitures et plaques en fibrociment, canalisations et descentes, matériaux d’isolation thermique et acoustique, joints et scellements, revêtements de sol vinyliques, réservoirs et conduits, cloisons pluviales et tout autre matériau susceptible de contenir de l’amiante, tant à l’extérieur qu’à l’intérieur du bâtiment."
+          },
+          {
+            "title": "Livrables et rapport technique",
+            "content": "Le résultat du service est un rapport technique complet comprenant : la description détaillée de chaque matériau identifié, les résultats analytiques de laboratoire, la localisation graphique au moyen de plans et de photographies, la quantification des matériaux détectés, l’évaluation de l’état de conservation, les mesures préventives recommandées et une estimation indicative du coût de gestion. Ce document constitue la base documentaire que toute entreprise RERA doit exiger avant d’intervenir sur un site contenant de l’amiante."
+          }
+        ],
+        "keyPoints": [
+          "Diagnostic conforme à la norme UNE 171370-2:2021 de localisation et diagnostic de l’amiante",
+          "Intervention impartiale et indépendante selon les critères de la norme ISO/IEC 17020",
+          "Analyses de laboratoire réalisées par des laboratoires européens agréés et accrédités",
+          "Rapport technique complet comme base indispensable à tout Plan de Travail RERA",
+          "Service applicable aux bâtiments, installations et infrastructures de propriété publique et privée"
+        ],
+        "regulations": "UNE 171370-2:2021 (Localisation et diagnostic de l’amiante), ISO/IEC 17020 (Critères d’impartialité et de neutralité), Décret Royal 396/2006 (Dispositions minimales de sécurité et de santé applicables aux travaux avec risque d’exposition à l’amiante), Arrêté du 7 décembre 2001 (Interdiction totale de l’amiante en Espagne), Règlement CE 1907/2006 REACH."
       },
       "management": {
         "title": "Plans de Gestion",
-        "description": "Élaboration de plans de gestion des MCA conformément à la réglementation en vigueur."
+        "description": "Élaboration de plans de gestion des MCA conformément à la réglementation en vigueur.",
+        "metaDescription": "Plans de gestion de l’amiante pour bâtiments et infrastructures. Priorisation du retrait, suivi et conformité à la Loi 7/2022 sur les déchets.",
+        "intro": "Un Plan de Gestion de l’Amiante est l’instrument qui permet aux propriétaires et gestionnaires de bâtiments, installations et infrastructures d’aborder de manière ordonnée, sécurisée et efficace la problématique de l’amiante présent dans leurs actifs. Ce document stratégique établit les priorités d’intervention, les délais d’exécution et les protocoles de sécurité nécessaires.\n\nACM-2020 élabore des plans de gestion adaptés à chaque situation, qu’il s’agisse d’un bâtiment individuel ou de grands portefeuilles immobiliers ou d’infrastructures municipales. Notre approche intègre l’identification, l’évaluation de l’état de conservation, la priorisation du retrait et le suivi de l’ensemble du processus jusqu’à l’élimination complète de l’amiante.\n\nLa Loi 7/2022, du 8 avril, relative aux déchets et aux sols contaminés pour une économie circulaire, oblige les municipalités à élaborer des recensements des installations et sites contenant de l’amiante, assortis d’un calendrier de retrait. Nos plans de gestion satisfont à ces exigences légales et fournissent une feuille de route claire pour l’éradication responsable de l’amiante.",
+        "sections": [
+          {
+            "title": "Composantes du plan de gestion",
+            "content": "Un Plan de Gestion de l’Amiante élaboré par ACM-2020 comprend : l’inventaire complet des matériaux contenant de l’amiante identifiés, l’évaluation de l’état de conservation de chaque matériau, la classification par niveau de risque et priorité d’intervention, le calendrier de retrait avec des délais définis, les protocoles de sécurité pendant la phase de cohabitation avec l’amiante, les mesures préventives immédiates pour les matériaux détériorés et le budget estimé pour chaque phase d’intervention."
+          },
+          {
+            "title": "Priorisation des interventions",
+            "content": "La priorisation du retrait est établie en fonction du degré de dangerosité et d’exposition de la population. Sont pris en compte des facteurs tels que l’état de détérioration du matériau, sa localisation et son accessibilité, le type de fibre d’amiante, la probabilité de libération de fibres, l’exposition de personnes vulnérables et l’usage de l’espace. Les matériaux présentant le risque le plus élevé de libération de fibres sont traités en priorité, notamment dans les installations publiques."
+          },
+          {
+            "title": "Suivi et mise à jour",
+            "content": "Le plan de gestion est un document évolutif qui nécessite un suivi et une mise à jour périodiques. ACM-2020 réalise des inspections de contrôle pour vérifier l’état des matériaux en attente de retrait, met à jour l’évaluation des risques lorsque les conditions changent et documente chaque intervention réalisée. Cela inclut le contrôle de l’ensemble de l’amiante détecté, retiré et envoyé à un gestionnaire autorisé."
+          },
+          {
+            "title": "Base de données géoréférencée",
+            "content": "ACM-2020 dispose d’outils propriétaires pour élaborer et gérer des bases de données géoréférencées qui répertorient l’ensemble des bâtiments, installations et infrastructures contenant de l’amiante, leur état de dégradation et les priorités de retrait. Cet outil permet le contrôle et le suivi intégral de tout l’amiante géré, quelle que soit l’échelle de travail."
+          }
+        ],
+        "keyPoints": [
+          "Conformité à la Loi 7/2022 relative aux déchets et aux sols contaminés pour une économie circulaire",
+          "Priorisation des interventions selon le degré de dangerosité et l’exposition des populations vulnérables",
+          "Outils propriétaires avec base de données géoréférencée pour une gestion intégrale",
+          "Suivi continu et mise à jour périodique du plan de gestion",
+          "Adaptable à toute échelle : d’un bâtiment individuel aux infrastructures municipales",
+          "Installations publiques à risque élevé gérées avant 2028 conformément à la législation"
+        ],
+        "regulations": "Loi 7/2022, du 8 avril, relative aux déchets et aux sols contaminés pour une économie circulaire (Disposition additionnelle quatorzième), Décret Royal 396/2006, Arrêté du 7 décembre 2001, Règlement CE 1907/2006 REACH, Directive 2009/148/CE, Résolution du Parlement européen du 14 mars 2013."
       },
       "projects": {
         "title": "Projets de Désamiantage",
-        "description": "Rédaction de projets techniques pour le retrait sécurisé des matériaux contenant de l'amiante."
+        "description": "Rédaction de projets techniques pour le retrait sécurisé des matériaux contenant de l'amiante.",
+        "metaDescription": "Projets de retrait de l’amiante avec suivi technique indépendant. Contrôle de qualité des confinements dynamiques et statiques. Entreprise inscrite au RERA.",
+        "intro": "Entre le diagnostic de l’amiante et la vérification finale de son retrait, il y a un processus qui exige une planification rigoureuse, un contrôle de qualité et une supervision indépendante. Les services opérationnels d’ACM-2020 couvrent l’intégralité de cette chaîne.\n\nToutes nos interventions s’effectuent dans le cadre du Plan de Travail 86/AB/09-001-B, approuvé par l’autorité du travail et soumis en permanence au suivi et à la mesure au sein du Registro de Empresas con Riesgo de Amianto (RERA).\n\nNotre rôle n’est pas d’exécuter le retrait : il est de garantir que les entreprises RERA chargées de l’exécution travaillent conformément aux procédures, sans risque de contamination pour les tiers. Cette indépendance est ce qui confère une véritable valeur au contrôle.",
+        "sections": [
+          {
+            "title": "Suivi des Plans de Travail",
+            "content": "ACM-2020 réalise un suivi indépendant et parallèle du Plan de Travail exécuté par l’entreprise RERA mandatée pour le retrait. Ce contrôle de qualité couvre aussi bien la phase opérationnelle (pendant l’exécution) que la phase de finalisation. L’objectif est d’assurer le respect des procédures liées à la prévention de la contamination des tiers, en vérifiant que les confinements dynamiques ou statiques fonctionnent correctement."
+          },
+          {
+            "title": "Contrôle de qualité final des surfaces",
+            "content": "À l’issue des travaux de retrait, de stabilisation, d’encapsulage ou de confinement de matériaux contenant de l’amiante, ACM-2020 réalise un contrôle de qualité final confirmant que le service répond aux normes requises. Étant effectué par une entreprise externe non liée à l’exécution, l’impartialité et l’indépendance du résultat sont garanties."
+          },
+          {
+            "title": "Contrôle périodique des surfaces traitées",
+            "content": "Dans les cas où les matériaux contenant de l’amiante ont été stabilisés, encapsulés ou confinés plutôt que retirés, ACM-2020 effectue des contrôles périodiques pour vérifier que les traitements appliqués conservent leur efficacité et qu’aucune libération de fibres ne se produit. Ce suivi périodique est essentiel pour garantir la sécurité à long terme."
+          },
+          {
+            "title": "Échantillonnage ambiant",
+            "content": "La vérification par échantillonnages statiques ambiants (point fixe) est réalisée en des points proches de la source potentielle d’émission de fibres d’amiante. Cette mesure des fibres dans l’air ambiant, effectuée selon la méthodologie française, permet de démontrer que la phase opérationnelle du Plan de Travail ne représente pas un danger pour les tiers ni pour l’environnement à proximité du site d’intervention."
+          }
+        ],
+        "keyPoints": [
+          "Plan de Travail approuvé sous le numéro RERA 86/AB/09-001-B",
+          "Suivi indépendant de l’exécution par les entreprises RERA",
+          "Contrôle de qualité pendant et à l’issue des processus",
+          "Échantillonnage statique ambiant selon la méthodologie française pour la mesure des fibres dans l’air",
+          "Contrôle périodique des surfaces stabilisées, encapsulées ou confinées"
+        ],
+        "regulations": "Décret Royal 396/2006 (Dispositions minimales de sécurité et de santé pour les travaux avec risque d’exposition à l’amiante), RERA (Registro de Empresas con Riesgo de Amianto), Arrêté du 7 décembre 2001, ISO/IEC 17020."
       },
       "waste": {
         "title": "Gestion des Déchets",
-        "description": "Conseil sur l'élimination et le transport corrects des déchets d'amiante."
+        "description": "Conseil sur l'élimination et le transport corrects des déchets d'amiante.",
+        "metaDescription": "Gestion des déchets d’amiante dans les sols et les eaux. Quantification, traçabilité et envoi à un gestionnaire autorisé conformément à la réglementation en vigueur. NEN 5707.",
+        "intro": "La gestion des déchets d’amiante englobe l’identification, la quantification et le traitement des matériaux contaminés par l’amiante présents dans différents milieux : sols, eaux, matériaux de construction et autres éléments. Ce service est fondamental pour garantir que les déchets dangereux sont manipulés avec les garanties de sécurité maximales et envoyés à des gestionnaires autorisés.\n\nACM-2020 propose un service intégral de gestion des déchets comprenant l’évaluation initiale, la quantification de la teneur en amiante, la détermination des fibres respirables et l’accompagnement durant l’ensemble du processus d’élimination. Notre objectif est de s’assurer que chaque déchet contenant de l’amiante reçoit le traitement adéquat et fait l’objet d’une documentation appropriée.\n\nLa contamination des sols par l’amiante et la présence de fibres dans les systèmes d’approvisionnement en eau sont des problématiques spécifiques qui nécessitent des méthodologies et des cadres réglementaires spécialisés. ACM-2020 dispose de la formation nécessaire pour aborder ces situations en appliquant les normes techniques les plus exigeantes.",
+        "sections": [
+          {
+            "title": "Sols contaminés par l’amiante",
+            "content": "La quantification de la teneur en amiante dans un volume de terres est un besoin très spécifique qu’ACM-2020 résout par prélèvement d’échantillons et analyse en laboratoire. En cas de suspicion de présence d’amiante dans les sols, la concentration en amiante ainsi que la présence de fibres respirables sont déterminées. Ces fibres libres sont des particules extrêmement fines pouvant rester en suspension dans l’air pendant de longues périodes, représentant un risque significatif pour la santé humaine. Étant invisibles à l’œil nu, leur détection nécessite des analyses spécialisées."
+          },
+          {
+            "title": "Eaux contenant de l’amiante",
+            "content": "La détermination de la concentration de fibres d’amiante dissoutes dans l’eau couvre aussi bien le réseau de distribution d’eau potable que les sources d’eau naturelles. L’objectif est de disposer d’informations précises sur la quantité d’amiante présente afin de garantir le respect des normes de sécurité de l’approvisionnement en eau. Le processus comprend un échantillonnage contrôlé suivi d’une analyse dans un laboratoire externe et indépendant par microscopie électronique."
+          },
+          {
+            "title": "Traçabilité et documentation",
+            "content": "ACM-2020 garantit la traçabilité complète de chaque déchet d’amiante, depuis son identification et sa quantification jusqu’à son envoi à un gestionnaire autorisé. L’ensemble de la documentation générée satisfait aux exigences légales et est consigné dans la base de données du projet, permettant de vérifier que les déchets ont été retirés et gérés correctement."
+          },
+          {
+            "title": "Cadre réglementaire applicable",
+            "content": "En Espagne, il n’existe actuellement aucune valeur limite pour la concentration d’amiante dans le sol ni dans l’eau potable, pas plus que de laboratoires agréés pour ces analyses. C’est pourquoi ACM-2020 utilise le cadre réglementaire des Pays-Bas et applique la norme NEN 5707 pour les sols contaminés. Pour les eaux, la référence retenue est le Niveau Maximum de Contaminant établi par l’USEPA en 1991, fixé à 7 millions de fibres supérieures à 10 micromètres par litre. Les analyses sont réalisées dans des laboratoires agréés et accrédités par des organismes étatiques de pays européens."
+          }
+        ],
+        "keyPoints": [
+          "Quantification de la concentration d’amiante dans les sols et détermination des fibres respirables",
+          "Détermination des fibres d’amiante dans les eaux potables et naturelles",
+          "Traçabilité complète du déchet depuis son identification jusqu’au gestionnaire autorisé",
+          "Application de la norme NEN 5707 (Pays-Bas) pour les sols contaminés",
+          "Analyses dans des laboratoires européens agréés et accrédités",
+          "Accompagnement intégral durant l’ensemble du processus d’élimination des déchets"
+        ],
+        "regulations": "NEN 5707 (norme néerlandaise pour les sols contaminés par l’amiante), USEPA Niveau Maximum de Contaminant pour les fibres d’amiante dans l’eau potable (7 MFL > 10 micromètres), Loi 7/2022 relative aux déchets et aux sols contaminés, Décret Royal 396/2006, ISO/IEC 17020, Directive 2020/2184 (UE) relative à la qualité des eaux destinées à la consommation humaine."
       },
       "supervision": {
         "title": "Direction de Chantier",
-        "description": "Supervision technique des travaux de désamiantage garantissant la sécurité."
+        "description": "Supervision technique des travaux de désamiantage garantissant la sécurité.",
+        "metaDescription": "Suivi indépendant des plans de travail de retrait de l’amiante. Contrôle de qualité pendant et après l’exécution. Entreprise inscrite RERA 86/AB/09.",
+        "intro": "Qu’une entreprise RERA exécute un plan de travail ne signifie pas qu’elle le fasse correctement. Un intervenant indépendant doit le vérifier. Tel est le rôle du suivi : une supervision externe des opérations de retrait, d’encapsulage, de stabilisation ou de confinement de matériaux contenant de l’amiante.\n\nACM-2020 réalise ces contrôles selon les critères d’impartialité de la norme ISO/IEC 17020, aussi bien pour des organismes publics que pour des propriétaires privés ayant besoin de garanties sur l’exécution effective des travaux.\n\nÀ mesure que les matériaux contenant de l’amiante installés avant 2002 atteignent la fin de leur durée de vie utile, la demande de supervision indépendante augmente. Les risques de libération de fibres au cours des interventions exigent une vigilance technique que seule une entité disposant d’une inscription RERA et d’un plan de travail approuvé peut offrir.",
+        "sections": [
+          {
+            "title": "Contrôle pendant l’exécution",
+            "content": "Le suivi pendant l’exécution du Plan de Travail comprend la vérification des confinements dynamiques ou statiques, le contrôle des procédures de travail, la supervision des mesures de protection individuelle et collective, et la surveillance d’une éventuelle libération de fibres dans l’environnement. ACM-2020 intervient en tant qu’entité indépendante et parallèle à l’entreprise RERA chargée de l’exécution."
+          },
+          {
+            "title": "Contrôle de qualité à l’issue des travaux",
+            "content": "Une fois les travaux achevés, un contrôle de qualité final est effectué, comprenant l’inspection visuelle des surfaces traitées et l’échantillonnage ambiant pour vérifier l’absence de fibres d’amiante dans l’air. Ce contrôle, réalisé par une entreprise externe non liée à l’exécution, confirme que le service fourni répond aux normes de sécurité exigées."
+          },
+          {
+            "title": "Échantillonnage statique ambiant",
+            "content": "La vérification par échantillonnages statiques ambiants en points fixes proches de la source potentielle d’émission de fibres permet de démontrer que la phase opérationnelle du Plan de Travail ne représente pas un danger pour les tiers ni pour l’environnement à proximité. Cette mesure des fibres dans l’air est réalisée selon une méthodologie accréditée et les résultats sont documentés dans le rapport correspondant."
+          },
+          {
+            "title": "Indicateurs de détérioration évalués",
+            "content": "Au cours du suivi, des indicateurs clés sont évalués, tels que les fractures dans les matériaux, les fissures susceptibles de faciliter la libération de fibres, la présence de fibres libres en surface et le détachement actif de fibres. Chacun de ces indicateurs est documenté et classé selon sa gravité afin de déterminer la nécessité d’actions correctives immédiates."
+          }
+        ],
+        "keyPoints": [
+          "Suivi indépendant et parallèle de l’entreprise RERA chargée de l’exécution",
+          "Contrôle de qualité pendant et à l’issue des processus",
+          "Échantillonnage statique ambiant en points fixes proches de la source d’émission",
+          "Évaluation des indicateurs critiques : fractures, fissures, fibres libres et détachements",
+          "Plan de Travail approuvé RERA 86/AB/09-001-B"
+        ],
+        "regulations": "Décret Royal 396/2006, ISO/IEC 17020 (Critères d’impartialité), RERA (Registro de Empresas con Riesgo de Amianto), Arrêté du 7 décembre 2001, Directive 2009/148/CE."
       },
       "risk": {
         "title": "Évaluation des Risques",
-        "description": "Analyse des risques professionnels liés à l'exposition à l'amiante."
+        "description": "Analyse des risques professionnels liés à l'exposition à l'amiante.",
+        "metaDescription": "Évaluation de l’état de conservation de l’amiante. Détermination de la fin de vie utile des MCA selon la réglementation européenne. Inspection et échantillonnage non destructif.",
+        "intro": "L’évaluation de l’état de conservation des matériaux contenant de l’amiante est un service technique qui permet d’apprécier de manière objective le degré de dégradation de ces matériaux et de déterminer s’ils ont atteint la fin de leur durée de vie utile. Cette étude est fondamentale pour établir les priorités de retrait et adopter les mesures préventives appropriées.\n\nCette activité concerne majoritairement les toitures en amiante-ciment (fibrociment), bien qu’elle soit applicable à tout type de matériau à contenu d’amiante (MCA). La demande de ce service est croissante de la part de la société civile, des propriétaires et des entités gestionnaires de bâtiments qui ont besoin de connaître l’état réel des matériaux contenant de l’amiante présents dans leurs installations.\n\nSelon la Résolution du Parlement européen du 14 mars 2013, les matériaux contenant de l’amiante possèdent habituellement un cycle de vie de 30 à 50 ans. Étant donné qu’en Espagne l’amiante a été totalement interdit en 2002, nombre des matériaux installés atteignent ou ont déjà dépassé la fin de leur durée de vie utile, ce qui implique un risque croissant de libération de fibres.",
+        "sections": [
+          {
+            "title": "Méthodologie d’évaluation",
+            "content": "L’évaluation consiste en une inspection détaillée du matériau, la vérification visuelle de son état et un prélèvement de surface non destructif. Des indicateurs clés de détérioration sont examinés, tels que les fractures, les fissures, la présence de fibres libres en surface et le détachement actif de fibres. Lorsqu’un matériau présente un degré de dégradation suffisant pour considérer que sa durée de vie utile est achevée, le rapport en fait état et recommande la méthodologie la plus adaptée pour sa gestion responsable."
+          },
+          {
+            "title": "Concept de fin de vie utile",
+            "content": "La réglementation européenne établit que l’utilisation d’articles contenant de l’amiante installés avant le 1er janvier 2005 est admise jusqu’à leur élimination ou la fin de leur durée de vie utile. On entend par durée de vie utile le temps estimé pendant lequel un produit peut remplir la fonction pour laquelle il a été fabriqué, en fonction de son entretien et de ses conditions d’utilisation. Dans le domaine de la prévention, la fin de la durée de vie utile est atteinte lorsque le matériau peut nuire à la santé en raison de sa probabilité de libérer des fibres d’amiante dans l’environnement, que ce soit par son état de conservation ou par des facteurs tels que le risque de ruptures, de chocs ou de vibrations."
+          },
+          {
+            "title": "Impact sur le calendrier de retrait",
+            "content": "L’état de conservation d’un matériau contenant de l’amiante affecte directement le calendrier de retrait établi dans le plan de gestion. Les matériaux présentant une détérioration avancée doivent être traités en priorité absolue. Le rapport d’évaluation fournit les informations nécessaires pour reclasser les priorités et, le cas échéant, activer des mesures d’urgence telles que l’encapsulage temporaire ou la restriction d’accès à la zone concernée."
+          },
+          {
+            "title": "Accréditation et compétences",
+            "content": "ACM-2020 dispose de la formation et de l’expérience nécessaires pour mener à bien les évaluations de l’état de conservation des matériaux contenant de l’amiante. L’entreprise possède un Plan de Travail approuvé qui intègre spécifiquement cette activité, et exécute le service selon les critères d’impartialité et de neutralité de la norme ISO/IEC 17020, aussi bien pour des organismes publics que pour des propriétaires privés."
+          }
+        ],
+        "keyPoints": [
+          "Évaluation objective du degré de détérioration par inspection visuelle et échantillonnage non destructif",
+          "Détermination de la fin de vie utile conformément à la réglementation européenne",
+          "Priorisation du retrait selon le niveau de dégradation détecté",
+          "Applicable aux toitures en fibrociment et à tout type de matériau contenant de l’amiante",
+          "Rapport avec recommandations d’intervention et méthodologie de gestion responsable"
+        ],
+        "regulations": "Arrêté du 7 décembre 2001 (Interdiction de l’amiante), Décret Royal 1406/1989, Règlement CE 1907/2006 REACH (Annexe XVII), Directive 2009/148/CE, Résolution du Parlement européen du 14 mars 2013, Guide technique de l’INSST pour l’évaluation et la prévention des risques d’exposition à l’amiante, ISO/IEC 17020."
       },
       "audits": {
         "title": "Audits",
-        "description": "Audits d'amiante."
+        "description": "Audits d'amiante.",
+        "metaDescription": "Audits d'amiante complets : inspection visuelle, échantillonnage, suivi des plans de travail et contrôle qualité. Conformité ISO/IEC 17020.",
+        "intro": "Les audits d'amiante constituent un service intégral couvrant l'ensemble du cycle de gestion de l'amiante : de la détection initiale à la vérification finale après le retrait. Ce service répond à la prise de conscience croissante des dangers de l'amiante dans les bâtiments et installations, ainsi qu'à la nécessité d'adopter une approche systématique et professionnelle.\n\nACM-2020 se conforme aux plus hauts standards d'impartialité et de neutralité selon la norme ISO/IEC 17020, garantissant la fiabilité de chaque rapport. Nous intervenons aussi bien pour des organismes publics que pour des propriétaires privés, avec un engagement total envers la sécurité et le bien-être des occupants des espaces audités.\n\nLe rapport résultant d'un audit n'est pas seulement un document informatif, mais le point de départ des actions futures. Lorsque de l'amiante est détecté, nous fournissons les orientations nécessaires, y compris une estimation du coût de gestion et les mesures préventives et correctives recommandées.",
+        "sections": [
+          {
+            "title": "Inspections visuelles",
+            "content": "La première phase de l'audit consiste en une inspection visuelle exhaustive visant à détecter les matériaux ou éléments susceptibles de contenir de l'amiante. Les examens visuels présentent l'avantage d'être très rentables et servent de premier criblage pour déterminer si un bâtiment ou une installation peut contenir de l'amiante. Cette phase permet d'identifier rapidement les zones à risque et de planifier le prélèvement d'échantillons ultérieur."
+          },
+          {
+            "title": "Prélèvement d'échantillons et analyses",
+            "content": "Les techniciens procèdent au prélèvement d'échantillons solides ou de poussières de surface afin de réaliser une identification et une évaluation complètes des matériaux contenant de l'amiante. Ce processus permet la localisation et le diagnostic de chaque matériau, avec l'obtention de résultats rapides et fiables. L'étude peut conclure par le prix approximatif de la gestion des matériaux détectés, ainsi que la proposition de mesures préventives et correctives."
+          },
+          {
+            "title": "Suivi des plans de travail",
+            "content": "Lors de la phase de retrait, ACM-2020 effectue un suivi indépendant et parallèle du plan de travail exécuté par l'entreprise RERA, en s'assurant du respect des procédures liées à la prévention de la contamination des tiers. Ce contrôle qualité est réalisé tant pendant l'exécution qu'à l'achèvement des opérations."
+          },
+          {
+            "title": "Contrôle qualité et échantillonnage environnemental",
+            "content": "L'audit comprend le contrôle qualité final après les travaux de retrait, de stabilisation, d'encapsulage ou de confinement, ainsi que la vérification par des échantillonnages statiques-environnementaux en points fixes à proximité de la source d'émission potentielle. Cela permet de démontrer que les opérations ne représentent pas un danger pour les tiers ni pour l'environnement proche."
+          }
+        ],
+        "keyPoints": [
+          "Service intégral couvrant l'ensemble du cycle de gestion de l'amiante",
+          "Inspections visuelles rentables en première phase de détection",
+          "Rapport détaillé avec estimation des coûts de gestion et mesures correctives",
+          "Suivi indépendant des plans de travail des entreprises RERA",
+          "Contrôle qualité final et échantillonnage environnemental post-intervention",
+          "Intervention conforme à ISO/IEC 17020 pour garantir l'impartialité"
+        ],
+        "regulations": "ISO/IEC 17020 (Critères d'impartialité et de neutralité), RD 396/2006, UNE 171370-2:2021 (Localisation et diagnostic de l'amiante), RERA (Registre des Entreprises à Risque d'Amiante)."
       },
       "training": {
         "title": "Formation",
-        "description": "Formation en amiante."
+        "description": "Formation en amiante.",
+        "metaDescription": "Formation spécialisée en amiante conforme au RD 396/2006. Programmes pour techniciens, services de prévention, entreprises RERA et organismes publics.",
+        "intro": "La formation en matière d'amiante est un pilier fondamental pour garantir la sécurité des travailleurs et la gestion correcte de ce matériau dangereux. ACM-2020 propose des programmes de formation adaptés aux besoins spécifiques de chaque organisation, des organismes publics aux entreprises privées inscrites au RERA.\n\nNos programmes couvrent tous les aspects pertinents du Décret Royal 396/2006 et s'adaptent à différents niveaux professionnels : techniciens des services de prévention, dirigeants et opérateurs d'entreprises RERA, personnel des municipalités et autres organismes publics. La flexibilité du contenu permet de personnaliser chaque action de formation selon les exigences techniques spécifiques du client.\n\nEn plus de la formation réglementaire, ACM-2020 participe activement à des commissions techniques, des congrès nationaux et internationaux, et collabore avec des organismes publics dans la conception d'actions de formation, apportant des connaissances actualisées et une expérience pratique de terrain.",
+        "sections": [
+          {
+            "title": "Formation pour les services de prévention",
+            "content": "Les techniciens des services de prévention internes (SPP) et externes (SPA) nécessitent une formation spécifique sur les risques associés à l'amiante et les protocoles d'intervention établis par la réglementation. ACM-2020 propose des programmes de formation incluant l'identification des matériaux contenant de l'amiante, l'évaluation des risques, les procédures de travail en sécurité et la gestion des situations d'urgence."
+          },
+          {
+            "title": "Formation pour les entreprises RERA",
+            "content": "Les dirigeants et techniciens des entreprises inscrites au RERA nécessitent une mise à jour continue de leurs connaissances en matière de gestion de l'amiante. Nos cours abordent les exigences légales du RD 396/2006, les procédures d'élaboration et d'exécution des plans de travail, les techniques de confinement et de retrait, ainsi que les protocoles de contrôle qualité."
+          },
+          {
+            "title": "Formation pour les organismes publics",
+            "content": "ACM-2020 collabore avec les différentes administrations dans la conception et l'élaboration d'actions de formation destinées à leur personnel technique. Ces programmes incluent l'identification visuelle des matériaux suspects, l'élaboration de recensements municipaux d'amiante, la gestion des plaintes et des consultations citoyennes, et la coordination avec les entreprises RERA pour le retrait."
+          },
+          {
+            "title": "Participation aux événements et commissions",
+            "content": "En plus de la formation directe, ACM-2020 participe à différentes commissions techniques liées à l'amiante et à des congrès nationaux et internationaux. Cette participation active nous permet de rester à la pointe des connaissances et de transmettre les dernières avancées et meilleures pratiques à nos programmes de formation."
+          }
+        ],
+        "keyPoints": [
+          "Programmes adaptés à différents niveaux professionnels et besoins spécifiques",
+          "Formation conforme au RD 396/2006 sur les travaux présentant un risque d'exposition à l'amiante",
+          "Flexibilité du contenu pour personnaliser chaque action de formation",
+          "Participation active à des commissions techniques et des congrès spécialisés",
+          "Collaboration avec les administrations publiques dans la conception d'actions de formation"
+        ],
+        "regulations": "RD 396/2006 (Dispositions minimales de sécurité et de santé pour les travaux présentant un risque d'exposition à l'amiante), Loi 7/2022 sur les déchets et les sols contaminés, UNE 171370-2:2021, ISO/IEC 17020."
       },
       "consulting": {
         "title": "Conseil",
-        "description": "Services de conseil en amiante."
+        "description": "Services de conseil en amiante.",
+        "metaDescription": "Conseil et expertise spécialisés en amiante. Expertises, rapports de conformité légale, accompagnement pour les recensements et la gestion conforme au RD 396/2006.",
+        "intro": "ACM-2020 propose un service de conseil et d'expertise intégral en matière d'amiante, destiné aux administrations publiques, aux entreprises privées et aux particuliers qui nécessitent un accompagnement professionnel pour gérer la problématique de l'amiante dans leurs bâtiments, installations ou infrastructures.\n\nNotre équipe conseille sur tous les aspects liés à la réglementation en vigueur, la planification des interventions, l'élaboration de recensements municipaux et la gestion interne des exigences légales associées à l'amiante. Chaque cas est traité de manière personnalisée, en adaptant les solutions aux circonstances spécifiques du client.\n\nNous réalisons également des expertises liées à l'exposition professionnelle, environnementale ou domestique à l'amiante, en fournissant des rapports techniques rigoureux pouvant être utilisés dans le cadre de procédures administratives ou judiciaires.",
+        "sections": [
+          {
+            "title": "Collaboration avec les administrations publiques",
+            "content": "ACM-2020 collabore étroitement avec les différentes administrations sur tout ce qui concerne la problématique de l'amiante. Ce service couvre le conseil technique pour l'élaboration de recensements municipaux d'amiante, l'accompagnement dans la sélection d'entreprises RERA pour le retrait, et l'orientation pour le respect de la Loi 7/2022 et de ses délais obligatoires."
+          },
+          {
+            "title": "Conseil aux entreprises",
+            "content": "Nous élaborons des rapports relatifs à la mise en conformité de l'entreprise avec les exigences légales associées à l'amiante, conformément au RD 396/2006. Ce service comprend la révision des procédures internes, l'évaluation de l'exposition des travailleurs, la vérification du respect des obligations de registre et de notification, et la recommandation d'améliorations des protocoles de sécurité."
+          },
+          {
+            "title": "Expertises spécialisées",
+            "content": "Nous réalisons des expertises techniques liées à l'exposition professionnelle, environnementale ou domestique à l'amiante. Ces rapports d'expertise sont élaborés avec rigueur technique et scientifique, et sont recevables dans le cadre de procédures administratives, judiciaires ou assurantielles. L'expertise peut inclure l'évaluation de l'exposition historique, l'identification des sources de contamination et l'estimation des dommages."
+          },
+          {
+            "title": "Accompagnement pour les recensements d'amiante",
+            "content": "ACM-2020 accompagne la planification, l'élaboration et la gestion des recensements d'amiante dans les bâtiments, installations et infrastructures de propriété publique et privée. Notre accompagnement couvre l'ensemble du processus, depuis la définition du périmètre et de la méthodologie jusqu'à l'interprétation des résultats et la hiérarchisation des interventions de retrait."
+          }
+        ],
+        "keyPoints": [
+          "Conseil intégral adapté aux administrations publiques, entreprises et particuliers",
+          "Élaboration de rapports de conformité légale conformes au RD 396/2006",
+          "Expertises spécialisées en exposition professionnelle, environnementale et domestique",
+          "Accompagnement dans l'élaboration de recensements municipaux d'amiante",
+          "Collaboration avec toutes les administrations impliquées dans la gestion de l'amiante"
+        ],
+        "regulations": "RD 396/2006, Loi 7/2022 sur les déchets et les sols contaminés pour une économie circulaire, Ordonnance du 7 décembre 2001, ISO/IEC 17020, Directive 2009/148/CE."
       },
       "censuses": {
         "title": "Recensements Municipaux",
-        "description": "Recensements d'amiante dans les bâtiments et infrastructures."
+        "description": "Recensements d'amiante dans les bâtiments et infrastructures.",
+        "metaDescription": "Recensements d'amiante municipaux conformes à la Loi 7/2022. Base de données géoréférencée, priorités de retrait et outils de gestion propriétaires.",
+        "intro": "L'élaboration de recensements d'amiante est une obligation légale établie par la Loi 7/2022 du 8 avril sur les déchets et les sols contaminés pour une économie circulaire. Les municipalités doivent élaborer un recensement des installations et des sites contenant de l'amiante, incluant un calendrier planifiant leur retrait, à caractère public et transmis aux autorités sanitaires, environnementales et du travail.\n\nACM-2020 dispose de la formation, de l'expérience et d'outils propriétaires développés pour élaborer et gérer des recensements d'amiante à toute échelle : d'un bâtiment individuel à une municipalité entière. Notre méthodologie va au-delà de la simple détection des couvertures en fibrociment par télédétection, en englobant tous les matériaux contenant de l'amiante présents tant à l'extérieur qu'à l'intérieur des bâtiments.\n\nLe résultat est une base de données géoréférencée complète qui recense tous les matériaux contenant de l'amiante détectés, leur état de dégradation et les priorités de retrait, permettant une gestion intégrale et le suivi de l'ensemble de l'amiante jusqu'à son élimination définitive.",
+        "sections": [
+          {
+            "title": "Phases du Recensement Municipal d'Amiante",
+            "content": "Le processus d'élaboration d'un Recensement Municipal d'Amiante (CMA) comprend cinq phases. Premièrement, la définition du périmètre et la collecte documentaire des bâtiments, installations et infrastructures de la municipalité. Deuxièmement, l'inspection visuelle initiale pour identifier les éléments susceptibles de contenir de l'amiante. Troisièmement, l'identification et l'évaluation de l'amiante détecté par prélèvement d'échantillons et analyses en laboratoire. Quatrièmement, l'exécution des mesures préventives sur les matériaux à éradiquer. Cinquièmement, l'exécution des mesures correctives et la gestion des déchets jusqu'à leur destination finale auprès d'un gestionnaire agréé."
+          },
+          {
+            "title": "Méthodologie intégrale",
+            "content": "ACM-2020 considère que le recensement doit inclure tous les matériaux contenant de l'amiante d'un bâtiment, tant à l'extérieur qu'à l'intérieur. La télédétection pour détecter les couvertures en fibrociment ne représente qu'une partie du processus, car de nombreux autres éléments et matériaux ne peuvent pas être détectés par cette technologie. L'objectif est de localiser, photographier et quantifier tous les matériaux contenant de l'amiante ou suspects d'en contenir."
+          },
+          {
+            "title": "Base de données géoréférencée",
+            "content": "ACM-2020 élabore une base de données géoréférencée propriétaire qui recense tous les bâtiments, installations et infrastructures contenant de l'amiante, leur état de dégradation et les priorités de retrait en fonction de leur dangerosité. Cet outil permet le contrôle intégral de l'amiante détecté, retiré et envoyé auprès d'un gestionnaire agréé, facilitant la gestion continue et le respect des délais légaux."
+          },
+          {
+            "title": "Calendrier de retrait",
+            "content": "Le recensement comprend un calendrier de retrait qui hiérarchise les installations et les sites selon leur degré de dangerosité et d'exposition aux populations les plus vulnérables. Les installations ou sites à caractère public présentant le risque le plus élevé doivent être pris en charge avant 2028. Le calendrier est public et transmis aux autorités compétentes conformément à la loi."
+          }
+        ],
+        "keyPoints": [
+          "Respect de l'obligation légale de la Loi 7/2022 pour les municipalités",
+          "Méthodologie intégrale allant au-delà de la détection par télédétection des couvertures",
+          "Base de données géoréférencée propriétaire pour la gestion et le suivi",
+          "Calendrier de retrait avec hiérarchisation par dangerosité et exposition",
+          "Expérience en recensements à toute échelle : bâtiments individuels ou municipalités entières",
+          "Installations publiques à risque élevé prises en charge avant 2028"
+        ],
+        "regulations": "Loi 7/2022 du 8 avril sur les déchets et les sols contaminés pour une économie circulaire (Disposition additionnelle quatorzième), RD 396/2006, UNE 171370-2:2021, ISO/IEC 17020, Base metodològica per la redacció del document-guia per l'eradicació de l'amiant als municipis (CMA vs Mapa de l'Amiant a Catalunya)."
       },
       "water": {
         "title": "Amiante dans l'Eau",
-        "description": "Analyse des fibres d'amiante dans les systèmes d'approvisionnement en eau."
+        "description": "Analyse des fibres d'amiante dans les systèmes d'approvisionnement en eau.",
+        "metaDescription": "Analyse des fibres d'amiante dans les eaux potables et naturelles. Échantillonnage et analyse par microscopie électronique dans des laboratoires européens accrédités.",
+        "intro": "La détection des fibres d'amiante dans l'eau est un service spécialisé permettant de déterminer avec précision la concentration de fibres dissoutes dans tout type d'eau : du réseau de distribution d'eau potable aux sources d'eau naturelles, superficielles ou souterraines.\n\nLa présence d'amiante dans l'eau peut provenir de la détérioration des canalisations en fibrociment qui font encore partie de nombreux réseaux de distribution, ou de la contamination de sources naturelles. Les recherches sur ce sujet ont débuté il y a plusieurs décennies, lorsque des preuves sont apparues concernant les risques pour la santé liés à l'ingestion de fibres.\n\nACM-2020, sur la base des critères d'impartialité et de neutralité de la norme ISO/IEC 17020, effectue l'échantillonnage et coordonne l'analyse dans des laboratoires externes agréés et accrédités, fournissant des informations précises sur la quantité d'amiante présente dans l'eau.",
+        "sections": [
+          {
+            "title": "Processus d'échantillonnage et d'analyse",
+            "content": "Le service comprend la planification des points d'échantillonnage, le prélèvement d'échantillons d'eau conformément à des protocoles standardisés et leur envoi à un laboratoire externe et indépendant pour analyse par microscopie électronique (SEM ou TEM). Les résultats sont exprimés en fibres par litre, permettant d'évaluer la conformité aux normes de référence internationales."
+          },
+          {
+            "title": "Risques pour la santé",
+            "content": "Selon une étude de la U.S. National Academy of Science (1983), une concentration dans l'eau potable de 2 x 10 puissance 5 fibres par litre peut induire un cancer gastro-intestinal chez un habitant sur 100 000 dont la consommation est de 2 litres par jour pendant 70 ans. Les enfants présentent un risque accru car ils consomment un volume d'eau plus important par rapport à leur poids corporel. Les fibres de moins de 10 micromètres ne représentent pas un danger selon cette étude."
+          },
+          {
+            "title": "Applications du service",
+            "content": "Ce service est particulièrement pertinent pour les municipalités disposant de réseaux de distribution d'eau comportant des canalisations en fibrociment, pour les entreprises de distribution d'eau devant vérifier la qualité de leur réseau, pour les projets de réhabilitation d'infrastructures hydrauliques et pour les évaluations environnementales de sources d'eau naturelle potentiellement affectées par des résidus d'amiante."
+          },
+          {
+            "title": "Cadre normatif de référence",
+            "content": "Ni la législation européenne ni la législation espagnole ne fixent actuellement de valeurs limites pour la concentration d'amiante dans l'eau potable. La USEPA a établi en 1991 un Niveau Maximum de Contaminant de 7 millions de fibres supérieures à 10 micromètres par litre, valeur adoptée comme référence par d'autres pays. ACM-2020 utilise ces normes internationales et fait appel à des laboratoires agréés de pays européens pour les analyses, l'Espagne ne disposant pas d'accréditation pour ce type de déterminations."
+          }
+        ],
+        "keyPoints": [
+          "Détermination précise de la concentration de fibres d'amiante dans l'eau (fibres/litre)",
+          "Analyse par microscopie électronique SEM et TEM dans des laboratoires européens accrédités",
+          "Référence USEPA : maximum 7 MFL supérieures à 10 micromètres par litre",
+          "Applicable aux réseaux de distribution, eaux potables et sources naturelles",
+          "Impartialité garantie conformément à ISO/IEC 17020"
+        ],
+        "regulations": "USEPA MCL pour les fibres d'amiante dans l'eau potable (1991), Directive (UE) 2020/2184 relative à la qualité des eaux destinées à la consommation humaine, ISO/IEC 17020, U.S. National Academy of Science (1983), Malinconico et al. 2022."
       },
       "soil": {
         "title": "Amiante dans les Sols",
-        "description": "Quantification de l'amiante dans les sols."
+        "description": "Quantification de l'amiante dans les sols.",
+        "metaDescription": "Analyse de l'amiante dans les sols contaminés. Quantification de la concentration et des fibres respirables selon NEN 5707 dans des laboratoires européens accrédités.",
+        "intro": "La contamination des sols par l'amiante est une problématique qui nécessite une évaluation technique spécialisée pour quantifier la teneur en amiante dans un volume de terres et déterminer le risque associé pour la santé humaine. Ce service est essentiel sur les terrains où l'on suspecte la présence de résidus de fibrociment, de déversements illégaux ou de contamination historique.\n\nACM-2020 propose un service intégral d'identification et d'évaluation des sols contenant de l'amiante, comprenant la planification de l'échantillonnage, le prélèvement d'échantillons représentatifs, l'analyse en laboratoire pour déterminer la concentration d'amiante et la quantification des fibres respirables. Les résultats permettent d'évaluer le risque et de prendre des décisions éclairées sur la gestion du terrain.\n\nLes fibres respirables d'amiante sont des particules extrêmement fines qui peuvent rester en suspension dans l'air pendant de longues périodes et qui sont invisibles à l'oeil nu. Leur inhalation représente un risque significatif pour la santé, ce qui rend leur détection et leur quantification fondamentales pour tout projet de construction, de réhabilitation ou de décontamination de terrains.",
+        "sections": [
+          {
+            "title": "Méthodologie d'échantillonnage",
+            "content": "Le processus débute par la planification des points d'échantillonnage en fonction de l'étendue du terrain et de la suspicion de contamination. Des échantillons de sol sont prélevés à différentes profondeurs et envoyés à des laboratoires européens agréés pour analyse. La méthodologie suit les protocoles établis dans la norme NEN 5707 des Pays-Bas, référence internationale pour l'évaluation des sols contaminés par l'amiante."
+          },
+          {
+            "title": "Détermination de la concentration et des fibres respirables",
+            "content": "L'analyse en laboratoire permet de déterminer la concentration totale d'amiante dans le sol (exprimée en mg/kg ou en pourcentage en poids) et la présence de fibres respirables. La distinction entre l'amiante lié (fragments de matériau) et les fibres libres est fondamentale, car les fibres respirables sont celles qui représentent un risque direct pour la santé en raison de leur capacité à être inhalées."
+          },
+          {
+            "title": "Évaluation des risques",
+            "content": "À partir des résultats analytiques, ACM-2020 élabore un rapport d'évaluation des risques comprenant l'appréciation du niveau de contamination, les recommandations d'intervention et, le cas échéant, la nécessité de mesures de remédiation. Cette évaluation est essentielle pour les projets urbanistiques, les transactions immobilières de terrains et pour satisfaire aux obligations découlant de la réglementation sur les sols contaminés."
+          },
+          {
+            "title": "Absence de cadre normatif espagnol",
+            "content": "Il n'existe actuellement en Espagne aucune valeur limite pour la concentration d'amiante dans le sol, ni de laboratoires agréés pour ce type d'analyses. ACM-2020 comble cette lacune en appliquant le cadre normatif des Pays-Bas (norme NEN 5707) et en faisant appel à des laboratoires agréés et accrédités par des organismes étatiques de pays européens voisins, garantissant ainsi la fiabilité des résultats."
+          }
+        ],
+        "keyPoints": [
+          "Quantification précise de la concentration d'amiante dans les sols",
+          "Détermination des fibres respirables pour l'évaluation du risque sanitaire",
+          "Application de la norme NEN 5707 des Pays-Bas comme référence",
+          "Analyses dans des laboratoires européens agréés et accrédités",
+          "Rapport d'évaluation des risques avec recommandations d'intervention",
+          "Essentiel pour les projets urbanistiques et les transactions de terrains"
+        ],
+        "regulations": "NEN 5707 (Norme néerlandaise pour les sols contaminés par l'amiante), Loi 7/2022 sur les déchets et les sols contaminés pour une économie circulaire, RD 9/2005 (Liste des activités potentiellement polluantes pour le sol), ISO/IEC 17020."
       },
       "communities": {
         "title": "Copropriétés",
-        "description": "Détection et gestion de l'amiante dans les copropriétés."
+        "description": "Détection et gestion de l'amiante dans les copropriétés.",
+        "metaDescription": "Détection et gestion de l'amiante dans les copropriétés. Inspection des descentes, toitures et parties communes. Suivi du retrait et contrôle qualité.",
+        "intro": "Canalisations, descentes, toitures, bardages, matériaux d'isolation : dans les bâtiments antérieurs à 2002, l'amiante se trouve dans les parties communes partagées par l'ensemble des copropriétaires. La plupart de ces matériaux atteignent aujourd'hui la fin de leur durée de vie utile.\n\nÀ mesure qu'ils se dégradent, les fibres d'amiante se libèrent dans l'air ambiant. Le risque n'est pas hypothétique : c'est un problème de santé publique assorti de délais légaux contraignants. L'Union européenne a fixé 2032 comme horizon pour le retrait planifié de l'amiante, ce qui rend opportune l'anticipation des interventions.\n\nACM-2020 accompagne les copropriétés tout au long du processus : de l'inspection initiale et du prélèvement d'échantillons jusqu'au suivi indépendant du Plan de Travail et au contrôle qualité final après le retrait.",
+        "sections": [
+          {
+            "title": "Importance de la détection précoce",
+            "content": "La détection précoce de l'amiante dans les copropriétés apporte de nombreux avantages : elle prévient la dégradation structurelle des matériaux arrivant en fin de vie utile, réduit les coûts à long terme en évitant des réparations plus onéreuses et des litiges juridiques, et augmente la valeur patrimoniale de l'immeuble. Le retrait de l'amiante s'inscrit par ailleurs dans le cadre légal européen fixé à 2032, ce qui rend opportune l'anticipation des interventions."
+          },
+          {
+            "title": "Parties communes contenant de l'amiante",
+            "content": "Les éléments les plus fréquemment concernés dans les copropriétés sont les descentes et canalisations en fibrociment, les toitures et plaques ondulées, les bardages, les réservoirs d'eau et les matériaux d'isolation. La réhabilitation de ces éléments implique le remplacement complet des composants amiantés, des méthodes de réhabilitation spécifiques garantissant la sécurité des occupants, et la mise en place d'un entretien préventif ultérieur."
+          },
+          {
+            "title": "Phases de la gestion proactive",
+            "content": "Le processus se déroule en trois phases principales : évaluation initiale de l'immeuble par une inspection visuelle exhaustive pour déterminer la présence et l'état de l'amiante ; planification du retrait avec l'élaboration d'un plan garantissant le respect de la réglementation en vigueur, en lien avec une entreprise RERA techniquement compétente ; retrait et remplacement des matériaux dangereux par des matériaux modernes et durables, avec suivi externe et contrôle qualité complémentaire."
+          },
+          {
+            "title": "Nos services pour les copropriétés",
+            "content": "ACM-2020 fournit aux copropriétés un ensemble complet de services : inspection visuelle en tant que premier diagnostic, prélèvement d'échantillons avec résultats rapides et fiables, rapport incluant une estimation du coût de gestion et des mesures préventives, suivi indépendant du Plan de Travail de l'entreprise RERA mandatée, contrôle qualité final et prélèvement environnemental pour vérifier la sécurité du processus."
+          }
+        ],
+        "keyPoints": [
+          "Service intégral adapté aux besoins des copropriétés",
+          "Inspection des descentes, toitures, bardages, réservoirs et isolations",
+          "Rapport avec estimation des coûts de retrait et mesures préventives",
+          "Suivi indépendant du processus de retrait par l'entreprise RERA",
+          "Augmentation de la valeur patrimoniale de l'immeuble après l'élimination de l'amiante",
+          "Le cadre légal européen fixe le retrait complet à l'horizon 2032"
+        ],
+        "regulations": "RD 396/2006, Ley 7/2022 sur les déchets et les sols contaminés, Orden de 7 de diciembre de 2001, RERA (Registro de Empresas con Riesgo de Amianto), Directive 2009/148/CE, Résolution du Parlement européen du 14 mars 2013."
       },
       "realestate": {
         "title": "Transactions Immobilières",
-        "description": "Détection d'amiante pour les transactions immobilières."
+        "description": "Détection d'amiante pour les transactions immobilières.",
+        "metaDescription": "Certificat d'amiante pour la vente et la location de biens immobiliers en Catalogne. Obligatoire depuis octobre 2026 (Loi 8/2026). Émis par un hygiéniste industriel RERA avec plus de 15 ans d'expérience.",
+        "intro": "Le certificat de présence ou d'absence d'amiante est le document qui informe de la situation de l'amiante dans un bien immobilier au moment de son émission. Créé par la Loi 8/2026, du 2 juillet, de prévention et d'éradication de l'amiante en Catalogne, son objectif est de permettre aux acheteurs et aux locataires de connaître l'état réel du bien avant de formaliser l'opération.\n\nDepuis le 3 octobre 2026, ce certificat est obligatoire pour toute vente et location de biens immobiliers en Catalogne. En attendant l'approbation du règlement d'application, le certificat doit inclure au minimum la présence ou l'absence d'amiante visible, l'état de conservation des matériaux et le risque qu'ils représentent pour les personnes.\n\nLa loi recommande que ces vérifications soient réalisées par un technicien hygiéniste industriel possédant une expérience dans l'identification de l'amiante. ACM-2020 émet ce certificat avec des techniciens hygiénistes industriels inscrits au RERA (n.º 86/AB/09) et disposant de plus de 15 ans d'expérience dans l'identification de l'amiante dans tout type de biens immobiliers.",
+        "sections": [
+          {
+            "title": "Quand le certificat d'amiante est-il obligatoire",
+            "content": "Depuis le 3 octobre 2026, le certificat doit être remis lors de toute vente et location de biens immobiliers en Catalogne. L'obligation ne se limite pas aux logements : elle concerne également les locaux commerciaux, les bureaux, les bâtiments industriels et les immeubles entiers.\n\nLors d'une vente, le vendeur remet le certificat à l'acheteur. Si la présence d'amiante est détectée, celle-ci doit figurer dans l'inscription au registre foncier de la transmission à titre onéreux (disposition additionnelle 7e), ainsi que les aides à la dépose perçues.\n\nLors d'une location, le propriétaire remet le certificat au locataire au moment de la signature du contrat."
+          },
+          {
+            "title": "Quels biens immobiliers peuvent contenir de l'amiante",
+            "content": "Tout bien immobilier construit ou rénové avant 2002 peut contenir de l'amiante, cette année correspondant à l'interdiction de l'amiante en Espagne. Les matériaux amiantifères les plus fréquents dans les bâtiments sont : les toitures et plaques en fibrociment (Uralita), les descentes d'eaux pluviales, les canalisations d'eau et les cheminées en fibrociment, les réservoirs d'eau, les faux plafonds et panneaux, les revêtements de sol en vinyle et leurs colles, les calorifugeages de chaudières, les tuyauteries et les conduits de ventilation, les joints et cordons d'étanchéité des poêles et des appareils de chauffage.\n\nNombre de ces matériaux sont en bon état de conservation et ne présentent pas de risque immédiat, mais ils doivent être identifiés dans le certificat."
+          },
+          {
+            "title": "Comment nous émettons le certificat d'amiante",
+            "content": "Le processus comporte trois phases. Premièrement, l'inspection visuelle : le technicien hygiéniste industriel parcourt le bien, localise les matériaux contenant de l'amiante, les photographie et les consigne dans un inventaire. Pour chaque matériau, il évalue l'état de conservation et le risque de libération de fibres. La durée de la visite est de 60 à 90 minutes.\n\nDeuxièmement, le prélèvement d'échantillons et l'analyse (optionnel) : lorsqu'un matériau ne peut pas être identifié avec certitude par examen visuel, un échantillon est prélevé conformément au protocole de sécurité du Plan de Travail. Les échantillons sont analysés dans un laboratoire accrédité selon la norme UNE-EN ISO/IEC 17025:2017. Le prélèvement fait l'objet d'un devis séparé et n'est réalisé que si nécessaire.\n\nTroisièmement, le certificat et le rapport : le certificat est remis accompagné d'un rapport technique détaillant la localisation des matériaux, leur état de conservation, l'évaluation du risque et des photographies. Si de l'amiante est détecté et que le client le souhaite, les techniciens d'ACM-2020 fournissent une estimation des quantités, du coût de dépose et des mesures préventives recommandées."
+          },
+          {
+            "title": "Pourquoi ACM-2020",
+            "content": "ACM-2020 est un cabinet de conseil spécialisé exclusivement dans l'amiante et le gaz radon. Les certificats sont émis par des techniciens hygiénistes industriels inscrits au RERA sous le n.º 86/AB/09, disposant de plus de 15 ans d'expérience dans l'inspection de l'amiante pour des entreprises, des municipalités, des syndics de copropriété et des particuliers.\n\nEn cas de présence d'amiante, ACM-2020 peut accompagner le client tout au long du processus : rédaction du Plan de Travail, supervision de la dépose par l'entreprise RERA contractée et vérification finale du résultat."
+          }
+        ],
+        "keyPoints": [
+          "Techniciens hygiénistes industriels inscrits au RERA sous le n.º 86/AB/09",
+          "Plus de 15 ans d'expérience dans l'identification de l'amiante dans les biens immobiliers",
+          "Prix forfaitaire pour l'inspection ; le prélèvement est facturé séparément et uniquement si nécessaire",
+          "Certificat délivré sous 5 jours ouvrables après la visite",
+          "Accompagnement complet : en cas de présence d'amiante, suivi tout au long de la dépose",
+          "Impartialité : cabinet de conseil indépendant, sans lien avec les entreprises de dépose"
+        ],
+        "regulations": "Loi 8/2026, du 2 juillet, de prévention et d'éradication de l'amiante en Catalogne (article 21 — Certificat de présence ou d'absence d'amiante), RD 396/2006 (procédures de travail avec risque d'exposition à l'amiante), Arrêté du 7 décembre 2001 (interdiction totale de l'amiante en Espagne).",
+        "faqs": [
+          {
+            "question": "Le certificat d'amiante est-il obligatoire pour louer un bien ?",
+            "answer": "Oui. La Loi 8/2026 exige la remise du certificat de présence ou d'absence d'amiante tant pour la vente que pour la location de biens immobiliers en Catalogne, depuis le 3 octobre 2026."
+          },
+          {
+            "question": "Qui paie le certificat d'amiante ?",
+            "answer": "En règle générale, c'est le propriétaire (vendeur ou bailleur) qui commande et paie le certificat, car c'est lui qui a l'obligation légale de le remettre. La loi ne précise pas expressément qui en assume le coût."
+          },
+          {
+            "question": "Qui peut émettre le certificat d'amiante ?",
+            "answer": "Le règlement d'application est en attente d'approbation. En attendant, il est recommandé de le faire émettre par un technicien ayant une expérience accréditée dans l'identification de l'amiante, tel qu'un hygiéniste industriel inscrit au RERA. Il convient d'éviter les conflits d'intérêts avec les laboratoires, les entreprises de dépose ou les professionnels sans expérience spécifique en matière d'amiante."
+          },
+          {
+            "question": "Faut-il retirer l'amiante pour vendre le bien ?",
+            "answer": "Non. Le certificat informe de la situation, mais n'oblige pas à un retrait immédiat. L'information relative à la présence d'amiante influe cependant sur la négociation du prix entre acheteur et vendeur. La loi établit un calendrier de retrait progressif avec 2032 comme échéance générale."
+          },
+          {
+            "question": "Quel est le délai d'obtention du certificat ?",
+            "answer": "La visite est programmée en général dans un délai de 7 jours après la confirmation. Sans nécessité de prélèvement, le certificat est remis dans les 2 à 3 jours ouvrables suivant la visite. Si une analyse en laboratoire est requise, le délai est porté à 5 jours ouvrables."
+          },
+          {
+            "question": "Le certificat est-il valable pour un appartement en copropriété ?",
+            "answer": "Oui. Le logement et les parties communes accessibles qui le concernent directement (toiture, descentes d'eaux pluviales, réservoirs) sont inspectés. La copropriété peut également demander un diagnostic de l'immeuble complet."
+          },
+          {
+            "question": "Que se passe-t-il si je ne remets pas le certificat d'amiante ?",
+            "answer": "Ne pas remettre le certificat lorsqu'il est obligatoire constitue une infraction légère au sens de l'article 53.c de la Loi 8/2026, passible d'une amende de 100 à 3 000 euros (article 54). Le régime de sanctions spécifique entrera en vigueur lorsque le décret d'application sera approuvé."
+          },
+          {
+            "question": "Mon logement construit après 2002 a-t-il besoin d'un certificat ?",
+            "answer": "Oui. La loi exige le certificat pour toute vente et location sans exception liée à l'année de construction. Pour les biens postérieurs à 2002, le certificat attestera en principe de l'absence d'amiante, mais il doit être émis dans tous les cas."
+          },
+          {
+            "question": "Quelle est la durée de validité du certificat ?",
+            "answer": "La loi ne fixe pas de durée de validité précise. Le certificat informe de la situation du bien immobilier au moment de son émission (article 21.1). En cas de travaux ou de dépose ultérieurs, il est conseillé de le mettre à jour. Le règlement d'application pourrait fixer une date d'expiration."
+          },
+          {
+            "question": "Qu'en est-il des contrats de location signés avant le 3 octobre 2026 ?",
+            "answer": "La loi ne comporte pas de disposition transitoire. L'obligation naît au moment de la vente ou de la location, elle s'applique donc aux contrats signés à partir du 3 octobre 2026, et non aux contrats existants. Le renouvellement d'un contrat en cours ne constitue pas une nouvelle location ; un nouveau contrat avec le même locataire, en revanche, en est une."
+          },
+          {
+            "question": "L'inspection et le certificat couvrent-ils l'amiante caché ?",
+            "answer": "L'inspection est visuelle et couvre l'ensemble de l'amiante visible dans le bien. Ce n'est que lorsqu'il existe des doutes fondés sur un matériau qu'un petit échantillon localisé est prélevé avec les mesures de sécurité correspondantes. Aucune excavation ni sondage destructif n'est réalisé pour découvrir l'amiante caché."
+          },
+          {
+            "question": "Ce certificat est-il également nécessaire pour les locaux commerciaux, entrepôts, garages ou caves ?",
+            "answer": "Oui. La loi fait référence à l'« immeuble » (article 21.2) et reconnaît le droit au certificat lors de la location d'un « logement ou autre bien immobilier » (article 5.d). L'obligation s'applique à tout bien immobilier, quel que soit son usage."
+          },
+          {
+            "question": "Le certificat doit-il figurer au registre foncier ?",
+            "answer": "Lors d'une vente, oui. L'inscription de la transmission à titre onéreux doit mentionner la certification de présence ou d'absence d'amiante ainsi que les aides à la dépose perçues (disposition additionnelle 7e). Pour la location, aucune inscription au registre n'est exigée."
+          },
+          {
+            "question": "Quel est le rôle du syndic de copropriété ?",
+            "answer": "Le syndic doit s'assurer que les propriétaires remettent le certificat à l'acheteur ou au locataire et faciliter la gestion du processus (article 12.1.b). Il a également l'obligation de communiquer la présence d'amiante aux propriétaires et au Recensement, et d'informer des aides disponibles pour la dépose."
+          }
+        ]
       },
       "breeam": {
         "title": "Certification BREEAM",
-        "description": "Diagnostic d'amiante pour la certification BREEAM."
+        "description": "Diagnostic d'amiante pour la certification BREEAM.",
+        "metaDescription": "Diagnostic d'amiante pour la certification BREEAM. Inspection, prélèvement, rapport détaillé et plan de remédiation. Conforme aux exigences de gestion des matériaux dangereux.",
+        "intro": "La certification BREEAM est un standard mondial de référence pour évaluer la durabilité des bâtiments, et l'un de ses aspects essentiels concerne la gestion des matériaux dangereux, dont l'amiante. L'obtention de cette certification requiert de démontrer que le bâtiment a été évalué et que les mesures nécessaires ont été adoptées pour gérer toute présence d'amiante.\n\nACM-2020 propose un service de diagnostic d'amiante spécifiquement adapté aux exigences de la certification BREEAM. Nos rapports respectent les critères du standard et fournissent l'ensemble de la documentation nécessaire pour satisfaire les exigences d'évaluation en matière de matériaux dangereux.\n\nL'amiante est un matériau cancérigène susceptible d'affecter la santé des occupants du bâtiment s'il n'est pas géré de manière adéquate. Notre service de diagnostic est essentiel pour répondre aux exigences BREEAM tout en garantissant la sécurité et le bien-être des utilisateurs du bâtiment.",
+        "sections": [
+          {
+            "title": "Qu'est-ce que la certification BREEAM",
+            "content": "BREEAM (Building Research Establishment Environmental Assessment Method) est la méthode d'évaluation et de certification de la durabilité des bâtiments la plus utilisée au niveau mondial. Elle évalue des aspects tels que la gestion du bâtiment, la santé et le bien-être des occupants, l'énergie, les transports, l'eau, les matériaux, les déchets, l'utilisation des sols et la pollution. La gestion des matériaux dangereux comme l'amiante constitue une exigence spécifique dans la catégorie santé et bien-être."
+          },
+          {
+            "title": "Services d'inspection pour BREEAM",
+            "content": "Le service comprend une inspection visuelle initiale exhaustive pour évaluer la présence potentielle d'amiante, l'analyse d'échantillons en laboratoire pour confirmer les résultats, un rapport détaillé avec les constats et recommandations, et un plan de remédiation avec les meilleures pratiques pour l'élimination sécurisée de l'amiante par une entreprise RERA. L'ensemble est documenté conformément aux exigences spécifiques de BREEAM."
+          },
+          {
+            "title": "Avantages du diagnostic",
+            "content": "Le diagnostic d'amiante réalisé par ACM-2020 pour la certification BREEAM apporte de nombreux avantages : conformité aux exigences normatives du standard, protection de la santé des occupants grâce à l'identification de l'amiante présent, contribution à l'obtention d'un score supérieur dans les catégories santé et matériaux, et démonstration de l'engagement du bâtiment envers la durabilité et la responsabilité sociale."
+          },
+          {
+            "title": "Expérience et conformité",
+            "content": "ACM-2020 dispose d'une équipe d'experts en diagnostic d'amiante qui garantit le respect des standards BREEAM. Notre expérience dans l'identification de l'amiante dans tous types de bâtiments, combinée à la connaissance des exigences de certification, nous permet de proposer un service efficace et complet qui facilite le processus d'obtention du certificat."
+          }
+        ],
+        "keyPoints": [
+          "Rapports de diagnostic adaptés aux exigences spécifiques de BREEAM",
+          "Inspection visuelle, prélèvement et analyse de laboratoire complets",
+          "Plan de remédiation avec recommandations pour une élimination sécurisée",
+          "Contribution au score dans les catégories santé et matériaux de BREEAM",
+          "Équipe spécialisée avec une expérience en diagnostic et certification"
+        ],
+        "regulations": "Standard BREEAM (Building Research Establishment Environmental Assessment Method), ISO/IEC 17020, UNE 171370-2:2021, RD 396/2006, Directive 2009/148/CE."
       },
       "qualityControl": {
         "title": "Contrôle Qualité Final des Surfaces",
-        "description": "Vérification indépendante des surfaces traitées après travaux de retrait, stabilisation, encapsulage ou confinement de matériaux amiantés."
+        "description": "Vérification indépendante des surfaces traitées après travaux de retrait, stabilisation, encapsulage ou confinement de matériaux amiantés.",
+        "metaDescription": "Contrôle qualité final des surfaces amiantées. Vérification indépendante après retrait ou traitement. Norme NF X-46021. ACM-2020, entreprise RERA.",
+        "intro": "Un retrait d'amiante ne s'achève pas lorsque l'entreprise exécutante déclare avoir terminé. Il s'achève lorsqu'un tiers indépendant confirme que les surfaces traitées respectent les standards de sécurité.\n\nAdministrations publiques, propriétaires et entités gestionnaires font appel à ACM-2020 pour cette validation précisément parce que nous n'avons aucun lien avec l'entreprise qui exécute les travaux. Cette indépendance totale constitue la seule garantie réelle d'impartialité du résultat.\n\nLe contrôle s'applique aussi bien aux plans de travail portant sur des matériaux friables avec confinement dynamique (pression négative) qu'aux travaux portant sur des matériaux moins friables avec confinement statique (extraction localisée).",
+        "sections": [
+          {
+            "title": "Objectif du service",
+            "content": "L'objectif d'une inspection des surfaces désamiantées est de prononcer la Conformité à la finalisation opérationnelle d'un Plan de Travail exécuté par une entreprise RERA. Cette Conformité est prononcée par ACM-2020 après avoir inspecté visuellement le chantier sans avoir détecté aucune Non-Conformité sur les éléments et zones relevant du Plan de Travail contracté par le client."
+          },
+          {
+            "title": "Méthodologie d'inspection",
+            "content": "L'inspection consiste en un examen visuel exhaustif de toutes les surfaces traitées, vérifiant l'absence de résidus de matériaux amiantés, le bon état des finitions et la propreté générale du chantier. Tous les points inspectés sont documentés photographiquement et un rapport de Conformité ou de Non-Conformité est émis avec le détail des observations réalisées."
+          },
+          {
+            "title": "Garantie d'indépendance",
+            "content": "La garantie d'un contrôle qualité final indépendant est indispensable pour l'entité commanditaire. ACM-2020, en tant qu'entreprise totalement étrangère à l'exécution du Plan de Travail, fournit une vérification objective et impartiale qui complète la déclaration de l'entreprise RERA exécutante, offrant une double garantie de sécurité."
+          }
+        ],
+        "keyPoints": [
+          "Vérification indépendante par un tiers sans lien avec l'entreprise RERA exécutante",
+          "Inspection visuelle exhaustive conforme à la norme NF X-46021 (2010)",
+          "Applicable aux plans de travail avec confinement dynamique ou statique",
+          "Rapport de Conformité ou de Non-Conformité documenté photographiquement",
+          "Service requis par les administrations publiques et les entités gestionnaires"
+        ],
+        "regulations": "NF X-46021 (2010) - Traitement de l'amiante dans les immeubles bâtis : Examen visuel des surfaces traitées après travaux de retrait de matériaux et produits contenant de l'amiante. RD 396/2006."
       },
       "periodicControl": {
         "title": "Contrôle Périodique des Surfaces Traitées",
-        "description": "Inspections périodiques des surfaces stabilisées, encapsulées ou confinées contenant des matériaux amiantés."
+        "description": "Inspections périodiques des surfaces stabilisées, encapsulées ou confinées contenant des matériaux amiantés.",
+        "metaDescription": "Contrôle périodique des surfaces amiantées traitées. Inspections de vérification de la stabilisation, de l'encapsulage ou du confinement. Conformité au RD 396/2006.",
+        "intro": "L'entité propriétaire ou gestionnaire d'un bâtiment ou d'une installation contenant des matériaux amiantés a, parmi de nombreuses autres obligations, celle de disposer d'un système de contrôle et de gestion de tous les points critiques contenant de l'amiante.\n\nLorsqu'un matériau amianté n'a pas achevé sa durée de vie utile, ou lorsqu'il a fait l'objet d'une stabilisation, d'un encapsulage ou d'un confinement dans le cadre d'un Plan de Travail exécuté par une entreprise RERA, il incombe au Propriétaire de disposer d'une méthodologie d'inspection périodique des éléments traités et de maintenir les conditions postérieures au traitement.\n\nACM-2020 réalise des inspections périodiques visant à vérifier le maintien des conditions initiales après un plan de travail, en détectant toute anomalie susceptible de générer des risques d'exposition à l'amiante.",
+        "sections": [
+          {
+            "title": "Objectif du service",
+            "content": "L'objectif des inspections périodiques est de vérifier que les surfaces traitées maintiennent les conditions de sécurité établies après l'exécution du Plan de Travail. Cela comprend la vérification de l'intégrité de l'encapsulage, de la stabilité du confinement et de l'absence de dégradation ou de dommages susceptibles de libérer des fibres d'amiante dans l'air ambiant."
+          },
+          {
+            "title": "Fréquence et planification",
+            "content": "La périodicité des inspections est définie en fonction du type de traitement réalisé, des caractéristiques du matériau amianté, de son emplacement et de l'usage de l'espace. ACM-2020 élabore un calendrier d'inspections adapté à chaque situation, garantissant un suivi systématique et documenté de tous les points critiques du bâtiment ou de l'installation."
+          },
+          {
+            "title": "Documentation et suivi",
+            "content": "Chaque inspection périodique génère un rapport technique qui documente l'état des éléments inspectés, les observations réalisées et les recommandations d'intervention en cas de détection d'une anomalie. Cet historique permet au Propriétaire de démontrer le respect de ses obligations de contrôle et de gestion de l'amiante."
+          }
+        ],
+        "keyPoints": [
+          "Inspections périodiques des surfaces stabilisées, encapsulées ou confinées",
+          "Vérification du maintien des conditions de sécurité post-traitement",
+          "Calendrier d'inspections adapté à chaque bâtiment ou installation",
+          "Rapports techniques documentés avec un historique de suivi",
+          "Respect de l'obligation du Propriétaire de contrôler les matériaux amiantés"
+        ],
+        "regulations": "RD 396/2006, du 31 mars, établissant les dispositions minimales de sécurité et de santé applicables aux travaux comportant un risque d'exposition à l'amiante."
       },
       "airSampling": {
         "title": "Prélèvement Statique Environnemental d'Amiante",
-        "description": "Prélèvement d'air en point fixe pour la mesure des fibres d'amiante avec méthodologie française et analyse en laboratoire accrédité."
+        "description": "Prélèvement d'air en point fixe pour la mesure des fibres d'amiante avec méthodologie française et analyse en laboratoire accrédité.",
+        "metaDescription": "Prélèvement statique environnemental de fibres d'amiante dans l'air. Méthodologie française, point fixe, analyse en laboratoire accrédité. ACM-2020, entreprise RERA.",
+        "intro": "Déterminer la présence de fibres d'amiante dans l'air d'un espace ne relève pas de la perception : c'est une question de mesure. Le prélèvement statique environnemental quantifie la concentration de fibres aéroportées en plaçant des équipements de captation en points fixes représentatifs de la zone à évaluer.\n\nLa méthodologie française qu'applique ACM-2020 constitue la référence internationale en matière de précision pour ce type de déterminations. Les échantillons sont analysés en laboratoire accrédité et les résultats permettent de confirmer si l'air respecte les valeurs de référence réglementaires.\n\nLe service opère sous le Plan de Travail 86/AB/09-001-B et s'exécute pendant et après les opérations de retrait, dans les bâtiments contenant des matériaux amiantés in situ, ainsi que dans le cadre d'études de qualité de l'air intérieur.",
+        "sections": [
+          {
+            "title": "Méthodologie de prélèvement",
+            "content": "Le prélèvement est réalisé au moyen d'équipements de captation d'air avec filtres à membrane, placés en points fixes stratégiquement sélectionnés. Le débit et la durée de prélèvement sont déterminés en fonction des conditions de l'espace et des objectifs de l'étude. La méthodologie française permet de détecter des concentrations très faibles de fibres d'amiante, fournissant des résultats d'une haute fiabilité."
+          },
+          {
+            "title": "Domaines d'application",
+            "content": "Le prélèvement statique environnemental s'applique dans diverses situations : pendant l'exécution de plans de travail de retrait d'amiante pour vérifier l'étanchéité du confinement, après l'achèvement des travaux de désamiantage pour confirmer l'absence de fibres dans l'air, dans les bâtiments contenant des matériaux amiantés in situ pour évaluer le niveau d'exposition environnementale, et dans le cadre d'études de qualité de l'air intérieur."
+          },
+          {
+            "title": "Analyse de laboratoire",
+            "content": "Les échantillons captés sont envoyés à un laboratoire accrédité pour analyse par microscopie électronique à transmission (MET) ou microscopie optique à contraste de phase (MOCP), selon les exigences de l'étude. Les résultats sont exprimés en fibres par litre d'air (f/l) et comparés aux valeurs de référence établies par la réglementation en vigueur."
+          }
+        ],
+        "keyPoints": [
+          "Prélèvement en point fixe selon la méthodologie française de haute précision",
+          "Analyse en laboratoire accrédité par microscopie électronique ou à contraste de phase",
+          "Applicable pendant et après les plans de travail de retrait d'amiante",
+          "Résultats exprimés en fibres par litre conformément à la réglementation en vigueur",
+          "Service sous Plan de Travail 86/AB/09-001-B d'ACM-2020"
+        ],
+        "regulations": "RD 396/2006, Norme UNE-EN ISO 16000-7 (Stratégie de prélèvement pour la détermination des concentrations de fibres d'amiante dans l'air), Méthodologie française META/MOCP."
       }
     },
     "radon": {
       "measurement": {
         "title": "Mesure du Gaz Radon",
-        "description": "Mesures précises de la concentration de radon dans les bâtiments et les habitations."
+        "description": "Mesures précises de la concentration de radon dans les bâtiments et les habitations.",
+        "metaDescription": "Mesures de radon avec détecteurs passifs en laboratoire accrédité ENAC. Conformité au RD 1029/2022 et CTE DB HS6. Environnement professionnel et résidentiel.",
+        "intro": "Les mesures de la concentration moyenne annuelle de radon constituent la seule méthode fiable pour déterminer la présence et la quantité de ce gaz radioactif dans les espaces intérieurs. Le radon est un gaz naturel, inodore et invisible, qui provient du sol et peut s'accumuler à l'intérieur des bâtiments, représentant un risque significatif pour la santé lorsqu'il dépasse les niveaux de référence établis.\n\nACM-2020 réalise des mesures de longue durée (2-3 mois) avec des détecteurs passifs analysés en laboratoire accrédité conformément à la norme UNE-EN ISO/IEC 17025:2017 par l'Entité Nationale d'Accréditation (ENAC), ou par un autre organisme national d'accréditation désigné conformément à la réglementation européenne.\n\nLa Directive EURATOM 59/2013 de l'Union européenne a établi un cadre de référence pour la protection contre le radon, fixant un niveau de référence de 300 Bq/m3 en concentration annuelle, valeur adoptée par la législation espagnole. Les mesures professionnelles sont le seul moyen de savoir avec certitude si un espace intérieur dépasse ce seuil.",
+        "sections": [
+          {
+            "title": "Méthodologie de mesure",
+            "content": "Les mesures sont réalisées à l'aide de détecteurs passifs installés dans les espaces intérieurs pendant une période minimale de 2 mois (pour les habitations et locaux habitables) ou de 3 mois (pour les lieux de travail). Cette période prolongée est nécessaire car la concentration de radon varie quotidiennement en fonction de facteurs tels que la ventilation, la température, la pression atmosphérique et les conditions du sol. Les détecteurs sont ensuite envoyés à un laboratoire accrédité pour leur lecture et leur analyse."
+          },
+          {
+            "title": "Domaines d'application",
+            "content": "Les mesures s'appliquent dans différents domaines : lieux de travail (bureaux, usines, entrepôts, grottes, mines et installations souterraines), habitations et locaux habitables (chambres, salles à manger, salons, cuisines, bureaux, salles de classe, bibliothèques, salles d'attente), bâtiments existants en cas d'extensions, de changements d'usage ou de rénovations affectant la protection contre le radon, et espaces publics dans le cadre des politiques de qualité de l'air intérieur et de santé publique."
+          },
+          {
+            "title": "Niveau de référence",
+            "content": "L'État espagnol fixe une valeur de référence de 300 Bq/m3 comme concentration moyenne annuelle de radon. Il est important de distinguer qu'il s'agit d'une valeur de référence, et non d'une valeur limite. Certains pays européens ont adopté des valeurs inférieures de 200, voire de 100 Bq/m3. Lorsque les résultats de la mesure dépassent ce seuil, il est nécessaire d'adopter des mesures correctives pour réduire la concentration de radon dans l'espace concerné."
+          },
+          {
+            "title": "Ne pas se fier aux cartes du radon",
+            "content": "Il n'est pas recommandé d'estimer les niveaux de radon dans un bâtiment à partir des cartes du radon, car la concentration de ce gaz peut varier considérablement même entre des bâtiments très proches. Les cartes fournissent une orientation générale sur les zones à risque, mais le seul moyen de connaître la concentration réelle de radon dans un espace intérieur est de réaliser une mesure directe avec des détecteurs calibrés et analysés en laboratoire accrédité."
+          }
+        ],
+        "keyPoints": [
+          "Détecteurs passifs analysés en laboratoire accrédité ENAC conformément à la norme UNE-EN ISO/IEC 17025:2017",
+          "Mesures de longue durée (2-3 mois) pour des résultats fiables",
+          "Valeur de référence en Espagne : 300 Bq/m3 de concentration moyenne annuelle",
+          "Applicable aux environnements professionnel, résidentiel, aux rénovations et à la santé publique",
+          "Les cartes du radon ne remplacent pas la mesure directe dans chaque bâtiment"
+        ],
+        "regulations": "Directive 2013/59/EURATOM (Normes fondamentales de sécurité contre les rayonnements ionisants), RD 1029/2022 (Règlement sur la protection de la santé contre les rayonnements ionisants), RD 732/2019 (Modification du CTE, nouvelle exigence DB HS6), CTE DB HS6 (Protection contre le radon), Instruction NOR/19-001 du CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "residential": {
         "title": "Solutions Résidentielles",
-        "description": "Diagnostic et solutions pour les habitations présentant des niveaux élevés de radon."
+        "description": "Diagnostic et solutions pour les habitations présentant des niveaux élevés de radon.",
+        "metaDescription": "Mesure de radon dans les habitations et locaux habitables. Détecteurs accrédités, résultats fiables et conseil personnalisé. Consultation gratuite.",
+        "intro": "Savoir si votre habitation présente des niveaux élevés de radon est la première étape pour protéger la santé de votre famille. Le radon est un gaz radioactif naturel qui peut s'accumuler à l'intérieur des maisons et qui est classé comme la deuxième cause de cancer du poumon après le tabac.\n\nPour savoir s'il y a du radon chez vous, des détecteurs doivent être installés pendant une période minimale de 2 à 3 mois. Ce délai est nécessaire car la quantité de radon varie chaque jour en fonction de multiples facteurs. C'est le seul moyen d'obtenir une mesure correcte permettant d'évaluer l'existence d'un risque éventuel.\n\nACM-2020 est une entreprise fiable et experte dans la mesure du radon dans les habitations. Nous connaissons parfaitement toutes les directives en vigueur en Europe et en Espagne, et nous sommes en mesure de proposer une mesure accréditée vous permettant de connaître le niveau réel de radon dans votre foyer et d'agir en conséquence.",
+        "sections": [
+          {
+            "title": "Comment mesurer le radon dans les habitations",
+            "content": "Pour déterminer la concentration de radon dans une habitation, des détecteurs passifs sont installés dans les pièces d'usage courant (chambres, salon, bureau) pendant un minimum de 2 mois. Les détecteurs sont des dispositifs petits et discrets qui ne nécessitent ni électricité ni entretien. Une fois la période de mesure terminée, ils sont récupérés et envoyés à un laboratoire accrédité pour analyse. Les résultats sont exprimés en Bq/m3 (Becquerel par mètre cube)."
+          },
+          {
+            "title": "Quand est-il nécessaire de mesurer",
+            "content": "La mesure du radon est particulièrement recommandée dans les habitations situées dans des communes d'action prioritaire (zones présentant un risque connu de radon), en rez-de-chaussée ou en demi-sous-sol, dans les bâtiments dépourvus de barrières de protection contre le sol, et dans toute habitation où aucune mesure n'a jamais été réalisée. La mesure est également obligatoire dans les bâtiments existants soumis à des extensions, des changements d'usage ou des rénovations affectant la protection contre le radon."
+          },
+          {
+            "title": "Que faire si les niveaux sont élevés",
+            "content": "Si la concentration moyenne annuelle de radon dépasse 300 Bq/m3, il est nécessaire d'adopter des mesures correctives. Celles-ci peuvent inclure l'amélioration de la ventilation du bâtiment, l'installation de systèmes d'extraction du radon du sol (dépressurisation du sol), le colmatage des fissures et des joints en contact avec le sol, ou l'installation de membranes anti-radon. ACM-2020 conseille sur les mesures les plus adaptées à chaque situation."
+          },
+          {
+            "title": "Service de mesure accréditée",
+            "content": "ACM-2020 propose un service complet de mesure du radon dans les habitations comprenant la visite technique pour la mise en place des détecteurs, la récupération à la fin de la période de mesure, l'analyse en laboratoire accrédité conformément à la norme UNE-EN ISO/IEC 17025, le rapport de résultats avec interprétation et recommandations, et le conseil personnalisé sur les mesures à adopter si les niveaux sont élevés."
+          }
+        ],
+        "keyPoints": [
+          "Détecteurs passifs discrets ne nécessitant ni entretien ni électricité",
+          "Mesure de longue durée (minimum 2 mois) pour des résultats représentatifs",
+          "Analyse en laboratoire accrédité ENAC conformément à la norme UNE-EN ISO/IEC 17025",
+          "Rapport de résultats avec interprétation claire et recommandations pratiques",
+          "Conseil personnalisé sur les mesures correctives si les niveaux dépassent 300 Bq/m3"
+        ],
+        "regulations": "RD 732/2019 (Modification du CTE, exigence DB HS6), CTE DB HS6 (Protection contre le radon), Directive 2013/59/EURATOM, Instruction NOR/19-001 du CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "workspace": {
         "title": "Espaces de Travail",
-        "description": "Évaluation du radon dans les lieux de travail selon le Décret Royal 1029/2022."
+        "description": "Évaluation du radon dans les lieux de travail selon le Décret Royal 1029/2022.",
+        "metaDescription": "Mesure du radon sur les lieux de travail conformément au RD 1029/2022. Détecteurs passifs, laboratoire accrédité et conseil pour la conformité réglementaire.",
+        "intro": "La mesure du radon sur les lieux de travail est une obligation découlant du Real Decreto 1029/2022, qui établit le règlement sur la protection de la santé contre les risques liés à l'exposition aux rayonnements ionisants. Les employeurs doivent connaître la concentration de radon dans leurs installations et adopter les mesures nécessaires pour protéger la santé des travailleurs.\n\nLe domaine professionnel englobe tout type d'espace de travail : bureaux, usines, entrepôts, ateliers, grottes, mines et autres installations souterraines. Les mesures doivent être réalisées avec des détecteurs passifs pendant une période minimale de 3 mois afin d'obtenir une concentration moyenne représentative.\n\nACM-2020 réalise des mesures de radon sur les lieux de travail à titre informatif, fournissant aux entreprises les informations nécessaires pour évaluer le risque et remplir leurs obligations légales en matière de protection radiologique.",
+        "sections": [
+          {
+            "title": "Obligations de l'employeur",
+            "content": "Le RD 1029/2022 établit que les titulaires de lieux de travail situés dans des zones d'action prioritaire doivent réaliser des mesures de la concentration de radon. Si les résultats dépassent la valeur de référence de 300 Bq/m3, des mesures correctives doivent être adoptées pour réduire l'exposition des travailleurs. Ces obligations sont particulièrement pertinentes pour les activités professionnelles en rez-de-chaussée, demi-sous-sol, sous-sol et tout espace en contact avec le sol."
+          },
+          {
+            "title": "Protocole de mesure en milieu professionnel",
+            "content": "Les mesures en milieu professionnel sont réalisées avec des détecteurs passifs pendant une période minimale de 3 mois. Les détecteurs sont placés aux postes de travail représentatifs, en particulier dans les zones en contact avec le sol. Des facteurs tels que la ventilation de l'espace, les horaires de travail et l'utilisation de l'espace sont pris en compte. Les détecteurs sont analysés en laboratoire accrédité conformément à la norme UNE-EN ISO/IEC 17025 et les résultats sont exprimés en concentration moyenne annuelle en Bq/m3."
+          },
+          {
+            "title": "Secteurs particulièrement concernés",
+            "content": "Certains secteurs professionnels présentent un risque accru d'exposition au radon : travaux souterrains (mines, tunnels, grottes touristiques), travaux en contact direct avec le sol (rez-de-chaussée, demi-sous-sols), activités dans les zones d'action prioritaire définies par le CSN, et travaux dans les installations de traitement des eaux, stations thermales et établissements balnéaires. Dans ces secteurs, la mesure du radon est particulièrement critique."
+          },
+          {
+            "title": "Intégration à la prévention des risques",
+            "content": "Les résultats des mesures de radon doivent être intégrés dans l'évaluation des risques professionnels de l'entreprise. ACM-2020 fournit le conseil nécessaire pour que les services de prévention internes (SPP) ou les services de prévention externes (SPA) puissent incorporer le risque d'exposition au radon dans leurs plans de prévention et adopter les mesures de protection appropriées conformément à la réglementation en vigueur."
+          }
+        ],
+        "keyPoints": [
+          "Conformité aux obligations du RD 1029/2022 pour les employeurs",
+          "Mesures avec détecteurs passifs pendant un minimum de 3 mois en milieu professionnel",
+          "Analyse en laboratoire accrédité ENAC conformément à la norme UNE-EN ISO/IEC 17025",
+          "Conseil pour l'intégration du risque de radon dans la prévention des risques professionnels",
+          "Attention particulière aux secteurs à risque : travaux souterrains, rez-de-chaussée et zones prioritaires"
+        ],
+        "regulations": "RD 1029/2022 (Règlement sur la protection de la santé contre les rayonnements ionisants), Directive 2013/59/EURATOM, UNE-EN ISO/IEC 17025:2017, Instruction NOR/19-001 du CSN, Ley 31/1995 de Prevención de Riesgos Laborales."
       },
       "reports": {
         "title": "Rapports Techniques",
-        "description": "Élaboration de rapports détaillés avec recommandations d'action."
+        "description": "Élaboration de rapports détaillés avec recommandations d'action.",
+        "metaDescription": "Rapports techniques sur le radon : résultats de mesures, évaluation des risques et recommandations. Pour les rénovations, changements d'usage et conformité réglementaire.",
+        "intro": "Les rapports techniques sur le radon constituent la documentation essentielle qui atteste des résultats des mesures et fournit les recommandations d'action nécessaires pour chaque situation. ACM-2020 élabore des rapports rigoureux et détaillés qui servent aussi bien à la conformité réglementaire qu'à la prise de décision par les propriétaires, les entreprises et les administrations publiques.\n\nChaque rapport est élaboré sur la base des données obtenues à partir des mesures réalisées avec des détecteurs passifs analysés en laboratoire accrédité, et comprend l'interprétation des résultats, la comparaison avec les valeurs de référence établies par la réglementation et les recommandations spécifiques pour chaque situation.\n\nCes rapports sont particulièrement pertinents dans le contexte de rénovations, d'extensions et de changements d'usage de bâtiments existants, où le CTE DB HS6 exige de vérifier les conditions de protection contre le radon.",
+        "sections": [
+          {
+            "title": "Contenu du rapport technique",
+            "content": "Chaque rapport technique sur le radon comprend : la description du bâtiment ou local mesuré, l'emplacement et les caractéristiques des points de mesure, la période de mesure et les conditions pendant celle-ci, les résultats des mesures exprimés en Bq/m3 avec leur incertitude associée, la comparaison avec la valeur de référence de 300 Bq/m3, l'interprétation des résultats et les recommandations d'action spécifiques."
+          },
+          {
+            "title": "Rapports pour les rénovations et changements d'usage",
+            "content": "Lorsqu'un bâtiment existant fait l'objet d'une extension, d'un changement d'usage ou d'une rénovation susceptible d'affecter la protection contre le radon, il est nécessaire de réaliser des mesures et de documenter les résultats dans un rapport technique. ACM-2020 élabore ces rapports conformément aux directives du CTE DB HS6, fournissant la documentation nécessaire pour le dossier de travaux et la justification de la conformité réglementaire."
+          },
+          {
+            "title": "Rapports pour les entreprises et les services de prévention",
+            "content": "Les rapports de mesure du radon en milieu professionnel fournissent aux entreprises et à leurs services de prévention les informations nécessaires pour évaluer le risque d'exposition des travailleurs. Le rapport inclut l'évaluation des résultats par rapport au RD 1029/2022 et les recommandations pour l'adoption de mesures correctives en cas de dépassement de la valeur de référence."
+          },
+          {
+            "title": "Rapports pour les administrations publiques",
+            "content": "ACM-2020 élabore des rapports pour les organismes publics qui ont besoin de connaître la concentration de radon dans les bâtiments de propriété publique, dans le cadre des politiques de santé publique et de qualité de l'air intérieur. Ces rapports peuvent inclure l'évaluation de plusieurs bâtiments et la priorisation des actions correctives en fonction des niveaux détectés et de l'usage de chaque espace."
+          }
+        ],
+        "keyPoints": [
+          "Rapports techniques rigoureux basés sur des mesures en laboratoire accrédité",
+          "Interprétation des résultats et comparaison avec la valeur de référence de 300 Bq/m3",
+          "Documentation valide pour la conformité réglementaire lors de rénovations et changements d'usage",
+          "Rapports adaptés aux entreprises, services de prévention et administrations publiques",
+          "Recommandations d'action spécifiques pour chaque situation"
+        ],
+        "regulations": "RD 1029/2022, RD 732/2019, CTE DB HS6, Directive 2013/59/EURATOM, Instruction NOR/19-001 du CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "training": {
         "title": "Formation Radon",
-        "description": "Programmes de formation sur le gaz radon."
+        "description": "Programmes de formation sur le gaz radon.",
+        "metaDescription": "Formation sur le radon : cours pour techniciens, services de prévention SPP/SPA et collectivités. Théorie et ateliers pratiques de mesure in situ.",
+        "intro": "La formation en matière de radon est fondamentale pour que les professionnels impliqués dans la protection de la santé, la prévention des risques professionnels et la gestion des bâtiments disposent des connaissances nécessaires pour aborder cette problématique avec compétence.\n\nACM-2020 propose des programmes de formation adaptés à différents profils professionnels et niveaux de connaissance : des techniciens de collectivités qui doivent comprendre les exigences réglementaires de base, aux techniciens des services de prévention qui doivent intégrer le risque de radon dans leurs évaluations, en passant par les professionnels souhaitant apprendre à réaliser des mesures de manière pratique.\n\nNos programmes combinent une formation théorique sur le radon (origine, risques pour la santé, réglementation applicable) avec des ateliers pratiques in situ au cours desquels les participants apprennent à installer des détecteurs, à planifier des campagnes de mesure et à interpréter les résultats. Cette combinaison de théorie et de pratique garantit une formation complète et directement applicable.",
+        "sections": [
+          {
+            "title": "Formation pour les services de prévention",
+            "content": "Les techniciens des services de prévention internes (SPP) et des services de prévention externes (SPA) doivent connaître les exigences du RD 1029/2022 et savoir comment intégrer le risque d'exposition au radon dans l'évaluation des risques professionnels. Nos cours abordent la réglementation applicable, les critères pour déterminer quels lieux de travail doivent faire l'objet de mesures, l'interprétation des résultats de mesure et les mesures correctives disponibles."
+          },
+          {
+            "title": "Formation pour les administrations publiques",
+            "content": "ACM-2020 collabore avec les organismes publics pour la conception et l'élaboration d'actions de formation destinées aux techniciens des collectivités et autres administrations. Ces programmes couvrent les concepts fondamentaux du radon, la réglementation applicable (CTE DB HS6 et RD 1029/2022), l'identification des zones d'action prioritaire et la gestion des consultations citoyennes liées au radon."
+          },
+          {
+            "title": "Ateliers pratiques de mesure",
+            "content": "Les ateliers pratiques in situ permettent aux participants d'apprendre directement comment planifier une campagne de mesure, comment installer correctement les détecteurs passifs, comment documenter les conditions de mesure et comment interpréter les résultats du laboratoire. Cette expérience pratique est essentielle pour que les professionnels puissent appliquer leurs connaissances de manière autonome dans leur travail."
+          },
+          {
+            "title": "Formation pour les entreprises",
+            "content": "Les dirigeants et techniciens d'entreprises opérant dans des zones d'action prioritaire doivent comprendre leurs obligations en matière de protection contre le radon. Nos programmes abordent la réglementation applicable, les responsabilités du titulaire du lieu de travail, les procédures de mesure et les options de remédiation, en adaptant le niveau de détail aux besoins spécifiques de chaque organisation."
+          }
+        ],
+        "keyPoints": [
+          "Formation théorique et ateliers pratiques de mesure in situ",
+          "Cours adaptés aux SPP, SPA, collectivités et entreprises",
+          "Contenu actualisé conformément au RD 1029/2022 et au CTE DB HS6",
+          "Collaboration avec les organismes publics pour la conception d'actions de formation",
+          "Apprentissage pratique de l'installation des détecteurs et de l'interprétation des résultats"
+        ],
+        "regulations": "RD 1029/2022, RD 732/2019, CTE DB HS6, Directive 2013/59/EURATOM, Instruction NOR/19-001 du CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "howto": {
         "title": "Comment Mesurer le Radon",
-        "description": "Guide de détection et mesure du gaz radon."
+        "description": "Guide de détection et mesure du gaz radon.",
+        "metaDescription": "Comment savoir s'il y a du radon chez vous ou au travail. Guide pratique : détecteurs passifs, 2-3 mois de mesure, valeur de référence 300 Bq/m3. Consultation gratuite.",
+        "intro": "Le radon est un gaz radioactif naturel, inodore et invisible, qui provient de la désintégration de l'uranium présent dans le sol. Il peut s'accumuler à l'intérieur des bâtiments et représenter un risque pour la santé lorsque la concentration dépasse les niveaux de référence. Le seul moyen de savoir s'il y a du radon dans un espace intérieur est de le mesurer.\n\nMesurer le radon est un processus simple qui consiste à installer des détecteurs passifs pendant une période de 2 à 3 mois. Ce délai est nécessaire car la concentration de radon varie constamment, et seule une mesure prolongée permet d'obtenir une moyenne représentative pouvant être comparée à la valeur de référence.\n\nLa réglementation européenne et le Code Technique de la Construction (CTE) en Espagne établissent que si la concentration moyenne annuelle de radon dépasse 300 Bq/m3, il est nécessaire d'adopter des mesures correctives. Il n'est pas recommandé de se fier aux cartes du radon pour estimer le niveau d'un bâtiment particulier, car les concentrations peuvent varier considérablement même entre des bâtiments voisins.",
+        "sections": [
+          {
+            "title": "Qu'est-ce que le radon",
+            "content": "Le radon est un gaz noble radioactif qui se forme naturellement par la désintégration du radium-226, lui-même issu de l'uranium-238 présent dans les roches et les sols. En tant que gaz, il s'infiltre à travers le sol et peut pénétrer dans les bâtiments par les fissures des fondations, les joints de construction, les conduits d'installations et tout point de contact entre le bâtiment et le sol. Une fois à l'intérieur, il peut s'accumuler et atteindre des concentrations dangereuses, en particulier dans les rez-de-chaussée et les sous-sols insuffisamment ventilés."
+          },
+          {
+            "title": "Comment se déroule la mesure",
+            "content": "La mesure est réalisée avec des détecteurs passifs, qui sont des dispositifs petits et discrets placés dans les pièces d'usage courant. Ils ne nécessitent pas d'électricité et ne causent aucune gêne. Ils restent installés pendant une période minimale de 2 mois (habitations) ou 3 mois (lieux de travail). À la fin de la période, ils sont récupérés et envoyés au laboratoire accrédité pour lecture. Les résultats sont communiqués dans un rapport indiquant la concentration moyenne en Bq/m3."
+          },
+          {
+            "title": "Combien de détecteurs sont nécessaires",
+            "content": "Le nombre de détecteurs nécessaires dépend des caractéristiques du bâtiment : surface, nombre d'étages, distribution des espaces et zones de contact avec le sol. En règle générale, au moins un détecteur est installé par pièce habitable à l'étage le plus bas du bâtiment. ACM-2020 propose un conseil personnalisé pour déterminer le nombre et l'emplacement optimal des détecteurs dans chaque situation."
+          },
+          {
+            "title": "Pourquoi ne pas se fier aux cartes du radon",
+            "content": "Les cartes du radon fournissent une vision générale des zones les plus susceptibles de présenter des concentrations élevées, mais elles ne peuvent pas prédire le niveau de radon dans un bâtiment particulier. La concentration de radon dépend de multiples facteurs locaux : la géologie du sol immédiat, les caractéristiques constructives du bâtiment, la ventilation, l'étanchéité des fondations et les conditions climatiques. Deux bâtiments voisins peuvent présenter des concentrations très différentes. Le seul moyen de connaître le niveau réel est de mesurer."
+          },
+          {
+            "title": "Que faire avec les résultats",
+            "content": "Si la concentration moyenne annuelle est inférieure à 300 Bq/m3, l'espace est considéré comme sûr conformément à la réglementation en vigueur. Si elle dépasse cette valeur de référence, il est nécessaire d'adopter des mesures correctives telles que l'amélioration de la ventilation, l'installation de systèmes d'extraction du radon, le colmatage des fissures et des joints ou l'installation de membranes anti-radon. ACM-2020 conseille sur les mesures les plus appropriées et peut réaliser des mesures de vérification ultérieures pour confirmer l'efficacité des interventions."
+          }
+        ],
+        "keyPoints": [
+          "Le radon est inodore et invisible : le seul moyen de le détecter est de le mesurer",
+          "Mesure simple avec des détecteurs passifs pendant 2-3 mois",
+          "Valeur de référence en Espagne : 300 Bq/m3 de concentration moyenne annuelle",
+          "Les cartes du radon ne remplacent pas la mesure directe dans chaque bâtiment",
+          "Conseil sur les mesures correctives si les niveaux sont élevés",
+          "Laboratoire accrédité ENAC pour l'analyse des détecteurs"
+        ],
+        "regulations": "CTE DB HS6 (Protection contre le radon), RD 732/2019, RD 1029/2022, Directive 2013/59/EURATOM, Instruction NOR/19-001 du CSN, UNE-EN ISO/IEC 17025:2017."
       }
     },
     "whyTitle": "Les garanties qui nous soutiennent",
@@ -258,7 +988,21 @@
     "title": "Parlons de votre",
     "titleHighlight": "projet",
     "titleEnd": "",
-    "titleWords": ["projet", "problème", "besoin", "objectif", "question", "doute", "préoccupation", "situation", "cas", "entreprise", "société", "logement", "chantier"],
+    "titleWords": [
+      "projet",
+      "problème",
+      "besoin",
+      "objectif",
+      "question",
+      "doute",
+      "préoccupation",
+      "situation",
+      "cas",
+      "entreprise",
+      "société",
+      "logement",
+      "chantier"
+    ],
     "subtitle": "Décrivez-nous vos besoins et nous vous proposerons une solution personnalisée. Nous répondrons à votre demande dans les 24 heures.",
     "infoTitle": "Informations de contact",
     "infoSubtitle": "Nous sommes là pour vous aider. Contactez-nous par l'un de ces moyens.",

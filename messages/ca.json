@@ -49,55 +49,425 @@
     "asbestos": {
       "inspection": {
         "title": "Inspecció i Identificació",
-        "description": "Localització i avaluació de materials amb contingut d'amiant en edificis i instal·lacions."
+        "description": "Localització i avaluació de materials amb contingut d'amiant en edificis i instal·lacions.",
+        "metaDescription": "Servei professional d'identificació i avaluació d'amiant en edificis i infraestructures. Diagnòstic conforme a UNE 171370-2:2021 i ISO/IEC 17020.",
+        "intro": "Qualsevol actuació responsable davant l'amiant comença per una pregunta concreta: hi ha amiant en aquest edifici, i en quin estat es troba? La identificació i avaluació de materials amb amiant respon a aquesta pregunta amb rigor tècnic i suport normatiu.\n\nPropietaris, administradors de finques, organismes públics i entitats gestores recorren a aquest servei per obtenir un diagnòstic imparcial, elaborat conforme a la norma ISO/IEC 17020 i amb formació específica en la UNE 171370-2:2021.\n\nL'informe resultant no és un document accessori: és la base obligada sobre la qual es fonamenta qualsevol Pla de Treball posterior d'una empresa RERA. Sense aquest punt de partida, no hi ha retirada segura ni compliment normatiu possible.",
+        "sections": [
+          {
+            "title": "Objectiu del servei",
+            "content": "El propòsit principal és constatar o confirmar la presència o absència d'amiant en un edifici, instal·lació o infraestructura, independentment de la seva ubicació o tipologia. Quan es detecta algun material positiu en amiant, l'informe recull el resultat detallat i constitueix el punt de partida per adoptar les mesures preventives i correctores necessàries. L'informe inclou la localització precisa de cada material identificat, la seva quantificació, l'estat de conservació i les recomanacions tècniques pertinents."
+          },
+          {
+            "title": "Metodologia d'inspecció",
+            "content": "El procés comença amb una inspecció visual exhaustiva de l'edifici o instal·lació per detectar materials sospitosos de contenir amiant. Posteriorment, els tècnics realitzen la presa de mostres sòlides o de pols de superfície per a la seva anàlisi en laboratori. Els resultats permeten confirmar la presència d'amiant, identificar el tipus de fibra i avaluar el risc associat. Cada mostra és analitzada per laboratoris homologats i acreditats per organismes estatals de països europeus, atès que a Espanya encara no existeix homologació de laboratoris per a anàlisi de fibres d'amiant en materials."
+          },
+          {
+            "title": "Tipus de materials analitzats",
+            "content": "El servei abasta la identificació d'amiant en tot tipus de materials i elements constructius: cobertes i plaques de fibrociment, canonades i baixants, materials d'aïllament tèrmic i acústic, juntes i segellats, paviments vinílics, dipòsits i conductes, envans pluvials i qualsevol altre material sospitós de contenir amiant present tant a l'exterior com a l'interior de l'edifici."
+          },
+          {
+            "title": "Lliurables i informe tècnic",
+            "content": "El resultat del servei és un informe tècnic complet que inclou: la descripció detallada de cada material identificat, els resultats analítics de laboratori, la localització gràfica mitjançant plànols i fotografies, la quantificació dels materials detectats, l'avaluació de l'estat de conservació, les mesures preventives recomanades i una estimació orientativa del cost de gestió. Aquest document és la base documental que tota empresa RERA ha d'exigir abans d'intervenir en un escenari amb amiant."
+          }
+        ],
+        "keyPoints": [
+          "Diagnòstic conforme a la norma UNE 171370-2:2021 de localització i diagnòstic d'amiant",
+          "Actuació imparcial i independent segons els criteris de la norma ISO/IEC 17020",
+          "Anàlisis de laboratori realitzades per laboratoris europeus homologats i acreditats",
+          "Informe tècnic complet com a base imprescindible per a qualsevol Pla de Treball RERA",
+          "Servei aplicable a edificis, instal·lacions i infraestructures de titularitat pública i privada"
+        ],
+        "regulations": "UNE 171370-2:2021 (Localització i diagnòstic d'amiant), ISO/IEC 17020 (Criteris d'imparcialitat i neutralitat), RD 396/2006 (Disposicions mínimes de seguretat i salut aplicables als treballs amb risc d'exposició a l'amiant), Ordre de 7 de desembre de 2001 (Prohibició total de l'amiant a Espanya), Reglament CE 1907/2006 REACH."
       },
       "management": {
         "title": "Plans de Gestió",
-        "description": "Elaboració de plans de gestió de MCA conforme a la normativa vigent."
+        "description": "Elaboració de plans de gestió de MCA conforme a la normativa vigent.",
+        "metaDescription": "Plans de gestió de l'amiant per a edificis i infraestructures. Priorització de retirada, seguiment i compliment de la Llei 7/2022 de residus.",
+        "intro": "Un Pla de Gestió de l'Amiant és l'instrument que permet a propietaris i gestors d'edificis, instal·lacions i infraestructures abordar de forma ordenada, segura i eficient la problemàtica de l'amiant present en els seus actius. Aquest document estratègic estableix les prioritats d'actuació, els terminis d'execució i els protocols de seguretat necessaris.\n\nACM-2020 desenvolupa plans de gestió adaptats a cada escenari, des d'un edifici individual fins a grans carteres d'immobles o infraestructures municipals. El nostre enfocament integra la identificació, l'avaluació de l'estat de conservació, la priorització de la retirada i el seguiment de tot el procés fins a l'eliminació completa de l'amiant.\n\nLa Llei 7/2022, de 8 d'abril, de residus i sòls contaminats per a una economia circular, obliga els ajuntaments a elaborar censos d'instal·lacions i emplaçaments amb amiant amb un calendari de retirada. Els nostres plans de gestió compleixen amb aquests requisits legals i proporcionen un full de ruta clar per a l'eradicació responsable de l'amiant.",
+        "sections": [
+          {
+            "title": "Components del pla de gestió",
+            "content": "Un Pla de Gestió de l'Amiant elaborat per ACM-2020 inclou: l'inventari complet de materials amb amiant identificats, l'avaluació de l'estat de conservació de cada material, la classificació per nivell de risc i prioritat d'actuació, el calendari de retirada amb terminis definits, els protocols de seguretat durant la fase de convivència amb l'amiant, les mesures preventives immediates per a materials deteriorats i el pressupost estimat per a cada fase d'actuació."
+          },
+          {
+            "title": "Priorització d'actuacions",
+            "content": "La priorització de la retirada s'estableix en funció del grau de perillositat i exposició a la població. Es consideren factors com l'estat de deteriorament del material, la seva ubicació i accessibilitat, el tipus de fibra d'amiant, la probabilitat d'alliberament de fibres, l'exposició de persones vulnerables i l'ús de l'espai. Els materials amb major risc d'alliberament de fibres s'aborden amb caràcter prioritari, especialment en instal·lacions públiques."
+          },
+          {
+            "title": "Seguiment i actualització",
+            "content": "El pla de gestió és un document viu que requereix seguiment i actualització periòdica. ACM-2020 realitza inspeccions de control per verificar l'estat dels materials pendents de retirada, actualitza l'avaluació de riscos quan canvien les condicions i documenta cada actuació realitzada. Això inclou el control de tot l'amiant detectat, retirat i enviat a un gestor autoritzat."
+          },
+          {
+            "title": "Base de dades georeferenciada",
+            "content": "ACM-2020 disposa d'eines pròpies per elaborar i gestionar bases de dades georeferenciades que recullen tots els edificis, instal·lacions i infraestructures que contenen amiant, el seu estat de degradació i les prioritats de retirada. Aquesta eina permet el control i seguiment integral de tot l'amiant gestionat a qualsevol escala de treball."
+          }
+        ],
+        "keyPoints": [
+          "Compliment de la Llei 7/2022 de residus i sòls contaminats per a una economia circular",
+          "Priorització d'actuacions segons el grau de perillositat i exposició a població vulnerable",
+          "Eines pròpies amb base de dades georeferenciada per a gestió integral",
+          "Seguiment continu i actualització periòdica del pla de gestió",
+          "Adaptable a qualsevol escala: des d'un edifici individual fins a infraestructures municipals",
+          "Instal·lacions públiques de major risc gestionades abans de 2028 segons legislació"
+        ],
+        "regulations": "Llei 7/2022, de 8 d'abril, de residus i sòls contaminats per a una economia circular (Disposició addicional catorzena), RD 396/2006, Ordre de 7 de desembre de 2001, Reglament CE 1907/2006 REACH, Directiva 2009/148/CE, Resolució del Parlament Europeu de 14 de març de 2013."
       },
       "projects": {
         "title": "Projectes de Desamiantatge",
-        "description": "Redacció de projectes tècnics per a la retirada segura de materials amb amiant."
+        "description": "Redacció de projectes tècnics per a la retirada segura de materials amb amiant.",
+        "metaDescription": "Projectes de retirada d'amiant amb seguiment tècnic independent. Control de qualitat en confinaments dinàmics i estàtics. Empresa inscrita al RERA.",
+        "intro": "Entre el diagnòstic d'amiant i la verificació final de la seva retirada hi ha un procés que exigeix planificació estricta, control de qualitat i supervisió independent. Els serveis operatius d'ACM-2020 cobreixen aquesta cadena completa.\n\nTotes les nostres intervencions operen sota el Pla de Treball 86/AB/09-001-B, aprovat per l'autoritat laboral i subjecte permanentment a seguiment i mesurament dins el Registre d'Empreses amb Risc d'Amiant (RERA).\n\nLa nostra funció no és executar la retirada: és garantir que les empreses RERA executores treballen conforme a procediments, sense risc de contaminació a tercers. Aquesta independència és el que aporta valor real al control.",
+        "sections": [
+          {
+            "title": "Seguiment de Plans de Treball",
+            "content": "ACM-2020 realitza un seguiment independent i paral·lel del Pla de Treball executat per l'empresa RERA contractada per a la retirada. Aquest control de qualitat abasta tant la fase operativa (durant l'execució) com la fase de finalització. L'objectiu és assegurar el compliment dels procediments relacionats amb la prevenció de contaminació a tercers, verificant que els confinaments dinàmics o estàtics funcionen correctament."
+          },
+          {
+            "title": "Control de qualitat final de superfícies",
+            "content": "Després de la finalització dels treballs de retirada, estabilització, encapsulat o confinament de materials amb amiant, ACM-2020 realitza un control de qualitat final com a confirmació que el servei compleix amb els estàndards adequats. En ser realitzat per una empresa externa no vinculada a l'execució, es garanteix la imparcialitat i independència del resultat."
+          },
+          {
+            "title": "Control periòdic de superfícies tractades",
+            "content": "En els casos en què els materials amb amiant han estat estabilitzats, encapsulats o confinats en lloc de retirats, ACM-2020 realitza controls periòdics per verificar que els tractaments aplicats mantenen la seva efectivitat i que no es produeix alliberament de fibres. Aquest seguiment periòdic és essencial per garantir la seguretat a llarg termini."
+          },
+          {
+            "title": "Mostreig ambiental",
+            "content": "La verificació mitjançant mostreigs estàtic-ambientals (punt fix) es realitza en punts propers al possible focus emissor de fibres d'amiant. Aquesta mesura de fibres en l'aire ambient, realitzada amb metodologia francesa, permet evidenciar que la fase operativa del Pla de Treball no representa un perill per a terceres persones ni per al medi ambient proper a l'escenari d'intervenció."
+          }
+        ],
+        "keyPoints": [
+          "Pla de Treball aprovat amb número RERA 86/AB/09-001-B",
+          "Seguiment independent de l'execució per empreses RERA",
+          "Control de qualitat durant i a la finalització dels processos",
+          "Mostreig estàtic ambiental amb metodologia francesa per a mesurament de fibres en aire",
+          "Control periòdic de superfícies estabilitzades, encapsulades o confinades"
+        ],
+        "regulations": "RD 396/2006 (Disposicions mínimes de seguretat i salut per a treballs amb risc d'exposició a l'amiant), RERA (Registre d'Empreses amb Risc d'Amiant), Ordre de 7 de desembre de 2001, ISO/IEC 17020."
       },
       "waste": {
         "title": "Gestió de Residus",
-        "description": "Assessorament en la correcta eliminació i transport de residus d'amiant."
+        "description": "Assessorament en la correcta eliminació i transport de residus d'amiant.",
+        "metaDescription": "Gestió de residus d'amiant en sòls i aigües. Quantificació, traçabilitat i enviament a gestor autoritzat conforme a normativa vigent. NEN 5707.",
+        "intro": "La gestió de residus d'amiant abasta la identificació, quantificació i tractament de materials contaminats amb amiant presents en diferents medis: sòls, aigües, materials de construcció i altres elements. Aquest servei és fonamental per garantir que els residus perillosos es gestionen amb les màximes garanties de seguretat i s'envien a gestors autoritzats.\n\nACM-2020 ofereix un servei integral de gestió de residus que inclou l'avaluació inicial, la quantificació del contingut d'amiant, la determinació de fibres respirables i l'assessorament durant tot el procés d'eliminació. El nostre objectiu és assegurar que cada residu amb amiant rep el tractament adequat i queda degudament documentat.\n\nLa contaminació de sòls per amiant i la presència de fibres en sistemes de subministrament d'aigua són problemàtiques específiques que requereixen metodologies i marcs normatius especialitzats. ACM-2020 compta amb la formació necessària per abordar aquestes situacions aplicant els estàndards tècnics més exigents.",
+        "sections": [
+          {
+            "title": "Sòls contaminats amb amiant",
+            "content": "La quantificació del contingut d'amiant en un volum de terres és una necessitat molt específica que ACM-2020 resol mitjançant presa de mostres i anàlisi de laboratori. Davant la sospita de presència d'amiant en sòls, es determinen tant la concentració d'amiant com la presència de fibres respirables. Aquestes fibres lliures són partícules extremadament fines que poden romandre suspeses en l'aire durant llargs períodes, representant un risc significatiu per a la salut humana. En ser invisibles a simple vista, la seva detecció requereix anàlisis especialitzades."
+          },
+          {
+            "title": "Aigües amb amiant",
+            "content": "La determinació de la concentració de fibres d'amiant dissoltes en aigua abasta des de la xarxa de distribució d'aigües potables fins a fonts d'aigua naturals. L'objectiu és disposar d'informació precisa sobre la quantitat d'amiant present per assegurar el compliment dels estàndards de seguretat del subministrament d'aigua. El procés inclou un mostreig controlat i la seva posterior anàlisi en un laboratori extern i independent mitjançant microscòpia electrònica."
+          },
+          {
+            "title": "Traçabilitat i documentació",
+            "content": "ACM-2020 garanteix la traçabilitat completa de cada residu d'amiant, des de la seva identificació i quantificació fins al seu enviament a un gestor autoritzat. Tota la documentació generada compleix amb els requisits legals i queda registrada a la base de dades del projecte, permetent verificar que els residus han estat retirats i gestionats correctament."
+          },
+          {
+            "title": "Marc normatiu aplicable",
+            "content": "A Espanya no existeix actualment un valor límit per a la concentració d'amiant en sòl ni en aigua potable, ni tampoc laboratoris homologats per a aquestes anàlisis. Per això, ACM-2020 utilitza el marc normatiu dels Països Baixos i aplica la norma NEN 5707 per a sòls contaminats. Per a aigües, es pren com a referència el Nivell Màxim de Contaminant establert per la USEPA el 1991 de 7 milions de fibres majors de 10 micròmetres per litre. Les anàlisis es realitzen en laboratoris homologats i acreditats per organismes estatals de països europeus."
+          }
+        ],
+        "keyPoints": [
+          "Quantificació de la concentració d'amiant en sòls i determinació de fibres respirables",
+          "Determinació de fibres d'amiant en aigües potables i naturals",
+          "Traçabilitat completa del residu des de la seva identificació fins al gestor autoritzat",
+          "Aplicació de la norma NEN 5707 (Països Baixos) per a sòls contaminats",
+          "Anàlisis en laboratoris europeus homologats i acreditats",
+          "Assessorament integral durant tot el procés d'eliminació de residus"
+        ],
+        "regulations": "NEN 5707 (norma neerlandesa per a sòls contaminats amb amiant), USEPA Nivell Màxim de Contaminant per a fibres d'amiant en aigua potable (7 MFL > 10 micròmetres), Llei 7/2022 de residus i sòls contaminats, RD 396/2006, ISO/IEC 17020, Directiva 2020/2184 (UE) relativa a la qualitat de les aigües destinades al consum humà."
       },
       "supervision": {
         "title": "Direcció d'Obra",
-        "description": "Supervisió tècnica dels treballs de desamiantatge garantint la seguretat."
+        "description": "Supervisió tècnica dels treballs de desamiantatge garantint la seguretat.",
+        "metaDescription": "Seguiment independent de plans de treball de retirada d'amiant. Control de qualitat durant i després de l'execució. Empresa inscrita RERA 86/AB/09.",
+        "intro": "Que una empresa RERA executi un pla de treball no significa que ho faci correctament. Algú independent ho ha de verificar. Aquest és el paper del seguiment: una supervisió externa de les operacions de retirada, encapsulat, estabilització o confinament de materials amb amiant.\n\nACM-2020 realitza aquests controls sota els criteris d'imparcialitat de la norma ISO/IEC 17020, tant per a organismes públics com per a propietaris privats que necessiten garanties sobre l'execució real dels treballs.\n\nA mesura que els materials amb amiant instal·lats abans de 2002 assoleixen el final de la seva vida útil, la demanda de supervisió independent creix. Els riscos d'alliberament de fibres durant les intervencions exigeixen una vigilància tècnica que només pot oferir una entitat amb inscripció RERA i pla de treball aprovat.",
+        "sections": [
+          {
+            "title": "Control durant l'execució",
+            "content": "El seguiment durant l'execució del Pla de Treball inclou la verificació dels confinaments dinàmics o estàtics, el control dels procediments de treball, la supervisió de les mesures de protecció individual i col·lectiva, i la vigilància de la possible alliberació de fibres a l'entorn. ACM-2020 actua com a entitat independent i paral·lela a l'empresa RERA executora."
+          },
+          {
+            "title": "Control de qualitat a la finalització",
+            "content": "Un cop finalitzats els treballs, es realitza un control de qualitat final que inclou la inspecció visual de les superfícies tractades i el mostreig ambiental per verificar l'absència de fibres d'amiant en l'aire. Aquest control, realitzat per una empresa externa no vinculada a l'execució, confirma que el servei proporcionat compleix amb els estàndards de seguretat exigits."
+          },
+          {
+            "title": "Mostreig estàtic ambiental",
+            "content": "La verificació mitjançant mostreigs estàtic-ambientals en punts fixos propers al possible focus emissor de fibres permet evidenciar que la fase operativa del Pla de Treball no representa un perill per a terceres persones ni per al medi ambient proper. Aquesta mesura de fibres en l'aire es realitza amb metodologia acreditada i els resultats es documenten a l'informe corresponent."
+          },
+          {
+            "title": "Indicadors de deteriorament avaluats",
+            "content": "Durant el seguiment s'avaluen indicadors clau com fractures en els materials, esquerdes que puguin facilitar l'alliberament de fibres, presència de fibres lliures en superfícies i despreniment actiu de fibres. Cadascun d'aquests indicadors es documenta i classifica segons la seva gravetat per determinar la necessitat d'accions correctores immediates."
+          }
+        ],
+        "keyPoints": [
+          "Seguiment independent i paral·lel de l'empresa RERA executora",
+          "Control de qualitat durant i a la finalització dels processos",
+          "Mostreig estàtic ambiental en punts fixos propers al focus emissor",
+          "Avaluació d'indicadors crítics: fractures, esquerdes, fibres lliures i despreniments",
+          "Pla de Treball aprovat RERA 86/AB/09-001-B"
+        ],
+        "regulations": "RD 396/2006, ISO/IEC 17020 (Criteris d'imparcialitat), RERA (Registre d'Empreses amb Risc d'Amiant), Ordre de 7 de desembre de 2001, Directiva 2009/148/CE."
       },
       "risk": {
         "title": "Avaluació de Riscos",
-        "description": "Anàlisi de riscos laborals relacionats amb l'exposició a l'amiant."
+        "description": "Anàlisi de riscos laborals relacionats amb l'exposició a l'amiant.",
+        "metaDescription": "Avaluació de l'estat de conservació de l'amiant. Determinació del final de vida útil de MCA segons normativa europea. Inspecció i mostreig no destructiu.",
+        "intro": "L'avaluació de l'estat de conservació de materials amb amiant és un servei tècnic que permet valorar de forma objectiva el grau de degradació d'aquests materials i determinar si han assolit el final de la seva vida útil. Aquest estudi és fonamental per establir les prioritats de retirada i adoptar les mesures preventives adequades.\n\nMajoritàriament, aquesta activitat es duu a terme en cobertes d'amiant-ciment (fibrociment), tot i que és aplicable a qualsevol tipus de material amb contingut d'amiant (MCA). La demanda d'aquest servei és creixent per part de la societat civil, propietaris i entitats gestores d'edificis que necessiten conèixer l'estat real dels materials amb amiant presents a les seves instal·lacions.\n\nSegons la Resolució del Parlament Europeu de 14 de març de 2013, els materials amb amiant posseeixen habitualment un cicle de vida d'entre 30 i 50 anys. Atès que a Espanya l'amiant es va prohibir totalment el 2002, molts dels materials instal·lats estan assolint o ja han superat el final de la seva vida útil, la qual cosa implica un risc creixent d'alliberament de fibres.",
+        "sections": [
+          {
+            "title": "Metodologia d'avaluació",
+            "content": "L'avaluació consisteix en una inspecció detallada del material, la verificació visual del seu estat i una presa de mostres superficial no destructiva. S'examinen indicadors clau de deteriorament com fractures, esquerdes, presència de fibres lliures en superfície i despreniment actiu de fibres. Quan un material presenta un grau de degradació suficient per considerar que ha finalitzat la seva vida útil, l'informe recull aquest resultat i recomana la metodologia més adequada per a la seva gestió responsable."
+          },
+          {
+            "title": "Concepte de final de vida útil",
+            "content": "La normativa europea estableix que l'ús d'articles amb amiant instal·lats abans de l'1 de gener de 2005 s'admet fins a la seva eliminació o el final de la seva vida útil. S'entén per vida útil el temps estimat que un producte pot realitzar la funció per a la qual va ser fabricat, depenent del seu manteniment i condicions d'ús. En l'àmbit de la prevenció, el final de la vida útil s'assoleix quan el material pot perjudicar la salut per la seva probabilitat d'alliberar fibres d'amiant a l'ambient, ja sigui pel seu estat de conservació o per factors com risc de trencaments, cops o vibracions."
+          },
+          {
+            "title": "Impacte en el calendari de retirada",
+            "content": "L'estat de conservació d'un material amb amiant afecta directament el calendari de retirada establert al pla de gestió. Els materials que presenten un deteriorament avançat s'han de tractar amb prioritat absoluta. L'informe d'avaluació proporciona la informació necessària per reclassificar les prioritats i, si escau, activar mesures d'urgència com l'encapsulat temporal o la restricció d'accés a la zona afectada."
+          },
+          {
+            "title": "Acreditació i capacitació",
+            "content": "ACM-2020 disposa de la formació i experiència necessària per dur a terme avaluacions de l'estat de conservació de materials amb amiant. L'empresa compta amb un Pla de Treball aprovat que recull específicament aquesta activitat, i executa el servei sota els criteris d'imparcialitat i neutralitat de la norma ISO/IEC 17020, tant per a organismes públics com per a propietaris privats."
+          }
+        ],
+        "keyPoints": [
+          "Avaluació objectiva del grau de deteriorament mitjançant inspecció visual i mostreig no destructiu",
+          "Determinació del final de vida útil conforme a la normativa europea",
+          "Priorització de la retirada segons el nivell de degradació detectat",
+          "Aplicable a cobertes de fibrociment i a qualsevol tipus de material amb amiant",
+          "Informe amb recomanacions d'actuació i metodologia de gestió responsable"
+        ],
+        "regulations": "Ordre de 7 de desembre de 2001 (Prohibició de l'amiant), RD 1406/1989, Reglament CE 1907/2006 REACH (Annex XVII), Directiva 2009/148/CE, Resolució del Parlament Europeu de 14 de març de 2013, Guia tècnica de l'INSST per a l'avaluació i prevenció de riscos d'exposició a l'amiant, ISO/IEC 17020."
       },
       "audits": {
         "title": "Auditories",
-        "description": "Auditories d'amiant."
+        "description": "Auditories d'amiant.",
+        "metaDescription": "Auditories d'amiant integrals: inspecció visual, mostreig, seguiment de plans de treball i control de qualitat. Compliment ISO/IEC 17020.",
+        "intro": "Les auditories d'amiant constitueixen un servei integral que abasta la totalitat del cicle de gestió de l'amiant: des de la detecció inicial fins a la verificació final després de la retirada. Aquest servei respon a la creixent consciència sobre els perills de l'amiant en edificis i instal·lacions i a la necessitat d'abordar-lo amb un enfocament sistemàtic i professional.\n\nACM-2020 es regeix pels més alts estàndards d'imparcialitat i neutralitat conforme a la norma ISO/IEC 17020, assegurant la fiabilitat de cada informe. Treballem tant per a organismes públics com per a propietaris privats, compromesos amb la seguretat i el benestar de les persones que ocupen els espais auditats.\n\nL'informe resultant d'una auditoria no és només un document informatiu, sinó el punt de partida per a futures accions. Quan es detecta amiant, proporcionem les pautes necessàries, incloent-hi una estimació del cost de gestió i les mesures preventives i correctores recomanades.",
+        "sections": [
+          {
+            "title": "Inspeccions visuals",
+            "content": "La primera fase de l'auditoria consisteix en una inspecció visual exhaustiva per detectar possibles materials o elements sospitosos de contenir amiant. Els reconeixements visuals tenen l'avantatge de ser molt cost-efectius i serveixen com a primer cribratge a l'hora de determinar si un edifici o instal·lació pot contenir amiant. Aquesta fase permet identificar ràpidament les àrees de risc i planificar la presa de mostres posterior."
+          },
+          {
+            "title": "Presa de mostres i anàlisi",
+            "content": "Els tècnics realitzen la presa de mostres sòlides o de pols de superfície amb l'objectiu d'executar una identificació i avaluació completa de materials amb amiant. Aquest procés permet la localització i diagnòstic de cada material, obtenint resultats ràpids i fiables. L'estudi pot concloure amb el preu aproximat de la gestió dels materials detectats, així com la proposta de mesures preventives i correctores."
+          },
+          {
+            "title": "Seguiment de plans de treball",
+            "content": "En la fase de retirada, ACM-2020 realitza un seguiment independent i paral·lel del Pla de Treball executat per l'empresa RERA, assegurant el compliment dels procediments relacionats amb la prevenció de contaminació a tercers. Aquest control de qualitat es fa tant durant l'execució com a la finalització dels processos."
+          },
+          {
+            "title": "Control de qualitat i mostreig ambiental",
+            "content": "L'auditoria inclou el control de qualitat final després dels treballs de retirada, estabilització, encapsulat o confinament, i la verificació mitjançant mostreigs estàtic-ambientals en punts fixos propers al possible focus emissor. Això permet evidenciar que les operacions no representen un perill per a terceres persones ni per al medi ambient proper."
+          }
+        ],
+        "keyPoints": [
+          "Servei integral que abasta tot el cicle de gestió de l'amiant",
+          "Inspeccions visuals cost-efectives com a primera fase de detecció",
+          "Informe detallat amb estimació de costos de gestió i mesures correctores",
+          "Seguiment independent de plans de treball d'empreses RERA",
+          "Control de qualitat final i mostreig ambiental post-intervenció",
+          "Actuació conforme a ISO/IEC 17020 per garantir imparcialitat"
+        ],
+        "regulations": "ISO/IEC 17020 (Criteris d'imparcialitat i neutralitat), RD 396/2006, UNE 171370-2:2021 (Localització i diagnòstic d'amiant), RERA (Registre d'Empreses amb Risc d'Amiant)."
       },
       "training": {
         "title": "Formació",
-        "description": "Formació en amiant."
+        "description": "Formació en amiant.",
+        "metaDescription": "Formació especialitzada en amiant conforme al RD 396/2006. Cursos per a tècnics, serveis de prevenció, empreses RERA i organismes públics.",
+        "intro": "La formació en matèria d'amiant és un pilar fonamental per garantir la seguretat dels treballadors i la correcta gestió d'aquest material perillós. ACM-2020 ofereix programes formatius adaptats a les necessitats específiques de cada organització, des d'organismes públics fins a empreses privades inscrites al RERA.\n\nEls nostres programes cobreixen tots els aspectes rellevants del Reial Decret 396/2006 i s'adapten a diferents nivells professionals: tècnics de serveis de prevenció, directius i operaris d'empreses RERA, personal d'ajuntaments i altres organismes públics. La flexibilitat de contingut permet personalitzar cada acció formativa segons els requeriments tècnics específics del client.\n\nA més de la formació reglada, ACM-2020 participa activament en comissions tècniques, congressos nacionals i internacionals, i col·labora amb organismes públics en el disseny d'accions formatives, aportant coneixement actualitzat i experiència pràctica de camp.",
+        "sections": [
+          {
+            "title": "Formació per a serveis de prevenció",
+            "content": "Els tècnics de serveis de prevenció propis (SPP) i aliens (SPA) requereixen una formació específica sobre els riscos associats a l'amiant i els protocols d'actuació establerts per la normativa. ACM-2020 ofereix programes formatius que inclouen la identificació de materials amb amiant, l'avaluació del risc, els procediments de treball segur i la gestió d'emergències."
+          },
+          {
+            "title": "Formació per a empreses RERA",
+            "content": "Els directius i tècnics d'empreses inscrites al RERA necessiten una actualització contínua dels seus coneixements en matèria de gestió de l'amiant. Els nostres cursos aborden els requisits legals del RD 396/2006, els procediments d'elaboració i execució de plans de treball, les tècniques de confinament i retirada, i els protocols de control de qualitat."
+          },
+          {
+            "title": "Formació per a organismes públics",
+            "content": "ACM-2020 col·labora amb les diferents administracions en la confecció i disseny d'accions formatives dirigides al seu personal tècnic. Aquests programes inclouen la identificació visual de materials sospitosos, l'elaboració de censos municipals d'amiant, la gestió de queixes i consultes ciutadanes, i la coordinació amb empreses RERA per a la retirada."
+          },
+          {
+            "title": "Participació en esdeveniments i comissions",
+            "content": "A més de la formació directa, ACM-2020 participa en diferents comissions tècniques relacionades amb l'amiant i en congressos nacionals i internacionals. Aquesta participació activa ens permet mantenir-nos a l'avantguarda del coneixement i traslladar les darreres novetats i millors pràctiques als nostres programes formatius."
+          }
+        ],
+        "keyPoints": [
+          "Programes adaptats a diferents nivells professionals i necessitats específiques",
+          "Formació conforme al RD 396/2006 sobre treballs amb risc d'exposició a l'amiant",
+          "Flexibilitat de contingut per personalitzar cada acció formativa",
+          "Participació activa en comissions tècniques i congressos especialitzats",
+          "Col·laboració amb administracions públiques en el disseny d'accions formatives"
+        ],
+        "regulations": "RD 396/2006 (Disposicions mínimes de seguretat i salut per a treballs amb risc d'exposició a l'amiant), Llei 7/2022 de residus i sòls contaminats, UNE 171370-2:2021, ISO/IEC 17020."
       },
       "consulting": {
         "title": "Assessoria i Consultoria",
-        "description": "Serveis d'assessoria i consultoria en amiant."
+        "description": "Serveis d'assessoria i consultoria en amiant.",
+        "metaDescription": "Assessoria i consultoria especialitzada en amiant. Peritatges, informes de compliment legal, assessorament en censos i gestió conforme al RD 396/2006.",
+        "intro": "ACM-2020 ofereix un servei d'assessoria i consultoria integral en matèria d'amiant, dirigit a administracions públiques, empreses privades i particulars que necessiten orientació professional per gestionar la problemàtica de l'amiant en els seus edificis, instal·lacions o infraestructures.\n\nEl nostre equip assessora en tots els aspectes relacionats amb la normativa vigent, la planificació d'actuacions, l'elaboració de censos municipals i la gestió interna dels requisits legals associats a l'amiant. Cada cas s'aborda de forma personalitzada, adaptant les solucions a les circumstàncies específiques del client.\n\nA més, realitzem peritatges associats a l'exposició laboral, ambiental o domèstica a l'amiant, proporcionant informes tècnics rigorosos que poden ser utilitzats en procediments administratius o judicials.",
+        "sections": [
+          {
+            "title": "Col·laboració amb administracions públiques",
+            "content": "ACM-2020 col·labora estretament amb les diferents administracions en tot allò relacionat amb la problemàtica de l'amiant. Aquest servei abasta des de l'assessoria tècnica per a l'elaboració de censos municipals d'amiant fins a l'assessorament en la contractació d'empreses RERA per a la retirada, passant per l'orientació en el compliment de la Llei 7/2022 i els seus terminis obligatoris."
+          },
+          {
+            "title": "Assessorament empresarial",
+            "content": "Elaborem informes relatius a la implantació a l'empresa dels requisits legals associats a l'amiant, conforme al RD 396/2006. Aquest servei inclou la revisió dels procediments interns, l'avaluació de l'exposició dels treballadors, la verificació del compliment de les obligacions de registre i notificació, i la recomanació de millores en els protocols de seguretat."
+          },
+          {
+            "title": "Peritatges especialitzats",
+            "content": "Realitzem peritatges tècnics associats a l'exposició laboral, ambiental o domèstica a l'amiant. Aquests informes pericials s'elaboren amb rigor tècnic i científic, i són vàlids per a la seva presentació en procediments administratius, judicials o d'assegurances. El peritatge pot incloure l'avaluació de l'exposició històrica, la identificació de fonts de contaminació i la valoració dels danys."
+          },
+          {
+            "title": "Assessorament en censos d'amiant",
+            "content": "ACM-2020 assessora en la planificació, elaboració i gestió de censos d'amiant en edificis, instal·lacions i infraestructures de titularitat pública i privada. El nostre assessorament abasta tot el procés, des de la definició de l'abast i la metodologia fins a la interpretació dels resultats i la priorització de les actuacions de retirada."
+          }
+        ],
+        "keyPoints": [
+          "Assessoria integral adaptada a administracions públiques, empreses i particulars",
+          "Elaboració d'informes de compliment legal conforme al RD 396/2006",
+          "Peritatges especialitzats en exposició laboral, ambiental i domèstica",
+          "Assessorament en l'elaboració de censos municipals d'amiant",
+          "Col·laboració amb totes les administracions implicades en la gestió de l'amiant"
+        ],
+        "regulations": "RD 396/2006, Llei 7/2022 de residus i sòls contaminats per a una economia circular, Ordre de 7 de desembre de 2001, ISO/IEC 17020, Directiva 2009/148/CE."
       },
       "censuses": {
         "title": "Censos Municipals",
-        "description": "Censos d'amiant en edificis, instal·lacions i infraestructures."
+        "description": "Censos d'amiant en edificis, instal·lacions i infraestructures.",
+        "metaDescription": "Censos d'amiant municipals conforme a la Llei 7/2022. Base de dades georreferenciada, prioritats de retirada i eines de gestió pròpies.",
+        "intro": "L'elaboració de censos d'amiant és una obligació legal establerta per la Llei 7/2022, de 8 d'abril, de residus i sòls contaminats per a una economia circular. Els ajuntaments han d'elaborar un cens d'instal·lacions i emplaçaments amb amiant, incloent-hi un calendari que planifiqui la seva retirada, amb caràcter públic i remès a les autoritats sanitàries, mediambientals i laborals.\n\nACM-2020 disposa de formació, experiència i eines pròpies desenvolupades per elaborar i gestionar censos d'amiant a qualsevol escala de treball: des d'un edifici individual fins a un municipi complet. La nostra metodologia va més enllà de la simple detecció de cobertes de fibrociment per teledetecció, abastant tots els materials amb contingut d'amiant presents tant a l'exterior com a l'interior dels edificis.\n\nEl resultat és una base de dades georreferenciada completa que recull tots els materials amb amiant detectats, el seu estat de degradació i les prioritats de retirada, permetent la gestió integral i el seguiment de tot l'amiant fins a la seva eliminació definitiva.",
+        "sections": [
+          {
+            "title": "Fases del Cens Municipal d'Amiant",
+            "content": "El procés d'elaboració d'un Cens Municipal d'Amiant (CMA) consta de cinc fases: Primera, definició de l'abast i recopilació documental dels edificis, instal·lacions i infraestructures del municipi. Segona, inspecció inicial visual per identificar elements sospitosos de contenir amiant. Tercera, identificació i avaluació de l'amiant detectat mitjançant presa de mostres i anàlisi de laboratori. Quarta, execució de les mesures preventives sobre els materials a erradicar. Cinquena, execució de les mesures correctores i gestió del residu fins a la seva destinació final en gestor autoritzat."
+          },
+          {
+            "title": "Metodologia integral",
+            "content": "ACM-2020 considera que el cens ha d'incloure tots els materials amb amiant d'un edifici, tant de l'exterior com de l'interior. La teledetecció per detectar cobertes d'amiant-ciment és només una petita part del procés, ja que existeixen molts més elements i materials que no es poden detectar amb aquesta tecnologia. L'objectiu és localitzar, fotografiar i quantificar tots els materials amb amiant o sospitosos de contenir-ne."
+          },
+          {
+            "title": "Base de dades georreferenciada",
+            "content": "ACM-2020 elabora una base de dades georreferenciada pròpia que recull tots els edificis, instal·lacions i infraestructures amb amiant, el seu estat de degradació i les prioritats de retirada en funció de la seva perillositat. Aquesta eina permet el control integral de l'amiant detectat, retirat i enviat a gestor autoritzat, facilitant la gestió contínua i el compliment dels terminis legals."
+          },
+          {
+            "title": "Calendari de retirada",
+            "content": "El cens inclou un calendari de retirada que prioritza les instal·lacions i emplaçaments segons el seu grau de perillositat i exposició a la població més vulnerable. Les instal·lacions o emplaçaments de caràcter públic amb major risc han d'estar gestionats abans de 2028. El calendari té caràcter públic i es remet a les autoritats competents conforme a la llei."
+          }
+        ],
+        "keyPoints": [
+          "Compliment de l'obligació legal de la Llei 7/2022 per als ajuntaments",
+          "Metodologia integral que va més enllà de la detecció per teledetecció de cobertes",
+          "Base de dades georreferenciada pròpia per a gestió i seguiment",
+          "Calendari de retirada amb priorització per perillositat i exposició",
+          "Experiència en censos a qualsevol escala: edificis individuals o municipis complets",
+          "Instal·lacions públiques de major risc gestionades abans de 2028"
+        ],
+        "regulations": "Llei 7/2022, de 8 d'abril, de residus i sòls contaminats per a una economia circular (Disposició addicional catorzena), RD 396/2006, UNE 171370-2:2021, ISO/IEC 17020, Base metodològica per la redacció del document-guia per l'eradicació de l'amiant als municipis (CMA vs Mapa de l'Amiant a Catalunya)."
       },
       "water": {
         "title": "Amiant en Aigües",
-        "description": "Anàlisi de fibres d'amiant en sistemes de subministrament d'aigua."
+        "description": "Anàlisi de fibres d'amiant en sistemes de subministrament d'aigua.",
+        "metaDescription": "Anàlisi de fibres d'amiant en aigües potables i naturals. Mostreig i anàlisi per microscòpia electrònica en laboratoris europeus acreditats.",
+        "intro": "La detecció de fibres d'amiant en l'aigua és un servei especialitzat que permet determinar amb precisió la concentració de fibres dissoltes en qualsevol tipus d'aigua: des de la xarxa de distribució d'aigües potables fins a fonts d'aigua naturals, superficials o subterrànies.\n\nLa presència d'amiant en l'aigua pot originar-se pel deteriorament de les canonades de fibrociment que encara formen part de moltes xarxes de distribució, o per la contaminació de fonts naturals. La investigació sobre aquest tema va començar fa dècades, quan van sorgir evidències sobre els riscos per a la salut relacionats amb la ingestió de fibres.\n\nACM-2020, d'acord amb els criteris d'imparcialitat i neutralitat de la norma ISO/IEC 17020, realitza el mostreig i coordina l'anàlisi en laboratoris externs homologats i acreditats, proporcionant informació precisa sobre la quantitat d'amiant present en l'aigua.",
+        "sections": [
+          {
+            "title": "Procés de mostreig i anàlisi",
+            "content": "El servei inclou la planificació dels punts de mostreig, la presa de mostres d'aigua conforme a protocols estandarditzats i el seu enviament a un laboratori extern i independent per a l'anàlisi mitjançant microscòpia electrònica (SEM o TEM). Els resultats s'expressen en fibres per litre, permetent avaluar el compliment dels estàndards de referència internacionals."
+          },
+          {
+            "title": "Riscos per a la salut",
+            "content": "Segons un estudi de la U.S. National Academy of Science (1983), una concentració en aigua potable de 2 x 10 elevat a 5 fibres per litre pot induir càncer gastrointestinal en un habitant de cada 100.000 el consum del qual és de 2 litres diaris durant 70 anys. Els infants tenen un risc més gran perquè consumeixen un volum d'aigua superior per pes corporal. Les fibres de menys de 10 micròmetres no representen un perill segons aquest estudi."
+          },
+          {
+            "title": "Aplicacions del servei",
+            "content": "Aquest servei és especialment rellevant per a municipis amb xarxes de distribució d'aigua que inclouen canonades de fibrociment, per a empreses de subministrament d'aigua que necessiten verificar la qualitat de la seva xarxa, per a projectes de rehabilitació d'infraestructures hidràuliques i per a avaluacions ambientals de fonts d'aigua natural potencialment afectades per residus d'amiant."
+          },
+          {
+            "title": "Marc normatiu de referència",
+            "content": "Ni la legislació europea ni l'espanyola estableixen actualment valors límit per a la concentració d'amiant en aigua potable. La USEPA va establir el 1991 un Nivell Màxim de Contaminant de 7 milions de fibres majors de 10 micròmetres per litre, valor adoptat com a referència per altres països. ACM-2020 utilitza aquests estàndards internacionals i acudeix a laboratoris homologats de països europeus per a les anàlisis, atès que a Espanya no existeix homologació per a aquest tipus de determinacions."
+          }
+        ],
+        "keyPoints": [
+          "Determinació precisa de la concentració de fibres d'amiant en aigua (fibres/litre)",
+          "Anàlisi mitjançant microscòpia electrònica SEM i TEM en laboratoris europeus acreditats",
+          "Referència USEPA: màxim 7 MFL majors de 10 micròmetres per litre",
+          "Aplicable a xarxes de distribució, aigües potables i fonts naturals",
+          "Imparcialitat garantida conforme a ISO/IEC 17020"
+        ],
+        "regulations": "USEPA MCL per a fibres d'amiant en aigua potable (1991), Directiva (UE) 2020/2184 relativa a la qualitat de les aigües destinades al consum humà, ISO/IEC 17020, U.S. National Academy of Science (1983), Malinconico et al. 2022."
       },
       "soil": {
         "title": "Amiant en Sòls",
-        "description": "Quantificació d'amiant en sòls i determinació de fibres respirables."
+        "description": "Quantificació d'amiant en sòls i determinació de fibres respirables.",
+        "metaDescription": "Anàlisi d'amiant en sòls contaminats. Quantificació de concentració i fibres respirables segons NEN 5707 en laboratoris europeus acreditats.",
+        "intro": "La contaminació de sòls per amiant és una problemàtica que requereix una avaluació tècnica especialitzada per quantificar el contingut d'amiant en un volum de terres i determinar el risc associat per a la salut humana. Aquest servei és essencial en terrenys on se sospita la presència de residus de fibrociment, abocaments il·legals o contaminació històrica.\n\nACM-2020 ofereix un servei integral d'identificació i avaluació de sòls amb amiant que inclou la planificació del mostreig, la presa de mostres representatives, l'anàlisi de laboratori per determinar la concentració d'amiant i la quantificació de fibres respirables. Els resultats permeten valorar el risc i prendre decisions informades sobre la gestió del terreny.\n\nLes fibres respirables d'amiant són partícules extremadament fines que poden romandre en suspensió a l'aire durant llargs períodes i que són invisibles a simple vista. La seva inhalació representa un risc significatiu per a la salut, per la qual cosa la seva detecció i quantificació és fonamental per a qualsevol projecte de construcció, rehabilitació o descontaminació de terrenys.",
+        "sections": [
+          {
+            "title": "Metodologia de mostreig",
+            "content": "El procés comença amb la planificació dels punts de mostreig en funció de l'extensió del terreny i la sospita de contaminació. S'extreuen mostres de sòl a diferents profunditats i s'envien a laboratoris europeus homologats per a la seva anàlisi. La metodologia segueix els protocols establerts en la norma NEN 5707 dels Països Baixos, referència internacional per a l'avaluació de sòls contaminats amb amiant."
+          },
+          {
+            "title": "Determinació de concentració i fibres respirables",
+            "content": "L'anàlisi de laboratori permet determinar la concentració total d'amiant en el sòl (expressada en mg/kg o percentatge en pes) i la presència de fibres respirables. La distinció entre amiant lligat (fragments de material) i fibres lliures és fonamental, ja que les fibres respirables són les que representen un risc directe per a la salut en poder ser inhalades."
+          },
+          {
+            "title": "Avaluació de riscos",
+            "content": "Amb els resultats analítics, ACM-2020 elabora un informe d'avaluació de riscos que inclou la valoració del nivell de contaminació, les recomanacions d'actuació i, si escau, la necessitat de mesures de remediació. Aquesta avaluació és essencial per a projectes urbanístics, transaccions immobiliàries de terrenys i per complir amb les obligacions derivades de la normativa de sòls contaminats."
+          },
+          {
+            "title": "Absència de marc normatiu espanyol",
+            "content": "A Espanya no existeix actualment un valor límit per a la concentració d'amiant en sòl, ni laboratoris homologats per a aquest tipus d'anàlisi. ACM-2020 supleix aquesta mancança aplicant el marc normatiu dels Països Baixos (norma NEN 5707) i acudint a laboratoris homologats i acreditats per organismes estatals de països europeus veïns, garantint així la fiabilitat dels resultats."
+          }
+        ],
+        "keyPoints": [
+          "Quantificació precisa de la concentració d'amiant en sòls",
+          "Determinació de fibres respirables per a l'avaluació del risc sanitari",
+          "Aplicació de la norma NEN 5707 dels Països Baixos com a referència",
+          "Anàlisi en laboratoris europeus homologats i acreditats",
+          "Informe d'avaluació de riscos amb recomanacions d'actuació",
+          "Essencial per a projectes urbanístics i transaccions de terrenys"
+        ],
+        "regulations": "NEN 5707 (Norma neerlandesa per a sòls contaminats amb amiant), Llei 7/2022 de residus i sòls contaminats per a una economia circular, RD 9/2005 (Relació d'activitats potencialment contaminants del sòl), ISO/IEC 17020."
       },
       "communities": {
         "title": "Comunitats de Veïns",
-        "description": "Detecció i gestió d'amiant en comunitats de propietaris."
+        "description": "Detecció i gestió d'amiant en comunitats de propietaris.",
+        "metaDescription": "Detecció i gestió d'amiant en comunitats de veïns. Inspecció de baixants, cobertes i elements comuns. Seguiment de retirada i control de qualitat.",
+        "intro": "Canonades, baixants, cobertes, envans pluvials, materials d'aïllament: en edificis anteriors a 2002, l'amiant es troba als elements comuns que comparteixen tots els veïns. I la majoria d'aquests materials ja estan arribant al final de la seva vida útil.\n\nA mesura que es deterioren, les fibres d'amiant s'alliberen a l'ambient. El risc no és hipotètic: és un problema de salut pública amb terminis legals marcats. La Unió Europea ha fixat 2032 com a horitzó per a la retirada planificada de l'amiant, cosa que fa convenient anticipar les actuacions.\n\nACM-2020 acompanya les comunitats de propietaris durant tot el procés: des de la inspecció inicial i la presa de mostres fins al seguiment independent del Pla de Treball i el control de qualitat final després de la retirada.",
+        "sections": [
+          {
+            "title": "Importància de la detecció primerenca",
+            "content": "La detecció primerenca de l'amiant en comunitats aporta múltiples beneficis: prevé el deteriorament estructural dels materials que estan arribant al final de la seva vida útil, redueix els costos a llarg termini en evitar reparacions més costoses i problemes legals, i augmenta el valor patrimonial de l'edifici. A més, la retirada de l'amiant està planificada dins del marc legal europeu per a 2032, cosa que fa convenient anticipar les actuacions."
+          },
+          {
+            "title": "Elements comuns amb amiant",
+            "content": "Els elements més habituals on es troba amiant en comunitats de veïns són els baixants i canonades de fibrociment, les cobertes i plaques ondulades, els envans pluvials, els dipòsits d'aigua i els materials d'aïllament. La rehabilitació d'aquests elements implica la substitució completa dels components amb amiant, mètodes de rehabilitació específics per garantir la seguretat dels veïns i la implementació d'un manteniment preventiu posterior."
+          },
+          {
+            "title": "Fases de la gestió proactiva",
+            "content": "El procés es desenvolupa en tres fases principals: avaluació inicial de l'edifici mitjançant inspecció visual exhaustiva per determinar la presència i l'estat de l'amiant; planificació de la retirada amb disseny d'un pla que asseguri el compliment de la normativa vigent de la mà d'una empresa RERA solvent tècnicament; i retirada i substitució dels materials perillosos per materials moderns i sostenibles, amb seguiment extern i control de qualitat addicional."
+          },
+          {
+            "title": "Els nostres serveis per a comunitats",
+            "content": "ACM-2020 proporciona a les comunitats un paquet complet de serveis: inspecció visual com a primer cribratge, presa de mostres amb resultats ràpids i fiables, informe amb preu aproximat de gestió i mesures preventives, seguiment independent del Pla de Treball de l'empresa RERA contractada, control de qualitat final i mostreig ambiental per verificar la seguretat del procés."
+          }
+        ],
+        "keyPoints": [
+          "Servei integral adaptat a les necessitats de comunitats de propietaris",
+          "Inspecció de baixants, cobertes, envans, dipòsits i aïllaments",
+          "Informe amb estimació de costos de retirada i mesures preventives",
+          "Seguiment independent del procés de retirada per empresa RERA",
+          "Augment del valor patrimonial de l'edifici després de l'eliminació de l'amiant",
+          "Marc legal europeu estableix la retirada completa per a 2032"
+        ],
+        "regulations": "RD 396/2006, Llei 7/2022 de residus i sòls contaminats, Ordre de 7 de desembre de 2001, RERA (Registre d'Empreses amb Risc d'Amiant), Directiva 2009/148/CE, Resolució del Parlament Europeu de 14 de març de 2013."
       },
       "realestate": {
         "title": "Certificat d'amiant per a compravenda i lloguer d'immobles a Catalunya",
@@ -192,45 +562,318 @@
       },
       "breeam": {
         "title": "Inscripció BREEAM",
-        "description": "Diagnòstic d'amiant per a la Inscripció BREEAM."
+        "description": "Diagnòstic d'amiant per a la Inscripció BREEAM.",
+        "metaDescription": "Diagnòstic d'amiant per a certificació BREEAM. Inspecció, mostreig, informe detallat i pla de remediació. Compleix requisits de gestió de materials perillosos.",
+        "intro": "La certificació BREEAM és un estàndard global de referència per avaluar la sostenibilitat dels edificis, i un dels seus aspectes clau és la gestió de materials perillosos, inclòs l'amiant. Obtenir aquesta certificació requereix demostrar que l'edifici ha estat avaluat i que s'han adoptat les mesures necessàries per gestionar qualsevol presència d'amiant.\n\nACM-2020 ofereix un servei de diagnòstic d'amiant específicament adaptat als requisits de la certificació BREEAM. Els nostres informes compleixen amb els criteris de l'estàndard i proporcionen tota la documentació necessària per satisfer els requisits d'avaluació en matèria de materials perillosos.\n\nL'amiant és un material cancerigen que pot afectar la salut dels ocupants de l'edifici si no es gestiona adequadament. El nostre servei de diagnòstic és essencial per complir amb BREEAM i, alhora, garantir la seguretat i el benestar de qui utilitza l'edifici.",
+        "sections": [
+          {
+            "title": "Què és la certificació BREEAM",
+            "content": "BREEAM (Building Research Establishment Environmental Assessment Method) és el mètode d'avaluació i certificació de la sostenibilitat d'edificis més utilitzat a nivell mundial. Avalua aspectes com la gestió de l'edifici, la salut i el benestar dels ocupants, l'energia, el transport, l'aigua, els materials, els residus, l'ús del sòl i la contaminació. La gestió de materials perillosos com l'amiant és un requisit específic dins de la categoria de salut i benestar."
+          },
+          {
+            "title": "Serveis d'inspecció per a BREEAM",
+            "content": "El servei inclou una inspecció inicial visual exhaustiva per avaluar la possible presència d'amiant, l'anàlisi de mostres en laboratori per confirmar els resultats, un informe detallat amb les troballes i recomanacions, i un pla de remediació amb les millors pràctiques per a l'eliminació segura de l'amiant per part d'una empresa RERA. Tot això documentat conforme als requisits específics de BREEAM."
+          },
+          {
+            "title": "Beneficis del diagnòstic",
+            "content": "Comptar amb el diagnòstic d'amiant d'ACM-2020 per a la certificació BREEAM aporta múltiples beneficis: compliment dels requisits normatius de l'estàndard, protecció de la salut dels ocupants mitjançant la identificació de l'amiant present, contribució a l'obtenció d'una puntuació superior en les categories de salut i materials, i demostració del compromís amb la sostenibilitat i la responsabilitat social de l'edifici."
+          },
+          {
+            "title": "Experiència i compliment",
+            "content": "ACM-2020 compta amb un equip d'experts en diagnòstic d'amiant que garanteix el compliment dels estàndards BREEAM. La nostra experiència en la identificació d'amiant en tot tipus d'edificis, combinada amb el coneixement dels requisits de certificació, ens permet oferir un servei eficient i complet que facilita el procés d'obtenció del certificat."
+          }
+        ],
+        "keyPoints": [
+          "Informes de diagnòstic adaptats als requisits específics de BREEAM",
+          "Inspecció visual, mostreig i anàlisi de laboratori complets",
+          "Pla de remediació amb recomanacions per a l'eliminació segura",
+          "Contribució a la puntuació en les categories de salut i materials de BREEAM",
+          "Equip especialitzat amb experiència en diagnòstic i certificació"
+        ],
+        "regulations": "Estàndard BREEAM (Building Research Establishment Environmental Assessment Method), ISO/IEC 17020, UNE 171370-2:2021, RD 396/2006, Directiva 2009/148/CE."
       },
       "qualityControl": {
         "title": "Control de Qualitat Final de Superfícies",
-        "description": "Verificació independent de superfícies tractades després de treballs de retirada, estabilització, encapsulat o confinament de materials amb amiant."
+        "description": "Verificació independent de superfícies tractades després de treballs de retirada, estabilització, encapsulat o confinament de materials amb amiant.",
+        "metaDescription": "Control de qualitat final de superfícies amb amiant. Verificació independent després de retirada o tractament. Norma NF X-46021. ACM-2020, empresa RERA.",
+        "intro": "Una retirada d'amiant no acaba quan l'empresa executora diu que ha acabat. Acaba quan un tercer independent confirma que les superfícies tractades compleixen els estàndards de seguretat.\n\nAdministracions públiques, propietaris i entitats gestores recorren a ACM-2020 per a aquesta validació precisament perquè no tenim cap vinculació amb l'empresa que executa els treballs. Aquesta independència total és l'única garantia real d'imparcialitat en el resultat.\n\nEl control s'aplica tant en plans de treball de caràcter friable amb confinament dinàmic (pressió negativa) com en treballs de caràcter menys friable amb confinament estàtic (extracció localitzada).",
+        "sections": [
+          {
+            "title": "Objectiu del servei",
+            "content": "L'objectiu d'una inspecció de superfícies desamiantades és donar la Conformitat a la finalització operativa d'un Pla de Treball executat per una empresa RERA. Aquesta Conformitat la dona ACM-2020 després d'haver inspeccionat visualment l'escenari i no haver detectat cap No Conformitat sobre els elements i escenaris abast del Pla de Treball contractat pel client."
+          },
+          {
+            "title": "Metodologia d'inspecció",
+            "content": "La inspecció consisteix en un examen visual exhaustiu de totes les superfícies tractades, verificant l'absència de restes de materials amb amiant, el correcte estat dels acabats i la neteja general de l'escenari. Es documenten fotogràficament tots els punts inspeccionats i s'emet un informe de Conformitat o No Conformitat amb el detall de les observacions realitzades."
+          },
+          {
+            "title": "Garantia d'independència",
+            "content": "La garantia d'un control de qualitat final independent és imprescindible per a l'entitat contractant. ACM-2020, com a empresa totalment aliena a l'execució del Pla de Treball, proporciona una verificació objectiva i imparcial que complementa la declaració de la mateixa empresa RERA executora, oferint una doble garantia de seguretat."
+          }
+        ],
+        "keyPoints": [
+          "Verificació independent per tercers aliena a l'empresa RERA executora",
+          "Inspecció visual exhaustiva conforme a la norma francesa NF X-46021 (2010)",
+          "Aplicable a plans de treball amb confinament dinàmic o estàtic",
+          "Informe de Conformitat o No Conformitat documentat fotogràficament",
+          "Servei requerit per administracions públiques i entitats gestores"
+        ],
+        "regulations": "NF X-46021 (2010) - Traitement de l'amiante dans les immeubles batis: Examen visuel des surfaces traitees apres travaux de retrait de materiaux et produits contenant de l'amiante. RD 396/2006."
       },
       "periodicControl": {
         "title": "Control Periòdic de Superfícies Tractades",
-        "description": "Inspeccions periòdiques de superfícies estabilitzades, encapsulades o confinades amb materials amb amiant."
+        "description": "Inspeccions periòdiques de superfícies estabilitzades, encapsulades o confinades amb materials amb amiant.",
+        "metaDescription": "Control periòdic de superfícies amb amiant tractades. Inspeccions per verificar estabilització, encapsulat o confinament. Compliment del RD 396/2006.",
+        "intro": "L'entitat propietària o gestora d'un edifici o instal·lació amb materials amb amiant té, entre moltes altres obligacions, la de disposar d'una sistemàtica de control i gestió de tots els punts crítics que continguin amiant.\n\nQuan un material amb amiant no ha finalitzat la seva vida útil, o quan ha estat objecte d'estabilització, encapsulat o confinament mitjançant un Pla de Treball executat per una empresa RERA, és obligació de la Propietat disposar d'una metodologia d'inspecció periòdica sobre els elements tractats i mantenir les condicions posteriors al tractament.\n\nACM-2020 realitza inspeccions periòdiques amb l'objectiu d'evidenciar el manteniment de les condicions inicials després d'un pla de treball, detectant qualsevol incidència que pugui generar riscos d'exposició a l'amiant.",
+        "sections": [
+          {
+            "title": "Objectiu del servei",
+            "content": "L'objectiu de les inspeccions periòdiques és verificar que les superfícies tractades mantenen les condicions de seguretat establertes després de l'execució del Pla de Treball. Això inclou comprovar la integritat de l'encapsulat, l'estabilitat del confinament i l'absència de deteriorament o danys que puguin alliberar fibres d'amiant a l'ambient."
+          },
+          {
+            "title": "Freqüència i planificació",
+            "content": "La periodicitat de les inspeccions s'estableix en funció del tipus de tractament realitzat, les característiques del material amb amiant, la seva ubicació i l'ús de l'espai. ACM-2020 elabora un calendari d'inspeccions adaptat a cada cas, garantint un seguiment sistemàtic i documentat de tots els punts crítics de l'edifici o instal·lació."
+          },
+          {
+            "title": "Documentació i seguiment",
+            "content": "Cada inspecció periòdica genera un informe tècnic que documenta l'estat dels elements inspeccionats, les observacions realitzades i les recomanacions d'actuació en cas de detectar-se qualsevol incidència. Aquest registre històric permet a la Propietat demostrar el compliment de les seves obligacions de control i gestió de l'amiant."
+          }
+        ],
+        "keyPoints": [
+          "Inspeccions periòdiques de superfícies estabilitzades, encapsulades o confinades",
+          "Verificació del manteniment de les condicions de seguretat post-tractament",
+          "Calendari d'inspeccions adaptat a cada edifici o instal·lació",
+          "Informes tècnics documentats amb registre històric de seguiment",
+          "Compliment de l'obligació de la Propietat de controlar els materials amb amiant"
+        ],
+        "regulations": "RD 396/2006, de 31 de març, pel qual s'estableixen les disposicions mínimes de seguretat i salut aplicables als treballs amb risc d'exposició a l'amiant."
       },
       "airSampling": {
         "title": "Mostreig Estàtic Ambiental d'Amiant",
-        "description": "Presa de mostres d'aire en punt fix per al mesurament de fibres d'amiant a l'ambient amb metodologia francesa."
+        "description": "Presa de mostres d'aire en punt fix per al mesurament de fibres d'amiant a l'ambient amb metodologia francesa.",
+        "metaDescription": "Mostreig estàtic ambiental de fibres d'amiant en aire. Metodologia francesa, punt fix, anàlisi en laboratori acreditat. ACM-2020, empresa RERA.",
+        "intro": "Saber si hi ha fibres d'amiant a l'aire d'un espai no és qüestió de percepció: és qüestió de mesurament. El mostreig estàtic ambiental quantifica la concentració de fibres aerotransportades col·locant equips de captació en punts fixos representatius de l'àrea a avaluar.\n\nLa metodologia francesa que aplica ACM-2020 és la referència internacional en precisió per a aquest tipus de determinacions. Les mostres s'analitzen en laboratori acreditat, i els resultats permeten confirmar si l'aire compleix amb els valors de referència normatius.\n\nEl servei opera sota el Pla de Treball 86/AB/09-001-B i s'executa durant i després d'actuacions de retirada, en edificis amb materials amb amiant in situ, i en estudis de qualitat de l'aire interior.",
+        "sections": [
+          {
+            "title": "Metodologia de mostreig",
+            "content": "El mostreig es realitza mitjançant equips de captació d'aire amb filtres de membrana, col·locats en punts fixos estratègicament seleccionats. El cabal i el temps de mostreig es determinen en funció de les condicions de l'espai i els objectius de l'estudi. La metodologia francesa permet detectar concentracions molt baixes de fibres d'amiant, proporcionant resultats d'alta fiabilitat."
+          },
+          {
+            "title": "Àmbits d'aplicació",
+            "content": "El mostreig estàtic ambiental s'aplica en diverses situacions: durant l'execució de plans de treball de retirada d'amiant per verificar l'estanquitat del confinament, després de la finalització de treballs de desamiantatge per confirmar l'absència de fibres a l'aire, en edificis amb materials amb amiant in situ per avaluar el nivell d'exposició ambiental, i en estudis de qualitat de l'aire interior."
+          },
+          {
+            "title": "Anàlisi de laboratori",
+            "content": "Les mostres captades s'envien a un laboratori acreditat per a la seva anàlisi mitjançant microscòpia electrònica de transmissió (MET) o microscòpia òptica de contrast de fases (MOCF), segons els requisits de l'estudi. Els resultats s'expressen en fibres per litre d'aire (f/l) i es comparen amb els valors de referència establerts per la normativa vigent."
+          }
+        ],
+        "keyPoints": [
+          "Mostreig en punt fix amb metodologia francesa d'alta precisió",
+          "Anàlisi en laboratori acreditat mitjançant microscòpia electrònica o de contrast de fases",
+          "Aplicable durant i després de plans de treball de retirada d'amiant",
+          "Resultats expressats en fibres per litre conforme a normativa vigent",
+          "Servei sota Pla de Treball 86/AB/09-001-B d'ACM-2020"
+        ],
+        "regulations": "RD 396/2006, Norma UNE-EN ISO 16000-7 (Estratègia de mostreig per a la determinació de concentracions de fibres d'amiant a l'aire), Metodologia francesa META/MOCP."
       }
     },
     "radon": {
       "measurement": {
         "title": "Mesurament de Gas Radó",
-        "description": "Mesuraments precisos de concentració de radó en edificis i habitatges."
+        "description": "Mesuraments precisos de concentració de radó en edificis i habitatges.",
+        "metaDescription": "Mesuraments de gas radó amb detectors passius en laboratori acreditat ENAC. Compliment del RD 1029/2022 i CTE DB HS6. Àmbit laboral i residencial.",
+        "intro": "Els mesuraments de la concentració mitjana anual de gas radó són l'únic mètode fiable per determinar la presència i la quantitat d'aquest gas radioactiu en espais interiors. El radó és un gas natural, inodor i invisible, que procedeix del terreny i pot acumular-se a l'interior dels edificis, representant un risc significatiu per a la salut quan supera els nivells de referència establerts.\n\nACM-2020 realitza mesuraments de llarga durada (2-3 mesos) amb detectors passius analitzats en laboratori acreditat conforme a UNE-EN ISO/IEC 17025:2017 per l'Entitat Nacional d'Acreditació (ENAC), o per un altre organisme nacional d'acreditació designat d'acord amb la normativa europea.\n\nLa Directiva EURATOM 59/2013 de la Unió Europea ha establert un marc de referència per a la protecció davant del radó, fixant un nivell de referència de 300 Bq/m3 en concentració anual, valor adoptat per la legislació espanyola. Els mesuraments professionals són l'única forma de saber amb certesa si un espai interior supera aquest llindar.",
+        "sections": [
+          {
+            "title": "Metodologia de mesurament",
+            "content": "Els mesuraments es realitzen mitjançant detectors de tipus passiu que s'instal·len als espais interiors durant un període mínim de 2 mesos (per a habitatges i locals habitables) o 3 mesos (per a llocs de treball). Aquest període prolongat és necessari perquè la concentració de radó varia diàriament en funció de factors com la ventilació, la temperatura, la pressió atmosfèrica i les condicions del terreny. Els detectors s'envien posteriorment a un laboratori acreditat per a la seva lectura i anàlisi."
+          },
+          {
+            "title": "Àmbits d'aplicació",
+            "content": "Els mesuraments s'apliquen en diferents àmbits: llocs de treball (oficines, fàbriques, magatzems, coves, mines i instal·lacions subterrànies), habitatges i locals habitables (dormitoris, menjadors, salons, cuines, despatxos, aules, biblioteques, sales d'espera), edificis existents en cas d'ampliacions, canvis d'ús o reformes que afectin la protecció davant del radó, i espais públics com a part de les polítiques de qualitat de l'aire interior i salut pública."
+          },
+          {
+            "title": "Nivell de referència",
+            "content": "L'estat espanyol fixa un valor de referència de 300 Bq/m3 com a concentració mitjana anual de gas radó. És important distingir que es tracta d'un valor de referència, no d'un valor límit. Alguns països europeus han adoptat valors inferiors de 200 o fins i tot 100 Bq/m3. Quan els resultats del mesurament superen aquest llindar, cal adoptar mesures correctores per reduir la concentració de radó a l'espai afectat."
+          },
+          {
+            "title": "No fiar-se dels mapes de radó",
+            "content": "No és recomanable estimar els nivells de radó en un edifici a partir de mapes de radó, ja que la concentració d'aquest gas pot variar significativament fins i tot entre edificis molt propers. Els mapes proporcionen una orientació general sobre les zones de risc, però l'única forma de conèixer la concentració real de radó en un espai interior és realitzar un mesurament directe amb detectors calibrats i analitzats en laboratori acreditat."
+          }
+        ],
+        "keyPoints": [
+          "Detectors passius analitzats en laboratori acreditat ENAC conforme a UNE-EN ISO/IEC 17025:2017",
+          "Mesuraments de llarga durada (2-3 mesos) per a resultats fiables",
+          "Valor de referència a Espanya: 300 Bq/m3 de concentració mitjana anual",
+          "Aplicable a àmbit laboral, residencial, reformes i salut pública",
+          "Els mapes de radó no substitueixen el mesurament directe a cada edifici"
+        ],
+        "regulations": "Directiva 2013/59/EURATOM (Normes bàsiques de seguretat davant de radiacions ionitzants), RD 1029/2022 (Reglament sobre protecció de la salut contra radiacions ionitzants), RD 732/2019 (Modificació del CTE, nova exigència DB HS6), CTE DB HS6 (Protecció davant del gas radó), Instrucció NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "residential": {
         "title": "Solucions Residencials",
-        "description": "Diagnòstic i solucions per a habitatges amb nivells elevats de radó."
+        "description": "Diagnòstic i solucions per a habitatges amb nivells elevats de radó.",
+        "metaDescription": "Mesurament de gas radó en habitatges i locals habitables. Detectors acreditats, resultats fiables i assessorament personalitzat. Consulta gratuïta.",
+        "intro": "Conèixer si el teu habitatge té nivells elevats de radó és el primer pas per protegir la salut de la teva família. El radó és un gas radioactiu natural que pot acumular-se a l'interior de les cases i que està classificat com la segona causa de càncer de pulmó després del tabac.\n\nPer saber si hi ha radó a casa teva, cal instal·lar detectors durant un període mínim de 2-3 mesos. Aquest temps és necessari perquè la quantitat de radó canvia cada dia en funció de múltiples factors. Només així s'obté un mesurament correcte que permeti avaluar si existeix algun risc.\n\nACM-2020 és una empresa fiable i experta en el mesurament de gas radó en habitatges. Coneixem bé totes les directrius vigents d'Europa i Espanya, i estem preparats per oferir un mesurament acreditat que et permeti conèixer el nivell real de radó a la teva llar i actuar en conseqüència.",
+        "sections": [
+          {
+            "title": "Com es mesura el radó en habitatges",
+            "content": "Per determinar la concentració de radó en un habitatge, s'instal·len detectors passius a les estances d'ús habitual (dormitoris, saló, estudi) durant un mínim de 2 mesos. Els detectors són dispositius petits i discrets que no requereixen electricitat ni manteniment. Un cop finalitzat el període de mesurament, es recullen i s'envien a un laboratori acreditat per a la seva anàlisi. Els resultats s'expressen en Bq/m3 (Becquerel per metre cúbic)."
+          },
+          {
+            "title": "Quan cal mesurar",
+            "content": "El mesurament de radó és especialment recomanable en habitatges situats en municipis d'actuació prioritària (zones amb risc conegut de radó), en planta baixa o semisotarrani, en edificis sense barreres de protecció davant del terreny, i en qualsevol habitatge on no s'hagi realitzat mai un mesurament. També és obligatori mesurar en edificis existents que se sotmetin a ampliacions, canvis d'ús o reformes que afectin la protecció davant del radó."
+          },
+          {
+            "title": "Què fer si els nivells són alts",
+            "content": "Si la concentració mitjana anual de radó supera els 300 Bq/m3, cal adoptar mesures correctores. Aquestes poden incloure la millora de la ventilació de l'edifici, la instal·lació de sistemes d'extracció de radó del terreny (despressurització del terreny), el segellat d'esquerdes i juntes en contacte amb el sòl, o la instal·lació de membranes anti-radó. ACM-2020 assessora sobre les mesures més adequades per a cada cas."
+          },
+          {
+            "title": "Servei de mesurament acreditat",
+            "content": "ACM-2020 ofereix un servei complet de mesurament de radó en habitatges que inclou la visita tècnica per a la col·locació de detectors, la recollida en finalitzar el període de mesurament, l'anàlisi en laboratori acreditat conforme a UNE-EN ISO/IEC 17025, l'informe de resultats amb interpretació i recomanacions, i l'assessorament personalitzat sobre les mesures a adoptar si els nivells són elevats."
+          }
+        ],
+        "keyPoints": [
+          "Detectors passius discrets que no requereixen manteniment ni electricitat",
+          "Mesurament de llarga durada (mínim 2 mesos) per a resultats representatius",
+          "Anàlisi en laboratori acreditat ENAC conforme a UNE-EN ISO/IEC 17025",
+          "Informe de resultats amb interpretació clara i recomanacions pràctiques",
+          "Assessorament personalitzat sobre mesures correctores si els nivells superen 300 Bq/m3"
+        ],
+        "regulations": "RD 732/2019 (Modificació del CTE, exigència DB HS6), CTE DB HS6 (Protecció davant del gas radó), Directiva 2013/59/EURATOM, Instrucció NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "workspace": {
         "title": "Espais de Treball",
-        "description": "Avaluació de radó en llocs de treball segons el Reial Decret 1029/2022."
+        "description": "Avaluació de radó en llocs de treball segons el Reial Decret 1029/2022.",
+        "metaDescription": "Mesurament de radó en llocs de treball conforme al RD 1029/2022. Detectors passius, laboratori acreditat i assessorament per al compliment normatiu.",
+        "intro": "El mesurament de gas radó en llocs de treball és una obligació derivada del Reial Decret 1029/2022, que estableix el reglament sobre protecció de la salut contra els riscos derivats de l'exposició a les radiacions ionitzants. Els ocupadors han de conèixer la concentració de radó a les seves instal·lacions i adoptar les mesures necessàries per protegir la salut dels treballadors.\n\nL'àmbit laboral abasta tot tipus d'espais de treball: oficines, fàbriques, magatzems, tallers, coves, mines i altres instal·lacions subterrànies. Els mesuraments s'han de realitzar amb detectors passius durant un període mínim de 3 mesos per obtenir una concentració mitjana representativa.\n\nACM-2020 realitza mesuraments de radó en llocs de treball amb caràcter informatiu, proporcionant a les empreses la informació necessària per avaluar el risc i complir amb les seves obligacions legals en matèria de protecció radiològica.",
+        "sections": [
+          {
+            "title": "Obligacions de l'ocupador",
+            "content": "El RD 1029/2022 estableix que els titulars de llocs de treball situats en zones d'actuació prioritària han de realitzar mesuraments de la concentració de radó. Si els resultats superen el valor de referència de 300 Bq/m3, s'han d'adoptar mesures correctores per reduir l'exposició dels treballadors. Aquestes obligacions són especialment rellevants per a activitats laborals en plantes baixes, semisotarranis, soterranis i qualsevol espai en contacte amb el terreny."
+          },
+          {
+            "title": "Protocol de mesurament laboral",
+            "content": "Els mesuraments en àmbit laboral es realitzen amb detectors passius durant un període mínim de 3 mesos. Els detectors s'ubiquen als llocs de treball representatius, especialment en zones en contacte amb el terreny. Es consideren factors com la ventilació de l'espai, la jornada laboral i l'ús de l'espai. Els detectors s'analitzen en laboratori acreditat conforme a UNE-EN ISO/IEC 17025 i els resultats s'expressen com a concentració mitjana anual en Bq/m3."
+          },
+          {
+            "title": "Sectors especialment afectats",
+            "content": "Determinats sectors laborals presenten un risc més gran d'exposició al radó: treballs subterranis (mines, túnels, coves turístiques), treballs en contacte directe amb el terreny (plantes baixes, semisotarranis), activitats en zones d'actuació prioritària definides pel CSN, i treballs en instal·lacions de tractament d'aigües, balnearis i establiments termals. En aquests sectors, el mesurament de radó és especialment crític."
+          },
+          {
+            "title": "Integració amb la prevenció de riscos",
+            "content": "Els resultats dels mesuraments de radó s'han d'integrar en l'avaluació de riscos laborals de l'empresa. ACM-2020 proporciona l'assessorament necessari perquè els serveis de prevenció (SPP o SPA) puguin incorporar el risc d'exposició al radó en els seus plans de prevenció i adoptar les mesures de protecció adequades conforme a la normativa vigent."
+          }
+        ],
+        "keyPoints": [
+          "Compliment de les obligacions del RD 1029/2022 per a ocupadors",
+          "Mesuraments amb detectors passius durant mínim 3 mesos en àmbit laboral",
+          "Anàlisi en laboratori acreditat ENAC conforme a UNE-EN ISO/IEC 17025",
+          "Assessorament per a la integració del risc de radó en la prevenció de riscos laborals",
+          "Especial atenció a sectors de risc: treballs subterranis, plantes baixes i zones prioritàries"
+        ],
+        "regulations": "RD 1029/2022 (Reglament sobre protecció de la salut contra radiacions ionitzants), Directiva 2013/59/EURATOM, UNE-EN ISO/IEC 17025:2017, Instrucció NOR/19-001 del CSN, Llei 31/1995 de Prevenció de Riscos Laborals."
       },
       "reports": {
         "title": "Informes Tècnics",
-        "description": "Elaboració d'informes detallats amb recomanacions d'actuació."
+        "description": "Elaboració d'informes detallats amb recomanacions d'actuació.",
+        "metaDescription": "Informes tècnics de radó: resultats de mesuraments, avaluació de riscos i recomanacions. Per a reformes, canvis d'ús i compliment normatiu.",
+        "intro": "Els informes tècnics de radó constitueixen la documentació essencial que acredita els resultats dels mesuraments i proporciona les recomanacions d'actuació necessàries per a cada cas. ACM-2020 elabora informes rigorosos i detallats que serveixen tant per al compliment normatiu com per a la presa de decisions per part de propietaris, empreses i administracions públiques.\n\nCada informe s'elabora sobre la base de les dades obtingudes dels mesuraments amb detectors passius analitzats en laboratori acreditat, i inclou la interpretació dels resultats, la comparació amb els valors de referència establerts per la normativa i les recomanacions específiques per a cada situació.\n\nAquests informes són especialment rellevants en el context de reformes, ampliacions i canvis d'ús d'edificis existents, on el CTE DB HS6 exigeix verificar les condicions de protecció davant del radó.",
+        "sections": [
+          {
+            "title": "Contingut de l'informe tècnic",
+            "content": "Cada informe tècnic de radó inclou: la descripció de l'edifici o local mesurat, la ubicació i les característiques dels punts de mesurament, el període de mesurament i les condicions durant aquest, els resultats dels mesuraments expressats en Bq/m3 amb la seva incertesa associada, la comparació amb el valor de referència de 300 Bq/m3, la interpretació dels resultats i les recomanacions d'actuació específiques."
+          },
+          {
+            "title": "Informes per a reformes i canvis d'ús",
+            "content": "Quan un edifici existent se sotmet a una ampliació, canvi d'ús o reforma que pugui afectar la protecció davant del radó, cal realitzar mesuraments i documentar els resultats en un informe tècnic. ACM-2020 elabora aquests informes conforme a les directrius del CTE DB HS6, proporcionant la documentació necessària per a l'expedient d'obra i la justificació del compliment normatiu."
+          },
+          {
+            "title": "Informes per a empreses i serveis de prevenció",
+            "content": "Els informes de mesurament de radó en l'àmbit laboral proporcionen a les empreses i els seus serveis de prevenció la informació necessària per avaluar el risc d'exposició dels treballadors. L'informe inclou la valoració dels resultats en relació amb el RD 1029/2022 i les recomanacions per a l'adopció de mesures correctores en cas de superar el valor de referència."
+          },
+          {
+            "title": "Informes per a administracions públiques",
+            "content": "ACM-2020 elabora informes per a organismes públics que necessiten conèixer la concentració de radó en edificis de titularitat pública, en el marc de polítiques de salut pública i qualitat de l'aire interior. Aquests informes poden incloure l'avaluació de múltiples edificis i la priorització de les actuacions correctores en funció dels nivells detectats i l'ús de cada espai."
+          }
+        ],
+        "keyPoints": [
+          "Informes tècnics rigorosos basats en mesuraments amb laboratori acreditat",
+          "Interpretació de resultats i comparació amb el valor de referència de 300 Bq/m3",
+          "Documentació vàlida per al compliment normatiu en reformes i canvis d'ús",
+          "Informes adaptats a empreses, serveis de prevenció i administracions públiques",
+          "Recomanacions d'actuació específiques per a cada situació"
+        ],
+        "regulations": "RD 1029/2022, RD 732/2019, CTE DB HS6, Directiva 2013/59/EURATOM, Instrucció NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "training": {
         "title": "Formació Radó",
-        "description": "Programes formatius sobre gas radó."
+        "description": "Programes formatius sobre gas radó.",
+        "metaDescription": "Formació en gas radó: cursos per a tècnics, serveis de prevenció SPP/SPA i ajuntaments. Teoria i tallers pràctics de mesurament in situ.",
+        "intro": "La formació en matèria de gas radó és fonamental perquè els professionals involucrats en la protecció de la salut, la prevenció de riscos laborals i la gestió d'edificis disposin dels coneixements necessaris per abordar aquesta problemàtica amb solvència.\n\nACM-2020 ofereix programes formatius adaptats a diferents perfils professionals i nivells de coneixement: des de tècnics d'ajuntaments que necessiten entendre els requisits normatius bàsics, fins a tècnics de serveis de prevenció que han d'integrar el risc de radó en les seves avaluacions, o professionals que volen aprendre a realitzar mesuraments de forma pràctica.\n\nEls nostres programes combinen formació teòrica sobre el gas radó (origen, riscos per a la salut, normativa aplicable) amb tallers pràctics in situ on els assistents aprenen a instal·lar detectors, planificar campanyes de mesurament i interpretar resultats. Aquesta combinació de teoria i pràctica garanteix una formació completa i directament aplicable.",
+        "sections": [
+          {
+            "title": "Formació per a serveis de prevenció",
+            "content": "Els tècnics de serveis de prevenció propis (SPP) i aliens (SPA) necessiten conèixer els requisits del RD 1029/2022 i com integrar el risc d'exposició al radó en l'avaluació de riscos laborals. Els nostres cursos aborden la normativa aplicable, els criteris per determinar quins llocs de treball s'han de mesurar, la interpretació dels resultats de mesurament i les mesures correctores disponibles."
+          },
+          {
+            "title": "Formació per a administracions públiques",
+            "content": "ACM-2020 col·labora amb organismes públics en la confecció i el disseny d'accions formatives dirigides a tècnics d'ajuntaments i altres administracions. Aquests programes cobreixen els conceptes bàsics del gas radó, la normativa d'aplicació (CTE DB HS6 i RD 1029/2022), la identificació de zones d'actuació prioritària i la gestió de consultes ciutadanes relacionades amb el radó."
+          },
+          {
+            "title": "Tallers pràctics de mesurament",
+            "content": "Els tallers pràctics in situ permeten als assistents aprendre de forma directa com es planifica una campanya de mesurament, com s'instal·len correctament els detectors passius, com es documenten les condicions de mesurament i com s'interpreten els resultats del laboratori. Aquesta experiència pràctica és essencial perquè els professionals puguin aplicar els coneixements de forma autònoma en el seu treball."
+          },
+          {
+            "title": "Formació per a empreses",
+            "content": "Els directius i tècnics d'empreses que operen en zones d'actuació prioritària necessiten comprendre les seves obligacions en matèria de protecció davant del radó. Els nostres programes aborden la normativa aplicable, les responsabilitats del titular del lloc de treball, els procediments de mesurament i les opcions de remediació, adaptant el nivell de detall a les necessitats específiques de cada organització."
+          }
+        ],
+        "keyPoints": [
+          "Formació teòrica i tallers pràctics de mesurament in situ",
+          "Cursos adaptats a SPP, SPA, ajuntaments i empreses",
+          "Contingut actualitzat conforme al RD 1029/2022 i CTE DB HS6",
+          "Col·laboració amb organismes públics en el disseny d'accions formatives",
+          "Aprenentatge pràctic d'instal·lació de detectors i interpretació de resultats"
+        ],
+        "regulations": "RD 1029/2022, RD 732/2019, CTE DB HS6, Directiva 2013/59/EURATOM, Instrucció NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       },
       "howto": {
         "title": "Com Mesurar Radó",
-        "description": "Guia sobre com detectar i mesurar el gas radó."
+        "description": "Guia sobre com detectar i mesurar el gas radó.",
+        "metaDescription": "Com saber si hi ha radó a casa o al treball. Guia pràctica: detectors passius, 2-3 mesos de mesurament, valor de referència 300 Bq/m3. Consulta gratuïta.",
+        "intro": "El gas radó és un gas radioactiu natural, inodor i invisible, que procedeix de la desintegració de l'urani present al terreny. Pot acumular-se a l'interior dels edificis i representar un risc per a la salut quan la concentració supera els nivells de referència. L'única forma de saber si hi ha radó en un espai interior és mesurar-lo.\n\nMesurar el radó és un procés senzill que consisteix a instal·lar detectors passius durant un període de 2 a 3 mesos. Aquest temps és necessari perquè la concentració de radó canvia constantment, i només un mesurament prolongat permet obtenir una mitjana representativa que pugui comparar-se amb el valor de referència.\n\nLa normativa europea i el Codi Tècnic de l'Edificació a Espanya estableixen que si la concentració mitjana anual de radó supera els 300 Bq/m3, cal adoptar mesures correctores. No és recomanable fiar-se dels mapes de radó per estimar el nivell d'un edifici concret, ja que les concentracions poden variar enormement fins i tot entre edificis veïns.",
+        "sections": [
+          {
+            "title": "Què és el gas radó",
+            "content": "El radó és un gas noble radioactiu que es produeix de forma natural per la desintegració del radi-226, que al seu torn procedeix de l'urani-238 present a les roques i els sòls. En ser un gas, es filtra a través del terreny i pot entrar als edificis per esquerdes als fonaments, juntes constructives, conductes d'instal·lacions i qualsevol punt de contacte entre l'edifici i el terreny. Un cop a l'interior, pot acumular-se i assolir concentracions perilloses, especialment en plantes baixes i soterranis amb ventilació insuficient."
+          },
+          {
+            "title": "Com es realitza el mesurament",
+            "content": "El mesurament es realitza amb detectors passius, que són dispositius petits i discrets que es col·loquen a les estances d'ús habitual. No necessiten electricitat ni produeixen cap molèstia. Es deixen instal·lats durant un període mínim de 2 mesos (habitatges) o 3 mesos (llocs de treball). En finalitzar, es recullen i s'envien al laboratori acreditat per a la seva lectura. Els resultats es reben en un informe amb la concentració mitjana en Bq/m3."
+          },
+          {
+            "title": "Quants detectors calen",
+            "content": "El nombre de detectors necessaris depèn de les característiques de l'edifici: superfície, nombre de plantes, distribució dels espais i zones de contacte amb el terreny. Com a norma general, s'instal·la almenys un detector per cada estança habitable a la planta més baixa de l'edifici. ACM-2020 ofereix assessorament personalitzat per determinar el nombre i la ubicació òptima dels detectors en cada cas."
+          },
+          {
+            "title": "Per què no fiar-se dels mapes de radó",
+            "content": "Els mapes de radó proporcionen una visió general de les zones amb més probabilitat de presentar concentracions elevades, però no poden predir el nivell de radó en un edifici concret. La concentració de radó depèn de múltiples factors locals: la geologia del terreny immediat, les característiques constructives de l'edifici, la ventilació, l'estanquitat de la fonamentació i les condicions climàtiques. Dos edificis veïns poden presentar concentracions molt diferents. L'única forma de conèixer el nivell real és mesurar."
+          },
+          {
+            "title": "Què fer amb els resultats",
+            "content": "Si la concentració mitjana anual és inferior a 300 Bq/m3, l'espai es considera segur conforme a la normativa vigent. Si supera aquest valor de referència, cal adoptar mesures correctores com millorar la ventilació, instal·lar sistemes d'extracció de radó, segellar esquerdes i juntes o instal·lar membranes anti-radó. ACM-2020 assessora sobre les mesures més adequades i pot realitzar mesuraments de verificació posterior per confirmar l'eficàcia de les actuacions."
+          }
+        ],
+        "keyPoints": [
+          "El radó és inodor i invisible: l'única forma de detectar-lo és mesurar-lo",
+          "Mesurament senzill amb detectors passius durant 2-3 mesos",
+          "Valor de referència a Espanya: 300 Bq/m3 de concentració mitjana anual",
+          "Els mapes de radó no substitueixen el mesurament directe a cada edifici",
+          "Assessorament sobre mesures correctores si els nivells són elevats",
+          "Laboratori acreditat ENAC per a l'anàlisi dels detectors"
+        ],
+        "regulations": "CTE DB HS6 (Protecció davant del gas radó), RD 732/2019, RD 1029/2022, Directiva 2013/59/EURATOM, Instrucció NOR/19-001 del CSN, UNE-EN ISO/IEC 17025:2017."
       }
     },
     "whyTitle": "Garanties que ens avalen",
@@ -345,7 +988,21 @@
     "title": "Parlem",
     "titleHighlight": "del seu projecte",
     "titleEnd": "?",
-    "titleWords": ["del seu projecte", "del seu problema", "de la seva necessitat", "del seu objectiu", "de la seva consulta", "del seu dubte", "de la seva preocupació", "de la seva situació", "del seu cas", "del seu negoci", "de la seva empresa", "del seu habitatge", "de la seva obra"],
+    "titleWords": [
+      "del seu projecte",
+      "del seu problema",
+      "de la seva necessitat",
+      "del seu objectiu",
+      "de la seva consulta",
+      "del seu dubte",
+      "de la seva preocupació",
+      "de la seva situació",
+      "del seu cas",
+      "del seu negoci",
+      "de la seva empresa",
+      "del seu habitatge",
+      "de la seva obra"
+    ],
     "subtitle": "Expliqui'ns les seves necessitats i li oferirem una solució personalitzada. Respondrem a la seva consulta en menys de 24 hores.",
     "infoTitle": "Informació de contacte",
     "infoSubtitle": "Estem aquí per ajudar-lo. Contacti amb nosaltres per qualsevol d'aquests mitjans.",

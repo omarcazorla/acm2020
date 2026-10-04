@@ -49,101 +49,831 @@
     "asbestos": {
       "inspection": {
         "title": "Inspection & Identification",
-        "description": "Location and assessment of asbestos-containing materials in buildings and facilities."
+        "description": "Location and assessment of asbestos-containing materials in buildings and facilities.",
+        "metaDescription": "Professional asbestos identification and assessment service for buildings and infrastructure. Diagnosis compliant with UNE 171370-2:2021 and ISO/IEC 17020.",
+        "intro": "Any responsible action regarding asbestos begins with a specific question: is there asbestos in this building, and what condition is it in? The identification and assessment of asbestos-containing materials answers that question with technical rigour and regulatory backing.\n\nProperty owners, building managers, public bodies and asset management entities rely on this service to obtain an impartial diagnosis, prepared in accordance with ISO/IEC 17020 and with specific training under UNE 171370-2:2021.\n\nThe resulting report is not a supplementary document: it is the mandatory foundation on which any subsequent Work Plan by a RERA-registered company must be based. Without this starting point, there can be no safe removal and no regulatory compliance.",
+        "sections": [
+          {
+            "title": "Service objective",
+            "content": "The primary purpose is to establish or confirm the presence or absence of asbestos in a building, facility or infrastructure, regardless of its location or type. When any asbestos-positive material is detected, the report records the detailed result and constitutes the starting point for adopting the necessary preventive and corrective measures. The report includes the precise location of each identified material, its quantification, condition assessment and the relevant technical recommendations."
+          },
+          {
+            "title": "Inspection methodology",
+            "content": "The process begins with a thorough visual inspection of the building or facility to detect materials suspected of containing asbestos. Technicians then collect solid samples or surface dust for laboratory analysis. The results confirm the presence of asbestos, identify the fibre type and evaluate the associated risk. Each sample is analysed by approved and accredited laboratories certified by national bodies of European countries, since Spain does not yet have accredited laboratories for asbestos fibre analysis in materials."
+          },
+          {
+            "title": "Types of materials analysed",
+            "content": "The service covers asbestos identification in all types of materials and building elements: fibre cement roofing and panels, pipes and downpipes, thermal and acoustic insulation materials, gaskets and sealants, vinyl floor tiles, tanks and ducts, rainwater partitions and any other material suspected of containing asbestos, both on the exterior and interior of the building."
+          },
+          {
+            "title": "Deliverables and technical report",
+            "content": "The service delivers a comprehensive technical report that includes: a detailed description of each identified material, laboratory analytical results, graphical location using plans and photographs, quantification of detected materials, condition assessment, recommended preventive measures and an indicative estimate of management costs. This document is the essential reference that every RERA-registered company must require before intervening in an asbestos-affected scenario."
+          }
+        ],
+        "keyPoints": [
+          "Diagnosis compliant with standard UNE 171370-2:2021 for asbestos location and assessment",
+          "Impartial and independent practice in accordance with ISO/IEC 17020 criteria",
+          "Laboratory analyses performed by approved and accredited European laboratories",
+          "Comprehensive technical report as the essential basis for any RERA Work Plan",
+          "Service applicable to buildings, facilities and infrastructure under both public and private ownership"
+        ],
+        "regulations": "UNE 171370-2:2021 (Asbestos location and diagnosis), ISO/IEC 17020 (Impartiality and neutrality criteria), Royal Decree 396/2006 (Minimum safety and health provisions for work involving asbestos exposure risk), Order of 7 December 2001 (Total ban on asbestos in Spain), Regulation (EC) 1907/2006 REACH."
       },
       "management": {
         "title": "Management Plans",
-        "description": "Development of ACM management plans in compliance with current regulations."
+        "description": "Development of ACM management plans in compliance with current regulations.",
+        "metaDescription": "Asbestos management plans for buildings and infrastructure. Removal prioritisation, monitoring and compliance with Law 7/2022 on waste.",
+        "intro": "An Asbestos Management Plan is the instrument that enables owners and managers of buildings, facilities and infrastructure to address the asbestos problem in their assets in an orderly, safe and efficient manner. This strategic document establishes action priorities, execution timelines and the necessary safety protocols.\n\nACM-2020 develops management plans tailored to each scenario, from an individual building to large property portfolios or municipal infrastructure. Our approach integrates identification, condition assessment, removal prioritisation and monitoring of the entire process through to the complete elimination of asbestos.\n\nLaw 7/2022, of 8 April, on waste and contaminated soil for a circular economy, requires municipalities to draw up registers of facilities and sites containing asbestos together with a removal schedule. Our management plans comply with these legal requirements and provide a clear roadmap for the responsible eradication of asbestos.",
+        "sections": [
+          {
+            "title": "Components of the management plan",
+            "content": "An Asbestos Management Plan prepared by ACM-2020 includes: a complete inventory of identified asbestos-containing materials, a condition assessment for each material, classification by risk level and action priority, a removal schedule with defined timelines, safety protocols during the coexistence phase with asbestos, immediate preventive measures for deteriorated materials and an estimated budget for each phase of action."
+          },
+          {
+            "title": "Action prioritisation",
+            "content": "Removal prioritisation is established according to the degree of hazard and population exposure. Factors considered include the material's state of deterioration, its location and accessibility, the type of asbestos fibre, the likelihood of fibre release, exposure of vulnerable people and the use of the space. Materials with the highest risk of fibre release are addressed as a priority, particularly in public facilities."
+          },
+          {
+            "title": "Monitoring and updates",
+            "content": "The management plan is a living document that requires periodic monitoring and updating. ACM-2020 carries out control inspections to verify the condition of materials pending removal, updates the risk assessment when conditions change and documents every action taken. This includes tracking all asbestos that has been detected, removed and sent to an authorised waste handler."
+          },
+          {
+            "title": "Georeferenced database",
+            "content": "ACM-2020 uses proprietary tools to build and manage georeferenced databases that record all buildings, facilities and infrastructure containing asbestos, their state of degradation and removal priorities. This tool enables comprehensive control and monitoring of all managed asbestos at any operational scale."
+          }
+        ],
+        "keyPoints": [
+          "Compliance with Law 7/2022 on waste and contaminated soil for a circular economy",
+          "Action prioritisation based on degree of hazard and exposure of vulnerable populations",
+          "Proprietary georeferenced database tools for comprehensive management",
+          "Continuous monitoring and periodic updates to the management plan",
+          "Scalable from an individual building to municipal-wide infrastructure",
+          "Higher-risk public facilities managed before 2028 as required by legislation"
+        ],
+        "regulations": "Law 7/2022, of 8 April, on waste and contaminated soil for a circular economy (Fourteenth additional provision), Royal Decree 396/2006, Order of 7 December 2001, Regulation (EC) 1907/2006 REACH, Directive 2009/148/EC, European Parliament Resolution of 14 March 2013."
       },
       "projects": {
         "title": "Asbestos Removal Projects",
-        "description": "Drafting of technical projects for the safe removal of asbestos-containing materials."
+        "description": "Drafting of technical projects for the safe removal of asbestos-containing materials.",
+        "metaDescription": "Asbestos removal projects with independent technical oversight. Quality control in dynamic and static containments. RERA-registered company.",
+        "intro": "Between the asbestos diagnosis and the final verification of its removal lies a process that demands strict planning, quality control and independent supervision. ACM-2020's operational services cover that entire chain.\n\nAll our interventions operate under Work Plan 86/AB/09-001-B, approved by the labour authority and subject to ongoing monitoring and measurement within the Registry of Companies at Risk from Asbestos (RERA).\n\nOur role is not to carry out the removal itself: it is to ensure that the RERA-registered removal contractors work in accordance with procedures, without risk of contamination to third parties. That independence is what gives real value to the oversight.",
+        "sections": [
+          {
+            "title": "Work Plan monitoring",
+            "content": "ACM-2020 performs independent, parallel monitoring of the Work Plan executed by the RERA-registered company contracted for the removal. This quality control covers both the operational phase (during execution) and the completion phase. The objective is to ensure compliance with procedures related to the prevention of third-party contamination, verifying that dynamic or static containments are functioning correctly."
+          },
+          {
+            "title": "Final surface quality control",
+            "content": "Following the completion of asbestos removal, stabilisation, encapsulation or containment works, ACM-2020 performs a final quality control as confirmation that the service meets the required standards. As this is carried out by an external company not involved in the execution, the impartiality and independence of the result are guaranteed."
+          },
+          {
+            "title": "Periodic control of treated surfaces",
+            "content": "In cases where asbestos-containing materials have been stabilised, encapsulated or contained rather than removed, ACM-2020 conducts periodic controls to verify that the treatments applied remain effective and that no fibre release is occurring. This periodic monitoring is essential to ensure long-term safety."
+          },
+          {
+            "title": "Ambient air sampling",
+            "content": "Verification through static ambient sampling (fixed point) is carried out at locations near the potential source of asbestos fibre emission. This measurement of fibres in the ambient air, performed using French methodology, provides evidence that the operational phase of the Work Plan does not pose a hazard to third parties or to the environment surrounding the intervention site."
+          }
+        ],
+        "keyPoints": [
+          "Approved Work Plan with RERA number 86/AB/09-001-B",
+          "Independent oversight of execution by RERA-registered companies",
+          "Quality control during and upon completion of processes",
+          "Static ambient air sampling using French methodology for airborne fibre measurement",
+          "Periodic control of stabilised, encapsulated or contained surfaces"
+        ],
+        "regulations": "Royal Decree 396/2006 (Minimum safety and health provisions for work involving asbestos exposure risk), RERA (Registry of Companies at Risk from Asbestos), Order of 7 December 2001, ISO/IEC 17020."
       },
       "waste": {
         "title": "Waste Management",
-        "description": "Guidance on the proper disposal and transportation of asbestos waste."
+        "description": "Guidance on the proper disposal and transportation of asbestos waste.",
+        "metaDescription": "Asbestos waste management in soil and water. Quantification, traceability and transfer to authorised waste handler in accordance with current regulations. NEN 5707.",
+        "intro": "Asbestos waste management encompasses the identification, quantification and treatment of asbestos-contaminated materials found across different media: soil, water, construction materials and other elements. This service is essential to ensure that hazardous waste is handled with the highest safety guarantees and sent to authorised waste handlers.\n\nACM-2020 offers a comprehensive waste management service that includes initial assessment, asbestos content quantification, respirable fibre determination and advisory support throughout the entire disposal process. Our objective is to ensure that every asbestos-containing waste receives the appropriate treatment and is properly documented.\n\nSoil contamination by asbestos and the presence of fibres in water supply systems are specific issues that require specialised methodologies and regulatory frameworks. ACM-2020 has the training required to address these situations by applying the most demanding technical standards.",
+        "sections": [
+          {
+            "title": "Asbestos-contaminated soil",
+            "content": "Quantifying the asbestos content in a volume of soil is a highly specific requirement that ACM-2020 addresses through sampling and laboratory analysis. When asbestos is suspected in soil, both the asbestos concentration and the presence of respirable fibres are determined. These free fibres are extremely fine particles that can remain suspended in the air for extended periods, representing a significant risk to human health. Being invisible to the naked eye, their detection requires specialised analysis."
+          },
+          {
+            "title": "Asbestos in water",
+            "content": "The determination of asbestos fibre concentration dissolved in water covers everything from the drinking water distribution network to natural water sources. The objective is to obtain precise information on the quantity of asbestos present to ensure compliance with water supply safety standards. The process includes controlled sampling followed by analysis at an external, independent laboratory using electron microscopy."
+          },
+          {
+            "title": "Traceability and documentation",
+            "content": "ACM-2020 guarantees complete traceability of each asbestos waste item, from its identification and quantification through to its transfer to an authorised waste handler. All documentation generated complies with legal requirements and is recorded in the project database, enabling verification that waste has been correctly removed and managed."
+          },
+          {
+            "title": "Applicable regulatory framework",
+            "content": "Spain currently has no limit value for asbestos concentration in soil or drinking water, nor accredited laboratories for these analyses. ACM-2020 therefore applies the regulatory framework of the Netherlands, using standard NEN 5707 for contaminated soil. For water, the reference is the Maximum Contaminant Level established by the USEPA in 1991 of 7 million fibres longer than 10 micrometres per litre. Analyses are performed at laboratories approved and accredited by national bodies of European countries."
+          }
+        ],
+        "keyPoints": [
+          "Quantification of asbestos concentration in soil and determination of respirable fibres",
+          "Determination of asbestos fibres in drinking water and natural water sources",
+          "Complete waste traceability from identification to authorised waste handler",
+          "Application of standard NEN 5707 (Netherlands) for asbestos-contaminated soil",
+          "Analyses performed at approved and accredited European laboratories",
+          "Comprehensive advisory support throughout the entire waste disposal process"
+        ],
+        "regulations": "NEN 5707 (Dutch standard for asbestos-contaminated soil), USEPA Maximum Contaminant Level for asbestos fibres in drinking water (7 MFL > 10 micrometres), Law 7/2022 on waste and contaminated soil, Royal Decree 396/2006, ISO/IEC 17020, Directive (EU) 2020/2184 on the quality of water intended for human consumption."
       },
       "supervision": {
         "title": "Site Supervision",
-        "description": "Technical supervision of asbestos removal works ensuring safety."
+        "description": "Technical supervision of asbestos removal works ensuring safety.",
+        "metaDescription": "Independent monitoring of asbestos removal work plans. Quality control during and after execution. RERA-registered company 86/AB/09.",
+        "intro": "The fact that a RERA-registered company executes a work plan does not mean it does so correctly. Someone independent has to verify it. That is the role of monitoring: an external oversight of asbestos removal, encapsulation, stabilisation or containment operations.\n\nACM-2020 performs these controls under the impartiality criteria of ISO/IEC 17020, for both public bodies and private owners who need assurance regarding the actual execution of the works.\n\nAs asbestos-containing materials installed before 2002 reach the end of their service life, demand for independent supervision is growing. The risks of fibre release during interventions require technical vigilance that only an entity with RERA registration and an approved work plan can provide.",
+        "sections": [
+          {
+            "title": "Control during execution",
+            "content": "Monitoring during the execution of the Work Plan includes verification of dynamic or static containments, control of working procedures, supervision of individual and collective protective measures, and surveillance of potential fibre release into the surrounding environment. ACM-2020 acts as an independent entity working in parallel with the RERA-registered removal company."
+          },
+          {
+            "title": "Quality control upon completion",
+            "content": "Once works are completed, a final quality control is performed that includes visual inspection of treated surfaces and ambient air sampling to verify the absence of asbestos fibres in the air. This control, carried out by an external company not involved in the execution, confirms that the service provided meets the required safety standards."
+          },
+          {
+            "title": "Static ambient air sampling",
+            "content": "Verification through static ambient sampling at fixed points near the potential fibre emission source provides evidence that the operational phase of the Work Plan does not pose a hazard to third parties or to the surrounding environment. This airborne fibre measurement is performed using accredited methodology and the results are documented in the corresponding report."
+          },
+          {
+            "title": "Deterioration indicators assessed",
+            "content": "During monitoring, key indicators are assessed including fractures in materials, cracks that could facilitate fibre release, presence of free fibres on surfaces and active fibre detachment. Each of these indicators is documented and classified by severity to determine the need for immediate corrective actions."
+          }
+        ],
+        "keyPoints": [
+          "Independent, parallel monitoring of the RERA-registered removal company",
+          "Quality control during and upon completion of processes",
+          "Static ambient air sampling at fixed points near the emission source",
+          "Assessment of critical indicators: fractures, cracks, free fibres and detachment",
+          "Approved Work Plan RERA 86/AB/09-001-B"
+        ],
+        "regulations": "Royal Decree 396/2006, ISO/IEC 17020 (Impartiality criteria), RERA (Registry of Companies at Risk from Asbestos), Order of 7 December 2001, Directive 2009/148/EC."
       },
       "risk": {
         "title": "Risk Assessment",
-        "description": "Analysis of occupational risks related to asbestos exposure."
+        "description": "Analysis of occupational risks related to asbestos exposure.",
+        "metaDescription": "Asbestos condition assessment. Determination of asbestos-containing material end of service life according to European regulations. Non-destructive inspection and sampling.",
+        "intro": "The condition assessment of asbestos-containing materials is a technical service that provides an objective evaluation of the degree of degradation of these materials and determines whether they have reached the end of their service life. This study is fundamental for establishing removal priorities and adopting the appropriate preventive measures.\n\nThis activity is predominantly carried out on asbestos cement (fibre cement) roofing, although it is applicable to any type of asbestos-containing material (ACM). Demand for this service is growing among the general public, property owners and building management entities that need to know the actual condition of asbestos-containing materials present in their facilities.\n\nAccording to the European Parliament Resolution of 14 March 2013, asbestos-containing materials typically have a life cycle of between 30 and 50 years. Given that asbestos was totally banned in Spain in 2002, many of the materials installed are reaching or have already exceeded the end of their service life, which implies a growing risk of fibre release.",
+        "sections": [
+          {
+            "title": "Assessment methodology",
+            "content": "The assessment consists of a detailed inspection of the material, visual verification of its condition and non-destructive surface sampling. Key deterioration indicators are examined, including fractures, cracks, the presence of free fibres on surfaces and active fibre detachment. When a material shows a sufficient degree of degradation to be considered as having reached the end of its service life, the report records this finding and recommends the most appropriate methodology for its responsible management."
+          },
+          {
+            "title": "End of service life concept",
+            "content": "European regulations establish that the use of articles containing asbestos installed before 1 January 2005 is permitted until their disposal or the end of their service life. Service life is understood as the estimated time during which a product can perform the function for which it was manufactured, depending on its maintenance and conditions of use. In the context of occupational health and safety, the end of service life is reached when the material may harm health due to its likelihood of releasing asbestos fibres into the environment, whether because of its condition or factors such as the risk of breakage, impact or vibration."
+          },
+          {
+            "title": "Impact on the removal schedule",
+            "content": "The condition of an asbestos-containing material directly affects the removal schedule established in the management plan. Materials showing advanced deterioration must be treated with absolute priority. The assessment report provides the information necessary to reclassify priorities and, where appropriate, activate emergency measures such as temporary encapsulation or restricted access to the affected area."
+          },
+          {
+            "title": "Accreditation and qualification",
+            "content": "ACM-2020 has the training and experience required to carry out condition assessments of asbestos-containing materials. The company holds an approved Work Plan that specifically covers this activity, and delivers the service under the impartiality and neutrality criteria of ISO/IEC 17020, for both public bodies and private owners."
+          }
+        ],
+        "keyPoints": [
+          "Objective assessment of the degree of deterioration through visual inspection and non-destructive sampling",
+          "Determination of end of service life in accordance with European regulations",
+          "Removal prioritisation based on the level of degradation detected",
+          "Applicable to fibre cement roofing and any type of asbestos-containing material",
+          "Report with recommended actions and responsible management methodology"
+        ],
+        "regulations": "Order of 7 December 2001 (Asbestos ban), Royal Decree 1406/1989, Regulation (EC) 1907/2006 REACH (Annex XVII), Directive 2009/148/EC, European Parliament Resolution of 14 March 2013, INSST technical guide for the assessment and prevention of asbestos exposure risks, ISO/IEC 17020."
       },
       "audits": {
         "title": "Audits",
-        "description": "Asbestos audits."
+        "description": "Asbestos audits.",
+        "metaDescription": "Comprehensive asbestos audits: visual inspection, sampling, work plan monitoring and quality control. ISO/IEC 17020 compliant.",
+        "intro": "Asbestos audits are a comprehensive service covering the entire asbestos management cycle: from initial detection through to final verification after removal. This service responds to growing awareness of asbestos hazards in buildings and facilities and the need to address them through a systematic, professional approach.\n\nACM-2020 operates under the highest standards of impartiality and neutrality in accordance with ISO/IEC 17020, ensuring the reliability of every report. We work for both public bodies and private owners, committed to the safety and well-being of those who occupy the audited spaces.\n\nThe resulting audit report is more than an informational document: it serves as the starting point for future actions. When asbestos is detected, we provide the necessary guidance, including an estimated management cost and recommended preventive and corrective measures.",
+        "sections": [
+          {
+            "title": "Visual inspections",
+            "content": "The first phase of the audit consists of a thorough visual inspection to detect potential materials or elements suspected of containing asbestos. Visual surveys are highly cost-effective and serve as the initial screening to determine whether a building or facility may contain asbestos. This phase allows rapid identification of risk areas and planning for subsequent sampling."
+          },
+          {
+            "title": "Sampling and analysis",
+            "content": "Technicians carry out the collection of solid or surface dust samples to perform a complete identification and assessment of asbestos-containing materials. This process enables the localisation and diagnosis of each material, delivering fast and reliable results. The study may conclude with an approximate cost for managing the detected materials, along with a proposal for preventive and corrective measures."
+          },
+          {
+            "title": "Work plan monitoring",
+            "content": "During the removal phase, ACM-2020 performs independent, parallel monitoring of the Work Plan executed by the RERA-registered company, ensuring compliance with procedures related to the prevention of third-party contamination. This quality control is carried out both during execution and upon completion of the works."
+          },
+          {
+            "title": "Quality control and environmental sampling",
+            "content": "The audit includes final quality control after removal, stabilisation, encapsulation or containment works, as well as verification through static-environmental sampling at fixed points close to the potential emission source. This serves to demonstrate that the operations pose no danger to third parties or the surrounding environment."
+          }
+        ],
+        "keyPoints": [
+          "Comprehensive service covering the entire asbestos management cycle",
+          "Cost-effective visual inspections as the first detection phase",
+          "Detailed report with estimated management costs and corrective measures",
+          "Independent monitoring of RERA-registered companies' work plans",
+          "Final quality control and post-intervention environmental sampling",
+          "Conducted in accordance with ISO/IEC 17020 to guarantee impartiality"
+        ],
+        "regulations": "ISO/IEC 17020 (Impartiality and neutrality criteria), Royal Decree 396/2006, UNE 171370-2:2021 (Asbestos localisation and diagnosis), RERA (Registry of Companies with Asbestos Risk)."
       },
       "training": {
         "title": "Training",
-        "description": "Asbestos training programs."
+        "description": "Asbestos training programs.",
+        "metaDescription": "Specialised asbestos training in accordance with Royal Decree 396/2006. Courses for technicians, prevention services, RERA companies and public bodies.",
+        "intro": "Asbestos training is a fundamental pillar for ensuring worker safety and the correct management of this hazardous material. ACM-2020 offers training programmes tailored to the specific needs of each organisation, from public bodies to private companies registered with RERA.\n\nOur programmes cover all relevant aspects of Royal Decree 396/2006 and are adapted to different professional levels: prevention service technicians, managers and operatives of RERA-registered companies, municipal staff and other public body personnel. The flexibility of content allows each training action to be customised according to the client's specific technical requirements.\n\nBeyond regulated training, ACM-2020 actively participates in technical committees, national and international conferences, and collaborates with public bodies in the design of training initiatives, contributing up-to-date knowledge and practical field experience.",
+        "sections": [
+          {
+            "title": "Training for prevention services",
+            "content": "Technicians in in-house prevention services (SPP) and external prevention services (SPA) require specific training on the risks associated with asbestos and the procedures established by regulation. ACM-2020 offers programmes covering the identification of asbestos-containing materials, risk assessment, safe working procedures and emergency management."
+          },
+          {
+            "title": "Training for RERA-registered companies",
+            "content": "Managers and technicians of RERA-registered companies need continuous updating of their knowledge in asbestos management. Our courses address the legal requirements of Royal Decree 396/2006, procedures for preparing and executing work plans, containment and removal techniques, and quality control protocols."
+          },
+          {
+            "title": "Training for public bodies",
+            "content": "ACM-2020 collaborates with various public administrations in the preparation and design of training initiatives aimed at their technical staff. These programmes cover visual identification of suspect materials, preparation of municipal asbestos censuses, management of public complaints and enquiries, and coordination with RERA-registered companies for removal."
+          },
+          {
+            "title": "Participation in events and committees",
+            "content": "Beyond direct training delivery, ACM-2020 participates in various technical committees related to asbestos and in national and international conferences. This active involvement enables us to remain at the forefront of knowledge and to incorporate the latest developments and best practices into our training programmes."
+          }
+        ],
+        "keyPoints": [
+          "Programmes tailored to different professional levels and specific needs",
+          "Training in accordance with Royal Decree 396/2006 on work involving asbestos exposure risk",
+          "Flexible content to customise each training action",
+          "Active participation in technical committees and specialised conferences",
+          "Collaboration with public administrations in the design of training initiatives"
+        ],
+        "regulations": "Royal Decree 396/2006 (Minimum safety and health provisions for work involving asbestos exposure risk), Law 7/2022 on waste and contaminated soils, UNE 171370-2:2021, ISO/IEC 17020."
       },
       "consulting": {
         "title": "Consulting",
-        "description": "Asbestos consulting and advisory services."
+        "description": "Asbestos consulting and advisory services.",
+        "metaDescription": "Specialised asbestos advisory and consulting services. Expert reports, legal compliance assessments, census guidance and management in accordance with Royal Decree 396/2006.",
+        "intro": "ACM-2020 provides a comprehensive advisory and consulting service on asbestos, aimed at public administrations, private companies and individuals who need professional guidance to manage asbestos issues in their buildings, facilities or infrastructure.\n\nOur team advises on all aspects related to current regulations, action planning, preparation of municipal censuses and internal management of the legal requirements associated with asbestos. Each case is approached on an individual basis, adapting solutions to the client's specific circumstances.\n\nWe also carry out expert assessments related to occupational, environmental or domestic asbestos exposure, providing rigorous technical reports that can be used in administrative or legal proceedings.",
+        "sections": [
+          {
+            "title": "Collaboration with public administrations",
+            "content": "ACM-2020 works closely with public administrations on all matters related to asbestos. This service ranges from technical advice for preparing municipal asbestos censuses to guidance on engaging RERA-registered companies for removal, including orientation on compliance with Law 7/2022 and its mandatory deadlines."
+          },
+          {
+            "title": "Corporate advisory",
+            "content": "We prepare reports on the implementation of asbestos-related legal requirements within companies, in accordance with Royal Decree 396/2006. This service includes a review of internal procedures, assessment of worker exposure, verification of compliance with registration and notification obligations, and recommendations for improving safety protocols."
+          },
+          {
+            "title": "Expert assessments",
+            "content": "We carry out technical expert assessments related to occupational, environmental or domestic asbestos exposure. These reports are prepared with technical and scientific rigour and are valid for submission in administrative, legal or insurance proceedings. The assessment may include evaluation of historical exposure, identification of contamination sources and valuation of damages."
+          },
+          {
+            "title": "Asbestos census advisory",
+            "content": "ACM-2020 advises on the planning, preparation and management of asbestos censuses in buildings, facilities and infrastructure under both public and private ownership. Our advisory covers the entire process, from defining the scope and methodology through to interpreting results and prioritising removal actions."
+          }
+        ],
+        "keyPoints": [
+          "Comprehensive advisory tailored to public administrations, companies and individuals",
+          "Preparation of legal compliance reports in accordance with Royal Decree 396/2006",
+          "Specialised expert assessments on occupational, environmental and domestic exposure",
+          "Advisory on the preparation of municipal asbestos censuses",
+          "Collaboration with all administrations involved in asbestos management"
+        ],
+        "regulations": "Royal Decree 396/2006, Law 7/2022 on waste and contaminated soils for a circular economy, Order of 7 December 2001, ISO/IEC 17020, Directive 2009/148/EC."
       },
       "censuses": {
         "title": "Municipal Censuses",
-        "description": "Asbestos censuses in buildings and infrastructure."
+        "description": "Asbestos censuses in buildings and infrastructure.",
+        "metaDescription": "Municipal asbestos censuses in accordance with Law 7/2022. Georeferenced database, removal priorities and proprietary management tools.",
+        "intro": "The preparation of asbestos censuses is a legal obligation established by Law 7/2022, of 8 April, on waste and contaminated soils for a circular economy. Municipalities must prepare a census of installations and sites containing asbestos, including a schedule that plans their removal, with public status and submitted to the relevant health, environmental and labour authorities.\n\nACM-2020 has the training, experience and proprietary tools developed to prepare and manage asbestos censuses at any scale: from a single building to an entire municipality. Our methodology goes beyond the simple detection of fibre cement roofing by remote sensing, encompassing all asbestos-containing materials present both externally and internally within buildings.\n\nThe result is a comprehensive georeferenced database that records all detected asbestos-containing materials, their state of degradation and removal priorities, enabling integrated management and tracking of all asbestos through to its definitive elimination.",
+        "sections": [
+          {
+            "title": "Phases of the Municipal Asbestos Census",
+            "content": "The preparation of a Municipal Asbestos Census (CMA) consists of five phases. First, defining the scope and compiling documentation on the municipality's buildings, facilities and infrastructure. Second, an initial visual inspection to identify elements suspected of containing asbestos. Third, identification and assessment of detected asbestos through sampling and laboratory analysis. Fourth, execution of preventive measures on materials designated for eradication. Fifth, execution of corrective measures and waste management through to its final destination at an authorised waste manager."
+          },
+          {
+            "title": "Comprehensive methodology",
+            "content": "ACM-2020 considers that the census must include all asbestos-containing materials in a building, both externally and internally. Remote sensing to detect asbestos-cement roofing is only a small part of the process, as there are many more elements and materials that cannot be detected with this technology. The objective is to locate, photograph and quantify all materials containing or suspected of containing asbestos."
+          },
+          {
+            "title": "Georeferenced database",
+            "content": "ACM-2020 prepares a proprietary georeferenced database that records all buildings, facilities and infrastructure containing asbestos, their state of degradation and removal priorities based on hazard level. This tool enables comprehensive control of all asbestos detected, removed and sent to an authorised waste manager, facilitating ongoing management and compliance with legal deadlines."
+          },
+          {
+            "title": "Removal schedule",
+            "content": "The census includes a removal schedule that prioritises installations and sites according to their degree of hazard and exposure to the most vulnerable populations. Public installations or sites posing the greatest risk must be managed before 2028. The schedule has public status and is submitted to the competent authorities in accordance with the law."
+          }
+        ],
+        "keyPoints": [
+          "Compliance with the legal obligation under Law 7/2022 for municipalities",
+          "Comprehensive methodology that goes beyond remote sensing detection of roofing",
+          "Proprietary georeferenced database for management and tracking",
+          "Removal schedule with prioritisation by hazard level and exposure",
+          "Experience in censuses at any scale: individual buildings or entire municipalities",
+          "Highest-risk public installations managed before 2028"
+        ],
+        "regulations": "Law 7/2022, of 8 April, on waste and contaminated soils for a circular economy (Fourteenth Additional Provision), Royal Decree 396/2006, UNE 171370-2:2021, ISO/IEC 17020, Base metodologica per la redaccio del document-guia per l'erradicacio de l'amiant als municipis (CMA vs Mapa de l'Amiant a Catalunya)."
       },
       "water": {
         "title": "Asbestos in Water",
-        "description": "Analysis of asbestos fibers in water supply systems."
+        "description": "Analysis of asbestos fibers in water supply systems.",
+        "metaDescription": "Asbestos fibre analysis in drinking and natural water. Sampling and electron microscopy analysis at accredited European laboratories.",
+        "intro": "The detection of asbestos fibres in water is a specialised service that enables precise determination of dissolved fibre concentration in any type of water: from drinking water distribution networks to natural, surface or underground water sources.\n\nThe presence of asbestos in water can originate from the deterioration of fibre cement pipes that still form part of many distribution networks, or from contamination of natural sources. Research on this topic began decades ago, when evidence emerged regarding the health risks associated with fibre ingestion.\n\nACM-2020, in accordance with the impartiality and neutrality criteria of ISO/IEC 17020, performs sampling and coordinates analysis at accredited and certified external laboratories, providing precise information on the quantity of asbestos present in the water.",
+        "sections": [
+          {
+            "title": "Sampling and analysis process",
+            "content": "The service includes the planning of sampling points, collection of water samples in accordance with standardised protocols and their dispatch to an independent external laboratory for analysis by electron microscopy (SEM or TEM). Results are expressed in fibres per litre, enabling evaluation of compliance with international reference standards."
+          },
+          {
+            "title": "Health risks",
+            "content": "According to a study by the U.S. National Academy of Science (1983), a drinking water concentration of 2 x 10 to the power of 5 fibres per litre may induce gastrointestinal cancer in one inhabitant per 100,000 whose consumption is 2 litres daily over 70 years. Children face a higher risk because they consume a greater volume of water per unit of body weight. Fibres smaller than 10 micrometres do not represent a hazard according to that study."
+          },
+          {
+            "title": "Service applications",
+            "content": "This service is particularly relevant for municipalities with water distribution networks that include fibre cement pipes, for water supply companies that need to verify their network quality, for hydraulic infrastructure rehabilitation projects, and for environmental assessments of natural water sources potentially affected by asbestos waste."
+          },
+          {
+            "title": "Regulatory reference framework",
+            "content": "Neither European nor Spanish legislation currently establishes limit values for asbestos concentration in drinking water. The USEPA established in 1991 a Maximum Contaminant Level of 7 million fibres larger than 10 micrometres per litre, a value adopted as a reference by other countries. ACM-2020 uses these international standards and engages accredited laboratories in European countries for analysis, given that no accreditation exists in Spain for this type of determination."
+          }
+        ],
+        "keyPoints": [
+          "Precise determination of asbestos fibre concentration in water (fibres/litre)",
+          "Analysis by SEM and TEM electron microscopy at accredited European laboratories",
+          "USEPA reference: maximum 7 MFL larger than 10 micrometres per litre",
+          "Applicable to distribution networks, drinking water and natural sources",
+          "Impartiality guaranteed in accordance with ISO/IEC 17020"
+        ],
+        "regulations": "USEPA MCL for asbestos fibres in drinking water (1991), Directive (EU) 2020/2184 on the quality of water intended for human consumption, ISO/IEC 17020, U.S. National Academy of Science (1983), Malinconico et al. 2022."
       },
       "soil": {
         "title": "Asbestos in Soil",
-        "description": "Quantification of asbestos in soil."
+        "description": "Quantification of asbestos in soil.",
+        "metaDescription": "Analysis of asbestos in contaminated soils. Concentration quantification and respirable fibre determination in accordance with NEN 5707 at accredited European laboratories.",
+        "intro": "Soil contamination by asbestos is an issue that requires specialised technical assessment to quantify the asbestos content in a volume of soil and determine the associated risk to human health. This service is essential for land where the presence of fibre cement waste, illegal dumping or historical contamination is suspected.\n\nACM-2020 provides a comprehensive identification and assessment service for asbestos-affected soils that includes sampling planning, collection of representative samples, laboratory analysis to determine asbestos concentration and quantification of respirable fibres. The results allow risk assessment and informed decision-making on land management.\n\nRespirable asbestos fibres are extremely fine particles that can remain suspended in the air for extended periods and are invisible to the naked eye. Their inhalation represents a significant health risk, making their detection and quantification fundamental for any construction, rehabilitation or land decontamination project.",
+        "sections": [
+          {
+            "title": "Sampling methodology",
+            "content": "The process begins with the planning of sampling points based on the extent of the terrain and the suspicion of contamination. Soil samples are extracted at various depths and sent to accredited European laboratories for analysis. The methodology follows the protocols established in the NEN 5707 standard from the Netherlands, the international reference for the assessment of asbestos-contaminated soils."
+          },
+          {
+            "title": "Concentration and respirable fibre determination",
+            "content": "Laboratory analysis enables the determination of the total asbestos concentration in the soil (expressed in mg/kg or percentage by weight) and the presence of respirable fibres. The distinction between bound asbestos (material fragments) and free fibres is fundamental, as respirable fibres are those that represent a direct health risk due to their potential for inhalation."
+          },
+          {
+            "title": "Risk assessment",
+            "content": "Using the analytical results, ACM-2020 prepares a risk assessment report that includes the evaluation of contamination levels, action recommendations and, where applicable, the need for remediation measures. This assessment is essential for urban development projects, land real estate transactions and for meeting obligations under contaminated soil regulations."
+          },
+          {
+            "title": "Absence of a Spanish regulatory framework",
+            "content": "Spain currently has no limit value for asbestos concentration in soil, nor accredited laboratories for this type of analysis. ACM-2020 fills this gap by applying the regulatory framework of the Netherlands (NEN 5707 standard) and engaging laboratories accredited by state bodies in neighbouring European countries, thereby guaranteeing the reliability of results."
+          }
+        ],
+        "keyPoints": [
+          "Precise quantification of asbestos concentration in soils",
+          "Respirable fibre determination for health risk assessment",
+          "Application of the NEN 5707 standard from the Netherlands as reference",
+          "Analysis at accredited European laboratories",
+          "Risk assessment report with action recommendations",
+          "Essential for urban development projects and land transactions"
+        ],
+        "regulations": "NEN 5707 (Dutch standard for asbestos-contaminated soils), Law 7/2022 on waste and contaminated soils for a circular economy, Royal Decree 9/2005 (List of potentially soil-contaminating activities), ISO/IEC 17020."
       },
       "communities": {
         "title": "Residential Communities",
-        "description": "Asbestos detection and management in residential communities."
+        "description": "Asbestos detection and management in residential communities.",
+        "metaDescription": "Asbestos detection and management in residential communities. Inspection of downpipes, roofing and common building elements. Removal oversight and quality control.",
+        "intro": "Pipes, downpipes, roofing, rain screens, insulation materials: in buildings constructed before 2002, asbestos is found in the common elements shared by all residents. Most of these materials have already reached or are approaching the end of their service life.\n\nAs they deteriorate, asbestos fibres are released into the environment. The risk is not hypothetical: it is a public health issue with defined legal deadlines. The European Union has set 2032 as the target date for planned asbestos removal, making early action advisable.\n\nACM-2020 supports residential communities throughout the entire process: from the initial inspection and sampling to independent oversight of the Work Plan and final quality control after removal.",
+        "sections": [
+          {
+            "title": "Importance of early detection",
+            "content": "Early detection of asbestos in residential communities provides multiple benefits: it prevents structural deterioration of materials reaching the end of their service life, reduces long-term costs by avoiding more expensive repairs and legal issues, and increases the property value of the building. Asbestos removal is planned within the European legal framework by 2032, making early action advisable."
+          },
+          {
+            "title": "Common building elements containing asbestos",
+            "content": "The most common elements where asbestos is found in residential communities are fibre cement downpipes and pipes, roofing and corrugated sheets, rain screens, water tanks and insulation materials. Rehabilitation of these elements involves complete replacement of asbestos-containing components, specific rehabilitation methods to ensure the safety of residents, and the implementation of ongoing preventive maintenance."
+          },
+          {
+            "title": "Phases of proactive management",
+            "content": "The process follows three main phases: initial building assessment through a thorough visual inspection to determine the presence and condition of asbestos; removal planning, designing a plan that ensures compliance with current regulations with a technically competent RERA-registered company; and removal and replacement of hazardous materials with modern, sustainable alternatives, with independent oversight and additional quality control."
+          },
+          {
+            "title": "Our services for residential communities",
+            "content": "ACM-2020 provides communities with a comprehensive package of services: visual inspection as an initial screening, sampling with fast and reliable results, a report including approximate management costs and preventive measures, independent oversight of the Work Plan executed by the contracted RERA-registered company, and final quality control with ambient air sampling to verify the safety of the process."
+          }
+        ],
+        "keyPoints": [
+          "End-to-end service tailored to the needs of residential communities",
+          "Inspection of downpipes, roofing, rain screens, water tanks and insulation",
+          "Report with estimated removal costs and preventive measures",
+          "Independent oversight of the removal process by a RERA-registered company",
+          "Increased property value of the building following asbestos elimination",
+          "European legal framework mandates complete removal by 2032"
+        ],
+        "regulations": "RD 396/2006, Ley 7/2022 on waste and contaminated soil, Order of 7 December 2001, RERA (Registry of Companies with Asbestos Risk), Directive 2009/148/EC, European Parliament Resolution of 14 March 2013."
       },
       "realestate": {
         "title": "Real Estate",
-        "description": "Asbestos detection for property transactions."
+        "description": "Asbestos detection for property transactions.",
+        "metaDescription": "Asbestos certificate for property purchase, sale, and rental in Catalonia. Mandatory from October 2026 (Law 8/2026). Issued by RERA-registered industrial hygienist with 15+ years of experience.",
+        "intro": "The certificate of presence or absence of asbestos is the document that reports on the asbestos status of a property at the time of issuance. Created by Law 8/2026 of 2 July on the prevention and eradication of asbestos in Catalonia, its purpose is to ensure that buyers and tenants know the true condition of the property before completing the transaction.\n\nFrom 3 October 2026, this certificate is mandatory in every purchase and sale or rental of property in Catalonia. While the implementing regulations are being approved, the certificate must include, at a minimum, the presence or absence of visible asbestos, the condition of the materials, and the risk they pose to people.\n\nThe law itself recommends that these inspections be carried out by an industrial hygienist with experience in asbestos identification. ACM-2020 issues this certificate with RERA-registered industrial hygienists (no. 86/AB/09) who have over 15 years of experience identifying asbestos in all types of properties.",
+        "sections": [
+          {
+            "title": "When is the asbestos certificate mandatory",
+            "content": "From 3 October 2026, the certificate must be provided in every purchase and sale or rental of property in Catalonia. The obligation is not limited to residential dwellings: it also applies to commercial premises, offices, industrial warehouses, and entire buildings.\n\nIn a purchase and sale, the seller provides the certificate to the buyer. If asbestos is detected, its presence must be recorded in the land registry entry for the transfer for value (additional provision 7), along with any removal grants received.\n\nIn a rental, the landlord provides the certificate to the tenant at the time the lease is signed."
+          },
+          {
+            "title": "Which properties may contain asbestos",
+            "content": "Any property built or refurbished before 2002 may contain asbestos, as that was the year it was banned in Spain. The most common asbestos-containing materials found in buildings include: fibre-cement roofing and panels (Uralita), fibre-cement downpipes, water pipes and chimneys, water tanks, suspended ceilings and panels, vinyl floor tiles and their adhesives, insulation around boilers, pipes and ventilation ducts, and gaskets and sealing cords in stoves and heaters.\n\nMany of these materials remain in good condition and do not pose an immediate risk, but they must be identified in the certificate."
+          },
+          {
+            "title": "How we issue the asbestos certificate",
+            "content": "The process has three phases. First, the visual inspection: the industrial hygienist surveys the property, locates asbestos-containing materials, photographs them and records them in an inventory. For each material, the technician assesses the condition and the risk of fibre release. The visit typically lasts 60 to 90 minutes.\n\nSecond, sampling and analysis (optional): when a material cannot be identified with visual certainty, a sample is taken following the safety protocol set out in the Work Plan. Samples are analysed in a laboratory accredited under UNE-EN ISO/IEC 17025:2017. Sampling is quoted separately and only carried out when necessary.\n\nThird, the certificate and report: the certificate is delivered together with a technical report detailing the location of materials, their condition, the risk assessment and photographs. If asbestos is detected and the client requests it, ACM-2020 technicians provide an estimate of quantities, removal costs and recommended preventive measures."
+          },
+          {
+            "title": "Why ACM-2020",
+            "content": "ACM-2020 is a consultancy specialising exclusively in asbestos and radon gas. Certificates are issued by RERA-registered industrial hygienists (no. 86/AB/09) with over 15 years of experience inspecting asbestos for companies, municipalities, property managers and private individuals.\n\nIf asbestos is found, ACM-2020 can support the client throughout the entire subsequent process: drafting the Work Plan, supervising the removal by the contracted RERA-registered removal company, and carrying out the final verification."
+          }
+        ],
+        "keyPoints": [
+          "RERA-registered industrial hygienists, registration no. 86/AB/09",
+          "Over 15 years of experience identifying asbestos in properties",
+          "Fixed price for the inspection; sampling is quoted separately and only if required",
+          "Certificate delivered within 5 business days of the site visit",
+          "End-to-end service: if asbestos is found, full support through the removal process",
+          "Impartiality: independent consultancy with no ties to removal companies"
+        ],
+        "regulations": "Law 8/2026 of 2 July on the prevention and eradication of asbestos in Catalonia (article 21 — Certificate of presence or absence of asbestos), Royal Decree 396/2006 (work procedures involving risk of asbestos exposure), Order of 7 December 2001 (total ban on asbestos in Spain).",
+        "faqs": [
+          {
+            "question": "Is the asbestos certificate mandatory for renting out a property?",
+            "answer": "Yes. Law 8/2026 requires the certificate of presence or absence of asbestos to be provided in both purchase and sale transactions and rental agreements for properties in Catalonia, from 3 October 2026."
+          },
+          {
+            "question": "Who pays for the asbestos certificate?",
+            "answer": "It is normally commissioned and paid for by the owner (seller or landlord), since they bear the legal obligation to provide the certificate. The law does not expressly stipulate who must cover the cost."
+          },
+          {
+            "question": "Who is qualified to issue the asbestos certificate?",
+            "answer": "The implementing regulations are still pending approval. In the meantime, the recommended approach is to have the certificate issued by a professional with proven experience in asbestos identification, such as a RERA-registered industrial hygienist. Conflicts of interest with laboratories, removal companies, or professionals without specific asbestos experience should be avoided."
+          },
+          {
+            "question": "If asbestos is found, does it have to be removed before selling?",
+            "answer": "No. The certificate reports on the situation but does not require immediate removal. The presence of asbestos does, however, influence price negotiations between buyer and seller. The law establishes a phased removal schedule with 2032 as the general deadline."
+          },
+          {
+            "question": "How long does it take to obtain the certificate?",
+            "answer": "The site visit is normally scheduled within 7 days of confirmation. If no sampling is required, the certificate is delivered within 2-3 business days after the visit. If laboratory analysis is needed, the timeframe extends to up to 5 business days."
+          },
+          {
+            "question": "Does the certificate cover an apartment within a multi-unit building?",
+            "answer": "Yes. The inspection covers the dwelling and any accessible common elements that directly affect it (roof, downpipes, water tanks). The homeowners' association can also request a full building diagnosis."
+          },
+          {
+            "question": "What happens if I do not provide the asbestos certificate?",
+            "answer": "Failing to provide the certificate when it is mandatory constitutes a minor infringement under article 53.c of Law 8/2026, punishable with a fine of 100 to 3,000 euros (article 54). The specific penalty regime will come into force when the implementing decree is approved."
+          },
+          {
+            "question": "Does my property need a certificate if it was built after 2002?",
+            "answer": "Yes. The law requires the certificate in every purchase and sale or rental transaction without exceptions based on the year of construction. For properties built after 2002, the certificate will normally confirm the absence of asbestos, but it must still be issued."
+          },
+          {
+            "question": "How long is the certificate valid?",
+            "answer": "The law does not establish a specific validity period. The certificate reports on the condition of the property at the time of issuance (article 21.1). If subsequent works or removals are carried out, it is advisable to update the certificate. The implementing regulations may set an expiry period."
+          },
+          {
+            "question": "What about rental agreements signed before 3 October 2026?",
+            "answer": "The law contains no transitional provision. The obligation arises at the time of sale or lease, so it applies to agreements signed from 3 October 2026 onwards, not to existing ones. Renewal of a current agreement does not constitute a new lease; a new agreement with the same tenant does."
+          },
+          {
+            "question": "Does the inspection and certificate cover concealed asbestos?",
+            "answer": "The inspection is visual and covers all visible asbestos in the property. A small, localised sample is taken only when there are well-founded doubts about a particular material, following the appropriate safety measures. No excavation or destructive testing is carried out to uncover concealed asbestos."
+          },
+          {
+            "question": "Is this certificate also required for commercial premises, warehouses, garages, or storage units?",
+            "answer": "Yes. The law refers to 'property' (article 21.2) and recognises the right to the certificate when renting 'dwellings or other properties' (article 5.d). It applies to any property regardless of its use."
+          },
+          {
+            "question": "Does the certificate have to be recorded in the Land Registry?",
+            "answer": "In a purchase and sale, yes. When registering a transfer for value, the certification of presence or absence of asbestos and any removal grants received must be recorded (additional provision 7). No registry entry is required for rental agreements."
+          },
+          {
+            "question": "What role does the property manager play?",
+            "answer": "The property manager must ensure that owners provide the certificate to the buyer or tenant and facilitate the management of the process (article 12.1.b). They are also required to notify owners and the Census of the presence of asbestos and to inform them of the grants available for removal."
+          }
+        ]
       },
       "breeam": {
         "title": "BREEAM Certification",
-        "description": "Asbestos assessment for BREEAM certification."
+        "description": "Asbestos assessment for BREEAM certification.",
+        "metaDescription": "Asbestos diagnosis for BREEAM certification. Inspection, sampling, detailed report and remediation plan. Meets hazardous materials management requirements.",
+        "intro": "BREEAM certification is a leading global standard for assessing building sustainability, and one of its key aspects is the management of hazardous materials, including asbestos. Achieving this certification requires demonstrating that the building has been assessed and that the necessary measures have been adopted to manage any asbestos presence.\n\nACM-2020 offers an asbestos diagnosis service specifically tailored to the requirements of BREEAM certification. Our reports comply with the standard's criteria and provide all the documentation needed to satisfy the hazardous materials assessment requirements.\n\nAsbestos is a carcinogenic material that can affect the health of building occupants if not properly managed. Our diagnostic service is essential for meeting BREEAM requirements while simultaneously ensuring the safety and well-being of those who use the building.",
+        "sections": [
+          {
+            "title": "What is BREEAM certification",
+            "content": "BREEAM (Building Research Establishment Environmental Assessment Method) is the most widely used building sustainability assessment and certification method worldwide. It evaluates aspects such as building management, occupant health and well-being, energy, transport, water, materials, waste, land use and pollution. The management of hazardous materials such as asbestos is a specific requirement within the health and well-being category."
+          },
+          {
+            "title": "Inspection services for BREEAM",
+            "content": "The service includes a thorough initial visual inspection to assess the possible presence of asbestos, laboratory analysis of samples to confirm findings, a detailed report with findings and recommendations, and a remediation plan with best practices for safe asbestos removal by a RERA-registered company. All documentation is prepared in accordance with the specific requirements of BREEAM."
+          },
+          {
+            "title": "Benefits of the diagnosis",
+            "content": "An asbestos diagnosis from ACM-2020 for BREEAM certification delivers multiple benefits: compliance with the standard's regulatory requirements, protection of occupant health through the identification of asbestos present, contribution to achieving a higher score in the health and materials categories, and demonstration of the building's commitment to sustainability and social responsibility."
+          },
+          {
+            "title": "Expertise and compliance",
+            "content": "ACM-2020 has a team of asbestos diagnosis experts who ensure compliance with BREEAM standards. Our experience in identifying asbestos across all types of buildings, combined with in-depth knowledge of certification requirements, enables us to deliver an efficient and comprehensive service that streamlines the certification process."
+          }
+        ],
+        "keyPoints": [
+          "Diagnostic reports tailored to the specific requirements of BREEAM",
+          "Comprehensive visual inspection, sampling and laboratory analysis",
+          "Remediation plan with recommendations for safe removal",
+          "Contribution to scores in the BREEAM health and materials categories",
+          "Specialised team with expertise in asbestos diagnosis and certification"
+        ],
+        "regulations": "BREEAM standard (Building Research Establishment Environmental Assessment Method), ISO/IEC 17020, UNE 171370-2:2021, RD 396/2006, Directive 2009/148/EC."
       },
       "qualityControl": {
         "title": "Final Surface Quality Control",
-        "description": "Independent verification of treated surfaces after removal, stabilisation, encapsulation or confinement of asbestos-containing materials."
+        "description": "Independent verification of treated surfaces after removal, stabilisation, encapsulation or confinement of asbestos-containing materials.",
+        "metaDescription": "Final surface quality control for asbestos works. Independent verification after removal or treatment. NF X-46021 standard. ACM-2020, RERA-registered company.",
+        "intro": "An asbestos removal job does not end when the executing company says it has finished. It ends when an independent third party confirms that the treated surfaces meet safety standards.\n\nPublic authorities, property owners and managing entities turn to ACM-2020 for this validation precisely because we have no connection to the company carrying out the work. That complete independence is the only real guarantee of impartiality in the outcome.\n\nThe control applies to both friable-material Work Plans with dynamic containment (negative pressure) and less friable works with static containment (localised extraction).",
+        "sections": [
+          {
+            "title": "Purpose of the service",
+            "content": "The purpose of a treated-surface inspection is to issue Conformity for the operational completion of a Work Plan executed by a RERA-registered company. This Conformity is granted by ACM-2020 after visually inspecting the site and finding no Non-Conformity across the elements and areas covered by the Work Plan contracted by the client."
+          },
+          {
+            "title": "Inspection methodology",
+            "content": "The inspection consists of a thorough visual examination of all treated surfaces, verifying the absence of asbestos-containing material residues, the correct condition of finishes and the general cleanliness of the site. All inspected points are photographically documented, and a Conformity or Non-Conformity report is issued with a detailed account of all observations."
+          },
+          {
+            "title": "Guarantee of independence",
+            "content": "An independent final quality control is essential for the contracting entity. ACM-2020, as a company entirely separate from the execution of the Work Plan, provides an objective and impartial verification that complements the declaration of the executing RERA-registered company, offering a dual guarantee of safety."
+          }
+        ],
+        "keyPoints": [
+          "Independent third-party verification, separate from the executing RERA-registered company",
+          "Thorough visual inspection in accordance with the French standard NF X-46021 (2010)",
+          "Applicable to Work Plans with dynamic or static containment",
+          "Photographically documented Conformity or Non-Conformity report",
+          "Service required by public authorities and managing entities"
+        ],
+        "regulations": "NF X-46021 (2010) - Traitement de l'amiante dans les immeubles batis: Examen visuel des surfaces traitees apres travaux de retrait de materiaux et produits contenant de l'amiante. RD 396/2006."
       },
       "periodicControl": {
         "title": "Periodic Surface Inspection",
-        "description": "Periodic inspections of stabilised, encapsulated or confined surfaces containing asbestos materials."
+        "description": "Periodic inspections of stabilised, encapsulated or confined surfaces containing asbestos materials.",
+        "metaDescription": "Periodic control of treated asbestos surfaces. Inspections to verify stabilisation, encapsulation or containment. Compliance with RD 396/2006.",
+        "intro": "The entity that owns or manages a building or facility containing asbestos-bearing materials has, among numerous other obligations, the duty to maintain a systematic control and management process for all critical points that contain asbestos.\n\nWhen an asbestos-containing material has not reached the end of its service life, or when it has been stabilised, encapsulated or contained through a Work Plan executed by a RERA-registered company, the property owner is obliged to have a periodic inspection methodology in place for the treated elements and to maintain post-treatment conditions.\n\nACM-2020 carries out periodic inspections aimed at verifying the maintenance of initial conditions following a Work Plan, detecting any issue that could create asbestos exposure risks.",
+        "sections": [
+          {
+            "title": "Purpose of the service",
+            "content": "The purpose of periodic inspections is to verify that treated surfaces maintain the safety conditions established after execution of the Work Plan. This includes checking the integrity of encapsulation, the stability of containment and the absence of deterioration or damage that could release asbestos fibres into the environment."
+          },
+          {
+            "title": "Frequency and planning",
+            "content": "The inspection frequency is determined by the type of treatment carried out, the characteristics of the asbestos-containing material, its location and the use of the space. ACM-2020 prepares an inspection schedule tailored to each case, ensuring systematic and documented monitoring of all critical points in the building or facility."
+          },
+          {
+            "title": "Documentation and follow-up",
+            "content": "Each periodic inspection generates a technical report documenting the condition of the inspected elements, the observations made and recommended actions if any issue is detected. This historical record enables the property owner to demonstrate compliance with their asbestos control and management obligations."
+          }
+        ],
+        "keyPoints": [
+          "Periodic inspections of stabilised, encapsulated or contained surfaces",
+          "Verification that post-treatment safety conditions are maintained",
+          "Inspection schedule tailored to each building or facility",
+          "Documented technical reports with a historical monitoring record",
+          "Fulfilment of the property owner's obligation to control asbestos-containing materials"
+        ],
+        "regulations": "RD 396/2006, of 31 March, establishing the minimum safety and health provisions applicable to work involving the risk of asbestos exposure."
       },
       "airSampling": {
         "title": "Environmental Air Sampling for Asbestos",
-        "description": "Fixed-point air sampling for asbestos fibre measurement using French methodology and accredited laboratory analysis."
+        "description": "Fixed-point air sampling for asbestos fibre measurement using French methodology and accredited laboratory analysis.",
+        "metaDescription": "Static ambient air sampling for asbestos fibres. French methodology, fixed-point sampling, analysis in accredited laboratory. ACM-2020, RERA-registered company.",
+        "intro": "Knowing whether asbestos fibres are present in the air of a given space is not a matter of perception: it is a matter of measurement. Static ambient air sampling quantifies the concentration of airborne fibres by placing capture equipment at fixed points representative of the area under assessment.\n\nThe French methodology applied by ACM-2020 is the international reference for precision in this type of determination. Samples are analysed in an accredited laboratory, and results confirm whether the air meets regulatory reference values.\n\nThe service operates under Work Plan 86/AB/09-001-B and is carried out during and after removal operations, in buildings with asbestos-containing materials in situ, and in indoor air quality studies.",
+        "sections": [
+          {
+            "title": "Sampling methodology",
+            "content": "Sampling is performed using air capture equipment fitted with membrane filters, placed at strategically selected fixed points. The flow rate and sampling duration are determined based on the conditions of the space and the objectives of the study. The French methodology can detect very low concentrations of asbestos fibres, delivering highly reliable results."
+          },
+          {
+            "title": "Areas of application",
+            "content": "Static ambient air sampling is applied in various situations: during the execution of asbestos removal Work Plans to verify containment integrity, after the completion of asbestos removal works to confirm the absence of fibres in the air, in buildings with asbestos-containing materials in situ to assess ambient exposure levels, and in indoor air quality studies."
+          },
+          {
+            "title": "Laboratory analysis",
+            "content": "Captured samples are sent to an accredited laboratory for analysis by transmission electron microscopy (TEM) or phase contrast optical microscopy (PCOM), depending on the requirements of the study. Results are expressed in fibres per litre of air (f/l) and compared against the reference values established by current regulations."
+          }
+        ],
+        "keyPoints": [
+          "Fixed-point sampling using high-precision French methodology",
+          "Analysis in an accredited laboratory via electron microscopy or phase contrast microscopy",
+          "Applicable during and after asbestos removal Work Plans",
+          "Results expressed in fibres per litre in accordance with current regulations",
+          "Service under ACM-2020 Work Plan 86/AB/09-001-B"
+        ],
+        "regulations": "RD 396/2006, UNE-EN ISO 16000-7 (Sampling strategy for the determination of airborne asbestos fibre concentrations), French META/PCOM methodology."
       }
     },
     "radon": {
       "measurement": {
         "title": "Radon Gas Measurement",
-        "description": "Precise measurements of radon concentration in buildings and homes."
+        "description": "Precise measurements of radon concentration in buildings and homes.",
+        "metaDescription": "Radon gas measurements with passive detectors analysed in an ENAC-accredited laboratory. Compliance with RD 1029/2022 and CTE DB HS6. Workplace and residential settings.",
+        "intro": "Measuring the annual average concentration of radon gas is the only reliable method for determining the presence and quantity of this radioactive gas in indoor spaces. Radon is a naturally occurring, odourless, invisible gas that originates from the ground and can accumulate inside buildings, posing a significant health risk when it exceeds established reference levels.\n\nACM-2020 carries out long-term measurements (2--3 months) using passive detectors analysed in a laboratory accredited under UNE-EN ISO/IEC 17025:2017 by the Spanish National Accreditation Body (ENAC), or by another national accreditation body designated in accordance with European regulations.\n\nEU Directive 2013/59/EURATOM established a framework for radon protection, setting a reference level of 300 Bq/m3 as an annual average concentration -- a value adopted by Spanish legislation. Professional measurements are the only way to know with certainty whether an indoor space exceeds this threshold.",
+        "sections": [
+          {
+            "title": "Measurement methodology",
+            "content": "Measurements are carried out using passive detectors installed in indoor spaces for a minimum period of 2 months (for dwellings and habitable premises) or 3 months (for workplaces). This extended period is necessary because radon concentration fluctuates daily depending on factors such as ventilation, temperature, atmospheric pressure and ground conditions. After the measurement period the detectors are sent to an accredited laboratory for reading and analysis."
+          },
+          {
+            "title": "Areas of application",
+            "content": "Measurements apply across a range of settings: workplaces (offices, factories, warehouses, caves, mines and underground installations), dwellings and habitable premises (bedrooms, dining rooms, living rooms, kitchens, home offices, classrooms, libraries, waiting rooms), existing buildings undergoing extensions, changes of use or renovations that affect radon protection, and public spaces as part of indoor air quality and public health policies."
+          },
+          {
+            "title": "Reference level",
+            "content": "Spain sets a reference level of 300 Bq/m3 as the annual average radon gas concentration. It is important to note that this is a reference value, not a regulatory limit. Several European countries have adopted lower values of 200 or even 100 Bq/m3. When measurement results exceed this threshold, corrective measures must be taken to reduce the radon concentration in the affected space."
+          },
+          {
+            "title": "Do not rely on radon maps",
+            "content": "Estimating radon levels in a building from radon maps is unreliable, because concentrations can vary significantly even between buildings that are very close together. Maps provide a general indication of risk zones, but the only way to determine the actual radon concentration in an indoor space is to carry out a direct measurement using calibrated detectors analysed in an accredited laboratory."
+          }
+        ],
+        "keyPoints": [
+          "Passive detectors analysed in an ENAC-accredited laboratory under UNE-EN ISO/IEC 17025:2017",
+          "Long-term measurements (2--3 months) for reliable results",
+          "Reference level in Spain: 300 Bq/m3 annual average concentration",
+          "Applicable to workplaces, residential settings, renovations and public health",
+          "Radon maps are no substitute for direct measurement in each building"
+        ],
+        "regulations": "Directive 2013/59/EURATOM (Basic safety standards for protection against ionising radiation), RD 1029/2022 (Regulation on health protection against ionising radiation), RD 732/2019 (Amendment to the Technical Building Code (CTE), new requirement DB HS6), CTE DB HS6 (Protection against radon gas), CSN Instruction NOR/19-001, UNE-EN ISO/IEC 17025:2017."
       },
       "residential": {
         "title": "Residential Solutions",
-        "description": "Diagnosis and solutions for homes with elevated radon levels."
+        "description": "Diagnosis and solutions for homes with elevated radon levels.",
+        "metaDescription": "Radon gas measurement in homes and habitable premises. Accredited detectors, reliable results and personalised guidance. Free consultation.",
+        "intro": "Knowing whether your home has elevated radon levels is the first step in protecting your family's health. Radon is a naturally occurring radioactive gas that can accumulate indoors and is classified as the second leading cause of lung cancer after tobacco.\n\nTo find out whether radon is present in your home, detectors must be installed for a minimum period of 2--3 months. This timeframe is necessary because radon levels change every day due to multiple factors. Only a measurement of this duration yields a reliable result that can be used to assess whether any risk exists.\n\nACM-2020 is a trusted, specialist radon measurement company. We have thorough knowledge of all current European and Spanish guidelines and provide accredited measurements that allow you to know the real radon level in your home and act accordingly.",
+        "sections": [
+          {
+            "title": "How radon is measured in homes",
+            "content": "To determine the radon concentration in a dwelling, passive detectors are installed in regularly occupied rooms (bedrooms, living room, study) for a minimum of 2 months. The detectors are small, unobtrusive devices that require no electricity or maintenance. Once the measurement period ends they are collected and sent to an accredited laboratory for analysis. Results are expressed in Bq/m3 (Becquerel per cubic metre)."
+          },
+          {
+            "title": "When measurement is necessary",
+            "content": "Radon measurement is especially recommended in homes located in priority action municipalities (areas with known radon risk), on the ground floor or in semi-basements, in buildings without protective barriers against the ground, and in any dwelling where a measurement has never been carried out. Measurement is also mandatory in existing buildings undergoing extensions, changes of use or renovations that affect radon protection."
+          },
+          {
+            "title": "What to do if levels are high",
+            "content": "If the annual average radon concentration exceeds 300 Bq/m3, corrective measures are required. These may include improving building ventilation, installing soil depressurisation systems to extract radon from the ground, sealing cracks and joints in contact with the soil, or fitting anti-radon membranes. ACM-2020 provides advice on the most appropriate measures for each case."
+          },
+          {
+            "title": "Accredited measurement service",
+            "content": "ACM-2020 offers a comprehensive radon measurement service for homes that includes a technical visit to place the detectors, collection at the end of the measurement period, analysis in a laboratory accredited under UNE-EN ISO/IEC 17025, a results report with interpretation and recommendations, and personalised guidance on the measures to adopt if levels are elevated."
+          }
+        ],
+        "keyPoints": [
+          "Discreet passive detectors that require no maintenance or electricity",
+          "Long-term measurement (minimum 2 months) for representative results",
+          "Analysis in an ENAC-accredited laboratory under UNE-EN ISO/IEC 17025",
+          "Results report with clear interpretation and practical recommendations",
+          "Personalised guidance on corrective measures if levels exceed 300 Bq/m3"
+        ],
+        "regulations": "RD 732/2019 (Amendment to the Technical Building Code (CTE), requirement DB HS6), CTE DB HS6 (Protection against radon gas), Directive 2013/59/EURATOM, CSN Instruction NOR/19-001, UNE-EN ISO/IEC 17025:2017."
       },
       "workspace": {
         "title": "Workspaces",
-        "description": "Radon assessment in workplaces according to Royal Decree 1029/2022."
+        "description": "Radon assessment in workplaces according to Royal Decree 1029/2022.",
+        "metaDescription": "Workplace radon measurement in compliance with RD 1029/2022. Passive detectors, accredited laboratory and guidance for regulatory compliance.",
+        "intro": "Radon gas measurement in the workplace is an obligation under Royal Decree 1029/2022, which establishes the regulation on health protection against the risks arising from exposure to ionising radiation. Employers must determine the radon concentration in their premises and adopt the measures needed to protect workers' health.\n\nThe workplace scope covers all types of work environments: offices, factories, warehouses, workshops, caves, mines and other underground installations. Measurements must be carried out with passive detectors over a minimum period of 3 months to obtain a representative average concentration.\n\nACM-2020 performs informational radon measurements in workplaces, providing companies with the data they need to assess risk and fulfil their legal obligations regarding radiological protection.",
+        "sections": [
+          {
+            "title": "Employer obligations",
+            "content": "RD 1029/2022 requires the operators of workplaces located in priority action zones to carry out radon concentration measurements. If results exceed the reference value of 300 Bq/m3, corrective measures must be adopted to reduce worker exposure. These obligations are especially relevant for work activities on ground floors, semi-basements, basements and any space in contact with the ground."
+          },
+          {
+            "title": "Workplace measurement protocol",
+            "content": "Workplace measurements are carried out using passive detectors over a minimum period of 3 months. Detectors are placed at representative workstations, particularly in areas in contact with the ground. Factors such as space ventilation, working hours and space usage are taken into account. Detectors are analysed in a laboratory accredited under UNE-EN ISO/IEC 17025 and results are expressed as an annual average concentration in Bq/m3."
+          },
+          {
+            "title": "Sectors particularly affected",
+            "content": "Certain employment sectors face a higher risk of radon exposure: underground work (mines, tunnels, show caves), work in direct contact with the ground (ground floors, semi-basements), activities in priority action zones defined by the CSN, and work in water treatment facilities, spas and thermal establishments. In these sectors radon measurement is critically important."
+          },
+          {
+            "title": "Integration with occupational risk prevention",
+            "content": "Radon measurement results must be incorporated into the company's occupational risk assessment. ACM-2020 provides the guidance needed so that in-house prevention services (SPP) or external prevention services (SPA) can integrate radon exposure risk into their prevention plans and adopt the appropriate protective measures in accordance with current regulations."
+          }
+        ],
+        "keyPoints": [
+          "Compliance with employer obligations under RD 1029/2022",
+          "Measurements with passive detectors over a minimum of 3 months in the workplace",
+          "Analysis in an ENAC-accredited laboratory under UNE-EN ISO/IEC 17025",
+          "Guidance for integrating radon risk into occupational risk prevention",
+          "Special attention to high-risk sectors: underground work, ground floors and priority zones"
+        ],
+        "regulations": "RD 1029/2022 (Regulation on health protection against ionising radiation), Directive 2013/59/EURATOM, UNE-EN ISO/IEC 17025:2017, CSN Instruction NOR/19-001, Act 31/1995 on Occupational Risk Prevention."
       },
       "reports": {
         "title": "Technical Reports",
-        "description": "Preparation of detailed reports with action recommendations."
+        "description": "Preparation of detailed reports with action recommendations.",
+        "metaDescription": "Radon technical reports: measurement results, risk assessment and recommendations. For renovations, changes of use and regulatory compliance.",
+        "intro": "Radon technical reports constitute the essential documentation that certifies measurement results and provides the recommended course of action for each case. ACM-2020 produces rigorous, detailed reports that serve both regulatory compliance and informed decision-making by property owners, businesses and public authorities.\n\nEach report is based on data obtained from measurements with passive detectors analysed in an accredited laboratory, and includes interpretation of results, comparison with the reference values established by legislation and specific recommendations for each situation.\n\nThese reports are especially relevant in the context of renovations, extensions and changes of use of existing buildings, where CTE DB HS6 requires verification of radon protection conditions.",
+        "sections": [
+          {
+            "title": "Technical report contents",
+            "content": "Each radon technical report includes: a description of the building or premises measured, the location and characteristics of measurement points, the measurement period and prevailing conditions, measurement results expressed in Bq/m3 with associated uncertainty, comparison with the 300 Bq/m3 reference value, interpretation of results and specific recommendations for action."
+          },
+          {
+            "title": "Reports for renovations and changes of use",
+            "content": "When an existing building undergoes an extension, change of use or renovation that may affect radon protection, measurements must be carried out and the results documented in a technical report. ACM-2020 prepares these reports in accordance with the CTE DB HS6 guidelines, providing the documentation required for the building works file and proof of regulatory compliance."
+          },
+          {
+            "title": "Reports for businesses and prevention services",
+            "content": "Workplace radon measurement reports give businesses and their prevention services the information they need to assess worker exposure risk. The report includes an evaluation of results in relation to RD 1029/2022 and recommendations for adopting corrective measures where the reference value is exceeded."
+          },
+          {
+            "title": "Reports for public authorities",
+            "content": "ACM-2020 prepares reports for public bodies that need to know the radon concentration in publicly owned buildings, as part of public health and indoor air quality policies. These reports can cover the assessment of multiple buildings and the prioritisation of corrective actions based on detected levels and the use of each space."
+          }
+        ],
+        "keyPoints": [
+          "Rigorous technical reports based on measurements from an accredited laboratory",
+          "Interpretation of results and comparison with the 300 Bq/m3 reference value",
+          "Valid documentation for regulatory compliance in renovations and changes of use",
+          "Reports tailored to businesses, prevention services and public authorities",
+          "Situation-specific recommendations for action"
+        ],
+        "regulations": "RD 1029/2022, RD 732/2019, CTE DB HS6, Directive 2013/59/EURATOM, CSN Instruction NOR/19-001, UNE-EN ISO/IEC 17025:2017."
       },
       "training": {
         "title": "Radon Training",
-        "description": "Radon gas training programs."
+        "description": "Radon gas training programs.",
+        "metaDescription": "Radon gas training: courses for technicians, in-house prevention services (SPP), external prevention services (SPA) and local authorities. Theory and hands-on measurement workshops.",
+        "intro": "Training in radon gas is essential so that professionals involved in health protection, occupational risk prevention and building management have the knowledge they need to address this issue with confidence.\n\nACM-2020 offers training programmes tailored to different professional profiles and levels of expertise: from local authority technicians who need to understand the basic regulatory requirements, to prevention service technicians who must integrate radon risk into their assessments, to professionals who want to learn how to perform measurements in practice.\n\nOur programmes combine theoretical instruction on radon gas (origin, health risks, applicable regulations) with hands-on on-site workshops where attendees learn to install detectors, plan measurement campaigns and interpret results. This combination of theory and practice delivers comprehensive training that is directly applicable in the field.",
+        "sections": [
+          {
+            "title": "Training for prevention services",
+            "content": "Technicians from in-house prevention services (SPP) and external prevention services (SPA) need to understand the requirements of RD 1029/2022 and how to integrate radon exposure risk into occupational risk assessments. Our courses cover applicable regulations, criteria for determining which workplaces must be measured, interpretation of measurement results and available corrective measures."
+          },
+          {
+            "title": "Training for public authorities",
+            "content": "ACM-2020 collaborates with public bodies in the design and delivery of training programmes aimed at local authority technicians and other public-sector staff. These programmes cover the fundamentals of radon gas, applicable regulations (CTE DB HS6 and RD 1029/2022), identification of priority action zones and handling citizen enquiries related to radon."
+          },
+          {
+            "title": "Hands-on measurement workshops",
+            "content": "On-site practical workshops give attendees first-hand experience in planning a measurement campaign, correctly installing passive detectors, documenting measurement conditions and interpreting laboratory results. This hands-on experience is essential for professionals to apply their knowledge independently in their work."
+          },
+          {
+            "title": "Training for businesses",
+            "content": "Managers and technical staff at companies operating in priority action zones need to understand their obligations regarding radon protection. Our programmes cover applicable regulations, the responsibilities of the workplace operator, measurement procedures and remediation options, with the level of detail tailored to the specific needs of each organisation."
+          }
+        ],
+        "keyPoints": [
+          "Theoretical training and hands-on on-site measurement workshops",
+          "Courses tailored to in-house prevention services (SPP), external prevention services (SPA), local authorities and businesses",
+          "Content updated in line with RD 1029/2022 and CTE DB HS6",
+          "Collaboration with public bodies in the design of training programmes",
+          "Practical learning in detector installation and results interpretation"
+        ],
+        "regulations": "RD 1029/2022, RD 732/2019, CTE DB HS6, Directive 2013/59/EURATOM, CSN Instruction NOR/19-001, UNE-EN ISO/IEC 17025:2017."
       },
       "howto": {
         "title": "How to Measure Radon",
-        "description": "Guide on detecting and measuring radon gas."
+        "description": "Guide on detecting and measuring radon gas.",
+        "metaDescription": "How to tell if there is radon in your home or workplace. Practical guide: passive detectors, 2--3 months of measurement, 300 Bq/m3 reference level. Free consultation.",
+        "intro": "Radon is a naturally occurring radioactive gas -- odourless and invisible -- produced by the decay of uranium in the ground. It can accumulate inside buildings and pose a health risk when concentrations exceed reference levels. The only way to know whether radon is present in an indoor space is to measure it.\n\nMeasuring radon is a straightforward process that involves installing passive detectors for a period of 2 to 3 months. This timeframe is necessary because radon concentrations fluctuate constantly, and only a prolonged measurement yields a representative average that can be compared with the reference value.\n\nEuropean regulations and the Technical Building Code (CTE) in Spain establish that if the annual average radon concentration exceeds 300 Bq/m3, corrective measures must be adopted. Relying on radon maps to estimate the level in a specific building is not advisable, because concentrations can vary enormously even between neighbouring buildings.",
+        "sections": [
+          {
+            "title": "What is radon gas",
+            "content": "Radon is a radioactive noble gas produced naturally by the decay of radium-226, which in turn originates from uranium-238 present in rocks and soils. Being a gas, it migrates through the ground and can enter buildings through cracks in foundations, construction joints, service ducts and any point of contact between the building and the ground. Once indoors it can accumulate and reach dangerous concentrations, particularly on ground floors and in basements with insufficient ventilation."
+          },
+          {
+            "title": "How the measurement is carried out",
+            "content": "The measurement is performed using passive detectors -- small, discreet devices placed in regularly occupied rooms. They require no electricity and cause no disruption. They are left in place for a minimum period of 2 months (dwellings) or 3 months (workplaces). At the end of the period they are collected and sent to an accredited laboratory for reading. Results are delivered in a report showing the average concentration in Bq/m3."
+          },
+          {
+            "title": "How many detectors are needed",
+            "content": "The number of detectors required depends on the characteristics of the building: floor area, number of storeys, layout of spaces and areas of contact with the ground. As a general rule, at least one detector is installed in each habitable room on the lowest floor of the building. ACM-2020 provides personalised advice to determine the optimal number and placement of detectors in each case."
+          },
+          {
+            "title": "Why radon maps should not be relied upon",
+            "content": "Radon maps provide a general overview of zones with a higher probability of elevated concentrations, but they cannot predict the radon level in a specific building. Radon concentration depends on multiple local factors: the geology of the immediate ground, the building's construction characteristics, ventilation, foundation airtightness and climatic conditions. Two neighbouring buildings can have very different concentrations. The only way to know the real level is to measure."
+          },
+          {
+            "title": "What to do with the results",
+            "content": "If the annual average concentration is below 300 Bq/m3, the space is considered safe under current regulations. If it exceeds this reference value, corrective measures are necessary -- such as improving ventilation, installing radon extraction systems, sealing cracks and joints, or fitting anti-radon membranes. ACM-2020 advises on the most suitable measures and can carry out follow-up verification measurements to confirm the effectiveness of the interventions."
+          }
+        ],
+        "keyPoints": [
+          "Radon is odourless and invisible: the only way to detect it is to measure it",
+          "Simple measurement with passive detectors over 2--3 months",
+          "Reference level in Spain: 300 Bq/m3 annual average concentration",
+          "Radon maps are no substitute for direct measurement in each building",
+          "Guidance on corrective measures if levels are elevated",
+          "ENAC-accredited laboratory for detector analysis"
+        ],
+        "regulations": "CTE DB HS6 (Protection against radon gas), RD 732/2019, RD 1029/2022, Directive 2013/59/EURATOM, CSN Instruction NOR/19-001, UNE-EN ISO/IEC 17025:2017."
       }
     },
     "whyTitle": "Credentials that back us up",
@@ -258,7 +988,21 @@
     "title": "Let's talk about your",
     "titleHighlight": "project",
     "titleEnd": "",
-    "titleWords": ["project", "problem", "need", "goal", "inquiry", "doubt", "concern", "situation", "case", "business", "company", "home", "build"],
+    "titleWords": [
+      "project",
+      "problem",
+      "need",
+      "goal",
+      "inquiry",
+      "doubt",
+      "concern",
+      "situation",
+      "case",
+      "business",
+      "company",
+      "home",
+      "build"
+    ],
     "subtitle": "Tell us about your needs and we'll offer you a personalized solution. We'll respond to your inquiry within 24 hours.",
     "infoTitle": "Contact information",
     "infoSubtitle": "We're here to help. Contact us through any of these channels.",
