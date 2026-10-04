@@ -864,3 +864,27 @@ export function getComarcasByProvincia(provincia: string): string[] {
 export function getMunicipiosByComarca(comarca: string): Municipio[] {
   return municipios.filter((m) => m.comarca === comarca)
 }
+
+/** High-ticket municipality slugs that should be indexed in EN/FR locales */
+export const indexableEnFrSlugs = new Set([
+  'sant-cugat-del-valles',
+  'barcelona',
+  'sitges',
+  'castelldefels',
+  'sant-just-desvern',
+  'alella',
+  'teia',
+  'cabrils',
+  'tiana',
+  'castell-d-aro-platja-d-aro-i-s-agaro',
+  'sant-pere-de-ribes',
+  'gava',
+  'matadepera',
+  'girona',
+  'begur',
+])
+
+export function isMunicipioIndexableForLocale(slug: string, locale: string): boolean {
+  if (locale === 'es' || locale === 'ca') return true
+  return indexableEnFrSlugs.has(slug)
+}

@@ -8,7 +8,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import FAQAccordion from '@/components/ui/FAQAccordion'
 import { BreadcrumbJsonLd, FAQPageJsonLd } from '@/components/JsonLd'
-import { municipios, getMunicipioBySlug, getMunicipiosByComarca } from '@/data/municipios'
+import { municipios, getMunicipioBySlug, getMunicipiosByComarca, isMunicipioIndexableForLocale } from '@/data/municipios'
 import { getMunicipioContent } from '@/data/municipios-content'
 import { getProvinciaBySlug } from '@/data/provincias'
 import type { Locale } from '@/i18n/routing'
@@ -65,9 +65,12 @@ export function generateStaticParams() {
   return municipios.map((m) => ({ slug: m.slug }))
 }
 
-function getAlternates(slug: string) {
+function getAlternates(slug: string, indexableInEnFr: boolean) {
   const languages: Record<string, string> = {}
-  for (const locale of routing.locales) {
+  const locales = indexableInEnFr
+    ? routing.locales
+    : routing.locales.filter((l) => l === 'es' || l === 'ca')
+  for (const locale of locales) {
     const path = getPathname({
       locale,
       href: { pathname: '/municipios/[slug]', params: { slug } } as never,
@@ -82,10 +85,13 @@ export async function generateMetadata({ params }: Props) {
   const { locale, slug } = await params
   const municipio = getMunicipioBySlug(slug)
   if (!municipio) return {}
+  const indexableInEnFr = isMunicipioIndexableForLocale(slug, 'en')
+  const noindex = !isMunicipioIndexableForLocale(slug, locale)
   return {
     title: municipio.metaTitle[locale as Locale],
     description: municipio.metaDescription[locale as Locale],
-    alternates: getAlternates(slug),
+    alternates: getAlternates(slug, indexableInEnFr),
+    ...(noindex && { robots: { index: false, follow: true } }),
   }
 }
 

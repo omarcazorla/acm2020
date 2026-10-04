@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { routing } from '@/i18n/routing'
 import { getPathname } from '@/i18n/navigation'
-import { municipios } from '@/data/municipios'
+import { municipios, isMunicipioIndexableForLocale, indexableEnFrSlugs } from '@/data/municipios'
 import { getProvinciasSlugs } from '@/data/provincias'
 import { amiantoServices, radonServices, getLocalizedSlug } from '@/data/services'
 import type { Locale, Pathnames } from '@/i18n/routing'
@@ -111,15 +111,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   // Municipio pages
+  // EN/FR only included for high-ticket (indexable) municipalities
   for (const municipio of municipios) {
     const params = { slug: municipio.slug }
-    for (const locale of routing.locales) {
+    const indexableInEnFr = indexableEnFrSlugs.has(municipio.slug)
+    const localesForEntry = indexableInEnFr
+      ? routing.locales
+      : routing.locales.filter((l) => l === 'es' || l === 'ca')
+
+    // Build alternates limited to indexable locales
+    const altLanguages: Record<string, string> = {}
+    for (const l of localesForEntry) {
+      altLanguages[l] = getUrl('/municipios/[slug]', l, params)
+    }
+    altLanguages['x-default'] = getUrl('/municipios/[slug]', routing.defaultLocale, params)
+
+    for (const locale of localesForEntry) {
       entries.push({
         url: getUrl('/municipios/[slug]', locale, params),
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.6,
-        alternates: getAlternates('/municipios/[slug]', params),
+        alternates: { languages: altLanguages },
       })
     }
   }
