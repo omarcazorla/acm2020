@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import Link from 'next/link'
 import { ArrowRight, AlertTriangle, Home, Thermometer, MapPin, Ruler, ShieldCheck, Phone } from 'lucide-react'
-import { radonServices } from '@/data/services'
+import { radonServices, getLocalizedSlug } from '@/data/services'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
 
@@ -142,7 +142,7 @@ export default async function RadonPage({ params }: Props) {
               {radonServices.map((service) => (
                 <Link
                   key={service.slug}
-                  href={`/servicios/radon/${service.slug}`}
+                  href={`/servicios/radon/${getLocalizedSlug(service, locale)}`}
                   className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 card-hover"
                 >
                   <h3 className="text-lg font-semibold text-secondary mb-2 group-hover:text-primary transition-colors">

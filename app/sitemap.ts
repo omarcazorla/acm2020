@@ -3,7 +3,7 @@ import { routing } from '@/i18n/routing'
 import { getPathname } from '@/i18n/navigation'
 import { municipios } from '@/data/municipios'
 import { getProvinciasSlugs } from '@/data/provincias'
-import { amiantoServices, radonServices } from '@/data/services'
+import { amiantoServices, radonServices, getLocalizedSlug } from '@/data/services'
 import type { Locale, Pathnames } from '@/i18n/routing'
 
 const BASE_URL = 'https://acm2020.es'
@@ -14,13 +14,18 @@ function getUrl(pathname: Pathnames, locale: Locale, params?: Record<string, str
   return `${BASE_URL}${path}`
 }
 
-function getAlternates(pathname: Pathnames, params?: Record<string, string>) {
+function getAlternates(
+  pathname: Pathnames,
+  params?: Record<string, string>,
+  getParamsForLocale?: (l: Locale) => Record<string, string>
+) {
   const languages: Record<string, string> = {}
   for (const locale of routing.locales) {
-    languages[locale] = getUrl(pathname, locale, params)
+    const p = getParamsForLocale ? getParamsForLocale(locale) : params
+    languages[locale] = getUrl(pathname, locale, p)
   }
-  // x-default points to the default locale version
-  languages['x-default'] = getUrl(pathname, routing.defaultLocale, params)
+  const defaultParams = getParamsForLocale ? getParamsForLocale(routing.defaultLocale) : params
+  languages['x-default'] = getUrl(pathname, routing.defaultLocale, defaultParams)
   return { languages }
 }
 
@@ -60,28 +65,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Amianto service pages
   for (const service of amiantoServices) {
-    const params = { slug: service.slug }
+    const getParams = (l: Locale) => ({ slug: getLocalizedSlug(service, l) })
     for (const locale of routing.locales) {
       entries.push({
-        url: getUrl('/servicios/amianto/[slug]', locale, params),
+        url: getUrl('/servicios/amianto/[slug]', locale, getParams(locale)),
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
-        alternates: getAlternates('/servicios/amianto/[slug]', params),
+        alternates: getAlternates('/servicios/amianto/[slug]', undefined, getParams),
       })
     }
   }
 
   // Radon service pages
   for (const service of radonServices) {
-    const params = { slug: service.slug }
+    const getParams = (l: Locale) => ({ slug: getLocalizedSlug(service, l) })
     for (const locale of routing.locales) {
       entries.push({
-        url: getUrl('/servicios/radon/[slug]', locale, params),
+        url: getUrl('/servicios/radon/[slug]', locale, getParams(locale)),
         lastModified: new Date(),
         changeFrequency: 'monthly',
         priority: 0.8,
-        alternates: getAlternates('/servicios/radon/[slug]', params),
+        alternates: getAlternates('/servicios/radon/[slug]', undefined, getParams),
       })
     }
   }

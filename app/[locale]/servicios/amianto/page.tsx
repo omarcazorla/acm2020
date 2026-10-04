@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
-import { amiantoServices, amiantoCategories } from '@/data/services'
+import { amiantoServices, amiantoCategories, getLocalizedSlug } from '@/data/services'
 import { getAlternates } from '@/lib/seo'
 import type { Locale } from '@/i18n/routing'
 import type { ServicePage } from '@/data/services'
@@ -27,16 +27,18 @@ export async function generateMetadata({ params }: Props) {
 
 function ServiceCard({
   service,
+  locale,
   tServices,
   tCommon,
 }: {
   service: ServicePage
+  locale: string
   tServices: (key: string) => string
   tCommon: (key: string) => string
 }) {
   return (
     <Link
-      href={`/servicios/amianto/${service.slug}`}
+      href={`/servicios/amianto/${getLocalizedSlug(service, locale)}`}
       className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-100 card-hover"
     >
       <h3 className="text-lg font-semibold text-secondary mb-2 group-hover:text-primary transition-colors">
@@ -89,6 +91,7 @@ export default async function AmiantoPage({ params }: Props) {
                     <ServiceCard
                       key={service.slug}
                       service={service}
+                      locale={locale}
                       tServices={tServices}
                       tCommon={tCommon}
                     />

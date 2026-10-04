@@ -7,23 +7,25 @@ import PageHero from '@/components/layout/PageHero'
 import Breadcrumbs from '@/components/layout/Breadcrumbs'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import { FAQPageJsonLd } from '@/components/JsonLd'
-import { radonServices } from '@/data/services'
+import { radonServices, getServiceByLocalizedSlug, getLocalizedSlug } from '@/data/services'
 import { ArrowRight, CheckCircle, Scale } from 'lucide-react'
 import Link from 'next/link'
 import { getAlternates } from '@/lib/seo'
+import { routing } from '@/i18n/routing'
 import type { Locale } from '@/i18n/routing'
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>
 }
 
-export function generateStaticParams() {
-  return radonServices.map((s) => ({ slug: s.slug }))
+export function generateStaticParams({ params }: { params: { locale: string } }) {
+  const locale = params.locale
+  return radonServices.map((s) => ({ slug: getLocalizedSlug(s, locale) }))
 }
 
 export async function generateMetadata({ params }: Props) {
   const { locale, slug } = await params
-  const service = radonServices.find((s) => s.slug === slug)
+  const service = getServiceByLocalizedSlug(radonServices, slug, locale)
   if (!service) return {}
   const t = await getTranslations({ locale, namespace: 'services' })
   const key = `radon.${service.translationKey}`
@@ -31,7 +33,12 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: `${t(`${key}.title`)} | ACM-2020`,
     description: metaDesc,
-    alternates: getAlternates(locale as Locale, '/servicios/radon/[slug]', { slug }),
+    alternates: getAlternates(
+      locale as Locale,
+      '/servicios/radon/[slug]',
+      { slug: getLocalizedSlug(service, locale) },
+      (l) => ({ slug: getLocalizedSlug(service, l) })
+    ),
   }
 }
 
@@ -39,7 +46,7 @@ export default async function RadonServicePage({ params }: Props) {
   const { locale, slug } = await params
   setRequestLocale(locale)
 
-  const service = radonServices.find((s) => s.slug === slug)
+  const service = getServiceByLocalizedSlug(radonServices, slug, locale)
   if (!service) notFound()
 
   const t = await getTranslations({ locale, namespace: 'services' })

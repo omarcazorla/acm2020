@@ -10,15 +10,22 @@ export function getUrl(locale: Locale, pathname: Pathnames, params?: Record<stri
   return `${BASE_URL}${path}`
 }
 
-export function getAlternates(locale: Locale, pathname: Pathnames, params?: Record<string, string>) {
+export function getAlternates(
+  locale: Locale,
+  pathname: Pathnames,
+  params?: Record<string, string>,
+  getParamsForLocale?: (l: Locale) => Record<string, string>
+) {
   const languages: Record<string, string> = {}
   for (const l of routing.locales) {
-    languages[l] = getUrl(l, pathname, params)
+    const p = getParamsForLocale ? getParamsForLocale(l) : params
+    languages[l] = getUrl(l, pathname, p)
   }
-  languages['x-default'] = getUrl(routing.defaultLocale, pathname, params)
+  const defaultParams = getParamsForLocale ? getParamsForLocale(routing.defaultLocale) : params
+  languages['x-default'] = getUrl(routing.defaultLocale, pathname, defaultParams)
 
   return {
-    canonical: getUrl(locale, pathname, params),
+    canonical: getUrl(locale, pathname, getParamsForLocale ? getParamsForLocale(locale) : params),
     languages,
   }
 }

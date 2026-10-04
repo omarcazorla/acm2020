@@ -14,21 +14,27 @@ import {
   CheckCircle2,
   ArrowRight,
 } from 'lucide-react'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useLocale } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import ShinyText from '@/components/ui/ShinyText'
+import { amiantoServices, getLocalizedSlug } from '@/data/services'
 
 const operativoHighlights = [
-  { key: 'inspection', slug: 'inspeccion-identificacion', icon: FileSearch },
-  { key: 'supervision', slug: 'direccion-obra', icon: Shield },
-  { key: 'qualityControl', slug: 'control-calidad-final', icon: CheckSquare },
+  { key: 'inspection', icon: FileSearch },
+  { key: 'supervision', icon: Shield },
+  { key: 'qualityControl', icon: CheckSquare },
 ] as const
 
 const consultoriaHighlights = [
-  { key: 'consulting', slug: 'asesoria-consultoria', icon: MessageSquare },
-  { key: 'management', slug: 'planes-gestion', icon: ClipboardCheck },
-  { key: 'projects', slug: 'proyectos-desamiantado', icon: FileText },
+  { key: 'consulting', icon: MessageSquare },
+  { key: 'management', icon: ClipboardCheck },
+  { key: 'projects', icon: FileText },
 ] as const
+
+function getSlugForKey(key: string, locale: string): string {
+  const service = amiantoServices.find(s => s.translationKey === key)
+  return service ? getLocalizedSlug(service, locale) : key
+}
 
 const radonServiceKeys = [
   { key: 'measurement', icon: Activity },
@@ -40,6 +46,7 @@ const radonServiceKeys = [
 export default function Services() {
   const t = useTranslations('services')
   const tAnchors = useTranslations('anchors')
+  const locale = useLocale()
 
   return (
     <section id={tAnchors('services')} className="section-padding bg-gray-50">
@@ -80,7 +87,7 @@ export default function Services() {
             {operativoHighlights.map((service) => (
               <Link
                 key={service.key}
-                href={{ pathname: '/servicios/amianto/[slug]', params: { slug: service.slug } }}
+                href={{ pathname: '/servicios/amianto/[slug]', params: { slug: getSlugForKey(service.key, locale) } }}
                 className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
                 <div
@@ -118,7 +125,7 @@ export default function Services() {
             {consultoriaHighlights.map((service) => (
               <Link
                 key={service.key}
-                href={{ pathname: '/servicios/amianto/[slug]', params: { slug: service.slug } }}
+                href={{ pathname: '/servicios/amianto/[slug]', params: { slug: getSlugForKey(service.key, locale) } }}
                 className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
                 <div
