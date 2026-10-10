@@ -1,121 +1,84 @@
 'use client'
 
-import { Building2, Home, Landmark, Factory } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { clientLogos } from '@/lib/clients'
 import ShinyText from '@/components/ui/ShinyText'
 
-const statKeys = [
-  { key: 'projects', icon: Building2 },
-  { key: 'clients', icon: Home },
-  { key: 'municipalities', icon: Landmark },
-  { key: 'companies', icon: Factory },
-] as const
-
 export default function Clients() {
   const t = useTranslations('clients')
   const tAnchors = useTranslations('anchors')
+
+  // Split logos into 3 rows for variety
+  const row1 = clientLogos.slice(0, Math.ceil(clientLogos.length / 3))
+  const row2 = clientLogos.slice(Math.ceil(clientLogos.length / 3), Math.ceil(clientLogos.length * 2 / 3))
+  const row3 = clientLogos.slice(Math.ceil(clientLogos.length * 2 / 3))
 
   return (
     <section id={tAnchors('clients')} className="section-padding bg-gray-50">
       <div className="container-custom">
         {/* Section header */}
-        <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block bg-accent-100 text-accent-900 font-semibold text-sm uppercase tracking-wider px-4 py-1.5 rounded-full mb-4">
-            {t('sectionLabel')}
-          </span>
+        <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
             {t('title')}{' '}
             <ShinyText text={t('titleHighlight')} speed={3} delay={1} />
           </h2>
-          <p className="text-lg text-gray-600">
-            {t('subtitle')}
+          <p className="text-lg text-secondary/80 leading-relaxed">
+            Treballem amb empreses, administracions públiques i particulars que valoren la professionalitat i el compromís amb la seguretat.
           </p>
         </div>
 
-        {/* Stats */}
-        <div
-          data-stagger="zoom"
-          data-stagger-seq="0.1"
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-16 stagger-perspective"
-        >
-          {statKeys.map((stat) => (
-            <div key={stat.key} className="bg-white rounded-2xl p-5 sm:p-8 text-center shadow-sm border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
-              <div
-                className="absolute top-0 left-1/2 -translate-x-1/2 w-0 h-px bg-gradient-to-r from-transparent via-accent-600 to-transparent group-hover:w-full transition-all duration-700"
-                style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
-              />
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-accent-50 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 relative">
-                <div
-                  className="absolute inset-0 bg-gradient-to-br from-accent-100 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
-                />
-                <stat.icon
-                  strokeWidth={1.5}
-                  className="w-6 h-6 sm:w-8 sm:h-8 text-accent-700 relative z-10 transition-transform duration-500 group-hover:scale-110"
-                  style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
-                />
-              </div>
-              <div className="text-2xl sm:text-4xl md:text-5xl font-bold text-secondary mb-2 tabular-nums">
-                {t(`stats.${stat.key}.value`)}
-              </div>
-              <div className="text-sm text-gray-600 font-medium">{t(`stats.${stat.key}.label`)}</div>
-            </div>
-          ))}
-        </div>
-
-        {/* Client logos marquee */}
+        {/* Client logos - 3 rows with different speeds */}
         {clientLogos.length > 0 && (
           <div data-reveal="fade" className="mb-16">
-            <p className="text-center text-sm text-gray-500 uppercase tracking-wider mb-8">
-              {t('someClients')}
+            <p className="text-center text-sm font-semibold text-secondary/60 uppercase tracking-wider mb-8">
+              Alguns dels nostres clients
             </p>
 
-            {/* Marquee container */}
-            <div className="relative overflow-hidden bg-white rounded-2xl py-8 border border-gray-100">
-              {/* Gradient overlays for smooth fade effect */}
-              <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10" />
-              <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-white to-transparent z-10" />
+            <div className="space-y-4">
+              {/* Row 1 - Slow (30s) */}
+              <div className="relative overflow-hidden">
+                <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-gray-50 to-transparent z-10" />
+                <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-gray-50 to-transparent z-10" />
+                <div className="flex animate-marquee" style={{ animationDuration: '30s' }}>
+                  {[...row1, ...row1].map((logo, index) => (
+                    <div key={`row1-${index}`} className="flex-shrink-0 mx-6">
+                      <div className="w-24 h-12 relative grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                        <Image src={`/logos/${logo}`} alt="" fill sizes="96px" quality={75} className="object-contain" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
 
-              {/* Scrolling track */}
-              <div className="flex animate-marquee">
-                {/* First set of logos */}
-                {clientLogos.map((logo, index) => (
-                  <div
-                    key={`logo-1-${index}`}
-                    className="flex-shrink-0 mx-8 flex items-center justify-center"
-                  >
-                    <div className="w-32 h-16 relative grayscale hover:grayscale-0 opacity-60 hover:opacity-100" style={{ transition: 'opacity 0.5s var(--ease-cinematic), filter 0.5s var(--ease-cinematic)' }}>
-                      <Image
-                        src={`/logos/${logo}`}
-                        alt={`Cliente ${index + 1}`}
-                        fill
-                        sizes="128px"
-                        quality={75}
-                        className="object-contain"
-                      />
+              {/* Row 2 - Medium (40s) - Reverse */}
+              <div className="relative overflow-hidden">
+                <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-gray-50 to-transparent z-10" />
+                <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-gray-50 to-transparent z-10" />
+                <div className="flex animate-marquee" style={{ animationDuration: '40s', animationDirection: 'reverse' }}>
+                  {[...row2, ...row2].map((logo, index) => (
+                    <div key={`row2-${index}`} className="flex-shrink-0 mx-6">
+                      <div className="w-24 h-12 relative grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                        <Image src={`/logos/${logo}`} alt="" fill sizes="96px" quality={75} className="object-contain" />
+                      </div>
                     </div>
-                  </div>
-                ))}
-                {/* Duplicate set for seamless loop */}
-                {clientLogos.map((logo, index) => (
-                  <div
-                    key={`logo-2-${index}`}
-                    className="flex-shrink-0 mx-8 flex items-center justify-center"
-                  >
-                    <div className="w-32 h-16 relative grayscale hover:grayscale-0 opacity-60 hover:opacity-100" style={{ transition: 'opacity 0.5s var(--ease-cinematic), filter 0.5s var(--ease-cinematic)' }}>
-                      <Image
-                        src={`/logos/${logo}`}
-                        alt={`Cliente ${index + 1}`}
-                        fill
-                        sizes="128px"
-                        quality={75}
-                        className="object-contain"
-                      />
+                  ))}
+                </div>
+              </div>
+
+              {/* Row 3 - Fast (25s) */}
+              <div className="relative overflow-hidden">
+                <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-gray-50 to-transparent z-10" />
+                <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-gray-50 to-transparent z-10" />
+                <div className="flex animate-marquee" style={{ animationDuration: '25s' }}>
+                  {[...row3, ...row3].map((logo, index) => (
+                    <div key={`row3-${index}`} className="flex-shrink-0 mx-6">
+                      <div className="w-24 h-12 relative grayscale opacity-50 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                        <Image src={`/logos/${logo}`} alt="" fill sizes="96px" quality={75} className="object-contain" />
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
               </div>
             </div>
           </div>
