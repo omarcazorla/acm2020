@@ -44,7 +44,7 @@ export default async function ServiciosPage({ params }: Props) {
               href="/servicios/amianto"
               className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 card-hover"
             >
-              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
+              <div className="w-16 h-16 bg-accent-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
                 <Image src="/amiant_dark.svg" alt="Amianto" width={32} height={32} className="w-8 h-8 block group-hover:hidden" />
                 <Image src="/amiant_light.svg" alt="Amianto" width={32} height={32} className="w-8 h-8 hidden group-hover:block" />
               </div>
@@ -54,7 +54,7 @@ export default async function ServiciosPage({ params }: Props) {
               <p className="text-gray-600 mb-6">
                 {tServices('asbestosSubtitle')}
               </p>
-              <span className="inline-flex items-center text-primary-text font-semibold group-hover:translate-x-1 transition-transform">
+              <span className="inline-flex items-center text-accent-900 text-lg font-semibold group-hover:translate-x-1 transition-transform">
                 {tCommon('learnMore')}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </span>
@@ -65,7 +65,7 @@ export default async function ServiciosPage({ params }: Props) {
               href="/servicios/radon"
               className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 card-hover"
             >
-              <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
+              <div className="w-16 h-16 bg-accent-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-secondary transition-colors">
                 <Image src="/radon_dark.svg" alt="Radó" width={32} height={32} className="w-8 h-8 block group-hover:hidden" />
                 <Image src="/radon_light.svg" alt="Radó" width={32} height={32} className="w-8 h-8 hidden group-hover:block" />
               </div>
@@ -75,7 +75,7 @@ export default async function ServiciosPage({ params }: Props) {
               <p className="text-gray-600 mb-6">
                 {tServices('radonSubtitle')}
               </p>
-              <span className="inline-flex items-center text-primary-text font-semibold group-hover:translate-x-1 transition-transform">
+              <span className="inline-flex items-center text-accent-900 text-lg font-semibold group-hover:translate-x-1 transition-transform">
                 {tCommon('learnMore')}
                 <ArrowRight className="w-5 h-5 ml-2" />
               </span>

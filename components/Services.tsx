@@ -1,19 +1,18 @@
 'use client'
 
 import {
-  AlertTriangle,
   FileSearch,
   ClipboardCheck,
   Shield,
   FileText,
   CheckSquare,
   MessageSquare,
-  Activity,
   Home,
   Building2,
   CheckCircle2,
   ArrowRight,
 } from 'lucide-react'
+import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import ShinyText from '@/components/ui/ShinyText'
@@ -69,7 +68,7 @@ export default function Services() {
         <div className="mb-20">
           <div className="flex items-center space-x-4 mb-10">
             <div className="w-14 h-14 bg-accent-50 rounded-2xl flex items-center justify-center">
-              <AlertTriangle className="w-7 h-7 text-accent-700" />
+              <Image src="/amiant_dark.svg" alt="Amianto" width={28} height={28} className="w-7 h-7" />
             </div>
             <div>
               <h3 className="font-heading text-2xl font-bold text-secondary">{t('asbestosTitle')}</h3>
@@ -168,8 +167,8 @@ export default function Services() {
         {/* Radon Section */}
         <div>
           <div className="flex items-center space-x-4 mb-10">
-            <div className="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center">
-              <Activity className="w-7 h-7 text-secondary" />
+            <div className="w-14 h-14 bg-accent-50 rounded-2xl flex items-center justify-center">
+              <Image src="/radon_dark.svg" alt="Radón" width={28} height={28} className="w-7 h-7" />
             </div>
             <div>
               <h3 className="font-heading text-2xl font-bold text-secondary">{t('radonTitle')}</h3>
