@@ -68,8 +68,8 @@ export default function Services() {
         {/* Amianto Section */}
         <div className="mb-20">
           <div className="flex items-center space-x-4 mb-10">
-            <div className="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center">
-              <AlertTriangle className="w-7 h-7 text-primary" />
+            <div className="w-14 h-14 bg-accent-50 rounded-2xl flex items-center justify-center">
+              <AlertTriangle className="w-7 h-7 text-accent-700" />
             </div>
             <div>
               <h3 className="font-heading text-2xl font-bold text-secondary">{t('asbestosTitle')}</h3>
@@ -78,7 +78,7 @@ export default function Services() {
           </div>
 
           {/* Operativos */}
-          <h4 className="inline-block bg-accent-200 text-accent-900 font-semibold text-lg px-4 py-2 rounded-lg mb-4">{t('operationalLabel')}</h4>
+          <h4 className="text-xl font-bold text-accent-900 border-l-4 border-accent-600 pl-4 mb-6">{t('operationalLabel')}</h4>
           <div
             data-stagger="zoom"
             data-stagger-seq="0.1"
@@ -91,17 +91,17 @@ export default function Services() {
                 className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
                 <div
-                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
-                <div className="w-16 h-16 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 relative">
+                <div className="w-16 h-16 bg-accent-50 rounded-2xl flex items-center justify-center mb-6 relative">
                   <div
-                    className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    className="absolute inset-0 bg-gradient-to-br from-accent-100 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                   />
                   <service.icon
                     strokeWidth={1.5}
-                    className="w-7 h-7 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                    className="w-7 h-7 text-accent-700 relative z-10 transition-transform duration-500 group-hover:scale-110"
                     style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                   />
                 </div>
@@ -116,7 +116,7 @@ export default function Services() {
           </div>
 
           {/* Consultoria */}
-          <h4 className="inline-block bg-accent-200 text-accent-900 font-semibold text-lg px-4 py-2 rounded-lg mb-4">{t('consultingLabel')}</h4>
+          <h4 className="text-xl font-bold text-accent-900 border-l-4 border-accent-600 pl-4 mb-6">{t('consultingLabel')}</h4>
           <div
             data-stagger="zoom"
             data-stagger-seq="0.1"
@@ -129,17 +129,17 @@ export default function Services() {
                 className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100 hover:border-gray-200 card-hover group block h-full relative overflow-hidden"
               >
                 <div
-                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent-400 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
-                <div className="w-16 h-16 bg-primary/5 rounded-2xl flex items-center justify-center mb-6 relative">
+                <div className="w-16 h-16 bg-accent-50 rounded-2xl flex items-center justify-center mb-6 relative">
                   <div
-                    className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    className="absolute inset-0 bg-gradient-to-br from-accent-100 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                   />
                   <service.icon
                     strokeWidth={1.5}
-                    className="w-7 h-7 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                    className="w-7 h-7 text-accent-700 relative z-10 transition-transform duration-500 group-hover:scale-110"
                     style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                   />
                 </div>
@@ -157,7 +157,7 @@ export default function Services() {
           <div className="text-center">
             <Link
               href="/servicios/amianto"
-              className="inline-flex items-center text-primary-text font-semibold text-lg hover:underline group"
+              className="inline-flex items-center text-accent-700-text font-semibold text-lg hover:underline group"
             >
               {t('viewAllAsbestos')}
               <ArrowRight className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" />
@@ -227,7 +227,7 @@ export default function Services() {
                 <ul className="space-y-3">
                   {[0, 1, 2, 3].map((index) => (
                     <li key={index} className="flex items-center space-x-3 text-white/90">
-                      <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-accent-700 flex-shrink-0" />
                       <span>{t(`whyItems.${index}`)}</span>
                     </li>
                   ))}
