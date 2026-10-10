@@ -116,7 +116,7 @@ export default function Services() {
           </div>
 
           {/* Consultoria */}
-          <h4 className="inline-block bg-accent-200 text-accent-900 font-semibold text-lg px-4 py-2 rounded-lg mb-4">{t('consultingLabel')}</h4></invoke>
+          <h4 className="inline-block bg-accent-200 text-accent-900 font-semibold text-lg px-4 py-2 rounded-lg mb-4">{t('consultingLabel')}</h4>
           <div
             data-stagger="zoom"
             data-stagger-seq="0.1"
