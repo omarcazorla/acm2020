@@ -9,7 +9,7 @@ const config: Config = {
     extend: {
       colors: {
         warm: '#f3f1ea',
-        'primary-text': '#A85613',
+        'primary-text': '#FF4D00',
         primary: {
           DEFAULT: '#E67E22',
           50: '#FCF0E6',
