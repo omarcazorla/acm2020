@@ -85,8 +85,8 @@ export default function Hero() {
 
                 <div className="relative overflow-hidden py-4">
                   {/* Gradient overlays — inherit bg-warm */}
-                  <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-warm to-transparent z-10" />
-                  <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-warm to-transparent z-10" />
+                  <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-warm to-transparent z-10" />
+                  <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-warm to-transparent z-10" />
 
                   {/* Scrolling track */}
                   <div className="flex animate-marquee">
