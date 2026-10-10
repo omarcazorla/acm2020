@@ -22,7 +22,7 @@ export default function Clients() {
       <div className="container-custom">
         {/* Section header */}
         <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
+          <span className="inline-block bg-accent-100 text-accent-900 font-semibold text-sm uppercase tracking-wider px-4 py-1.5 rounded-full mb-4">
             {t('sectionLabel')}
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
@@ -43,17 +43,17 @@ export default function Clients() {
           {statKeys.map((stat) => (
             <div key={stat.key} className="bg-white rounded-2xl p-5 sm:p-8 text-center shadow-sm border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
               <div
-                className="absolute top-0 left-1/2 -translate-x-1/2 w-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent group-hover:w-full transition-all duration-700"
+                className="absolute top-0 left-1/2 -translate-x-1/2 w-0 h-px bg-gradient-to-r from-transparent via-accent-600 to-transparent group-hover:w-full transition-all duration-700"
                 style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
               />
-              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-primary/5 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 relative">
+              <div className="w-12 h-12 sm:w-16 sm:h-16 bg-accent-50 rounded-2xl flex items-center justify-center mx-auto mb-4 sm:mb-6 relative">
                 <div
-                  className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                  className="absolute inset-0 bg-gradient-to-br from-accent-100 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
                 <stat.icon
                   strokeWidth={1.5}
-                  className="w-6 h-6 sm:w-8 sm:h-8 text-primary relative z-10 transition-transform duration-500 group-hover:scale-110"
+                  className="w-6 h-6 sm:w-8 sm:h-8 text-accent-700 relative z-10 transition-transform duration-500 group-hover:scale-110"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
               </div>
@@ -143,7 +143,7 @@ export default function Clients() {
                   className="flex items-center space-x-4 bg-white/10 backdrop-blur-sm rounded-xl p-4 hover:bg-white/20 transition-all duration-500 group"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 >
-                  <div className="w-2 h-2 bg-primary rounded-full transition-transform duration-500 group-hover:scale-125" style={{ transitionTimingFunction: 'var(--ease-cinematic)' }} />
+                  <div className="w-2 h-2 bg-accent-600 rounded-full transition-transform duration-500 group-hover:scale-125" style={{ transitionTimingFunction: 'var(--ease-cinematic)' }} />
                   <span className="text-white font-medium text-[15px]">{t(`sectors.${index}`)}</span>
                 </div>
               ))}
