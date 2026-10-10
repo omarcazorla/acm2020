@@ -11,6 +11,7 @@ import {
   Building2,
   CheckCircle2,
   ArrowRight,
+  Gauge,
 } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
@@ -36,7 +37,7 @@ function getSlugForKey(key: string, locale: string): string {
 }
 
 const radonServiceKeys = [
-  { key: 'measurement', icon: Activity },
+  { key: 'measurement', icon: Gauge },
   { key: 'residential', icon: Home },
   { key: 'workspace', icon: Building2 },
   { key: 'reports', icon: FileText },
