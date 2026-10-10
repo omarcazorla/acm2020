@@ -53,7 +53,7 @@ export default function Services() {
       <div className="container-custom">
         {/* Section header */}
         <div data-reveal="fade" className="text-center max-w-3xl mx-auto mb-16">
-          <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
+          <span className="inline-block bg-primary-text text-black font-semibold text-sm uppercase tracking-wider px-4 py-1.5 rounded-full mb-4">
             {t('sectionLabel')}
           </span>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6">
@@ -78,7 +78,7 @@ export default function Services() {
           </div>
 
           {/* Operativos */}
-          <h4 className="text-lg font-semibold text-primary-text mb-4">{t('operationalLabel')}</h4>
+          <h4 className="inline-block bg-primary-text text-black font-semibold text-lg px-4 py-2 rounded-lg mb-4">{t('operationalLabel')}</h4>
           <div
             data-stagger="zoom"
             data-stagger-seq="0.1"
@@ -116,7 +116,7 @@ export default function Services() {
           </div>
 
           {/* Consultoria */}
-          <h4 className="text-lg font-semibold text-primary-text mb-4">{t('consultingLabel')}</h4>
+          <h4 className="inline-block bg-primary-text text-black font-semibold text-lg px-4 py-2 rounded-lg mb-4">{t('consultingLabel')}</h4>
           <div
             data-stagger="zoom"
             data-stagger-seq="0.1"
@@ -157,10 +157,10 @@ export default function Services() {
           <div className="text-center">
             <Link
               href="/servicios/amianto"
-              className="inline-flex items-center text-primary-text font-semibold hover:underline group"
+              className="inline-flex items-center text-primary-text font-semibold text-lg hover:underline group"
             >
               {t('viewAllAsbestos')}
-              <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5 ml-1 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

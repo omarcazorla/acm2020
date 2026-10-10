@@ -54,7 +54,7 @@ export default function Hero() {
               >
                 <Link
                   href="/contacto"
-                  className="inline-flex items-center justify-center gap-2 bg-secondary text-white rounded-[10px] px-5 py-2.5 text-base sm:px-7 sm:py-3 sm:text-lg font-medium hover:bg-secondary/90 transition-colors group"
+                  className="inline-flex items-center justify-center gap-2 bg-primary-text text-black rounded-[10px] px-5 py-2.5 text-base sm:px-7 sm:py-3 sm:text-lg font-semibold hover:bg-primary-text/90 transition-colors group shadow-lg hover:shadow-xl"
                 >
                   {t('ctaPrimary')}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
