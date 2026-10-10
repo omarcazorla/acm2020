@@ -37,7 +37,7 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* Left content — line-by-line stagger */}
           <div data-stagger="fade" data-stagger-seq="0.2">
-            <span className="inline-block text-primary-text font-semibold text-sm uppercase tracking-wider mb-4">
+            <span className="inline-block bg-accent-100 text-accent-900 font-semibold text-sm uppercase tracking-wider px-4 py-1.5 rounded-full mb-4">
               {t('sectionLabel')}
             </span>
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-secondary mb-6 leading-tight">
@@ -56,10 +56,10 @@ export default function About() {
               {valueKeys.map((value) => (
                 <div
                   key={value.key}
-                  className="flex items-center space-x-3 p-3 rounded-xl bg-gray-50 hover:bg-primary/5 transition-colors"
+                  className="flex items-center space-x-3 p-3 rounded-xl bg-gray-50 hover:bg-accent-50 transition-colors"
                 >
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <value.icon className="w-5 h-5 text-primary" />
+                  <div className="w-10 h-10 bg-accent-50 rounded-lg flex items-center justify-center">
+                    <value.icon className="w-5 h-5 text-accent-700" />
                   </div>
                   <div>
                     <div className="font-semibold text-secondary text-sm">
@@ -83,17 +83,17 @@ export default function About() {
             {featureKeys.map((feature) => (
               <div key={feature.key} className="bg-white rounded-2xl p-6 sm:p-8 shadow-md hover:shadow-xl border border-gray-100 hover:border-gray-200 card-hover h-full relative group overflow-hidden">
                 <div
-                  className="absolute -top-24 -right-24 w-48 h-48 bg-primary/5 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                  className="absolute -top-24 -right-24 w-48 h-48 bg-accent-50 rounded-full blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 />
                 <div
-                  className="w-16 h-16 bg-gradient-to-br from-primary/90 to-primary-600 rounded-2xl flex items-center justify-center mb-6 shadow-md shadow-primary/15 group-hover:shadow-lg group-hover:shadow-primary/25 transition-shadow duration-500 relative z-10"
+                  className="w-16 h-16 bg-gradient-to-br from-accent to-accent-800 rounded-2xl flex items-center justify-center mb-6 shadow-md shadow-accent/15 group-hover:shadow-lg group-hover:shadow-accent/25 transition-shadow duration-500 relative z-10"
                   style={{ transitionTimingFunction: 'var(--ease-cinematic)' }}
                 >
                   <feature.icon strokeWidth={1.5} className="w-8 h-8 text-white" />
                 </div>
                 <div className="relative z-10">
-                  <div className="text-xs font-bold text-primary-text mb-2 uppercase tracking-wider">
+                  <div className="text-xs font-bold text-accent-900 mb-2 uppercase tracking-wider">
                     {t(`features.${feature.key}.highlight`)}
                   </div>
                   <h3 className="text-xl font-bold text-secondary mb-3 tracking-tight">
@@ -112,8 +112,8 @@ export default function About() {
         <div data-reveal="zoom" className="mt-20 text-center">
           <div className="max-w-4xl mx-auto bg-gradient-to-br from-secondary to-secondary-600 rounded-3xl p-6 sm:p-10 md:p-14 relative overflow-hidden">
             {/* Decorative elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-primary/20 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-primary/10 rounded-full blur-2xl transform -translate-x-1/2 translate-y-1/2" />
+            <div className="absolute top-0 right-0 w-64 h-64 bg-accent-200 rounded-full blur-3xl transform translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-accent-100 rounded-full blur-2xl transform -translate-x-1/2 translate-y-1/2" />
 
             <div className="relative">
               <h3 className="font-heading text-2xl md:text-3xl font-bold text-white mb-4">
