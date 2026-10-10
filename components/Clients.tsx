@@ -4,15 +4,21 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import { clientLogos } from '@/lib/clients'
 import ShinyText from '@/components/ui/ShinyText'
+import { useMemo } from 'react'
 
 export default function Clients() {
   const t = useTranslations('clients')
   const tAnchors = useTranslations('anchors')
 
-  // Split logos into 3 rows for variety
-  const row1 = clientLogos.slice(0, Math.ceil(clientLogos.length / 3))
-  const row2 = clientLogos.slice(Math.ceil(clientLogos.length / 3), Math.ceil(clientLogos.length * 2 / 3))
-  const row3 = clientLogos.slice(Math.ceil(clientLogos.length * 2 / 3))
+  // Shuffle logos and split into 3 rows for variety
+  const { row1, row2, row3 } = useMemo(() => {
+    const shuffled = [...clientLogos].sort(() => Math.random() - 0.5)
+    return {
+      row1: shuffled.slice(0, Math.ceil(shuffled.length / 3)),
+      row2: shuffled.slice(Math.ceil(shuffled.length / 3), Math.ceil(shuffled.length * 2 / 3)),
+      row3: shuffled.slice(Math.ceil(shuffled.length * 2 / 3))
+    }
+  }, [])
 
   return (
     <section id={tAnchors('clients')} className="section-padding bg-gray-50">

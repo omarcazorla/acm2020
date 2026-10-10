@@ -6,10 +6,16 @@ import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
 import { ContainerScroll } from '@/components/ui/ContainerScroll'
 import { clientLogos } from '@/lib/clients'
+import { useMemo } from 'react'
 
 export default function Hero() {
   const t = useTranslations('hero')
   const tAnchors = useTranslations('anchors')
+
+  // Shuffle logos for visual variety
+  const shuffledLogos = useMemo(() => {
+    return [...clientLogos].sort(() => Math.random() - 0.5)
+  }, [])
 
   return (
     <section id={tAnchors('home')} className="relative bg-warm noise-texture overflow-hidden">
@@ -84,7 +90,7 @@ export default function Hero() {
 
                   {/* Scrolling track */}
                   <div className="flex animate-marquee">
-                    {clientLogos.map((logo, index) => (
+                    {shuffledLogos.map((logo, index) => (
                       <div
                         key={`hero-logo-1-${index}`}
                         className="flex-shrink-0 mx-6 flex items-center justify-center"
@@ -101,7 +107,7 @@ export default function Hero() {
                         </div>
                       </div>
                     ))}
-                    {clientLogos.map((logo, index) => (
+                    {shuffledLogos.map((logo, index) => (
                       <div
                         key={`hero-logo-2-${index}`}
                         className="flex-shrink-0 mx-6 flex items-center justify-center"
